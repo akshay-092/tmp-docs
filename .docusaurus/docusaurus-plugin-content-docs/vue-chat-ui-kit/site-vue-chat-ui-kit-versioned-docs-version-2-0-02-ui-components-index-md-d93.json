@@ -1,0 +1,25 @@
+{
+  "id": "UI Components/index",
+  "title": "UI Components",
+  "description": "UI Components are building blocks of the UI Kit. UI Components are a set of custom classes specially designed to build a rich chat app. There are different UI Components available in the",
+  "source": "@site/vue-chat-ui-kit_versioned_docs/version-2.0/02-UI Components/index.md",
+  "sourceDirName": "02-UI Components",
+  "slug": "/ui-components",
+  "permalink": "/docs/ui-kit/vue/2.0/ui-components",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "2.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "UI Components",
+    "slug": "/ui-components"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Message Structure and Hierarchy",
+    "permalink": "/docs/ui-kit/vue/2.0/message-structure-and-hierarchy"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Components/Base Components/date",
+  "title": "Date",
+  "description": "CometChatDate is a widget which is used to show the date and time. You can also customize the appearance of this widget by modifying its logic.",
+  "source": "@site/docs/ui-kits/angular/05-Components/08-Base Components/05-date.md",
+  "sourceDirName": "05-Components/08-Base Components",
+  "slug": "/date",
+  "permalink": "/docs/ui-kit/angular/date",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Date",
+    "slug": "/date"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Receipt",
+    "permalink": "/docs/ui-kit/angular/receipt"
+  },
+  "next": {
+    "title": "Text Bubble",
+    "permalink": "/docs/ui-kit/angular/text-bubble"
+  }
+}

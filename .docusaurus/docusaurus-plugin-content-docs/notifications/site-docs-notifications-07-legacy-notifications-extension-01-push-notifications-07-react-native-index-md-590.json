@@ -1,0 +1,29 @@
+{
+  "id": "Legacy Notifications (Extension)/push-notifications/react-native/index",
+  "title": "React Native",
+  "description": "Learn how to set up Push notifications for React Native using Firebase Cloud Messaging or FCM.",
+  "source": "@site/docs/notifications/07-Legacy Notifications (Extension)/01-push-notifications/07-react-native/index.md",
+  "sourceDirName": "07-Legacy Notifications (Extension)/01-push-notifications/07-react-native",
+  "slug": "/react-native-push-notifications",
+  "permalink": "/docs/notifications/react-native-push-notifications",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "title": "React Native",
+    "slug": "/react-native-push-notifications"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Flutter",
+    "permalink": "/docs/notifications/flutter-push-notifications"
+  },
+  "next": {
+    "title": "Capacitor, Cordova & Ionic",
+    "permalink": "/docs/notifications/capacitor-cordova-ionic-push-notifications"
+  }
+}

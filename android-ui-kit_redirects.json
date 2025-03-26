@@ -1,0 +1,834 @@
+[
+  {
+    "from": "/ui-kit/android",
+    "to": "/ui-kit/android/v5/overview"
+  },
+  {
+    "from": "/ui-kit/android/v5",
+    "to": "/ui-kit/android/v5/overview"
+  },
+  {
+    "from": "/ui-kit/android/v4",
+    "to": "/ui-kit/android/v4/overview"
+  },
+  {
+    "from": "/ui-kit/android/5.0",
+    "to": "/ui-kit/android/v5/overview"
+  },
+  {
+    "from": "/ui-kit/android/4.0",
+    "to": "/ui-kit/android/v4/overview"
+  },
+  {
+    "from": "/ui-kit/android/3.0",
+    "to": "/ui-kit/android/v3/overview"
+  },
+  {
+    "from": "/ui-kit/android/2.0",
+    "to": "/ui-kit/android/v2/overview"
+  },
+  {
+    "from": "/ui-kit/android/5.0/overview",
+    "to": "/ui-kit/android/v5/overview"
+  },
+  {
+    "from": "/ui-kit/android/5.0/getting-started",
+    "to": "/ui-kit/android/v5/getting-started"
+  },
+  {
+    "from": "/ui-kit/android/5.0/core-features",
+    "to": "/ui-kit/android/v5/core-features"
+  },
+  {
+    "from": "/ui-kit/android/5.0/extensions",
+    "to": "/ui-kit/android/v5/extensions"
+  },
+  {
+    "from": "/ui-kit/android/5.0/ai-features",
+    "to": "/ui-kit/android/v5/ai-features"
+  },
+  {
+    "from": "/ui-kit/android/5.0/call-features",
+    "to": "/ui-kit/android/v5/call-features"
+  },
+  {
+    "from": "/ui-kit/android/5.0/theme-introduction",
+    "to": "/ui-kit/android/v5/theme-introduction"
+  },
+  {
+    "from": "/ui-kit/android/5.0/color-resources",
+    "to": "/ui-kit/android/v5/color-resources"
+  },
+  {
+    "from": "/ui-kit/android/5.0/component-styling",
+    "to": "/ui-kit/android/v5/component-styling"
+  },
+  {
+    "from": "/ui-kit/android/5.0/message-bubble-styling",
+    "to": "/ui-kit/android/v5/message-bubble-styling"
+  },
+  {
+    "from": "/ui-kit/android/5.0/localize",
+    "to": "/ui-kit/android/v5/localize"
+  },
+  {
+    "from": "/ui-kit/android/5.0/sound-manager",
+    "to": "/ui-kit/android/v5/sound-manager"
+  },
+  {
+    "from": "/ui-kit/android/5.0/components-overview",
+    "to": "/ui-kit/android/v5/components-overview"
+  },
+  {
+    "from": "/ui-kit/android/5.0/conversations",
+    "to": "/ui-kit/android/v5/conversations"
+  },
+  {
+    "from": "/ui-kit/android/5.0/users",
+    "to": "/ui-kit/android/v5/users"
+  },
+  {
+    "from": "/ui-kit/android/5.0/groups",
+    "to": "/ui-kit/android/v5/groups"
+  },
+  {
+    "from": "/ui-kit/android/5.0/group-members",
+    "to": "/ui-kit/android/v5/group-members"
+  },
+  {
+    "from": "/ui-kit/android/5.0/message-header",
+    "to": "/ui-kit/android/v5/message-header"
+  },
+  {
+    "from": "/ui-kit/android/5.0/message-list",
+    "to": "/ui-kit/android/v5/message-list"
+  },
+  {
+    "from": "/ui-kit/android/5.0/message-composer",
+    "to": "/ui-kit/android/v5/message-composer"
+  },
+  {
+    "from": "/ui-kit/android/5.0/threaded-messages-header",
+    "to": "/ui-kit/android/v5/threaded-messages-header"
+  },
+  {
+    "from": "/ui-kit/android/5.0/incoming-call",
+    "to": "/ui-kit/android/v5/incoming-call"
+  },
+  {
+    "from": "/ui-kit/android/5.0/outgoing-call",
+    "to": "/ui-kit/android/v5/outgoing-call"
+  },
+  {
+    "from": "/ui-kit/android/5.0/call-buttons",
+    "to": "/ui-kit/android/v5/call-buttons"
+  },
+  {
+    "from": "/ui-kit/android/5.0/call-logs",
+    "to": "/ui-kit/android/v5/call-logs"
+  },
+  {
+    "from": "/ui-kit/android/5.0/events",
+    "to": "/ui-kit/android/v5/events"
+  },
+  {
+    "from": "/ui-kit/android/5.0/methods",
+    "to": "/ui-kit/android/v5/methods"
+  },
+  {
+    "from": "/ui-kit/android/5.0/message-template",
+    "to": "/ui-kit/android/v5/message-template"
+  },
+  {
+    "from": "/ui-kit/android/5.0/mentions-formatter-guide",
+    "to": "/ui-kit/android/v5/mentions-formatter-guide"
+  },
+  {
+    "from": "/ui-kit/android/5.0/shortcut-formatter-guide",
+    "to": "/ui-kit/android/v5/shortcut-formatter-guide"
+  },
+  {
+    "from": "/ui-kit/android/overview",
+    "to": "/ui-kit/android/v4/overview"
+  },
+  {
+    "from": "/ui-kit/android/4.0/overview",
+    "to": "/ui-kit/android/v4/overview"
+  },
+  {
+    "from": "/ui-kit/android/getting-started",
+    "to": "/ui-kit/android/v4/getting-started"
+  },
+  {
+    "from": "/ui-kit/android/4.0/getting-started",
+    "to": "/ui-kit/android/v4/getting-started"
+  },
+  {
+    "from": "/ui-kit/android/core-features",
+    "to": "/ui-kit/android/v4/core-features"
+  },
+  {
+    "from": "/ui-kit/android/4.0/core-features",
+    "to": "/ui-kit/android/v4/core-features"
+  },
+  {
+    "from": "/ui-kit/android/extensions",
+    "to": "/ui-kit/android/v4/extensions"
+  },
+  {
+    "from": "/ui-kit/android/4.0/extensions",
+    "to": "/ui-kit/android/v4/extensions"
+  },
+  {
+    "from": "/ui-kit/android/call-features",
+    "to": "/ui-kit/android/v4/call-features"
+  },
+  {
+    "from": "/ui-kit/android/4.0/call-features",
+    "to": "/ui-kit/android/v4/call-features"
+  },
+  {
+    "from": "/ui-kit/android/ai-features",
+    "to": "/ui-kit/android/v4/ai-features"
+  },
+  {
+    "from": "/ui-kit/android/4.0/ai-features",
+    "to": "/ui-kit/android/v4/ai-features"
+  },
+  {
+    "from": "/ui-kit/android/theme",
+    "to": "/ui-kit/android/v4/theme"
+  },
+  {
+    "from": "/ui-kit/android/4.0/theme",
+    "to": "/ui-kit/android/v4/theme"
+  },
+  {
+    "from": "/ui-kit/android/localize",
+    "to": "/ui-kit/android/v4/localize"
+  },
+  {
+    "from": "/ui-kit/android/4.0/localize",
+    "to": "/ui-kit/android/v4/localize"
+  },
+  {
+    "from": "/ui-kit/android/sound-manager",
+    "to": "/ui-kit/android/v4/sound-manager"
+  },
+  {
+    "from": "/ui-kit/android/4.0/sound-manager",
+    "to": "/ui-kit/android/v4/sound-manager"
+  },
+  {
+    "from": "/ui-kit/android/components-overview",
+    "to": "/ui-kit/android/v4/components-overview"
+  },
+  {
+    "from": "/ui-kit/android/4.0/components-overview",
+    "to": "/ui-kit/android/v4/components-overview"
+  },
+  {
+    "from": "/ui-kit/android/conversations",
+    "to": "/ui-kit/android/v4/conversations"
+  },
+  {
+    "from": "/ui-kit/android/4.0/conversations",
+    "to": "/ui-kit/android/v4/conversations"
+  },
+  {
+    "from": "/ui-kit/android/conversations-with-messages",
+    "to": "/ui-kit/android/v4/conversations-with-messages"
+  },
+  {
+    "from": "/ui-kit/android/4.0/conversations-with-messages",
+    "to": "/ui-kit/android/v4/conversations-with-messages"
+  },
+  {
+    "from": "/ui-kit/android/contacts",
+    "to": "/ui-kit/android/v4/contacts"
+  },
+  {
+    "from": "/ui-kit/android/4.0/contacts",
+    "to": "/ui-kit/android/v4/contacts"
+  },
+  {
+    "from": "/ui-kit/android/users",
+    "to": "/ui-kit/android/v4/users"
+  },
+  {
+    "from": "/ui-kit/android/4.0/users",
+    "to": "/ui-kit/android/v4/users"
+  },
+  {
+    "from": "/ui-kit/android/users-with-messages",
+    "to": "/ui-kit/android/v4/users-with-messages"
+  },
+  {
+    "from": "/ui-kit/android/4.0/users-with-messages",
+    "to": "/ui-kit/android/v4/users-with-messages"
+  },
+  {
+    "from": "/ui-kit/android/groups",
+    "to": "/ui-kit/android/v4/groups"
+  },
+  {
+    "from": "/ui-kit/android/4.0/groups",
+    "to": "/ui-kit/android/v4/groups"
+  },
+  {
+    "from": "/ui-kit/android/groups-with-messages",
+    "to": "/ui-kit/android/v4/groups-with-messages"
+  },
+  {
+    "from": "/ui-kit/android/4.0/groups-with-messages",
+    "to": "/ui-kit/android/v4/groups-with-messages"
+  },
+  {
+    "from": "/ui-kit/android/create-group",
+    "to": "/ui-kit/android/v4/create-group"
+  },
+  {
+    "from": "/ui-kit/android/4.0/create-group",
+    "to": "/ui-kit/android/v4/create-group"
+  },
+  {
+    "from": "/ui-kit/android/join-protected-group",
+    "to": "/ui-kit/android/v4/join-protected-group"
+  },
+  {
+    "from": "/ui-kit/android/4.0/join-protected-group",
+    "to": "/ui-kit/android/v4/join-protected-group"
+  },
+  {
+    "from": "/ui-kit/android/group-members",
+    "to": "/ui-kit/android/v4/group-members"
+  },
+  {
+    "from": "/ui-kit/android/4.0/group-members",
+    "to": "/ui-kit/android/v4/group-members"
+  },
+  {
+    "from": "/ui-kit/android/group-add-members",
+    "to": "/ui-kit/android/v4/group-add-members"
+  },
+  {
+    "from": "/ui-kit/android/4.0/group-add-members",
+    "to": "/ui-kit/android/v4/group-add-members"
+  },
+  {
+    "from": "/ui-kit/android/banned-members",
+    "to": "/ui-kit/android/v4/banned-members"
+  },
+  {
+    "from": "/ui-kit/android/4.0/banned-members",
+    "to": "/ui-kit/android/v4/banned-members"
+  },
+  {
+    "from": "/ui-kit/android/transfer-ownership",
+    "to": "/ui-kit/android/v4/transfer-ownership"
+  },
+  {
+    "from": "/ui-kit/android/4.0/transfer-ownership",
+    "to": "/ui-kit/android/v4/transfer-ownership"
+  },
+  {
+    "from": "/ui-kit/android/group-details",
+    "to": "/ui-kit/android/v4/group-details"
+  },
+  {
+    "from": "/ui-kit/android/4.0/group-details",
+    "to": "/ui-kit/android/v4/group-details"
+  },
+  {
+    "from": "/ui-kit/android/messages",
+    "to": "/ui-kit/android/v4/messages"
+  },
+  {
+    "from": "/ui-kit/android/4.0/messages",
+    "to": "/ui-kit/android/v4/messages"
+  },
+  {
+    "from": "/ui-kit/android/message-header",
+    "to": "/ui-kit/android/v4/message-header"
+  },
+  {
+    "from": "/ui-kit/android/4.0/message-header",
+    "to": "/ui-kit/android/v4/message-header"
+  },
+  {
+    "from": "/ui-kit/android/message-list",
+    "to": "/ui-kit/android/v4/message-list"
+  },
+  {
+    "from": "/ui-kit/android/4.0/message-list",
+    "to": "/ui-kit/android/v4/message-list"
+  },
+  {
+    "from": "/ui-kit/android/message-template",
+    "to": "/ui-kit/android/v4/message-template"
+  },
+  {
+    "from": "/ui-kit/android/4.0/message-template",
+    "to": "/ui-kit/android/v4/message-template"
+  },
+  {
+    "from": "/ui-kit/android/message-composer",
+    "to": "/ui-kit/android/v4/message-composer"
+  },
+  {
+    "from": "/ui-kit/android/4.0/message-composer",
+    "to": "/ui-kit/android/v4/message-composer"
+  },
+  {
+    "from": "/ui-kit/android/message-information",
+    "to": "/ui-kit/android/v4/message-information"
+  },
+  {
+    "from": "/ui-kit/android/4.0/message-information",
+    "to": "/ui-kit/android/v4/message-information"
+  },
+  {
+    "from": "/ui-kit/android/threaded-messages",
+    "to": "/ui-kit/android/v4/threaded-messages"
+  },
+  {
+    "from": "/ui-kit/android/4.0/threaded-messages",
+    "to": "/ui-kit/android/v4/threaded-messages"
+  },
+  {
+    "from": "/ui-kit/android/interactive-form-bubble",
+    "to": "/ui-kit/android/v4/interactive-form-bubble"
+  },
+  {
+    "from": "/ui-kit/android/4.0/interactive-form-bubble",
+    "to": "/ui-kit/android/v4/interactive-form-bubble"
+  },
+  {
+    "from": "/ui-kit/android/interactive-form-message",
+    "to": "/ui-kit/android/v4/interactive-form-message"
+  },
+  {
+    "from": "/ui-kit/android/4.0/interactive-form-message",
+    "to": "/ui-kit/android/v4/interactive-form-message"
+  },
+  {
+    "from": "/ui-kit/android/interactive-card-bubble",
+    "to": "/ui-kit/android/v4/interactive-card-bubble"
+  },
+  {
+    "from": "/ui-kit/android/4.0/interactive-card-bubble",
+    "to": "/ui-kit/android/v4/interactive-card-bubble"
+  },
+  {
+    "from": "/ui-kit/android/interactive-card-message",
+    "to": "/ui-kit/android/v4/interactive-card-message"
+  },
+  {
+    "from": "/ui-kit/android/4.0/interactive-card-message",
+    "to": "/ui-kit/android/v4/interactive-card-message"
+  },
+  {
+    "from": "/ui-kit/android/interactive-element-entity",
+    "to": "/ui-kit/android/v4/interactive-element-entity"
+  },
+  {
+    "from": "/ui-kit/android/4.0/interactive-element-entity",
+    "to": "/ui-kit/android/v4/interactive-element-entity"
+  },
+  {
+    "from": "/ui-kit/android/interactive-action-entity",
+    "to": "/ui-kit/android/v4/interactive-action-entity"
+  },
+  {
+    "from": "/ui-kit/android/4.0/interactive-action-entity",
+    "to": "/ui-kit/android/v4/interactive-action-entity"
+  },
+  {
+    "from": "/ui-kit/android/interactive-custom-message",
+    "to": "/ui-kit/android/v4/interactive-custom-message"
+  },
+  {
+    "from": "/ui-kit/android/4.0/interactive-custom-message",
+    "to": "/ui-kit/android/v4/interactive-custom-message"
+  },
+  {
+    "from": "/ui-kit/android/interactive-button-element",
+    "to": "/ui-kit/android/v4/interactive-button-element"
+  },
+  {
+    "from": "/ui-kit/android/4.0/interactive-button-element",
+    "to": "/ui-kit/android/v4/interactive-button-element"
+  },
+  {
+    "from": "/ui-kit/android/interactive-textinput-element",
+    "to": "/ui-kit/android/v4/interactive-textinput-element"
+  },
+  {
+    "from": "/ui-kit/android/4.0/interactive-textinput-element",
+    "to": "/ui-kit/android/v4/interactive-textinput-element"
+  },
+  {
+    "from": "/ui-kit/android/interactive-label-element",
+    "to": "/ui-kit/android/v4/interactive-label-element"
+  },
+  {
+    "from": "/ui-kit/android/4.0/interactive-label-element",
+    "to": "/ui-kit/android/v4/interactive-label-element"
+  },
+  {
+    "from": "/ui-kit/android/interactive-single-select-element",
+    "to": "/ui-kit/android/v4/interactive-single-select-element"
+  },
+  {
+    "from": "/ui-kit/android/4.0/interactive-single-select-element",
+    "to": "/ui-kit/android/v4/interactive-single-select-element"
+  },
+  {
+    "from": "/ui-kit/android/interactive-radio-button-element",
+    "to": "/ui-kit/android/v4/interactive-radio-button-element"
+  },
+  {
+    "from": "/ui-kit/android/4.0/interactive-radio-button-element",
+    "to": "/ui-kit/android/v4/interactive-radio-button-element"
+  },
+  {
+    "from": "/ui-kit/android/interactive-checkbox-element",
+    "to": "/ui-kit/android/v4/interactive-checkbox-element"
+  },
+  {
+    "from": "/ui-kit/android/4.0/interactive-checkbox-element",
+    "to": "/ui-kit/android/v4/interactive-checkbox-element"
+  },
+  {
+    "from": "/ui-kit/android/interactive-spinner-element",
+    "to": "/ui-kit/android/v4/interactive-spinner-element"
+  },
+  {
+    "from": "/ui-kit/android/4.0/interactive-spinner-element",
+    "to": "/ui-kit/android/v4/interactive-spinner-element"
+  },
+  {
+    "from": "/ui-kit/android/interactive-scheduler-message",
+    "to": "/ui-kit/android/v4/interactive-scheduler-message"
+  },
+  {
+    "from": "/ui-kit/android/4.0/interactive-scheduler-message",
+    "to": "/ui-kit/android/v4/interactive-scheduler-message"
+  },
+  {
+    "from": "/ui-kit/android/interactive-date-time-element",
+    "to": "/ui-kit/android/v4/interactive-date-time-element"
+  },
+  {
+    "from": "/ui-kit/android/4.0/interactive-date-time-element",
+    "to": "/ui-kit/android/v4/interactive-date-time-element"
+  },
+  {
+    "from": "/ui-kit/android/call-overview",
+    "to": "/ui-kit/android/v4/call-overview"
+  },
+  {
+    "from": "/ui-kit/android/4.0/call-overview",
+    "to": "/ui-kit/android/v4/call-overview"
+  },
+  {
+    "from": "/ui-kit/android/incoming-call",
+    "to": "/ui-kit/android/v4/incoming-call"
+  },
+  {
+    "from": "/ui-kit/android/4.0/incoming-call",
+    "to": "/ui-kit/android/v4/incoming-call"
+  },
+  {
+    "from": "/ui-kit/android/ongoing-call",
+    "to": "/ui-kit/android/v4/ongoing-call"
+  },
+  {
+    "from": "/ui-kit/android/4.0/ongoing-call",
+    "to": "/ui-kit/android/v4/ongoing-call"
+  },
+  {
+    "from": "/ui-kit/android/outgoing-call",
+    "to": "/ui-kit/android/v4/outgoing-call"
+  },
+  {
+    "from": "/ui-kit/android/4.0/outgoing-call",
+    "to": "/ui-kit/android/v4/outgoing-call"
+  },
+  {
+    "from": "/ui-kit/android/call-buttons",
+    "to": "/ui-kit/android/v4/call-buttons"
+  },
+  {
+    "from": "/ui-kit/android/4.0/call-buttons",
+    "to": "/ui-kit/android/v4/call-buttons"
+  },
+  {
+    "from": "/ui-kit/android/call-logs",
+    "to": "/ui-kit/android/v4/call-logs"
+  },
+  {
+    "from": "/ui-kit/android/4.0/call-logs",
+    "to": "/ui-kit/android/v4/call-logs"
+  },
+  {
+    "from": "/ui-kit/android/call-log-details",
+    "to": "/ui-kit/android/v4/call-log-details"
+  },
+  {
+    "from": "/ui-kit/android/4.0/call-log-details",
+    "to": "/ui-kit/android/v4/call-log-details"
+  },
+  {
+    "from": "/ui-kit/android/call-log-history",
+    "to": "/ui-kit/android/v4/call-log-history"
+  },
+  {
+    "from": "/ui-kit/android/4.0/call-log-history",
+    "to": "/ui-kit/android/v4/call-log-history"
+  },
+  {
+    "from": "/ui-kit/android/call-log-recording",
+    "to": "/ui-kit/android/v4/call-log-recording"
+  },
+  {
+    "from": "/ui-kit/android/4.0/call-log-recording",
+    "to": "/ui-kit/android/v4/call-log-recording"
+  },
+  {
+    "from": "/ui-kit/android/call-log-participants",
+    "to": "/ui-kit/android/v4/call-log-participants"
+  },
+  {
+    "from": "/ui-kit/android/4.0/call-log-participants",
+    "to": "/ui-kit/android/v4/call-log-participants"
+  },
+  {
+    "from": "/ui-kit/android/call-log-with-details",
+    "to": "/ui-kit/android/v4/call-log-with-details"
+  },
+  {
+    "from": "/ui-kit/android/4.0/call-log-with-details",
+    "to": "/ui-kit/android/v4/call-log-with-details"
+  },
+  {
+    "from": "/ui-kit/android/avatar",
+    "to": "/ui-kit/android/v4/avatar"
+  },
+  {
+    "from": "/ui-kit/android/4.0/avatar",
+    "to": "/ui-kit/android/v4/avatar"
+  },
+  {
+    "from": "/ui-kit/android/status-indicator",
+    "to": "/ui-kit/android/v4/status-indicator"
+  },
+  {
+    "from": "/ui-kit/android/4.0/status-indicator",
+    "to": "/ui-kit/android/v4/status-indicator"
+  },
+  {
+    "from": "/ui-kit/android/badge",
+    "to": "/ui-kit/android/v4/badge"
+  },
+  {
+    "from": "/ui-kit/android/4.0/badge",
+    "to": "/ui-kit/android/v4/badge"
+  },
+  {
+    "from": "/ui-kit/android/receipt",
+    "to": "/ui-kit/android/v4/receipt"
+  },
+  {
+    "from": "/ui-kit/android/4.0/receipt",
+    "to": "/ui-kit/android/v4/receipt"
+  },
+  {
+    "from": "/ui-kit/android/date",
+    "to": "/ui-kit/android/v4/date"
+  },
+  {
+    "from": "/ui-kit/android/4.0/date",
+    "to": "/ui-kit/android/v4/date"
+  },
+  {
+    "from": "/ui-kit/android/text-bubble",
+    "to": "/ui-kit/android/v4/text-bubble"
+  },
+  {
+    "from": "/ui-kit/android/4.0/text-bubble",
+    "to": "/ui-kit/android/v4/text-bubble"
+  },
+  {
+    "from": "/ui-kit/android/image-bubble",
+    "to": "/ui-kit/android/v4/image-bubble"
+  },
+  {
+    "from": "/ui-kit/android/4.0/image-bubble",
+    "to": "/ui-kit/android/v4/image-bubble"
+  },
+  {
+    "from": "/ui-kit/android/file-bubble",
+    "to": "/ui-kit/android/v4/file-bubble"
+  },
+  {
+    "from": "/ui-kit/android/4.0/file-bubble",
+    "to": "/ui-kit/android/v4/file-bubble"
+  },
+  {
+    "from": "/ui-kit/android/audio-bubble",
+    "to": "/ui-kit/android/v4/audio-bubble"
+  },
+  {
+    "from": "/ui-kit/android/4.0/audio-bubble",
+    "to": "/ui-kit/android/v4/audio-bubble"
+  },
+  {
+    "from": "/ui-kit/android/video-bubble",
+    "to": "/ui-kit/android/v4/video-bubble"
+  },
+  {
+    "from": "/ui-kit/android/4.0/video-bubble",
+    "to": "/ui-kit/android/v4/video-bubble"
+  },
+  {
+    "from": "/ui-kit/android/message-bubble",
+    "to": "/ui-kit/android/v4/message-bubble"
+  },
+  {
+    "from": "/ui-kit/android/4.0/message-bubble",
+    "to": "/ui-kit/android/v4/message-bubble"
+  },
+  {
+    "from": "/ui-kit/android/message-input",
+    "to": "/ui-kit/android/v4/message-input"
+  },
+  {
+    "from": "/ui-kit/android/4.0/message-input",
+    "to": "/ui-kit/android/v4/message-input"
+  },
+  {
+    "from": "/ui-kit/android/action-sheet",
+    "to": "/ui-kit/android/v4/action-sheet"
+  },
+  {
+    "from": "/ui-kit/android/4.0/action-sheet",
+    "to": "/ui-kit/android/v4/action-sheet"
+  },
+  {
+    "from": "/ui-kit/android/media-recorder",
+    "to": "/ui-kit/android/v4/media-recorder"
+  },
+  {
+    "from": "/ui-kit/android/4.0/media-recorder",
+    "to": "/ui-kit/android/v4/media-recorder"
+  },
+  {
+    "from": "/ui-kit/android/list-item",
+    "to": "/ui-kit/android/v4/list-item"
+  },
+  {
+    "from": "/ui-kit/android/4.0/list-item",
+    "to": "/ui-kit/android/v4/list-item"
+  },
+  {
+    "from": "/ui-kit/android/list-base",
+    "to": "/ui-kit/android/v4/list-base"
+  },
+  {
+    "from": "/ui-kit/android/4.0/list-base",
+    "to": "/ui-kit/android/v4/list-base"
+  },
+  {
+    "from": "/ui-kit/android/events",
+    "to": "/ui-kit/android/v4/events"
+  },
+  {
+    "from": "/ui-kit/android/4.0/events",
+    "to": "/ui-kit/android/v4/events"
+  },
+  {
+    "from": "/ui-kit/android/methods",
+    "to": "/ui-kit/android/v4/methods"
+  },
+  {
+    "from": "/ui-kit/android/4.0/methods",
+    "to": "/ui-kit/android/v4/methods"
+  },
+  {
+    "from": "/ui-kit/android/multi-tab-chat-ui-guide",
+    "to": "/ui-kit/android/v4/multi-tab-chat-ui-guide"
+  },
+  {
+    "from": "/ui-kit/android/4.0/multi-tab-chat-ui-guide",
+    "to": "/ui-kit/android/v4/multi-tab-chat-ui-guide"
+  },
+  {
+    "from": "/ui-kit/android/mentions-formatter-guide",
+    "to": "/ui-kit/android/v4/mentions-formatter-guide"
+  },
+  {
+    "from": "/ui-kit/android/4.0/mentions-formatter-guide",
+    "to": "/ui-kit/android/v4/mentions-formatter-guide"
+  },
+  {
+    "from": "/ui-kit/android/shortcut-formatter-guide",
+    "to": "/ui-kit/android/v4/shortcut-formatter-guide"
+  },
+  {
+    "from": "/ui-kit/android/4.0/shortcut-formatter-guide",
+    "to": "/ui-kit/android/v4/shortcut-formatter-guide"
+  },
+  {
+    "from": "/ui-kit/android/3.0/conversationlist",
+    "to": "/ui-kit/android/v3/conversationlist"
+  },
+  {
+    "from": "/ui-kit/android/3.0/key-concepts",
+    "to": "/ui-kit/android/v3/key-concepts"
+  },
+  {
+    "from": "/ui-kit/android/3.0/how-to-add-uikit-module",
+    "to": "/ui-kit/android/v3/how-to-add-uikit-module"
+  },
+  {
+    "from": "/ui-kit/android/3.0/overview",
+    "to": "/ui-kit/android/v3/overview"
+  },
+  {
+    "from": "/ui-kit/android/3.0/android-java-ui-components",
+    "to": "/ui-kit/android/v3/android-java-ui-components"
+  },
+  {
+    "from": "/ui-kit/android/3.0/android-customize-ui-kit",
+    "to": "/ui-kit/android/v3/android-customize-ui-kit"
+  },
+  {
+    "from": "/ui-kit/android/3.0/folder-structure-android-uikit",
+    "to": "/ui-kit/android/v3/folder-structure-android-uikit"
+  },
+  {
+    "from": "/ui-kit/android/2.0/key-concepts",
+    "to": "/ui-kit/android/v2/key-concepts"
+  },
+  {
+    "from": "/ui-kit/android/2.0/message-structure-and-hierarchy",
+    "to": "/ui-kit/android/v2/message-structure-and-hierarchy"
+  },
+  {
+    "from": "/ui-kit/android/2.0/overview",
+    "to": "/ui-kit/android/v2/overview"
+  },
+  {
+    "from": "/ui-kit/android/2.0/ui-components",
+    "to": "/ui-kit/android/v2/ui-components"
+  },
+  {
+    "from": "/ui-kit/android/2.0/customize-ui-kit",
+    "to": "/ui-kit/android/v2/customize-ui-kit"
+  },
+  {
+    "from": "/ui-kit/android/2.0/folder-structure-android-uikit",
+    "to": "/ui-kit/android/v2/folder-structure-android-uikit"
+  }
+]

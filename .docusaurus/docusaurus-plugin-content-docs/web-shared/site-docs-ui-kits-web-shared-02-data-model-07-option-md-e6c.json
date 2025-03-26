@@ -1,0 +1,29 @@
+{
+  "id": "DATA MODEL/option",
+  "title": "Option",
+  "description": "CometChatOption is a pre-defined structure for creating an option that can be used to perform an action message such as edit, delete etc.",
+  "source": "@site/docs/ui-kits/web-shared/02-DATA MODEL/07-option.md",
+  "sourceDirName": "02-DATA MODEL",
+  "slug": "/option",
+  "permalink": "/docs/web-shared/option",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "title": "Option",
+    "slug": "/option"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ActionItem",
+    "permalink": "/docs/web-shared/actionitem"
+  },
+  "next": {
+    "title": "DetailsTemplate",
+    "permalink": "/docs/web-shared/detailstemplate"
+  }
+}

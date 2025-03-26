@@ -1,0 +1,29 @@
+{
+  "id": "Users/index",
+  "title": "Users",
+  "description": "The primary aim for our user's functionality is to allow you to quickly retrieve and add users to CometChat.",
+  "source": "@site/ionic-chat-sdk_versioned_docs/version-3.0/07-Users/index.md",
+  "sourceDirName": "07-Users",
+  "slug": "/users",
+  "permalink": "/docs/sdk/ionic/3.0/users",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "title": "Users",
+    "slug": "/users"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Video view customisation",
+    "permalink": "/docs/sdk/ionic/3.0/video-view-customisation"
+  },
+  "next": {
+    "title": "Retrieve Users",
+    "permalink": "/docs/sdk/ionic/3.0/users-retrieve-users"
+  }
+}

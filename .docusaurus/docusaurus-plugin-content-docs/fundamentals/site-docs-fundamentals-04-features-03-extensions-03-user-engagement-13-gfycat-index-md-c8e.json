@@ -1,0 +1,29 @@
+{
+  "id": "Features/Extensions/User Engagement/13 Gfycat/index",
+  "title": "Gfycat (Deprecated)",
+  "description": "Gfycat ceased their operations recently. This extension is no longer available.",
+  "source": "@site/docs/fundamentals/04-Features/03-Extensions/03-User Engagement/13 Gfycat/index.md",
+  "sourceDirName": "04-Features/03-Extensions/03-User Engagement/13 Gfycat",
+  "slug": "/gfycat",
+  "permalink": "/docs/fundamentals/gfycat",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 13,
+  "frontMatter": {
+    "sidebar_position": 13,
+    "title": "Gfycat (Deprecated)",
+    "slug": "/gfycat"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tenor",
+    "permalink": "/docs/fundamentals/tenor"
+  },
+  "next": {
+    "title": "Reminders",
+    "permalink": "/docs/fundamentals/reminders"
+  }
+}

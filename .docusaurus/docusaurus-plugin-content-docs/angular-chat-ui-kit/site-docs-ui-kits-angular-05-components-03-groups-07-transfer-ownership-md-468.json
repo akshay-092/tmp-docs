@@ -1,0 +1,29 @@
+{
+  "id": "Components/Groups/Transfer Ownership",
+  "title": "Transfer Ownership",
+  "description": "Overview",
+  "source": "@site/docs/ui-kits/angular/05-Components/03-Groups/07-Transfer Ownership.md",
+  "sourceDirName": "05-Components/03-Groups",
+  "slug": "/group-transfer-ownership",
+  "permalink": "/docs/ui-kit/angular/group-transfer-ownership",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "title": "Transfer Ownership",
+    "slug": "/group-transfer-ownership"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Banned Members",
+    "permalink": "/docs/ui-kit/angular/group-banned-members"
+  },
+  "next": {
+    "title": "Group Details",
+    "permalink": "/docs/ui-kit/angular/group-details"
+  }
+}

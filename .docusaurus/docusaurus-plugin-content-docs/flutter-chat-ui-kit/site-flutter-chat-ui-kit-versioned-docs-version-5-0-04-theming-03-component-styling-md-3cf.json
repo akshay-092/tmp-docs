@@ -1,0 +1,29 @@
+{
+  "id": "Theming/component-styling",
+  "title": "Component Styling",
+  "description": "Unlock the Power of Customization",
+  "source": "@site/flutter-chat-ui-kit_versioned_docs/version-5.0/04-Theming/03-component-styling.md",
+  "sourceDirName": "04-Theming",
+  "slug": "/component-styling",
+  "permalink": "/docs/ui-kit/flutter/5.0/component-styling",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "5.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Component Styling",
+    "slug": "/component-styling"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Color Resources",
+    "permalink": "/docs/ui-kit/flutter/5.0/color-resources"
+  },
+  "next": {
+    "title": "Message Bubble Styling",
+    "permalink": "/docs/ui-kit/flutter/5.0/message-bubble-styling"
+  }
+}

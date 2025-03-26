@@ -1,0 +1,29 @@
+{
+  "id": "integration/CometChatUIKit",
+  "title": "CometChat UI Kit",
+  "description": "CometChatUIKit is a class that contains all necessary methods to help initialise the CometChat SDK with valid credentials for the UI Kit to utilise.",
+  "source": "@site/docs/ui-kits/vue/03-integration/01-CometChatUIKit.md",
+  "sourceDirName": "03-integration",
+  "slug": "/ui-kit-methods",
+  "permalink": "/docs/ui-kit/vue/ui-kit-methods",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "CometChat UI Kit",
+    "slug": "/ui-kit-methods"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Integration",
+    "permalink": "/docs/ui-kit/vue/integration"
+  },
+  "next": {
+    "title": "Theme",
+    "permalink": "/docs/ui-kit/vue/theme"
+  }
+}

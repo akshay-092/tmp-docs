@@ -1,0 +1,29 @@
+{
+  "id": "Messaging/Delivery & Read Receipts",
+  "title": "Delivery & Read Receipts",
+  "description": "Mark Messages as Delivered",
+  "source": "@site/flutter-chat-sdk_versioned_docs/version-3.0/04-Messaging/10-Delivery & Read Receipts.md",
+  "sourceDirName": "04-Messaging",
+  "slug": "/messaging-receipts",
+  "permalink": "/docs/sdk/flutter/3.0/messaging-receipts",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10,
+    "title": "Delivery & Read Receipts",
+    "slug": "/messaging-receipts"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Transient Messages",
+    "permalink": "/docs/sdk/flutter/3.0/messaging-transient-messages"
+  },
+  "next": {
+    "title": "Threaded Messages",
+    "permalink": "/docs/sdk/flutter/3.0/threaded-messages"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "Components/conversations",
+  "title": "Conversations",
+  "description": "Overview",
+  "source": "@site/docs/ui-kits/ios/05-Components/02-conversations.md",
+  "sourceDirName": "05-Components",
+  "slug": "/conversations",
+  "permalink": "/docs/ui-kit/ios/v5/conversations",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Conversations",
+    "slug": "/conversations",
+    "toc_min_heading_level": 2,
+    "toc_max_heading_level": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/ui-kit/ios/v5/components-overview"
+  },
+  "next": {
+    "title": "Users",
+    "permalink": "/docs/ui-kit/ios/v5/users"
+  }
+}

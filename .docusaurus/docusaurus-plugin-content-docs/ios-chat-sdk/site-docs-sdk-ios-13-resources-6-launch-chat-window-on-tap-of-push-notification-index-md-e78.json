@@ -1,0 +1,29 @@
+{
+  "id": "resources/6 Launch chat window on tap of push notification/index",
+  "title": "Launch Chat Window on Tap of Push Notification",
+  "description": "This guide helps you to launch a chat window from the UI Kit library on receiving a new message notification.",
+  "source": "@site/docs/sdk/ios/13-resources/6 Launch chat window on tap of push notification/index.md",
+  "sourceDirName": "13-resources/6 Launch chat window on tap of push notification",
+  "slug": "/launch-chat-window-on-tap-of-push-notification",
+  "permalink": "/docs/sdk/ios/launch-chat-window-on-tap-of-push-notification",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Launch Chat Window on Tap of Push Notification",
+    "slug": "/launch-chat-window-on-tap-of-push-notification"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Launch Call Screen on Tap of Push Notification",
+    "permalink": "/docs/sdk/ios/launch-call-screen-on-tap-of-push-notification"
+  },
+  "next": {
+    "title": "Prepare your app for background updates",
+    "permalink": "/docs/sdk/ios/prepare-your-app-for-background-updates"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Messages/Message Information",
+  "title": "Message Information",
+  "description": "CometChatMessageInformation is a standalone component that displays comprehensive information about the message receipts. This will enable users to easily access details such as the message content, recipient and delivery receipt information for a more informed communication experience.",
+  "source": "@site/docs/ui-kits/vue/09-Messages/05-Message Information.md",
+  "sourceDirName": "09-Messages",
+  "slug": "/message-information",
+  "permalink": "/docs/ui-kit/vue/message-information",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Message Information",
+    "slug": "/message-information"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Message Composer",
+    "permalink": "/docs/ui-kit/vue/message-composer"
+  },
+  "next": {
+    "title": "Threaded Messages",
+    "permalink": "/docs/ui-kit/vue/threaded-messages"
+  }
+}

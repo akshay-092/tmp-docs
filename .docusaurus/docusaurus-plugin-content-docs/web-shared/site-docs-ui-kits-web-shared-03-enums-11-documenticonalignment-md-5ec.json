@@ -1,0 +1,29 @@
+{
+  "id": "ENUMS/documenticonalignment",
+  "title": "DocumentIconAlignment",
+  "description": "DocumentIconAlignment describes the positioning of icon within the CometChatDocumentBubble component.",
+  "source": "@site/docs/ui-kits/web-shared/03-ENUMS/11-documenticonalignment.md",
+  "sourceDirName": "03-ENUMS",
+  "slug": "/documenticonalignment",
+  "permalink": "/docs/web-shared/documenticonalignment",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11,
+    "title": "DocumentIconAlignment",
+    "slug": "/documenticonalignment"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AuxiliaryButtonAlignment",
+    "permalink": "/docs/web-shared/auxiliarybuttonalignment"
+  },
+  "next": {
+    "title": "HTTPSRequestMethods",
+    "permalink": "/docs/web-shared/httpsrequestmethods"
+  }
+}

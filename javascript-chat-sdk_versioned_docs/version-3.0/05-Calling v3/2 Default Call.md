@@ -1,0 +1,299 @@
+---
+sidebar_position: 2
+title: Default Call
+slug: /v3-default-call
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+
+This section will provide information on how a complete calling workflow can be set up using CometChat. We've built the complete workflow to help your users make calls, receive calls as well as accept/reject calls.
+
+Let us assume Alex to be the call initiator and Bob is the receiver.
+
+1. Alex initiates the call to Bob using the **initiateCall()** method.
+2. Bob now has two choices:
+    1. Accept the call from Alex using the **acceptCall()** method.
+    2. Reject the call from Alex using the **rejectCall()** method passing the status as `rejected`.
+
+3. In the meantime, Alex has the option to cancel the call he initiated to Bob using the **rejectCall()** method passing the status as `cancelled`.
+4. If Bob accepts the call from Alex, both Alex and Bob need to call the **startCall()** method. Alex in the **onOutgoingCallAccepted()** method of the `CallListener` and Bob in the success obtained from the **acceptCall()** method and both will be connected to each other.
+
+## Initiate Call
+
+The `initiateCall()` method sends a call request to a user or a group.
+<Tabs>
+<TabItem value="User Call" label="User Call">
+
+  ```javascript
+var receiverID = "UID";
+var callType = CometChat.CALL_TYPE.VIDEO;
+var receiverType = CometChat.RECEIVER_TYPE.USER;
+
+var call = new CometChat.Call(receiverID, callType, receiverType);
+
+CometChat.initiateCall(call).then(
+  outGoingCall => {
+    console.log("Call initiated successfully:", outGoingCall);
+  }, error => {
+    console.log("Call initialization failed with exception:", error);
+  }
+);
+  ```
+</TabItem>
+<TabItem value="Group Call" label="Group Call">
+
+  ```javascript
+var receiverID = "GUID";
+var callType = CometChat.CALL_TYPE.VIDEO;
+var receiverType = CometChat.RECEIVER_TYPE.GROUP;
+
+var call = new CometChat.Call(receiverID, callType, receiverType);
+
+CometChat.initiateCall(call).then(
+  outGoingCall => {
+    console.log("Call initiated successfully:", outGoingCall);
+  }, error => {
+    console.log("Call initialization failed with exception:", error);
+  }
+);
+  ```
+</TabItem>
+<TabItem value="User Call (Typescript)" label="User Call (Typescript)">
+
+  ```typescript
+var receiverID: string = "UID";
+var callType: string = CometChat.CALL_TYPE.VIDEO;
+var receiverType: string = CometChat.RECEIVER_TYPE.USER;
+
+var call: CometChat.Call = new CometChat.Call(receiverID, callType, receiverType);
+
+CometChat.initiateCall(call).then(
+    (outGoingCall: CometChat.Call) => {
+        console.log("Call initiated successfully:", outGoingCall);
+    }, (error: CometChat.CometChatException) => {
+        console.log("Call initialization failed with exception:", error);
+    }
+);
+  ```
+</TabItem>
+<TabItem value="Group Call (Typescript)" label="Group Call (Typescript)">
+
+  ```typescript
+var receiverID: string = "GUID";
+var callType: string = CometChat.CALL_TYPE.VIDEO;
+var receiverType: string = CometChat.RECEIVER_TYPE.GROUP;
+
+var call: CometChat.Call = new CometChat.Call(receiverID, callType, receiverType);
+
+CometChat.initiateCall(call).then(
+    (outGoingCall: CometChat.Call) => {
+        console.log("Call initiated successfully:", outGoingCall);
+    }, (error: CometChat.CometChatException) => {
+        console.log("Call initialization failed with exception:", error);
+    }
+);
+  ```
+</TabItem>
+</Tabs>
+
+
+
+This method takes an object of the `Call` class. The constructor for `Call` class takes the following parameters:
+
+| Parameter | Description | 
+| ---- | ---- | 
+| `receiverID` | The UID or GUID of the recipient | 
+| `receiverType` | The type of the receiver can be,\n\n\n\n1.`CometChat.RECEIVER_TYPE.USER`\n2.`CometChat.RECEIVER_TYPE.GROUP` | 
+| `callType` | The type of call can be,\n\n1.`CometChat.CALL_TYPE.AUDIO`\n2.`CometChat.CALL_TYPE.VIDEO` | 
+
+
+On successful initialization, a `Call` object is returned with the details of the call including a unique session ID for the call.
+
+## Receive Calls
+
+Wherever you wish to receive the call events in, you need to register the `CallListener` listener using the `addCallListener()` method. `onCallEndedMessageReceived()` event will receive when you trigger CometChat.endCall(sessionID).
+<Tabs>
+<TabItem value="Receive Calls" label="Receive Calls">
+
+  ```javascript
+var listnerID = "UNIQUE_LISTENER_ID";
+CometChat.addCallListener(
+  listnerID,
+  new CometChat.CallListener({
+    onIncomingCallReceived: (call) => {
+      console.log("Incoming call:", call);
+    },
+    onOutgoingCallAccepted: (call) => {
+      console.log("Outgoing call accepted:", call);
+    },
+    onOutgoingCallRejected: (call) => {
+      console.log("Outgoing call rejected:", call);
+    },
+    onIncomingCallCancelled: (call) => {
+      console.log("Incoming call calcelled:", call);
+    },
+    onCallEndedMessageReceived: (call) => {
+      console.log("CallEnded Message:", call);
+    }
+  })
+);
+  ```
+</TabItem>
+<TabItem value="Typescript" label="Typescript">
+
+  ```typescript
+var listnerID: string = "UNIQUE_LISTENER_ID";
+CometChat.addCallListener(
+    listnerID,
+    new CometChat.CallListener({
+        onIncomingCallReceived: (call: CometChat.Call) => {
+            console.log("Incoming call:", call);
+        },
+        onOutgoingCallAccepted: (call: CometChat.Call) => {
+            console.log("Outgoing call accepted:", call);
+        },
+        onOutgoingCallRejected: (call: CometChat.Call) => {
+            console.log("Outgoing call rejected:", call);
+        },
+        onIncomingCallCancelled: (call: CometChat.Call) => {
+            console.log("Incoming call calcelled:", call);
+        },
+        onCallEndedMessageReceived: (call: CometChat.Call) => {
+          console.log("CallEnded Message:", call);
+        }
+    })
+);
+  ```
+</TabItem>
+</Tabs>
+
+
+| Parametrer | Description | 
+| ---- | ---- | 
+| `listenerID` | An ID that uniquely identifies that listener. We recommend using the activity or fragment name | 
+
+
+We recommend you remove the listener once the activity or fragment is not in use.
+<Tabs>
+<TabItem value="Remove Call Listener" label="Remove Call Listener">
+
+  ```javascript
+var listenerID = "UNIQUE_LISTENER_ID";
+
+CometChat.removeCallListener(listenerID);
+  ```
+</TabItem>
+<TabItem value="Typescript" label="Typescript">
+
+  ```typescript
+var listenerID: string = "UNIQUE_LISTENER_ID";
+
+CometChat.removeCallListener(listenerID);
+  ```
+</TabItem>
+</Tabs>
+
+
+
+As mentioned in the [Overview](./calling-default-calling) section, Once the call is initiated, there are three options that can be possible:
+
+1. The receiver of the call accepts the call.
+2. The receiver of the call rejects the call.
+3. The initiator of the call cancels the call.
+
+Please find below how these three scenarios can be implemented:
+
+### Accept the Incoming Call
+
+Once you have received an incoming call from a user or in any group, to accept the call using the `acceptCall()` method.
+<Tabs>
+<TabItem value="Accept Incoming Call" label="Accept Incoming Call">
+
+  ```javascript
+var sessionID = "SESSION_ID";
+
+CometChat.acceptCall(sessionID).then(
+  call => {
+    console.log("Call accepted successfully:", call);
+  }, error => {
+    console.log("Call acceptance failed with error", error);
+  }
+);
+  ```
+</TabItem>
+<TabItem value="Typescript" label="Typescript">
+
+  ```typescript
+var sessionID: string = "SESSION_ID";
+
+CometChat.acceptCall(sessionID).then(
+    (call: CometChat.Call) => {
+        console.log("Call accepted successfully:", call);
+    }, (error: CometChat.CometChatException) => {
+        console.log("Call acceptance failed with error", error);
+    }
+);
+  ```
+</TabItem>
+</Tabs>
+
+
+| Parameter | Description | 
+| ---- | ---- | 
+| `sessionID` | The unique session ID available in the `Call` object | 
+
+
+### Reject the Incoming Call
+
+To reject the incoming call once it is received using the `rejectCall()` method.
+<Tabs>
+<TabItem value="Reject Incoming Call" label="Reject Incoming Call">
+
+  ```javascript
+var sessionID = "SESSION_ID";
+var status = CometChat.CALL_STATUS.REJECTED;
+
+CometChat.rejectCall(sessionID, status).then(
+  call => {
+    console.log("Call rejected successfully", call);
+  }, error => {
+    console.log("Call rejection failed with error:", error);
+  }
+);
+  ```
+</TabItem>
+<TabItem value="Typescript" label="Typescript">
+
+  ```typescript
+var sessionID: string = "SESSION_ID";
+var status: string = CometChat.CALL_STATUS.REJECTED;
+
+CometChat.rejectCall(sessionID, status).then(
+    (call: CometChat.Call) => {
+        console.log("Call rejected successfully", call);
+    }, (error: CometChat.CometChatException) => {
+        console.log("Call rejection failed with error:", error);
+    }
+);
+  ```
+</TabItem>
+</Tabs>
+
+
+| Parameter | Description | 
+| ---- | ---- | 
+| `sessionID` | The unique session ID available in the `Call` object | 
+| `status` | Reason for rejection of the call | 
+
+
+Here the status needs to be set as `CometChat.CALL_STATUS.REJECTED` as the call is being rejected by the receiver of the call.
+
+### Cancel the Outgoing Call
+
+In the case where the initiator wishes to cancel the call, use the same above `rejectCall()` method and just pass the status to the `rejectCall()` method as `CometChat.CALL_STATUS.CANCELLED`
+
+## Start a Call
+
+Once the call request is sent and the receiver has accepted the call, both the initiator and the receiver need to call the `startSession()` method.

@@ -1,0 +1,29 @@
+{
+  "id": "Components/Interactive Messages/action-entity/index",
+  "title": "Action Entity",
+  "description": "Base class for defining the type of actions that can be performed on BaseInteractiveElement",
+  "source": "@site/ios-chat-ui-kit_versioned_docs/version-4.0/05-Components/05-Interactive Messages/06-action-entity/index.md",
+  "sourceDirName": "05-Components/05-Interactive Messages/06-action-entity",
+  "slug": "/interactive-action-entity",
+  "permalink": "/docs/ui-kit/ios/v4/interactive-action-entity",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "4.0",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {
+    "type": "page",
+    "title": "Action Entity",
+    "listed": true,
+    "slug": "/interactive-action-entity"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Element Entity",
+    "permalink": "/docs/ui-kit/ios/v4/interactive-element-entity"
+  },
+  "next": {
+    "title": "Button Element",
+    "permalink": "/docs/ui-kit/ios/v4/interactive-button-element"
+  }
+}

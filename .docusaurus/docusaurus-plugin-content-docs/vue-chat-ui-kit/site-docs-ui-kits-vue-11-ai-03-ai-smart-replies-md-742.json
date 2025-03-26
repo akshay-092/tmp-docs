@@ -1,0 +1,29 @@
+{
+  "id": "AI/AI Smart Replies",
+  "title": "AI Smart Replies",
+  "description": "This configuration needs to be passed to AI Smart Replies Class when it is passed to `setAiFeatures()` method of `UIKitSettingsBuilder`.",
+  "source": "@site/docs/ui-kits/vue/11-AI/03-AI Smart Replies.md",
+  "sourceDirName": "11-AI",
+  "slug": "/ai-smart-replies",
+  "permalink": "/docs/ui-kit/vue/ai-smart-replies",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "AI Smart Replies",
+    "slug": "/ai-smart-replies"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AI Conversation Starter",
+    "permalink": "/docs/ui-kit/vue/ai-conversation-starter"
+  },
+  "next": {
+    "title": "AI Conversation Summary",
+    "permalink": "/docs/ui-kit/vue/ai-conversation-summary"
+  }
+}

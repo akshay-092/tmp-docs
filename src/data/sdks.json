@@ -1,0 +1,123 @@
+{
+  "title": "SKDs Title",
+  "comment": "SKDs Comment",
+  "pills": [
+    {
+      "title": "1st Pill",
+      "id": "first-pill",
+      "description": "First Pill Description",
+      "parts": [
+        {
+          "title": "part 1",
+          "description": "description 1",
+          "items": [
+            {
+              "icon": "angular",
+              "title": "title 1",
+              "link": "link 1"
+            },
+            {
+              "icon": "flutter",
+              "title": "title 2",
+              "link": "link 2"
+            },
+            {
+              "icon": "html",
+              "title": "title 3",
+              "link": "link 3"
+            }
+          ]
+        },
+        {
+          "title": "part 2",
+          "description": "description 2",
+          "items": [
+            {
+              "icon": "kotlin",
+              "title": "title 1",
+              "link": "link 1"
+            },
+            {
+              "icon": "javascript",
+              "title": "title 2",
+              "link": "link 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "2nd Pill",
+      "id": "second-pill",
+      "description": "Second Pill Description",
+      "parts": [
+        {
+          "title": "part 1",
+          "description": "description 1",
+          "items": [
+            {
+              "icon": "react",
+              "title": "title 1",
+              "link": "link 1"
+            },
+            {
+              "icon": "swift",
+              "title": "title 2",
+              "link": "link 2"
+            },
+            {
+              "icon": "html",
+              "title": "title 3",
+              "link": "link 3"
+            },
+            {
+              "icon": "flutter",
+              "title": "title 4",
+              "link": "link 4"
+            }
+          ]
+        },
+        {
+          "title": "part 2",
+          "description": "description 2",
+          "items": [
+            {
+              "icon": "angular",
+              "title": "title 1",
+              "link": "link 1"
+            },
+            {
+              "icon": "javascript",
+              "title": "title 2",
+              "link": "link 2"
+            },
+            {
+              "icon": "react",
+              "title": "title 3",
+              "link": "link 3"
+            },
+            {
+              "icon": "flutter",
+              "title": "title 4",
+              "link": "link 4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3rd Pill",
+      "id": "third-pill",
+      "description": "Third Pill Description",
+      "link": "Third Pill Link",
+      "whiteImg": "/homepage/plugin-sdk-light.png",
+      "blackImg": "/homepage/plugin-sdk-dark.png",
+      "linkText": "link text"
+    }
+  ],
+  "contact": {
+    "question": "Contact Us Qst",
+    "contact": "Contact Us Comment",
+    "link": "https://ahmedbargady.me"
+  }
+}

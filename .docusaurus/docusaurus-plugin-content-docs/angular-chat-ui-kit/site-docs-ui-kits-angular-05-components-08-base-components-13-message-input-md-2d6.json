@@ -1,0 +1,29 @@
+{
+  "id": "Components/Base Components/message-input",
+  "title": "Message Input",
+  "description": "CometChatMessageInput is a component that provides a skeleton layout for contents of  like TextField, auxiliary options, primary button view and attachment options.",
+  "source": "@site/docs/ui-kits/angular/05-Components/08-Base Components/13-message-input.md",
+  "sourceDirName": "05-Components/08-Base Components",
+  "slug": "/message-input",
+  "permalink": "/docs/ui-kit/angular/message-input",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12,
+    "title": "Message Input",
+    "slug": "/message-input"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Document Bubble",
+    "permalink": "/docs/ui-kit/angular/document-bubble"
+  },
+  "next": {
+    "title": "Action Sheet",
+    "permalink": "/docs/ui-kit/angular/action-sheet"
+  }
+}

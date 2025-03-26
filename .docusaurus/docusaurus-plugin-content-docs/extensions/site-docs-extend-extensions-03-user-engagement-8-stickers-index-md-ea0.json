@@ -1,0 +1,29 @@
+{
+  "id": "User Engagement/8 Stickers/index",
+  "title": "Stickers",
+  "description": "The Stickers Extension is more like an image manager which allows you to quickly add/remove stickers directly from the dashboard.",
+  "source": "@site/docs/extend/extensions/03-User Engagement/8 Stickers/index.md",
+  "sourceDirName": "03-User Engagement/8 Stickers",
+  "slug": "/stickers",
+  "permalink": "/docs/extensions/stickers",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "title": "Stickers",
+    "slug": "/stickers"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Stipop",
+    "permalink": "/docs/extensions/stickers-stipop"
+  },
+  "next": {
+    "title": "Live Streaming by API Video",
+    "permalink": "/docs/extensions/video-broadcasting"
+  }
+}

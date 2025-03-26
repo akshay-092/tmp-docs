@@ -1,0 +1,29 @@
+{
+  "id": "Migration Guide/upgrade-from-v4",
+  "title": "Upgrading from v4",
+  "description": "Introduction",
+  "source": "@site/react-chat-ui-kit_versioned_docs/version-5.0/08-Migration Guide/01-upgrade-from-v4.md",
+  "sourceDirName": "08-Migration Guide",
+  "slug": "/upgrading-from-v4",
+  "permalink": "/docs/ui-kit/react/v5/upgrading-from-v4",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "5.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Upgrading from v4",
+    "slug": "/upgrading-from-v4"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ShortCut Formatter",
+    "permalink": "/docs/ui-kit/react/v5/shortcut-formatter-guide"
+  },
+  "next": {
+    "title": "Property Changes",
+    "permalink": "/docs/ui-kit/react/v5/property-changes"
+  }
+}

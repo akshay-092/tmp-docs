@@ -1,0 +1,29 @@
+{
+  "id": "Calling/2 Default Calling",
+  "title": "Default Calling",
+  "description": "This section will provide information on how a complete calling workflow can be set up using CometChat. We've built the complete workflow to help your users make calls, receive calls as well as accept/reject calls.",
+  "source": "@site/javascript-chat-sdk_versioned_docs/version-3.0/06-Calling/2 Default Calling.md",
+  "sourceDirName": "06-Calling",
+  "slug": "/calling-default-calling",
+  "permalink": "/docs/sdk/javascript/3.0/calling-default-calling",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Default Calling",
+    "slug": "/calling-default-calling"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Direct Calling",
+    "permalink": "/docs/sdk/javascript/3.0/calling-direct-calling"
+  },
+  "next": {
+    "title": "Custom CSS",
+    "permalink": "/docs/sdk/javascript/3.0/calling-custom-css"
+  }
+}

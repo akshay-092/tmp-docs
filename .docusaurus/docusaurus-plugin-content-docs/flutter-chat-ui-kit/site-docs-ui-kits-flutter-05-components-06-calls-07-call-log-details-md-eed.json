@@ -1,0 +1,29 @@
+{
+  "id": "Components/Calls/call-log-details",
+  "title": "Call Log Details",
+  "description": "Overview",
+  "source": "@site/docs/ui-kits/flutter/05-Components/06-Calls/07-call-log-details.md",
+  "sourceDirName": "05-Components/06-Calls",
+  "slug": "/call-log-details",
+  "permalink": "/docs/ui-kit/flutter/call-log-details",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "title": "Call Log Details",
+    "slug": "/call-log-details"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Call Logs",
+    "permalink": "/docs/ui-kit/flutter/call-logs"
+  },
+  "next": {
+    "title": "Call Log History",
+    "permalink": "/docs/ui-kit/flutter/call-log-history"
+  }
+}

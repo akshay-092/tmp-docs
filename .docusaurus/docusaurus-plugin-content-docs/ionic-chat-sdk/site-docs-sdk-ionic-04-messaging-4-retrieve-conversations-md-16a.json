@@ -1,0 +1,29 @@
+{
+  "id": "messaging/4 Retrieve Conversations",
+  "title": "Retrieve Conversations",
+  "description": "Conversations provide the last messages for every one-on-one and group conversation the logged-in user is a part of. This makes it easy for you to build a Recent Chat list.",
+  "source": "@site/docs/sdk/ionic/04-messaging/4 Retrieve Conversations.md",
+  "sourceDirName": "04-messaging",
+  "slug": "/retrieve-conversations",
+  "permalink": "/docs/sdk/ionic/retrieve-conversations",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Retrieve Conversations",
+    "slug": "/retrieve-conversations"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Additional Message Filtering",
+    "permalink": "/docs/sdk/ionic/additional-message-filtering"
+  },
+  "next": {
+    "title": "Threaded Messages",
+    "permalink": "/docs/sdk/ionic/threaded-messages"
+  }
+}

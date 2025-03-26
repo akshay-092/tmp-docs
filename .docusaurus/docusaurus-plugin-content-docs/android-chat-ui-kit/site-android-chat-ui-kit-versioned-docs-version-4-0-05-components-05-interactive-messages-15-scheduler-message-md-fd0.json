@@ -1,0 +1,29 @@
+{
+  "id": "Components/Interactive Messages/Scheduler Message",
+  "title": "Scheduler Message",
+  "description": "The SchedulerMessage class is used to create an interactive scheduler message that can be sent via CometChat. It extends the Interactive Messages class from CometChat.",
+  "source": "@site/android-chat-ui-kit_versioned_docs/version-4.0/05-Components/05-Interactive Messages/15-Scheduler Message.md",
+  "sourceDirName": "05-Components/05-Interactive Messages",
+  "slug": "/interactive-scheduler-message",
+  "permalink": "/docs/ui-kit/android/v4/interactive-scheduler-message",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "4.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 15,
+  "frontMatter": {
+    "sidebar_position": 15,
+    "title": "Scheduler Message",
+    "slug": "/interactive-scheduler-message"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Spinner Element",
+    "permalink": "/docs/ui-kit/android/v4/interactive-spinner-element"
+  },
+  "next": {
+    "title": "DateTimeElement",
+    "permalink": "/docs/ui-kit/android/v4/interactive-date-time-element"
+  }
+}

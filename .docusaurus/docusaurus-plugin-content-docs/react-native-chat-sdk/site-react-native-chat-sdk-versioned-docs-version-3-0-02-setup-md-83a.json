@@ -1,0 +1,29 @@
+{
+  "id": "Setup",
+  "title": "Setup",
+  "description": "Skip the create new app step. Your existing v2 app can be migrated to v3.",
+  "source": "@site/react-native-chat-sdk_versioned_docs/version-3.0/02-Setup.md",
+  "sourceDirName": ".",
+  "slug": "/setup",
+  "permalink": "/docs/sdk/react-native/3.0/setup",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Setup",
+    "slug": "/setup"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Rate Limits",
+    "permalink": "/docs/sdk/react-native/3.0/rate-limits"
+  },
+  "next": {
+    "title": "Authentication",
+    "permalink": "/docs/sdk/react-native/3.0/authentication"
+  }
+}

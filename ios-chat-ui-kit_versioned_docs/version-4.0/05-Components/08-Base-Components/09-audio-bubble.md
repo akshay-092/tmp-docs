@@ -1,0 +1,59 @@
+---
+sidebar_position: 8
+title: Audio Bubble
+slug: /audio-bubble
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+`CometChatAudioBubble` is the content view for a MediaMessage if the media sent is an audio.
+
+## Methods
+
+| Methods                      | Type             | Description                                        |
+| ---------------------------- | ---------------- | -------------------------------------------------- |
+| set(fileURL: String)         | String           | used to set the audio url for the bubble           |
+| set(title: String)           | String           | a text to display as name of the audio file        |
+| set(subTitle: String)        | String           | a text to display below the name of the audio file |
+| set(style: AudioBubbleStyle) | AudioBubbleStyle | used to customize appearance of this bubble        |
+| set(playIcon: UIImage)       | UIImage          | customize the icon to display to play the audio    |
+
+## AudioBubbleStyle
+
+AudioBubbleStyle is the class containing methods to customize appearance of this bubble.
+
+| Methods                                 | Type                 | Description                                  |
+| --------------------------------------- | -------------------- | -------------------------------------------- |
+| set(titleColor: UIColor)                | UIColor              | used to set title text color of the message  |
+| set(titleFont: UIFont)                  | UIFont               | used to set title font of the message        |
+| set(iconTint: UIColor)                  | UIColor              | used to provide color to the audio play icon |
+| set(background: UIColor)                | UIColor              | used to set background color                 |
+| set(borderColor: UIColor)               | UIColor              | used to set a border color                   |
+| set(borderWidth: CGFloat)               | CGFloat              | used to set border                           |
+| set(cornerRadius: CometChatCornerStyle) | CometChatCornerStyle | used to set border radius                    |
+
+## Usage
+
+<Tabs>
+<TabItem value="Swift" label="Swift">
+
+```swift
+//create audio bubble style object
+ let audioBubbleStyle = AudioBubbleStyle()
+
+//modify style properties
+    audioBubbleStyle.set(background: .black)
+        audioBubbleStyle.set(borderWidth: 2.0)
+        audioBubbleStyle.set(borderColor: .black)
+        audioBubbleStyle.set(cornerRadius: CometChatCornerStyle(cornerRadius: 5.0))
+        audioBubbleStyle.set(titleColor: .red)
+        audioBubbleStyle.set(titleFont:UIFont.systemFont(ofSize: 12.0))
+        audioBubbleStyle.set(iconTint: .darkGray)
+
+   //set style to the audio bubble object
+    audioBubble.set(style: audioBubbleStyle)
+```
+
+</TabItem>
+</Tabs>

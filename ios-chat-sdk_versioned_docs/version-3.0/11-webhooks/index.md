@@ -1,0 +1,147 @@
+---
+sidebar_position: 11
+title: Webhooks
+slug: /webhooks
+---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+CometChat can send webhook events that notify your application any time an event happens on your account.
+
+
+## Setting up webhooks
+
+
+
+### Create a webhook endpoint
+
+Webhook data is sent as JSON in the POST request body. Creating a webhook endpoint on your server is no different from creating any page on your website. With PHP, you might create a new .php file on your server; with a Ruby framework like Sinatra, you would add a new route with the desired URL.
+
+
+
+### Test the endpoint locally
+
+Once you’ve added an endpoint to your server, start an instance locally and use a tool like [ngrok](https://ngrok.com) to make your endpoint available for receiving events.
+
+Start ngrok in a command prompt with the same port number that you have configured for your server (e.g., ./ngrok http 8000). You should see information about your tunnel session such as status, expiration, and version. Take note of the Forwarding addresses (e.g., https://xxxxxxxx.ngrok.io -> localhost:8000) as this is required for the following step.
+
+
+
+### Configure webhook settings
+
+With your endpoint created, you need to tell CometChat about where to send events to. In the Dashboard's Webhooks section, click **Create Webhook** to reveal a form to add a new webhook for receiving events. You can enter any URL as the destination for events. However, this should be a dedicated page on your server that is set up to receive webhook events.
+
+Once you've created the webhook, click **View/Update** to add a trigger. We support two types of triggers-
+
+| Trigger | Description | 
+| ---- | ---- | 
+| after_message | The endpoint will be triggered after a message is sent. | 
+| before_message | The endpoint will be triggered when a message is in-flight. | 
+
+
+The `after_message` trigger is fairly straightforward. CometChat will call your endpoint once a message has been sent.
+
+The `before_message` trigger is useful when you want to add metadata to a message before it reaches the recipient. The data you return will be automatically added to the message metadata:
+
+<Tabs>
+<TabItem value="JSON" label="JSON">
+
+```json
+{
+  "@injected": {
+    "webhooks": {
+      "webhook-id": {
+        // JSON Object Response From Endpoint
+      }
+    }
+  }
+}
+```
+</TabItem>
+</Tabs>
+
+
+
+You can also decide to drop a message by returning the following JSON object-
+<Tabs>
+<TabItem value="JSON" label="JSON">
+
+```json
+{
+  "action": "do_not_propagate"
+}
+```
+</TabItem>
+</Tabs>
+
+
+
+
+
+### Processing the data
+
+Here is a sample format for the data you will receive-
+<Tabs>
+<TabItem value="JSON" label="JSON">
+
+```json
+{
+    "trigger": "after_message",
+    "data": {
+        "id": "<message id>",
+        "sender": "<sender uid>",
+        "receiverType": "<receiverType can be user or group>",
+        "receiver": "<receiver uid>",
+        "category": "<message category>",
+        "type": "<message type>",
+        "data": {
+            "text": "Hi",
+            "entities": {
+                "sender": {
+                    "entity": {
+                        "uid": "<sender uid>",
+                        "name": "<sender name>",
+                        "avatar": "<sender avatar>",
+                        "metadata": {
+                            "<key>": "<value>",
+                            "@private": {
+                                "<key>": "<value>",
+                            },
+                        },
+                        "status": "<status>",
+                        "role": "<role>",
+                    },
+                    "entityType": "user",
+                },
+                "receiver": {
+                    "entity": {
+                        "uid":  "<receiver uid>",
+                        "name":  "<receiver name>",
+                        "avatar": "<receiver avatar>",
+                        "metadata": {
+                            "<key>": "<value>",
+                            "@private": {
+                                "<key>": "<value>",
+                            },
+                        },
+                        "status": "<status>",
+                        "role": "<role>",
+                    },
+                    "entityType": "<receiver entityType can be either user or group>",
+                },
+            },
+        },
+        "sentAt": <unix timestamp at which message was sent>,
+        "updatedAt": <unix timestamp at which message was updated>,
+        "receipts": {
+            "data": {},
+        },
+    },
+    "appId": "<appId>",
+    "<interface type can be extension, bot or webhook>": "<interface id>",
+}
+```
+</TabItem>
+</Tabs>
+
+

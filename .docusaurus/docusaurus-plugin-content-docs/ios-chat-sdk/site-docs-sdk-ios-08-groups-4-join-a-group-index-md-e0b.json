@@ -1,0 +1,29 @@
+{
+  "id": "groups/4 Join a Group/index",
+  "title": "Join a Group",
+  "description": "Join a Group",
+  "source": "@site/docs/sdk/ios/08-groups/4 Join a Group/index.md",
+  "sourceDirName": "08-groups/4 Join a Group",
+  "slug": "/join-group",
+  "permalink": "/docs/sdk/ios/join-group",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Join a Group",
+    "slug": "/join-group"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Update a Group",
+    "permalink": "/docs/sdk/ios/update-group"
+  },
+  "next": {
+    "title": "Leave a Group",
+    "permalink": "/docs/sdk/ios/leave-group"
+  }
+}

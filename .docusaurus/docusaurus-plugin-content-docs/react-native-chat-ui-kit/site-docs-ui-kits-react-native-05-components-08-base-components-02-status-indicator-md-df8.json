@@ -1,0 +1,29 @@
+{
+  "id": "Components/Base Components/status-indicator",
+  "title": "Status Indicator",
+  "description": "CometChatStatusIndicator is a customised component which indicates whether user is online or offline.",
+  "source": "@site/docs/ui-kits/react-native/05-Components/08- Base Components/02-status-indicator.md",
+  "sourceDirName": "05-Components/08- Base Components",
+  "slug": "/status-indicator",
+  "permalink": "/docs/ui-kit/react-native/status-indicator",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Status Indicator",
+    "slug": "/status-indicator"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Avatar",
+    "permalink": "/docs/ui-kit/react-native/avatar"
+  },
+  "next": {
+    "title": "Badge",
+    "permalink": "/docs/ui-kit/react-native/badge"
+  }
+}

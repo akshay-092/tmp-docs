@@ -1,0 +1,132 @@
+---
+sidebar_position: 9
+title: Typing Indicators
+slug: /typing-indicators
+---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+## Send a Typing Indicator
+
+_In other words, as a sender, how do I let the recipient(s) know that I'm typing?_
+
+
+
+### Start Typing
+
+You can use the `startTyping()` method to inform the receiver that the logged-in user has started typing. The receiver will receive this information in the `onTypingStarted()` method of the `CometChatMessageDelegate` protocol conformance. In order to send the typing indicator, you need to use the `TypingIndicator` class.
+
+<Tabs>
+<TabItem value="Swift" label="Swift">
+
+```swift
+let typingIndicator = TypingIndicator(receiverID: "receiverUID", receiverType: .user)
+
+CometChat.startTyping(indicator: typingIndicator)
+```
+</TabItem>
+<TabItem value="Objective C" label="Objective C">
+
+```objectivec
+TypingIndicator *typingIndicator = [[TypingIndicator alloc]initWithReceiverID:@"receiverID" receiverType: ReceiverTypeUser metadata:nil];
+
+[CometChat startTypingWithIndicator:typingIndicator];
+```
+</TabItem>
+</Tabs>
+
+
+
+### Stop Typing
+
+You can use the `endTyping()` method to inform the receiver that the logged-in user has stopped typing. The receiver will receive this information in the `onTypingEnded()` method of the `CometChatMessageDelegate` protocol conformance. In order to send the typing indicator, you need to use the `TypingIndicator` class.
+
+<Tabs>
+<TabItem value="Swift" label="Swift">
+
+```swift
+let typingIndicator = TypingIndicator(receiverID: "receiverUID", receiverType: .user)
+
+CometChat.endTyping(indicator: typingIndicator)
+```
+</TabItem>
+<TabItem value="Objective C" label="Objective C">
+
+```objectivec
+TypingIndicator *typingIndicator = [[TypingIndicator alloc]initWithReceiverID:@"receiverID" receiverType: ReceiverTypeUser metadata:nil];
+
+[CometChat endTypingWithIndicator:typingIndicator];
+```
+</TabItem>
+</Tabs>
+
+
+
+
+:::info Custom Data
+You can use the `metaData` field of the `TypingIndicator` class to pass additional data along with the typing indicators. A metaData field is a dictionary and this property can be set from `TypingIndicator` class. This data will be received at the receiver end and can be obtained using the `metaData` property.
+:::
+
+
+## Real-time Typing Indicators
+
+_In other words, as a recipient, how do I know when someone is typing?_
+
+You will receive the typing indicators in the `onTypingStarted()` and the `onTypingEnded()` method of the `CometChatMessageDelegate`. In order to receive typing indicators, you must add protocol conformance `CometChatMessageDelegate`.
+
+<Tabs>
+<TabItem value="Swift" label="Swift">
+
+```swift
+extension ViewController: CometChatMessageDelegate {
+
+  func onTypingStarted(_ typingDetails : TypingIndicator) {
+
+    print("Typing started received successfully")
+  }
+
+  func onTypingEnded(_ typingDetails : TypingIndicator) {
+
+    print("Typing ended received successfully")
+  }
+}
+```
+</TabItem>
+<TabItem value="Objective C" label="Objective C">
+
+```objectivec
+@interface ViewController ()<CometChatMessageDelegate>
+
+@end
+
+@implementation ViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    CometChat.messagedelegate = self ;
+}
+
+- (void)onTypingStarted:(TypingIndicator *)typingDetails {
+    NSLog(@"Typing started received successfully");
+}
+
+- (void)onTypingEnded:(TypingIndicator *)typingDetails {
+    NSLog(@"Typing ended received successfully");
+}
+
+@end
+```
+</TabItem>
+</Tabs>
+
+
+The `TypingIndicator` class consists of the below parameters:
+
+| Parameter | Information | 
+| ---- | ---- | 
+| sender | An object of the `User` class holding all the information. related to the sender of the typing indicator. | 
+| receiverId | unique Id of the receiver. This can be the Id of the group or the user the typing indicator is sent to. | 
+| receiverType | This parameter indicates if the typing indicator is to be sent to a user or a group. The possible values are:<br />1. `CometChat.ReceiverType.user`<br />2. `CometChat.ReceiverType.group` | 
+| metaData | A Dictionary to provide additional data | 
+

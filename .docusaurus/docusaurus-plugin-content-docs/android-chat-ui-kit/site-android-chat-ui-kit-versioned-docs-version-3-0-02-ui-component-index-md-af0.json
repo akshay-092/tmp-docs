@@ -1,0 +1,29 @@
+{
+  "id": "ui-component/index",
+  "title": "UI Components",
+  "description": "UI Components are building a block of the UI Kit. UI Components are a set of custom classes specially designed to build a feature-rich chat app.  To achieve high customizability while building an app one can use the UI Components. There are different UI Components available in the UI Kit library.",
+  "source": "@site/android-chat-ui-kit_versioned_docs/version-3.0/02-ui-component/index.md",
+  "sourceDirName": "02-ui-component",
+  "slug": "/android-java-ui-components",
+  "permalink": "/docs/ui-kit/android/v3/android-java-ui-components",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "UI Components",
+    "slug": "/android-java-ui-components"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "How to add UIKit Module?",
+    "permalink": "/docs/ui-kit/android/v3/how-to-add-uikit-module"
+  },
+  "next": {
+    "title": "Customize Ui Kit",
+    "permalink": "/docs/ui-kit/android/v3/android-customize-ui-kit"
+  }
+}

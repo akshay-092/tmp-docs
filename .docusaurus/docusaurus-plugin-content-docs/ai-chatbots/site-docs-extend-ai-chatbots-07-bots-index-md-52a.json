@@ -1,0 +1,25 @@
+{
+  "id": "bots/index",
+  "title": "Non-AI Bots",
+  "description": "In CometChat, non-AI bots are unique users capable of autonomously sending and receiving messages.",
+  "source": "@site/docs/extend/ai-chatbots/07-bots/index.md",
+  "sourceDirName": "07-bots",
+  "slug": "/non-ai-bots",
+  "permalink": "/docs/ai-chatbots/non-ai-bots",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "title": "Non-AI Bots",
+    "slug": "/non-ai-bots"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AI Instructions",
+    "permalink": "/docs/ai-chatbots/instructions"
+  }
+}

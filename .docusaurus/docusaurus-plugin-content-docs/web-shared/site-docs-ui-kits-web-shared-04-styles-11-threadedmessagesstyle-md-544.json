@@ -1,0 +1,29 @@
+{
+  "id": "STYLES/threadedmessagesstyle",
+  "title": "ThreadedMessagesStyle",
+  "description": "Styling properties of the CometChatThreadedMessages component.",
+  "source": "@site/docs/ui-kits/web-shared/04-STYLES/11-threadedmessagesstyle.md",
+  "sourceDirName": "04-STYLES",
+  "slug": "/threadedmessagesstyle",
+  "permalink": "/docs/web-shared/threadedmessagesstyle",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11,
+    "title": "ThreadedMessagesStyle",
+    "slug": "/threadedmessagesstyle"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MessagesStyle",
+    "permalink": "/docs/web-shared/messagesstyle"
+  },
+  "next": {
+    "title": "CreateGroupStyle",
+    "permalink": "/docs/web-shared/creategroupstyle"
+  }
+}

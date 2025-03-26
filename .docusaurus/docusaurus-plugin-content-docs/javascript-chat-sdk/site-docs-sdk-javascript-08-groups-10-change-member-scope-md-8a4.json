@@ -1,0 +1,29 @@
+{
+  "id": "groups/change-member-scope",
+  "title": "Change Member Scope",
+  "description": "Change Scope of a Group Member",
+  "source": "@site/docs/sdk/javascript/08-groups/10-change-member-scope.md",
+  "sourceDirName": "08-groups",
+  "slug": "/group-change-member-scope",
+  "permalink": "/docs/sdk/javascript/group-change-member-scope",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10,
+    "title": "Change Member Scope",
+    "slug": "/group-change-member-scope"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ban or Kick Member from a Group",
+    "permalink": "/docs/sdk/javascript/group-kick-ban-members"
+  },
+  "next": {
+    "title": "Transfer Group Ownership",
+    "permalink": "/docs/sdk/javascript/transfer-group-ownership"
+  }
+}

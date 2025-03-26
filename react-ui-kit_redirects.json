@@ -1,0 +1,778 @@
+[
+  {
+    "from": "/ui-kit/react",
+    "to": "/ui-kit/react/v6/overview"
+  },
+  {
+    "from": "/ui-kit/react/v6",
+    "to": "/ui-kit/react/v6/overview"
+  },
+  {
+    "from": "/ui-kit/react/v5",
+    "to": "/ui-kit/react/v5/overview"
+  },
+  {
+    "from": "/ui-kit/react/5.0",
+    "to": "/ui-kit/react/v5/overview"
+  },
+  {
+    "from": "/ui-kit/react/4.0",
+    "to": "/ui-kit/react/v4/overview"
+  },
+  {
+    "from": "/ui-kit/react/3.0",
+    "to": "/ui-kit/react/v3/overview"
+  },
+  {
+    "from": "/ui-kit/react/2.0",
+    "to": "/ui-kit/react/v2/overview"
+  },
+  {
+    "from": "/ui-kit/react/overview",
+    "to": "/ui-kit/react/v5/overview"
+  },
+  {
+    "from": "/ui-kit/react/5.0/overview",
+    "to": "/ui-kit/react/v5/overview"
+  },
+  {
+    "from": "/ui-kit/react/integration",
+    "to": "/ui-kit/react/v5/integration"
+  },
+  {
+    "from": "/ui-kit/react/5.0/integration",
+    "to": "/ui-kit/react/v5/integration"
+  },
+  {
+    "from": "/ui-kit/react/integration/next-js",
+    "to": "/ui-kit/react/v5/integration/next-js"
+  },
+  {
+    "from": "/ui-kit/react/5.0/integration/next-js",
+    "to": "/ui-kit/react/v5/integration/next-js"
+  },
+  {
+    "from": "/ui-kit/react/core-features",
+    "to": "/ui-kit/react/v5/core-features"
+  },
+  {
+    "from": "/ui-kit/react/5.0/core-features",
+    "to": "/ui-kit/react/v5/core-features"
+  },
+  {
+    "from": "/ui-kit/react/extensions",
+    "to": "/ui-kit/react/v5/extensions"
+  },
+  {
+    "from": "/ui-kit/react/5.0/extensions",
+    "to": "/ui-kit/react/v5/extensions"
+  },
+  {
+    "from": "/ui-kit/react/ai-features",
+    "to": "/ui-kit/react/v5/ai-features"
+  },
+  {
+    "from": "/ui-kit/react/5.0/ai-features",
+    "to": "/ui-kit/react/v5/ai-features"
+  },
+  {
+    "from": "/ui-kit/react/call-features",
+    "to": "/ui-kit/react/v5/call-features"
+  },
+  {
+    "from": "/ui-kit/react/5.0/call-features",
+    "to": "/ui-kit/react/v5/call-features"
+  },
+  {
+    "from": "/ui-kit/react/theme",
+    "to": "/ui-kit/react/v5/theme"
+  },
+  {
+    "from": "/ui-kit/react/5.0/theme",
+    "to": "/ui-kit/react/v5/theme"
+  },
+  {
+    "from": "/ui-kit/react/theme/color-resources",
+    "to": "/ui-kit/react/v5/theme/color-resources"
+  },
+  {
+    "from": "/ui-kit/react/5.0/theme/color-resources",
+    "to": "/ui-kit/react/v5/theme/color-resources"
+  },
+  {
+    "from": "/ui-kit/react/theme/message-bubble-styling",
+    "to": "/ui-kit/react/v5/theme/message-bubble-styling"
+  },
+  {
+    "from": "/ui-kit/react/5.0/theme/message-bubble-styling",
+    "to": "/ui-kit/react/v5/theme/message-bubble-styling"
+  },
+  {
+    "from": "/ui-kit/react/localize",
+    "to": "/ui-kit/react/v5/localize"
+  },
+  {
+    "from": "/ui-kit/react/5.0/localize",
+    "to": "/ui-kit/react/v5/localize"
+  },
+  {
+    "from": "/ui-kit/react/sound-manager",
+    "to": "/ui-kit/react/v5/sound-manager"
+  },
+  {
+    "from": "/ui-kit/react/5.0/sound-manager",
+    "to": "/ui-kit/react/v5/sound-manager"
+  },
+  {
+    "from": "/ui-kit/react/components-overview",
+    "to": "/ui-kit/react/v5/components-overview"
+  },
+  {
+    "from": "/ui-kit/react/5.0/components-overview",
+    "to": "/ui-kit/react/v5/components-overview"
+  },
+  {
+    "from": "/ui-kit/react/conversations",
+    "to": "/ui-kit/react/v5/conversations"
+  },
+  {
+    "from": "/ui-kit/react/5.0/conversations",
+    "to": "/ui-kit/react/v5/conversations"
+  },
+  {
+    "from": "/ui-kit/react/users",
+    "to": "/ui-kit/react/v5/users"
+  },
+  {
+    "from": "/ui-kit/react/5.0/users",
+    "to": "/ui-kit/react/v5/users"
+  },
+  {
+    "from": "/ui-kit/react/groups",
+    "to": "/ui-kit/react/v5/groups"
+  },
+  {
+    "from": "/ui-kit/react/5.0/groups",
+    "to": "/ui-kit/react/v5/groups"
+  },
+  {
+    "from": "/ui-kit/react/group-members",
+    "to": "/ui-kit/react/v5/group-members"
+  },
+  {
+    "from": "/ui-kit/react/5.0/group-members",
+    "to": "/ui-kit/react/v5/group-members"
+  },
+  {
+    "from": "/ui-kit/react/message-header",
+    "to": "/ui-kit/react/v5/message-header"
+  },
+  {
+    "from": "/ui-kit/react/5.0/message-header",
+    "to": "/ui-kit/react/v5/message-header"
+  },
+  {
+    "from": "/ui-kit/react/message-list",
+    "to": "/ui-kit/react/v5/message-list"
+  },
+  {
+    "from": "/ui-kit/react/5.0/message-list",
+    "to": "/ui-kit/react/v5/message-list"
+  },
+  {
+    "from": "/ui-kit/react/message-composer",
+    "to": "/ui-kit/react/v5/message-composer"
+  },
+  {
+    "from": "/ui-kit/react/5.0/message-composer",
+    "to": "/ui-kit/react/v5/message-composer"
+  },
+  {
+    "from": "/ui-kit/react/message-template",
+    "to": "/ui-kit/react/v5/message-template"
+  },
+  {
+    "from": "/ui-kit/react/5.0/message-template",
+    "to": "/ui-kit/react/v5/message-template"
+  },
+  {
+    "from": "/ui-kit/react/threaded-message-preview",
+    "to": "/ui-kit/react/v5/threaded-message-preview"
+  },
+  {
+    "from": "/ui-kit/react/5.0/threaded-message-preview",
+    "to": "/ui-kit/react/v5/threaded-message-preview"
+  },
+  {
+    "from": "/ui-kit/react/incoming-call",
+    "to": "/ui-kit/react/v5/incoming-call"
+  },
+  {
+    "from": "/ui-kit/react/5.0/incoming-call",
+    "to": "/ui-kit/react/v5/incoming-call"
+  },
+  {
+    "from": "/ui-kit/react/outgoing-call",
+    "to": "/ui-kit/react/v5/outgoing-call"
+  },
+  {
+    "from": "/ui-kit/react/5.0/outgoing-call",
+    "to": "/ui-kit/react/v5/outgoing-call"
+  },
+  {
+    "from": "/ui-kit/react/call-buttons",
+    "to": "/ui-kit/react/v5/call-buttons"
+  },
+  {
+    "from": "/ui-kit/react/5.0/call-buttons",
+    "to": "/ui-kit/react/v5/call-buttons"
+  },
+  {
+    "from": "/ui-kit/react/call-logs",
+    "to": "/ui-kit/react/v5/call-logs"
+  },
+  {
+    "from": "/ui-kit/react/5.0/call-logs",
+    "to": "/ui-kit/react/v5/call-logs"
+  },
+  {
+    "from": "/ui-kit/react/events",
+    "to": "/ui-kit/react/v5/events"
+  },
+  {
+    "from": "/ui-kit/react/5.0/events",
+    "to": "/ui-kit/react/v5/events"
+  },
+  {
+    "from": "/ui-kit/react/methods",
+    "to": "/ui-kit/react/v5/methods"
+  },
+  {
+    "from": "/ui-kit/react/5.0/methods",
+    "to": "/ui-kit/react/v5/methods"
+  },
+  {
+    "from": "/ui-kit/react/custom-text-formatter-guide",
+    "to": "/ui-kit/react/v5/custom-text-formatter-guide"
+  },
+  {
+    "from": "/ui-kit/react/5.0/custom-text-formatter-guide",
+    "to": "/ui-kit/react/v5/custom-text-formatter-guide"
+  },
+  {
+    "from": "/ui-kit/react/mentions-formatter-guide",
+    "to": "/ui-kit/react/v5/mentions-formatter-guide"
+  },
+  {
+    "from": "/ui-kit/react/5.0/mentions-formatter-guide",
+    "to": "/ui-kit/react/v5/mentions-formatter-guide"
+  },
+  {
+    "from": "/ui-kit/react/url-formatter-guide",
+    "to": "/ui-kit/react/v5/url-formatter-guide"
+  },
+  {
+    "from": "/ui-kit/react/5.0/url-formatter-guide",
+    "to": "/ui-kit/react/v5/url-formatter-guide"
+  },
+  {
+    "from": "/ui-kit/react/shortcut-formatter-guide",
+    "to": "/ui-kit/react/v5/shortcut-formatter-guide"
+  },
+  {
+    "from": "/ui-kit/react/5.0/shortcut-formatter-guide",
+    "to": "/ui-kit/react/v5/shortcut-formatter-guide"
+  },
+  {
+    "from": "/ui-kit/react/upgrading-from-v4",
+    "to": "/ui-kit/react/v5/upgrading-from-v4"
+  },
+  {
+    "from": "/ui-kit/react/5.0/upgrading-from-v4",
+    "to": "/ui-kit/react/v5/upgrading-from-v4"
+  },
+  {
+    "from": "/ui-kit/react/property-changes",
+    "to": "/ui-kit/react/v5/property-changes"
+  },
+  {
+    "from": "/ui-kit/react/5.0/property-changes",
+    "to": "/ui-kit/react/v5/property-changes"
+  },
+  {
+    "from": "/ui-kit/react/4.0/overview",
+    "to": "/ui-kit/react/v4/overview"
+  },
+  {
+    "from": "/ui-kit/react/4.0/getting-started",
+    "to": "/ui-kit/react/v4/getting-started"
+  },
+  {
+    "from": "/ui-kit/react/4.0/core-features",
+    "to": "/ui-kit/react/v4/core-features"
+  },
+  {
+    "from": "/ui-kit/react/4.0/extensions",
+    "to": "/ui-kit/react/v4/extensions"
+  },
+  {
+    "from": "/ui-kit/react/4.0/call-features",
+    "to": "/ui-kit/react/v4/call-features"
+  },
+  {
+    "from": "/ui-kit/react/4.0/ai-features",
+    "to": "/ui-kit/react/v4/ai-features"
+  },
+  {
+    "from": "/ui-kit/react/4.0/theme",
+    "to": "/ui-kit/react/v4/theme"
+  },
+  {
+    "from": "/ui-kit/react/4.0/localize",
+    "to": "/ui-kit/react/v4/localize"
+  },
+  {
+    "from": "/ui-kit/react/4.0/sound-manager",
+    "to": "/ui-kit/react/v4/sound-manager"
+  },
+  {
+    "from": "/ui-kit/react/4.0/components-overview",
+    "to": "/ui-kit/react/v4/components-overview"
+  },
+  {
+    "from": "/ui-kit/react/4.0/conversations",
+    "to": "/ui-kit/react/v4/conversations"
+  },
+  {
+    "from": "/ui-kit/react/4.0/conversations-with-messages",
+    "to": "/ui-kit/react/v4/conversations-with-messages"
+  },
+  {
+    "from": "/ui-kit/react/4.0/contacts",
+    "to": "/ui-kit/react/v4/contacts"
+  },
+  {
+    "from": "/ui-kit/react/4.0/users",
+    "to": "/ui-kit/react/v4/users"
+  },
+  {
+    "from": "/ui-kit/react/4.0/users-with-messages",
+    "to": "/ui-kit/react/v4/users-with-messages"
+  },
+  {
+    "from": "/ui-kit/react/4.0/users-details",
+    "to": "/ui-kit/react/v4/users-details"
+  },
+  {
+    "from": "/ui-kit/react/4.0/groups",
+    "to": "/ui-kit/react/v4/groups"
+  },
+  {
+    "from": "/ui-kit/react/4.0/groups-with-messages",
+    "to": "/ui-kit/react/v4/groups-with-messages"
+  },
+  {
+    "from": "/ui-kit/react/4.0/create-group",
+    "to": "/ui-kit/react/v4/create-group"
+  },
+  {
+    "from": "/ui-kit/react/4.0/join-protected-group",
+    "to": "/ui-kit/react/v4/join-protected-group"
+  },
+  {
+    "from": "/ui-kit/react/4.0/group-members",
+    "to": "/ui-kit/react/v4/group-members"
+  },
+  {
+    "from": "/ui-kit/react/4.0/group-add-members",
+    "to": "/ui-kit/react/v4/group-add-members"
+  },
+  {
+    "from": "/ui-kit/react/4.0/group-banned-members",
+    "to": "/ui-kit/react/v4/group-banned-members"
+  },
+  {
+    "from": "/ui-kit/react/4.0/group-transfer-ownership",
+    "to": "/ui-kit/react/v4/group-transfer-ownership"
+  },
+  {
+    "from": "/ui-kit/react/4.0/group-details",
+    "to": "/ui-kit/react/v4/group-details"
+  },
+  {
+    "from": "/ui-kit/react/4.0/messages",
+    "to": "/ui-kit/react/v4/messages"
+  },
+  {
+    "from": "/ui-kit/react/4.0/message-header",
+    "to": "/ui-kit/react/v4/message-header"
+  },
+  {
+    "from": "/ui-kit/react/4.0/message-list",
+    "to": "/ui-kit/react/v4/message-list"
+  },
+  {
+    "from": "/ui-kit/react/4.0/message-template",
+    "to": "/ui-kit/react/v4/message-template"
+  },
+  {
+    "from": "/ui-kit/react/4.0/message-composer",
+    "to": "/ui-kit/react/v4/message-composer"
+  },
+  {
+    "from": "/ui-kit/react/4.0/message-information",
+    "to": "/ui-kit/react/v4/message-information"
+  },
+  {
+    "from": "/ui-kit/react/4.0/threaded-messages",
+    "to": "/ui-kit/react/v4/threaded-messages"
+  },
+  {
+    "from": "/ui-kit/react/4.0/interactive-form-message",
+    "to": "/ui-kit/react/v4/interactive-form-message"
+  },
+  {
+    "from": "/ui-kit/react/4.0/interactive-form-bubble",
+    "to": "/ui-kit/react/v4/interactive-form-bubble"
+  },
+  {
+    "from": "/ui-kit/react/4.0/interactive-card-message",
+    "to": "/ui-kit/react/v4/interactive-card-message"
+  },
+  {
+    "from": "/ui-kit/react/4.0/interactive-card-bubble",
+    "to": "/ui-kit/react/v4/interactive-card-bubble"
+  },
+  {
+    "from": "/ui-kit/react/4.0/interactive-element-type",
+    "to": "/ui-kit/react/v4/interactive-element-type"
+  },
+  {
+    "from": "/ui-kit/react/4.0/interactive-action-entity",
+    "to": "/ui-kit/react/v4/interactive-action-entity"
+  },
+  {
+    "from": "/ui-kit/react/4.0/interactive-custom-interactive-message",
+    "to": "/ui-kit/react/v4/interactive-custom-interactive-message"
+  },
+  {
+    "from": "/ui-kit/react/4.0/interactive-button-element",
+    "to": "/ui-kit/react/v4/interactive-button-element"
+  },
+  {
+    "from": "/ui-kit/react/4.0/interactive-text-input-element",
+    "to": "/ui-kit/react/v4/interactive-text-input-element"
+  },
+  {
+    "from": "/ui-kit/react/4.0/interactive-label-element",
+    "to": "/ui-kit/react/v4/interactive-label-element"
+  },
+  {
+    "from": "/ui-kit/react/4.0/interactive-single-select-element",
+    "to": "/ui-kit/react/v4/interactive-single-select-element"
+  },
+  {
+    "from": "/ui-kit/react/4.0/interactive-radio-button-element",
+    "to": "/ui-kit/react/v4/interactive-radio-button-element"
+  },
+  {
+    "from": "/ui-kit/react/4.0/interactive-checkbox-element",
+    "to": "/ui-kit/react/v4/interactive-checkbox-element"
+  },
+  {
+    "from": "/ui-kit/react/4.0/interactive-dropdown-element",
+    "to": "/ui-kit/react/v4/interactive-dropdown-element"
+  },
+  {
+    "from": "/ui-kit/react/4.0/interactive-scheduler-message",
+    "to": "/ui-kit/react/v4/interactive-scheduler-message"
+  },
+  {
+    "from": "/ui-kit/react/4.0/interactive-scheduler-bubble",
+    "to": "/ui-kit/react/v4/interactive-scheduler-bubble"
+  },
+  {
+    "from": "/ui-kit/react/4.0/interactive-date-time-picker-element",
+    "to": "/ui-kit/react/v4/interactive-date-time-picker-element"
+  },
+  {
+    "from": "/ui-kit/react/4.0/call-overview",
+    "to": "/ui-kit/react/v4/call-overview"
+  },
+  {
+    "from": "/ui-kit/react/4.0/incoming-call",
+    "to": "/ui-kit/react/v4/incoming-call"
+  },
+  {
+    "from": "/ui-kit/react/4.0/ongoing-call",
+    "to": "/ui-kit/react/v4/ongoing-call"
+  },
+  {
+    "from": "/ui-kit/react/4.0/outgoing-call",
+    "to": "/ui-kit/react/v4/outgoing-call"
+  },
+  {
+    "from": "/ui-kit/react/4.0/call-buttons",
+    "to": "/ui-kit/react/v4/call-buttons"
+  },
+  {
+    "from": "/ui-kit/react/4.0/call-logs",
+    "to": "/ui-kit/react/v4/call-logs"
+  },
+  {
+    "from": "/ui-kit/react/4.0/call-log-details",
+    "to": "/ui-kit/react/v4/call-log-details"
+  },
+  {
+    "from": "/ui-kit/react/4.0/call-log-history",
+    "to": "/ui-kit/react/v4/call-log-history"
+  },
+  {
+    "from": "/ui-kit/react/4.0/call-log-recording",
+    "to": "/ui-kit/react/v4/call-log-recording"
+  },
+  {
+    "from": "/ui-kit/react/4.0/call-log-participants",
+    "to": "/ui-kit/react/v4/call-log-participants"
+  },
+  {
+    "from": "/ui-kit/react/4.0/call-log-with-details",
+    "to": "/ui-kit/react/v4/call-log-with-details"
+  },
+  {
+    "from": "/ui-kit/react/4.0/reaction",
+    "to": "/ui-kit/react/v4/reaction"
+  },
+  {
+    "from": "/ui-kit/react/4.0/reaction-list",
+    "to": "/ui-kit/react/v4/reaction-list"
+  },
+  {
+    "from": "/ui-kit/react/4.0/reaction-info",
+    "to": "/ui-kit/react/v4/reaction-info"
+  },
+  {
+    "from": "/ui-kit/react/4.0/user-member-wrapper",
+    "to": "/ui-kit/react/v4/user-member-wrapper"
+  },
+  {
+    "from": "/ui-kit/react/4.0/avatar",
+    "to": "/ui-kit/react/v4/avatar"
+  },
+  {
+    "from": "/ui-kit/react/4.0/status-indicator",
+    "to": "/ui-kit/react/v4/status-indicator"
+  },
+  {
+    "from": "/ui-kit/react/4.0/badge",
+    "to": "/ui-kit/react/v4/badge"
+  },
+  {
+    "from": "/ui-kit/react/4.0/receipt",
+    "to": "/ui-kit/react/v4/receipt"
+  },
+  {
+    "from": "/ui-kit/react/4.0/date",
+    "to": "/ui-kit/react/v4/date"
+  },
+  {
+    "from": "/ui-kit/react/4.0/text-bubble",
+    "to": "/ui-kit/react/v4/text-bubble"
+  },
+  {
+    "from": "/ui-kit/react/4.0/image-bubble",
+    "to": "/ui-kit/react/v4/image-bubble"
+  },
+  {
+    "from": "/ui-kit/react/4.0/file-bubble",
+    "to": "/ui-kit/react/v4/file-bubble"
+  },
+  {
+    "from": "/ui-kit/react/4.0/audio-bubble",
+    "to": "/ui-kit/react/v4/audio-bubble"
+  },
+  {
+    "from": "/ui-kit/react/4.0/video-bubble",
+    "to": "/ui-kit/react/v4/video-bubble"
+  },
+  {
+    "from": "/ui-kit/react/4.0/message-bubble",
+    "to": "/ui-kit/react/v4/message-bubble"
+  },
+  {
+    "from": "/ui-kit/react/4.0/document-bubble",
+    "to": "/ui-kit/react/v4/document-bubble"
+  },
+  {
+    "from": "/ui-kit/react/4.0/message-input",
+    "to": "/ui-kit/react/v4/message-input"
+  },
+  {
+    "from": "/ui-kit/react/4.0/action-sheet",
+    "to": "/ui-kit/react/v4/action-sheet"
+  },
+  {
+    "from": "/ui-kit/react/4.0/media-recorder",
+    "to": "/ui-kit/react/v4/media-recorder"
+  },
+  {
+    "from": "/ui-kit/react/4.0/list-item",
+    "to": "/ui-kit/react/v4/list-item"
+  },
+  {
+    "from": "/ui-kit/react/4.0/confirm-dialog",
+    "to": "/ui-kit/react/v4/confirm-dialog"
+  },
+  {
+    "from": "/ui-kit/react/4.0/backdrop",
+    "to": "/ui-kit/react/v4/backdrop"
+  },
+  {
+    "from": "/ui-kit/react/4.0/emoji-keyboard",
+    "to": "/ui-kit/react/v4/emoji-keyboard"
+  },
+  {
+    "from": "/ui-kit/react/4.0/modal",
+    "to": "/ui-kit/react/v4/modal"
+  },
+  {
+    "from": "/ui-kit/react/4.0/pop-over",
+    "to": "/ui-kit/react/v4/pop-over"
+  },
+  {
+    "from": "/ui-kit/react/4.0/icon",
+    "to": "/ui-kit/react/v4/icon"
+  },
+  {
+    "from": "/ui-kit/react/4.0/loader",
+    "to": "/ui-kit/react/v4/loader"
+  },
+  {
+    "from": "/ui-kit/react/4.0/icon-button",
+    "to": "/ui-kit/react/v4/icon-button"
+  },
+  {
+    "from": "/ui-kit/react/4.0/button-group",
+    "to": "/ui-kit/react/v4/button-group"
+  },
+  {
+    "from": "/ui-kit/react/4.0/label",
+    "to": "/ui-kit/react/v4/label"
+  },
+  {
+    "from": "/ui-kit/react/4.0/input",
+    "to": "/ui-kit/react/v4/input"
+  },
+  {
+    "from": "/ui-kit/react/4.0/search-input",
+    "to": "/ui-kit/react/v4/search-input"
+  },
+  {
+    "from": "/ui-kit/react/4.0/checkbox",
+    "to": "/ui-kit/react/v4/checkbox"
+  },
+  {
+    "from": "/ui-kit/react/4.0/radio-button",
+    "to": "/ui-kit/react/v4/radio-button"
+  },
+  {
+    "from": "/ui-kit/react/4.0/dropdown",
+    "to": "/ui-kit/react/v4/dropdown"
+  },
+  {
+    "from": "/ui-kit/react/4.0/cometchat-quick-view",
+    "to": "/ui-kit/react/v4/cometchat-quick-view"
+  },
+  {
+    "from": "/ui-kit/react/4.0/singleselect",
+    "to": "/ui-kit/react/v4/singleselect"
+  },
+  {
+    "from": "/ui-kit/react/4.0/list",
+    "to": "/ui-kit/react/v4/list"
+  },
+  {
+    "from": "/ui-kit/react/4.0/events",
+    "to": "/ui-kit/react/v4/events"
+  },
+  {
+    "from": "/ui-kit/react/4.0/methods",
+    "to": "/ui-kit/react/v4/methods"
+  },
+  {
+    "from": "/ui-kit/react/4.0/multi-tab-chat-ui-guide",
+    "to": "/ui-kit/react/v4/multi-tab-chat-ui-guide"
+  },
+  {
+    "from": "/ui-kit/react/4.0/next-js-integration-guide",
+    "to": "/ui-kit/react/v4/next-js-integration-guide"
+  },
+  {
+    "from": "/ui-kit/react/4.0/custom-text-formatter-guide",
+    "to": "/ui-kit/react/v4/custom-text-formatter-guide"
+  },
+  {
+    "from": "/ui-kit/react/4.0/mentions-formatter-guide",
+    "to": "/ui-kit/react/v4/mentions-formatter-guide"
+  },
+  {
+    "from": "/ui-kit/react/4.0/url-formatter-guide",
+    "to": "/ui-kit/react/v4/url-formatter-guide"
+  },
+  {
+    "from": "/ui-kit/react/4.0/shortcut-formatter-guide",
+    "to": "/ui-kit/react/v4/shortcut-formatter-guide"
+  },
+  {
+    "from": "/ui-kit/react/3.0/key-concepts",
+    "to": "/ui-kit/react/v3/key-concepts"
+  },
+  {
+    "from": "/ui-kit/react/3.0/overview",
+    "to": "/ui-kit/react/v3/overview"
+  },
+  {
+    "from": "/ui-kit/react/3.0/ui-components",
+    "to": "/ui-kit/react/v3/ui-components"
+  },
+  {
+    "from": "/ui-kit/react/3.0/customize",
+    "to": "/ui-kit/react/v3/customize"
+  },
+  {
+    "from": "/ui-kit/react/3.0/nextjs",
+    "to": "/ui-kit/react/v3/nextjs"
+  },
+  {
+    "from": "/ui-kit/react/2.0/key-concepts",
+    "to": "/ui-kit/react/v2/key-concepts"
+  },
+  {
+    "from": "/ui-kit/react/2.0/message-structure-and-hierarchy",
+    "to": "/ui-kit/react/v2/message-structure-and-hierarchy"
+  },
+  {
+    "from": "/ui-kit/react/2.0/overview",
+    "to": "/ui-kit/react/v2/overview"
+  },
+  {
+    "from": "/ui-kit/react/2.0/ui-components",
+    "to": "/ui-kit/react/v2/ui-components"
+  },
+  {
+    "from": "/ui-kit/react/2.0/customize-ui-kit",
+    "to": "/ui-kit/react/v2/customize-ui-kit"
+  },
+  {
+    "from": "/ui-kit/react/2.0/integration-with-nextjs",
+    "to": "/ui-kit/react/v2/integration-with-nextjs"
+  },
+  {
+    "from": "/ui-kit/react/v6/integration",
+    "to": "/ui-kit/react/v6/react-js-integration"
+  },
+  {
+    "from": "/ui-kit/react/v6/integration/next-js",
+    "to": "/ui-kit/react/v6/next-js-integration"
+  }
+]

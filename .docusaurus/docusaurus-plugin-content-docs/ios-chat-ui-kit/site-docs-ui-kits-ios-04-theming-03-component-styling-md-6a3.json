@@ -1,0 +1,30 @@
+{
+  "id": "Theming/component-styling",
+  "title": "Component Styling",
+  "description": "Overview",
+  "source": "@site/docs/ui-kits/ios/04-Theming/03-component-styling.md",
+  "sourceDirName": "04-Theming",
+  "slug": "/component-styling",
+  "permalink": "/docs/ui-kit/ios/v5/component-styling",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "sidebar_label": "Component Styling",
+    "title": "Component Styling",
+    "slug": "/component-styling"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Color Resources",
+    "permalink": "/docs/ui-kit/ios/v5/color-resources"
+  },
+  "next": {
+    "title": "Message Bubble Styling",
+    "permalink": "/docs/ui-kit/ios/v5/message-bubble-styling"
+  }
+}

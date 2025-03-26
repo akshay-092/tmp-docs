@@ -1,0 +1,29 @@
+{
+  "id": "Legacy Notifications (Extension)/push-notifications/ios-apns/index",
+  "title": "iOS - APNs",
+  "description": "Apple Push Notification service or APNs is used to send notifications to iOS devices. With this, you can also use Apple's CallKit for showing the call screen.",
+  "source": "@site/docs/notifications/07-Legacy Notifications (Extension)/01-push-notifications/05-ios-apns/index.md",
+  "sourceDirName": "07-Legacy Notifications (Extension)/01-push-notifications/05-ios-apns",
+  "slug": "/ios-apns-push-notifications",
+  "permalink": "/docs/notifications/ios-apns-push-notifications",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "iOS - APNs",
+    "slug": "/ios-apns-push-notifications"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "iOS - FCM",
+    "permalink": "/docs/notifications/ios-fcm-push-notifications"
+  },
+  "next": {
+    "title": "Flutter",
+    "permalink": "/docs/notifications/flutter-push-notifications"
+  }
+}

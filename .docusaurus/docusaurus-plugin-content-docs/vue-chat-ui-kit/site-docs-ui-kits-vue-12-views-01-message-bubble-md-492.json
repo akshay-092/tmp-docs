@@ -1,0 +1,29 @@
+{
+  "id": "Views/Message bubble",
+  "title": "Message Bubble",
+  "description": "This component is used to visually represent individual messages and display them in a conversation-like format.",
+  "source": "@site/docs/ui-kits/vue/12-Views/01-Message bubble.md",
+  "sourceDirName": "12-Views",
+  "slug": "/message-bubble",
+  "permalink": "/docs/ui-kit/vue/message-bubble",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Message Bubble",
+    "slug": "/message-bubble"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AI Assist Bot",
+    "permalink": "/docs/ui-kit/vue/ai-assist-bot"
+  },
+  "next": {
+    "title": "User Member Wrapper",
+    "permalink": "/docs/ui-kit/vue/user-member-wrapper"
+  }
+}

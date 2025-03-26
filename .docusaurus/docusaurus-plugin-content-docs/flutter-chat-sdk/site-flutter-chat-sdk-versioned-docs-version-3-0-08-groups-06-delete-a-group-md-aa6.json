@@ -1,0 +1,29 @@
+{
+  "id": "Groups/Delete a Group",
+  "title": "Delete a Group",
+  "description": "Delete Group",
+  "source": "@site/flutter-chat-sdk_versioned_docs/version-3.0/08-Groups/06-Delete a Group.md",
+  "sourceDirName": "08-Groups",
+  "slug": "/groups-delete-group",
+  "permalink": "/docs/sdk/flutter/3.0/groups-delete-group",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Delete a Group",
+    "slug": "/groups-delete-group"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Leave a Group",
+    "permalink": "/docs/sdk/flutter/3.0/groups-leave-group"
+  },
+  "next": {
+    "title": "Retrieve Group Members",
+    "permalink": "/docs/sdk/flutter/3.0/groups-retrieve-group-members"
+  }
+}

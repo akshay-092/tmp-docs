@@ -1,0 +1,30 @@
+{
+  "id": "Guides/multi-tab-chat-ui-guide",
+  "title": "Multi-Tab Chat UI Guide",
+  "description": "This guide will help you create a multi-tab chat user interface using the cometchatchatuikit package in Flutter. The final UI will consist of three tabs: Conversations, Users, and Groups.",
+  "source": "@site/docs/ui-kits/flutter/07-Guides/01-multi-tab-chat-ui-guide.md",
+  "sourceDirName": "07-Guides",
+  "slug": "/multi-tab-chat-ui-guide",
+  "permalink": "/docs/ui-kit/flutter/multi-tab-chat-ui-guide",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "sidebar_label": "Multi-Tab Chat UI Guide",
+    "title": "Multi-Tab Chat UI Guide",
+    "slug": "/multi-tab-chat-ui-guide"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Events",
+    "permalink": "/docs/ui-kit/flutter/events"
+  },
+  "next": {
+    "title": "Mentions Formatter",
+    "permalink": "/docs/ui-kit/flutter/mentions-formatter-guide"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Calling v3/Default Calling 2",
+  "title": "Default Calling",
+  "description": "This section will provide information on how a complete calling workflow can be set up using CometChat. We've built the complete workflow to help your users make calls, receive calls as well as accept/reject calls.",
+  "source": "@site/android-chat-sdk_versioned_docs/version-3.0/05-Calling v3/02-Default Calling 2.md",
+  "sourceDirName": "05-Calling v3",
+  "slug": "/default-calling-v3",
+  "permalink": "/docs/sdk/android/3.0/default-calling-v3",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Default Calling",
+    "slug": "/default-calling-v3"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Setup",
+    "permalink": "/docs/sdk/android/3.0/setup-v3"
+  },
+  "next": {
+    "title": "Direct Calling",
+    "permalink": "/docs/sdk/android/3.0/direct-calling-v3"
+  }
+}

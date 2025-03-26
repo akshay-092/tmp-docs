@@ -1,0 +1,29 @@
+{
+  "id": "AI/AI Assist Bot",
+  "title": "AI Assist Bot",
+  "description": "This configuration needs to be passed to AI Smart Replies Class when it is passed to `setAiFeatures()` method of `UIKitSettingsBuilder`.",
+  "source": "@site/docs/ui-kits/vue/11-AI/05-AI Assist Bot.md",
+  "sourceDirName": "11-AI",
+  "slug": "/ai-assist-bot",
+  "permalink": "/docs/ui-kit/vue/ai-assist-bot",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "AI Assist Bot",
+    "slug": "/ai-assist-bot"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AI Conversation Summary",
+    "permalink": "/docs/ui-kit/vue/ai-conversation-summary"
+  },
+  "next": {
+    "title": "Message Bubble",
+    "permalink": "/docs/ui-kit/vue/message-bubble"
+  }
+}

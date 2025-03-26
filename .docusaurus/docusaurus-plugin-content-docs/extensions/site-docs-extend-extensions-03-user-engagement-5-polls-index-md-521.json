@@ -1,0 +1,29 @@
+{
+  "id": "User Engagement/5 Polls/index",
+  "title": "Polls",
+  "description": "Polls let you quickly record the opinions directly in the Conversations and also view the results.",
+  "source": "@site/docs/extend/extensions/03-User Engagement/5 Polls/index.md",
+  "sourceDirName": "03-User Engagement/5 Polls",
+  "slug": "/polls",
+  "permalink": "/docs/extensions/polls",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Polls",
+    "slug": "/polls"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Emojis (Deprecated)",
+    "permalink": "/docs/extensions/emojis"
+  },
+  "next": {
+    "title": "Reactions",
+    "permalink": "/docs/extensions/reactions"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Components/Base Components/status-indicator",
+  "title": "Status Indicator",
+  "description": "CometChatStatusIndicator is a customized component which indicates whether user is online or offline. You can customize the borderColor, borderSize, and backgroundColor of this component.",
+  "source": "@site/react-chat-ui-kit_versioned_docs/version-4.0/05-Components/08-Base Components/02-status-indicator.md",
+  "sourceDirName": "05-Components/08-Base Components",
+  "slug": "/status-indicator",
+  "permalink": "/docs/ui-kit/react/v4/status-indicator",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "4.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Status Indicator",
+    "slug": "/status-indicator"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Avatar",
+    "permalink": "/docs/ui-kit/react/v4/avatar"
+  },
+  "next": {
+    "title": "Badge",
+    "permalink": "/docs/ui-kit/react/v4/badge"
+  }
+}

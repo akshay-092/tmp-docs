@@ -1,0 +1,29 @@
+{
+  "id": "ENUMS/datepatterns",
+  "title": "DatePatterns",
+  "description": "DatePatterns describes a specific format or arrangement used to represent dates in a human-readable form.",
+  "source": "@site/docs/ui-kits/web-shared/03-ENUMS/07-datepatterns.md",
+  "sourceDirName": "03-ENUMS",
+  "slug": "/datepatterns",
+  "permalink": "/docs/web-shared/datepatterns",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "title": "DatePatterns",
+    "slug": "/datepatterns"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "TimestampAlignment",
+    "permalink": "/docs/web-shared/timestampalignment"
+  },
+  "next": {
+    "title": "Receipts",
+    "permalink": "/docs/web-shared/receipts"
+  }
+}

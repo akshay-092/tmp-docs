@@ -1,0 +1,2572 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Import APIs",
+        "description": "Manage messages, users, groups for a particular app using our Chat API.",
+        "version": "3.0"
+    },
+    "servers": [
+        {
+            "url": "https://{appid}.api-{region}.cometchat.io/v3",
+            "variables": {
+                "appid": {
+                    "default": "appId",
+                    "description": "(Required) App ID"
+                },
+                "region": {
+                    "default": "in",
+                    "description": "Region"
+                }
+            }
+        }
+    ],
+    "paths": {
+        "/data_import/messages": {
+            "post": {
+                "tags": [
+                    "Data Import"
+                ],
+                "summary": "Import Messages",
+                "description": "The CometChat message import API allows customers to import their messages’ data into the CometChat systems.",
+                "operationId": "import-messages",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "guid",
+                                    "name",
+                                    "type"
+                                ],
+                                "properties": {
+                                    "messages": {
+                                        "description": "Wrapper for the messages.",
+                                        "required": [
+                                            "muid"
+                                        ],
+                                        "properties": {
+                                            "<muid>": {
+                                                "description": "Wraps a single message object. The <b>&lt;muid&gt;</b> will be a primary key/unique Identifier of the message.",
+                                                "required": [
+                                                    "muid",
+                                                    "sender",
+                                                    "receiverType",
+                                                    "receiver",
+                                                    "sentAt"
+                                                ],
+                                                "properties": {
+                                                    "muid": {
+                                                        "description": "The value should be the same as value of the placeholder <b>&lt;muid&gt;</b> which wraps the message object.",
+                                                        "type": "string"
+                                                    },
+                                                    "sender": {
+                                                        "description": "UID of the sender.",
+                                                        "type": "string"
+                                                    },
+                                                    "receiverType": {
+                                                        "description": "The receiverType of the message. either user or group",
+                                                        "type": "string",
+                                                        "enum": [
+                                                            "user",
+                                                            "group"
+                                                        ]
+                                                    },
+                                                    "receiver": {
+                                                        "description": "If the receiverType == “user” the UID of a user receiving the message. else GUID of the group.",
+                                                        "type": "string"
+                                                    },
+                                                    "category": {
+                                                        "description": "Category of the message. The available categories are message and custom.",
+                                                        "type": "string",
+                                                        "enum": [
+                                                            "message",
+                                                            "custom"
+                                                        ]
+                                                    },
+                                                    "type": {
+                                                        "description": "If category==”message” then the allowed values for the type are: text: for a plain text message. image: for an image message audio: for an audio message video: for a video message file: for any file if category==”custom” the customized type can be used. The developer can send the type as any random string and can use it in the implementation at the UI",
+                                                        "type": "string",
+                                                        "enum": [
+                                                            "text",
+                                                            "image",
+                                                            "file",
+                                                            "audio",
+                                                            "video"
+                                                        ]
+                                                    },
+                                                    "data": {
+                                                        "description": "Can contain any additional properties except for the key properties.",
+                                                        "properties": {
+                                                            "text": {
+                                                                "description": "The property has a fixed meaning for: 1. category==”message” && type ==”text” ⇒ it stores the text message 2. category==”message” && type !=”text” ⇒ it stores a caption for the attachment",
+                                                                "type": "string"
+                                                            },
+                                                            "customData": {
+                                                                "description": "when category==”custom”, this property can have any JSON object.",
+                                                                "type": "object"
+                                                            },
+                                                            "attachments": {
+                                                                "description": "For the messages with image, video, audio or file type (i.e. category==\"message\" && type !=\"text\"), the property contains an array of attachment objects.",
+                                                                "type": "array",
+                                                                "items": {
+                                                                    "properties": {
+                                                                        "url": {
+                                                                            "description": "Contains the URL of the attachment. The developer has to make sure that the URL is accessible while calling the data_import API. The API will be downloading the attachment from its current location and upload it to CometChat’s attachment storage.",
+                                                                            "type": "string"
+                                                                        },
+                                                                        "name": {
+                                                                            "description": "Name of the attachment.",
+                                                                            "type": "string"
+                                                                        },
+                                                                        "mimeType": {
+                                                                            "description": "Mime Type of attachment.",
+                                                                            "type": "string"
+                                                                        },
+                                                                        "extension": {
+                                                                            "description": "The extension of the attachment.",
+                                                                            "type": "string"
+                                                                        },
+                                                                        "size": {
+                                                                            "description": "The size of the attachment(in bytes).",
+                                                                            "type": "string"
+                                                                        }
+                                                                    },
+                                                                    "type": "object"
+                                                                }
+                                                            },
+                                                            "metadata": {
+                                                                "type": "object"
+                                                            }
+                                                        },
+                                                        "type": "object"
+                                                    },
+                                                    "tags": {
+                                                        "description": "String array containing developer defined tags.",
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "sentAt": {
+                                                        "description": "10-digit UNIX timestamp for the time at which the message was sent.",
+                                                        "type": "integer"
+                                                    },
+                                                    "deliveredAt": {
+                                                        "description": "A 10-digit UNIX timestamp at which the message was delivered to the receiver.",
+                                                        "type": "integer"
+                                                    },
+                                                    "readAt": {
+                                                        "description": "A 10-digit UNIX timestamp at which the message was read by the receiver.",
+                                                        "type": "integer"
+                                                    },
+                                                    "senderUserDetails": {
+                                                        "description": "If all the users are imported before importing the messages. The JSON object contains the user details of the sender.",
+                                                        "required": [
+                                                            "uid",
+                                                            "name"
+                                                        ],
+                                                        "properties": {
+                                                            "uid": {
+                                                                "description": "The primary-key/ unique identifier of the sender.",
+                                                                "type": "string"
+                                                            },
+                                                            "name": {
+                                                                "description": "Name of the sender.",
+                                                                "type": "string"
+                                                            },
+                                                            "avatar": {
+                                                                "description": "URL to the profile picture of the user sending the message.",
+                                                                "type": "string"
+                                                            },
+                                                            "link": {
+                                                                "description": "Profile page URL of the sender.",
+                                                                "type": "string"
+                                                            },
+                                                            "role": {
+                                                                "description": "Role of the sender. Should be created already via the Create role API.",
+                                                                "type": "string"
+                                                            },
+                                                            "createdAt": {
+                                                                "description": "A 10-digit timestamp at which the sender was created.",
+                                                                "type": "integer"
+                                                            },
+                                                            "lastActiveAt": {
+                                                                "description": "A 10-digit UNIX timestamp at which the sender was most recently online.",
+                                                                "type": "integer"
+                                                            },
+                                                            "metadata": {
+                                                                "description": "Additional details about the sender.",
+                                                                "type": "object"
+                                                            },
+                                                            "tags": {
+                                                                "description": "A string array containing sender tags.",
+                                                                "type": "array",
+                                                                "items": {
+                                                                    "type": "string"
+                                                                },
+                                                                "default": []
+                                                            },
+                                                            "deactivatedAt": {
+                                                                "description": "A 10-digit UNIX timestamp at which the sender was deactivated/soft-deleted/blocked to use the chat services.",
+                                                                "type": "integer"
+                                                            }
+                                                        },
+                                                        "type": "object"
+                                                    },
+                                                    "receiverUserDetails": {
+                                                        "description": "If all the users are imported before importing the messages or else required if receiverType==”user”. The JSON object contains the user details of the receiver.",
+                                                        "required": [
+                                                            "uid",
+                                                            "name"
+                                                        ],
+                                                        "properties": {
+                                                            "uid": {
+                                                                "description": "The primary-key/ unique identifier of the user receiving the message.",
+                                                                "type": "string"
+                                                            },
+                                                            "name": {
+                                                                "description": "Name of the receiver.",
+                                                                "type": "string"
+                                                            },
+                                                            "avatar": {
+                                                                "description": " URL to the profile picture of the receiver.",
+                                                                "type": "string"
+                                                            },
+                                                            "link": {
+                                                                "description": "Profile page URL of the receiver.",
+                                                                "type": "string"
+                                                            },
+                                                            "role": {
+                                                                "description": "Role of the receiver. Should be created already via the Create role API.",
+                                                                "type": "string"
+                                                            },
+                                                            "createdAt": {
+                                                                "description": "A 10-digit timestamp at which the receiver was created.",
+                                                                "type": "integer"
+                                                            },
+                                                            "lastActiveAt": {
+                                                                "description": "A 10-digit UNIX timestamp at which the receiver was most recently online.",
+                                                                "type": "integer"
+                                                            },
+                                                            "metadata": {
+                                                                "description": "Additional details about the receiver.",
+                                                                "type": "object"
+                                                            },
+                                                            "tags": {
+                                                                "description": "A string array containing receiver tags.",
+                                                                "type": "array",
+                                                                "items": {
+                                                                    "type": "string"
+                                                                },
+                                                                "default": []
+                                                            },
+                                                            "deactivatedAt": {
+                                                                "description": "A 10-digit UNIX timestamp at which the receiver was deactivated/soft-deleted/blocked to use the chat services.",
+                                                                "type": "integer"
+                                                            }
+                                                        },
+                                                        "type": "object"
+                                                    },
+                                                    "receiverGroupDetails": {
+                                                        "description": "The JSON object contains the group details of the receiver.",
+                                                        "required": [
+                                                            "guid",
+                                                            "name",
+                                                            "type"
+                                                        ],
+                                                        "properties": {
+                                                            "guid": {
+                                                                "description": "The primary-key/ unique identifier of the group.",
+                                                                "type": "string"
+                                                            },
+                                                            "name": {
+                                                                "description": "Name of the group.",
+                                                                "type": "string"
+                                                            },
+                                                            "icon": {
+                                                                "description": "An URL for a group icon.",
+                                                                "type": "string"
+                                                            },
+                                                            "type": {
+                                                                "description": "Type of the group. Can be public, password or private.",
+                                                                "type": "string",
+                                                                "enum": [
+                                                                    "public",
+                                                                    "password",
+                                                                    "private"
+                                                                ]
+                                                            },
+                                                            "password": {
+                                                                "description": "A password required to join the the group with type password",
+                                                                "type": "string"
+                                                            },
+                                                            "owner": {
+                                                                "description": "Owner of the group.",
+                                                                "type": "string"
+                                                            },
+                                                            "createdAt": {
+                                                                "description": " A 10-digit UNIX timestamp at which the group was created.",
+                                                                "type": "integer"
+                                                            },
+                                                            "metadata": {
+                                                                "description": "Additional data for the group.",
+                                                                "type": "object"
+                                                            },
+                                                            "tags": {
+                                                                "description": "A string array containing grouptags.",
+                                                                "type": "array",
+                                                                "items": {
+                                                                    "type": "string"
+                                                                },
+                                                                "default": []
+                                                            }
+                                                        },
+                                                        "type": "object"
+                                                    },
+                                                    "receiverGroupOwnerDetails": {
+                                                        "description": "The JSON object contains the user details of the owner.",
+                                                        "required": [
+                                                            "uid",
+                                                            "name"
+                                                        ],
+                                                        "properties": {
+                                                            "uid": {
+                                                                "description": "The primary-key/ unique identifier of the owner.",
+                                                                "type": "string"
+                                                            },
+                                                            "name": {
+                                                                "description": "Name of the owner.",
+                                                                "type": "string"
+                                                            },
+                                                            "avatar": {
+                                                                "description": "URL to the profile picture of the owner.",
+                                                                "type": "string"
+                                                            },
+                                                            "link": {
+                                                                "description": "Profile page URL of the owner.",
+                                                                "type": "string"
+                                                            },
+                                                            "role": {
+                                                                "description": "Role of the owner. Should be created already via the Create role API.",
+                                                                "type": "string"
+                                                            },
+                                                            "createdAt": {
+                                                                "description": "A 10-digit timestamp at which the owner was created.",
+                                                                "type": "integer"
+                                                            },
+                                                            "lastActiveAt": {
+                                                                "description": "A 10-digit UNIX timestamp at which the owner was most recently online.",
+                                                                "type": "integer"
+                                                            },
+                                                            "metadata": {
+                                                                "description": "Additional details about the owner.",
+                                                                "type": "object"
+                                                            },
+                                                            "tags": {
+                                                                "description": "A string array containing owner tags.",
+                                                                "type": "array",
+                                                                "items": {
+                                                                    "type": "string"
+                                                                },
+                                                                "default": []
+                                                            },
+                                                            "deactivatedAt": {
+                                                                "description": "A 10-digit UNIX timestamp at which the owner was deactivated/soft-deleted/blocked to use the chat services.",
+                                                                "type": "integer"
+                                                            }
+                                                        },
+                                                        "type": "object"
+                                                    }
+                                                },
+                                                "type": "object"
+                                            }
+                                        },
+                                        "type": "object",
+                                        "example": {
+                                            "3118": {
+                                                "muid": "3118",
+                                                "sender": "s12",
+                                                "receiverType": "user",
+                                                "receiver": "r123",
+                                                "type": "text",
+                                                "category": "message",
+                                                "data": {
+                                                    "text": "Hi there,",
+                                                    "attachments": [
+                                                        {
+                                                            "name": "hi.png",
+                                                            "extension": "png",
+                                                            "size": "350.2",
+                                                            "mimeType": "image/png",
+                                                            "url": "https://data-eu.cometchat.io/assets/images/avatars/cometchat-uid-1.webp"
+                                                        }
+                                                    ],
+                                                    "metadata": {
+                                                        "key": "value"
+                                                    },
+                                                    "custodata": {
+                                                        "key": "value"
+                                                    }
+                                                },
+                                                "sentAt": "1674104348",
+                                                "deliveredAt": "1674224684",
+                                                "readAt": "1674224684",
+                                                "senderUserDetails": {
+                                                    "uid": "s12",
+                                                    "name": "user1",
+                                                    "avatar": "https://data-eu.cometchat.io/assets/images/avatars/cometchat-uid-1.webp",
+                                                    "createdAt": "1674228536",
+                                                    "metadata": {
+                                                        "key": "value"
+                                                    }
+                                                },
+                                                "receiverUserDetails": {
+                                                    "uid": "r123",
+                                                    "name": "Andrew Joseph",
+                                                    "type": "public",
+                                                    "description": "Hello group",
+                                                    "icon": "https://data-eu.cometchat.io/assets/images/avatars/cometchat-uid-1.webp",
+                                                    "owner": "cometchat-uid-1",
+                                                    "avatar": "https://data-eu.cometchat.io/assets/images/avatars/cometchat-uid-1.webp",
+                                                    "createdAt": "1674228536",
+                                                    "metadata": {
+                                                        "key": "value"
+                                                    }
+                                                },
+                                                "tags": [
+                                                    "tag1"
+                                                ]
+                                            }
+                                        }
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Import Message(s)",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "data": {
+                                            "properties": {
+                                                "<muid>": {
+                                                    "properties": {
+                                                        "": {
+                                                            "allOf": [
+                                                                {
+                                                                    "properties": {
+                                                                        "sentAt": {},
+                                                                        "deliveredAt": {},
+                                                                        "readAt": {}
+                                                                    },
+                                                                    "type": "object"
+                                                                },
+                                                                {
+                                                                    "$ref": "#/components/schemas/messageSchema"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    "type": "object"
+                                                }
+                                            },
+                                            "type": "object"
+                                        }
+                                    },
+                                    "type": "object"
+                                },
+                                "example": {
+                                    "data": {
+                                        "3117": {
+                                            "success": true,
+                                            "data": {
+                                                "id": "1029",
+                                                "muid": "3117",
+                                                "conversationId": "r123_user_s12",
+                                                "sender": "s12",
+                                                "receiverType": "user",
+                                                "receiver": "r123",
+                                                "category": "message",
+                                                "type": "text",
+                                                "data": {
+                                                    "text": "Hi there,",
+                                                    "attachments": [
+                                                        {
+                                                            "name": "hi.png",
+                                                            "extension": "png",
+                                                            "size": "350.2",
+                                                            "mimeType": "image/png",
+                                                            "url": "https://data-eu.cometchat.io/assets/images/avatars/cometchat-uid-1.webp"
+                                                        }
+                                                    ],
+                                                    "metad2ata": {
+                                                        "key": "value"
+                                                    },
+                                                    "custodata": {
+                                                        "key": "value"
+                                                    },
+                                                    "entities": {
+                                                        "sender": {
+                                                            "entity": {
+                                                                "uid": "s12",
+                                                                "name": "user1",
+                                                                "avatar": "https://data-eu.cometchat.io/assets/images/avatars/cometchat-uid-1.webp",
+                                                                "metadata": {
+                                                                    "key": "value"
+                                                                },
+                                                                "status": "offline",
+                                                                "role": "default",
+                                                                "createdAt": 1674228536,
+                                                                "updatedAt": 1674232131
+                                                            },
+                                                            "entityType": "user"
+                                                        },
+                                                        "receiver": {
+                                                            "entity": {
+                                                                "uid": "r123",
+                                                                "name": "Andrew Joseph",
+                                                                "avatar": "https://data-eu.cometchat.io/assets/images/avatars/cometchat-uid-1.webp",
+                                                                "metadata": {
+                                                                    "key": "value"
+                                                                },
+                                                                "status": "offline",
+                                                                "role": "default",
+                                                                "createdAt": 1674228536,
+                                                                "updatedAt": 1674232131,
+                                                                "conversationId": "r123_user_s12"
+                                                            },
+                                                            "entityType": "user"
+                                                        }
+                                                    }
+                                                },
+                                                "sentAt": 1674104348,
+                                                "deliveredAt": 1674224684,
+                                                "readAt": 1674224684,
+                                                "updatedAt": 1674104348,
+                                                "tags": [
+                                                    "tag1"
+                                                ]
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "apiKey": []
+                    }
+                ]
+            }
+        },
+        "/data_import/users": {
+            "post": {
+                "tags": [
+                    "Data Import"
+                ],
+                "summary": "Import Users",
+                "description": "The CometChat user import API allows customers to import their users’ data into the CometChat systems.",
+                "operationId": "import-users",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "users": {
+                                        "description": "Wrapper for the users.",
+                                        "required": [
+                                            "uid"
+                                        ],
+                                        "properties": {
+                                            "<uid>": {
+                                                "description": "Wraps a user object. The <b>&lt;uid&gt;</b> will be a primary key/unique Identifier of the user.",
+                                                "required": [
+                                                    "uid",
+                                                    "name"
+                                                ],
+                                                "properties": {
+                                                    "uid": {
+                                                        "description": "The value should be the same as value of the placeholder <b>&lt;uid&gt;</b> which wraps the user object.",
+                                                        "type": "string"
+                                                    },
+                                                    "name": {
+                                                        "description": "name of the user.",
+                                                        "type": "string"
+                                                    },
+                                                    "avatar": {
+                                                        "description": "URL to the profile picture of the user.",
+                                                        "type": "string"
+                                                    },
+                                                    "link": {
+                                                        "description": "Profile page URL of the user.",
+                                                        "type": "string"
+                                                    },
+                                                    "role": {
+                                                        "description": "Role of the user. Should be created already via the Create role API.",
+                                                        "type": "string"
+                                                    },
+                                                    "createdAt": {
+                                                        "description": " A 10-digit UNIX timestamp at which the user was created.",
+                                                        "type": "integer"
+                                                    },
+                                                    "lastActiveAt": {
+                                                        "description": "A 10-digit UNIX timestamp at which the user was most recently online.",
+                                                        "type": "integer"
+                                                    },
+                                                    "metadata": {
+                                                        "description": "JSON object containing Additional user information.",
+                                                        "type": "object"
+                                                    },
+                                                    "tags": {
+                                                        "description": "A string array containing usertags.",
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        },
+                                                        "default": []
+                                                    },
+                                                    "deactivatedAt": {
+                                                        "description": "A 10-digit UNIX timestamp at which the user was deactivated/soft-deleted/blocked to use the chat services.",
+                                                        "type": "integer"
+                                                    }
+                                                },
+                                                "type": "object"
+                                            }
+                                        },
+                                        "type": "object",
+                                        "example": {
+                                            "uid1": {
+                                                "uid": "uid1",
+                                                "name": "uid1",
+                                                "avatar": "https://data-eu.cometchat.io/assets/images/avatars/cometchat-uid-1.webp",
+                                                "createdAt": "1673421419",
+                                                "metadata": {
+                                                    "key": "value"
+                                                },
+                                                "lastActiveAt": "1673421425"
+                                            }
+                                        }
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Import User(s)",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "data": {
+                                            "properties": {
+                                                "<uid>": {
+                                                    "properties": {
+                                                        "": {
+                                                            "allOf": [
+                                                                {
+                                                                    "properties": {
+                                                                        "lastActiveAt": {},
+                                                                        "deactivatedAt": {}
+                                                                    },
+                                                                    "type": "object"
+                                                                },
+                                                                {
+                                                                    "$ref": "#/components/schemas/userSchema"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    "type": "object"
+                                                }
+                                            },
+                                            "type": "object"
+                                        }
+                                    },
+                                    "type": "object"
+                                },
+                                "example": {
+                                    "data": {
+                                        "uid1": {
+                                            "success": true,
+                                            "data": {
+                                                "data": {
+                                                    "uid": "uid1",
+                                                    "name": "uid1",
+                                                    "avatar": "https://data-eu.cometchat.io/assets/images/avatars/cometchat-uid-1.webp",
+                                                    "metadata": {
+                                                        "key": "value"
+                                                    },
+                                                    "status": "offline",
+                                                    "role": "default",
+                                                    "lastActiveAt": 1673421419,
+                                                    "createdAt": 1673421425
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "apiKey": []
+                    }
+                ]
+            }
+        },
+        "/data_import/groups": {
+            "post": {
+                "tags": [
+                    "Data Import"
+                ],
+                "summary": "Import Groups",
+                "description": "The CometChat group import API allows customers to import their groups’ data into the CometChat systems.",
+                "operationId": "import-groups",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "groups": {
+                                        "description": "Wrapper for the groups.",
+                                        "required": [
+                                            "guid"
+                                        ],
+                                        "properties": {
+                                            "<guid>": {
+                                                "description": "Wraps a group object. The <b>&lt;guid&gt;</b> will be a primary key/unique Identifier of the group.",
+                                                "required": [
+                                                    "guid",
+                                                    "name",
+                                                    "type"
+                                                ],
+                                                "properties": {
+                                                    "guid": {
+                                                        "description": "The value should be the same as value of the placeholder <b>&lt;guid&gt;</b> which wraps the group object.",
+                                                        "type": "string"
+                                                    },
+                                                    "name": {
+                                                        "description": "name of the group.",
+                                                        "type": "string"
+                                                    },
+                                                    "icon": {
+                                                        "description": "An URL for a group icon.",
+                                                        "type": "string"
+                                                    },
+                                                    "type": {
+                                                        "description": "Type of the group. Can be public, password or private.",
+                                                        "type": "string",
+                                                        "enum": [
+                                                            "public",
+                                                            "password",
+                                                            "private"
+                                                        ]
+                                                    },
+                                                    "password": {
+                                                        "description": "A password required to join the the group with type password",
+                                                        "type": "string"
+                                                    },
+                                                    "owner": {
+                                                        "description": "Owner of the group.",
+                                                        "type": "string"
+                                                    },
+                                                    "createdAt": {
+                                                        "description": " A 10-digit UNIX timestamp at which the group was created.",
+                                                        "type": "integer"
+                                                    },
+                                                    "metadata": {
+                                                        "description": "Additional data for the group.",
+                                                        "type": "object"
+                                                    },
+                                                    "tags": {
+                                                        "description": "A string array containing grouptags.",
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        },
+                                                        "default": []
+                                                    },
+                                                    "groupOwnerDetails": {
+                                                        "description": "The JSON object contains the user details of the owner.",
+                                                        "required": [
+                                                            "uid",
+                                                            "name"
+                                                        ],
+                                                        "properties": {
+                                                            "uid": {
+                                                                "description": "The primary-key/ unique identifier of the owner.",
+                                                                "type": "string"
+                                                            },
+                                                            "name": {
+                                                                "description": "Name of the owner.",
+                                                                "type": "string"
+                                                            },
+                                                            "avatar": {
+                                                                "description": "URL to the profile picture of the owner.",
+                                                                "type": "string"
+                                                            },
+                                                            "link": {
+                                                                "description": "Profile page URL of the owner.",
+                                                                "type": "string"
+                                                            },
+                                                            "role": {
+                                                                "description": "Role of the owner. Should be created already via the Create role API.",
+                                                                "type": "string"
+                                                            },
+                                                            "createdAt": {
+                                                                "description": "A 10-digit timestamp at which the owner was created.",
+                                                                "type": "integer"
+                                                            },
+                                                            "lastActiveAt": {
+                                                                "description": "A 10-digit UNIX timestamp at which the owner was most recently online.",
+                                                                "type": "integer"
+                                                            },
+                                                            "metadata": {
+                                                                "description": "Additional details about the owner.",
+                                                                "type": "object"
+                                                            },
+                                                            "tags": {
+                                                                "description": "A string array containing owner tags.",
+                                                                "type": "array",
+                                                                "items": {
+                                                                    "type": "string"
+                                                                },
+                                                                "default": []
+                                                            },
+                                                            "deactivatedAt": {
+                                                                "description": "A 10-digit UNIX timestamp at which the owner was deactivated/soft-deleted/blocked to use the chat services.",
+                                                                "type": "integer"
+                                                            }
+                                                        },
+                                                        "type": "object"
+                                                    }
+                                                },
+                                                "type": "object"
+                                            }
+                                        },
+                                        "type": "object",
+                                        "example": {
+                                            "guid1": {
+                                                "guid": "guid1",
+                                                "name": "guid1",
+                                                "createdAt": "1673421419",
+                                                "type": "public",
+                                                "owner": "cometchat-uid-1",
+                                                "groupOwnerDetails": {
+                                                    "uid": "cometchat-uid-1",
+                                                    "name": "cometchat-uid-1"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Import Group(s)",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "data": {
+                                            "properties": {
+                                                "<guid>": {
+                                                    "properties": {
+                                                        "": {
+                                                            "allOf": [
+                                                                {
+                                                                    "$ref": "#/components/schemas/groupSchema"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    "type": "object"
+                                                }
+                                            },
+                                            "type": "object"
+                                        }
+                                    },
+                                    "type": "object"
+                                },
+                                "example": {
+                                    "data": {
+                                        "guid1": {
+                                            "success": true,
+                                            "data": {
+                                                "data": {
+                                                    "uid": "guid1",
+                                                    "name": "guid1",
+                                                    "type": "public",
+                                                    "owner": "cometchat-uid-1",
+                                                    "createdAt": 1673421419
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "apiKey": []
+                    }
+                ]
+            }
+        },
+        "/data_import/members": {
+            "post": {
+                "tags": [
+                    "Data Import"
+                ],
+                "summary": "Import Group Members",
+                "description": "The CometChat group member import API allows customers to import their group members’ data into the CometChat systems.",
+                "operationId": "import-members",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "members": {
+                                        "description": "Wrapper for the members.",
+                                        "required": [
+                                            "memberId"
+                                        ],
+                                        "properties": {
+                                            "<guid>_member_<uid>": {
+                                                "description": "Wraps a single member object. The <b>&lt;guid&gt;&#95member&#95&lt;uid&gt;</b> will will be a primary key/unique Identifier of the member.",
+                                                "required": [
+                                                    "memberId",
+                                                    "guid",
+                                                    "uid",
+                                                    "joinedAt"
+                                                ],
+                                                "properties": {
+                                                    "memberId": {
+                                                        "description": "The value should be the same as value of the placeholder <b>&lt;guid&gt;&#95member&#95&lt;uid&gt;</b> which wraps the member object.",
+                                                        "type": "string"
+                                                    },
+                                                    "guid": {
+                                                        "description": "Id of the group.",
+                                                        "type": "string"
+                                                    },
+                                                    "uid": {
+                                                        "description": "Id of user.",
+                                                        "type": "string"
+                                                    },
+                                                    "scope": {
+                                                        "description": "Scope of the member in group.",
+                                                        "type": "string"
+                                                    },
+                                                    "isBanned": {
+                                                        "description": "Specify if user is banned in group.",
+                                                        "type": "boolean"
+                                                    },
+                                                    "joinedAt": {
+                                                        "description": " A 10-digit UNIX timestamp at which the member joined the group.",
+                                                        "type": "integer"
+                                                    },
+                                                    "groupDetails": {
+                                                        "description": "The JSON object contains the group details of the member.",
+                                                        "required": [
+                                                            "guid",
+                                                            "name",
+                                                            "type"
+                                                        ],
+                                                        "properties": {
+                                                            "guid": {
+                                                                "description": "The primary-key/ unique identifier of the group.",
+                                                                "type": "string"
+                                                            },
+                                                            "name": {
+                                                                "description": "Name of the group.",
+                                                                "type": "string"
+                                                            },
+                                                            "icon": {
+                                                                "description": "An URL for a group icon.",
+                                                                "type": "string"
+                                                            },
+                                                            "type": {
+                                                                "description": "Type of the group. Can be public, password or private.",
+                                                                "type": "string",
+                                                                "enum": [
+                                                                    "public",
+                                                                    "password",
+                                                                    "private"
+                                                                ]
+                                                            },
+                                                            "password": {
+                                                                "description": "A password required to join the the group with type password",
+                                                                "type": "string"
+                                                            },
+                                                            "owner": {
+                                                                "description": "Owner of the group.",
+                                                                "type": "string"
+                                                            },
+                                                            "createdAt": {
+                                                                "description": " A 10-digit UNIX timestamp at which the group was created.",
+                                                                "type": "integer"
+                                                            },
+                                                            "metadata": {
+                                                                "description": "Additional data for the group.",
+                                                                "type": "object"
+                                                            },
+                                                            "tags": {
+                                                                "description": "A string array containing grouptags.",
+                                                                "type": "array",
+                                                                "items": {
+                                                                    "type": "string"
+                                                                },
+                                                                "default": []
+                                                            }
+                                                        },
+                                                        "type": "object"
+                                                    },
+                                                    "userDetails": {
+                                                        "description": "The JSON object contains the user details of the member.",
+                                                        "required": [
+                                                            "uid",
+                                                            "name"
+                                                        ],
+                                                        "properties": {
+                                                            "uid": {
+                                                                "description": "The primary-key/ unique identifier of the member.",
+                                                                "type": "string"
+                                                            },
+                                                            "name": {
+                                                                "description": "Name of the member.",
+                                                                "type": "string"
+                                                            },
+                                                            "avatar": {
+                                                                "description": "URL to the profile picture of the member.",
+                                                                "type": "string"
+                                                            },
+                                                            "link": {
+                                                                "description": "Profile page URL of the user.",
+                                                                "type": "string"
+                                                            },
+                                                            "role": {
+                                                                "description": "Role of the user. Should be created already via the Create role API.",
+                                                                "type": "string"
+                                                            },
+                                                            "createdAt": {
+                                                                "description": "A 10-digit timestamp at which the member was created.",
+                                                                "type": "integer"
+                                                            },
+                                                            "lastActiveAt": {
+                                                                "description": "A 10-digit UNIX timestamp at which the member was most recently online.",
+                                                                "type": "integer"
+                                                            },
+                                                            "metadata": {
+                                                                "description": "JSON object containing Additional member information.",
+                                                                "type": "object"
+                                                            },
+                                                            "tags": {
+                                                                "description": "A string array containing member tags.",
+                                                                "type": "array",
+                                                                "items": {
+                                                                    "type": "string"
+                                                                },
+                                                                "default": []
+                                                            },
+                                                            "deactivatedAt": {
+                                                                "description": "A 10-digit UNIX timestamp at which the member was deactivated/soft-deleted/blocked to use the chat services.",
+                                                                "type": "integer"
+                                                            }
+                                                        },
+                                                        "type": "object"
+                                                    }
+                                                },
+                                                "type": "object"
+                                            }
+                                        },
+                                        "type": "object",
+                                        "example": {
+                                            "guid1_member_uid2": {
+                                                "memberId": "guid1_member_uid2",
+                                                "uid": "uid2",
+                                                "guid": "guid1",
+                                                "joinedAt": "1673421419",
+                                                "scope": "admin",
+                                                "groupDetails": {
+                                                    "guid": "guid1",
+                                                    "name": "guid1",
+                                                    "type": "public",
+                                                    "owner": "uid1",
+                                                    "createdAt": "1673421419"
+                                                },
+                                                "userDetails": {
+                                                    "uid": "uid2",
+                                                    "name": "uid2"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Import Group Member(s)",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "data": {
+                                            "properties": {
+                                                "<memberId>": {
+                                                    "properties": {
+                                                        "": {
+                                                            "allOf": [
+                                                                {
+                                                                    "$ref": "#/components/schemas/groupMemberSchema"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    "type": "object"
+                                                }
+                                            },
+                                            "type": "object"
+                                        }
+                                    },
+                                    "type": "object"
+                                },
+                                "example": {
+                                    "data": {
+                                        "guid1_member_uid2": {
+                                            "success": true,
+                                            "data": {
+                                                "data": {
+                                                    "guid": "guid1",
+                                                    "uid": "uid2",
+                                                    "scope": "admin",
+                                                    "joinedAt": 1673421419
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "apiKey": []
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "APIKeySchema": {
+                "description": "Response data",
+                "properties": {
+                    "apiKey": {
+                        "type": "string"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "scope": {
+                        "type": "string"
+                    },
+                    "createdAt": {
+                        "type": "integer"
+                    }
+                },
+                "type": "object"
+            },
+            "authTokenSchema": {
+                "description": "Response data",
+                "properties": {
+                    "uid": {
+                        "type": "string"
+                    },
+                    "authToken": {
+                        "type": "string"
+                    },
+                    "createdAt": {
+                        "type": "integer"
+                    }
+                },
+                "type": "object"
+            },
+            "bannedUserSchema": {
+                "description": "Response data",
+                "properties": {
+                    "uid": {
+                        "type": "string"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "avatar": {
+                        "type": "string"
+                    },
+                    "status": {
+                        "type": "string"
+                    },
+                    "role": {
+                        "type": "string"
+                    },
+                    "scope": {
+                        "type": "string"
+                    },
+                    "isBanned": {
+                        "type": "boolean"
+                    },
+                    "joinedAt": {
+                        "type": "integer"
+                    },
+                    "createdAt": {
+                        "type": "integer"
+                    }
+                },
+                "type": "object"
+            },
+            "blockedUserSchema": {
+                "description": "Response data",
+                "properties": {
+                    "blockedByMe": {
+                        "type": "boolean"
+                    },
+                    "blockedByMeAt": {
+                        "type": "integer"
+                    },
+                    "blockedAt": {
+                        "type": "integer"
+                    },
+                    "updatedAt": {
+                        "type": "integer"
+                    },
+                    "conversationId": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "conversationSchema": {
+                "description": "Response data",
+                "properties": {
+                    "conversationId": {
+                        "type": "string"
+                    },
+                    "conversationType": {
+                        "type": "string"
+                    },
+                    "unreadMessageCount": {
+                        "type": "string"
+                    },
+                    "createdAt": {
+                        "type": "integer"
+                    },
+                    "updatedAt": {
+                        "type": "integer"
+                    },
+                    "lastMessage": {
+                        "properties": {
+                            "id": {
+                                "type": "string"
+                            },
+                            "conversationId": {
+                                "type": "string"
+                            },
+                            "sender": {
+                                "type": "string"
+                            },
+                            "receiverType": {
+                                "type": "string"
+                            },
+                            "receiver": {
+                                "type": "string"
+                            },
+                            "category": {
+                                "type": "string"
+                            },
+                            "type": {
+                                "type": "string"
+                            },
+                            "data": {
+                                "properties": {
+                                    "action": {
+                                        "type": "string"
+                                    },
+                                    "": {
+                                        "$ref": "#/components/schemas/objectEntitySchema"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "sentAt": {
+                                "type": "integer"
+                            },
+                            "updatedAt": {
+                                "type": "integer"
+                            },
+                            "receipts": {
+                                "properties": {
+                                    "data": {
+                                        "type": "array",
+                                        "items": {}
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "conversationWith": {
+                        "properties": {
+                            "": {
+                                "$ref": "#/components/schemas/conversationWithSchema"
+                            }
+                        },
+                        "type": "object"
+                    }
+                },
+                "type": "object"
+            },
+            "conversationWithSchema": {
+                "properties": {
+                    "guid": {
+                        "type": "string"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "description": {
+                        "type": "string"
+                    },
+                    "icon": {
+                        "type": "string"
+                    },
+                    "type": {
+                        "type": "string"
+                    },
+                    "scope": {
+                        "type": "string"
+                    },
+                    "membersCount": {
+                        "type": "integer"
+                    },
+                    "joinedAt": {
+                        "type": "integer"
+                    },
+                    "conversationId": {
+                        "type": "string"
+                    },
+                    "hasJoined": {
+                        "type": "boolean",
+                        "default": "true"
+                    },
+                    "createdAt": {
+                        "type": "integer"
+                    },
+                    "owner": {
+                        "type": "string"
+                    },
+                    "updatedAt": {
+                        "type": "integer"
+                    },
+                    "updatedBy": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "deleteSchema": {
+                "properties": {
+                    "success": {
+                        "type": "boolean"
+                    },
+                    "message": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "groupEntitySchema": {
+                "description": "Response data",
+                "properties": {
+                    "id": {
+                        "type": "string"
+                    },
+                    "conversationId": {
+                        "type": "string"
+                    },
+                    "sender": {
+                        "type": "string"
+                    },
+                    "receiverType": {
+                        "type": "string"
+                    },
+                    "receiver": {
+                        "type": "string"
+                    },
+                    "category": {
+                        "type": "string"
+                    },
+                    "type": {
+                        "type": "string"
+                    },
+                    "data": {
+                        "properties": {
+                            "action": {
+                                "type": "string"
+                            },
+                            "entities": {
+                                "properties": {
+                                    "by": {
+                                        "properties": {
+                                            "entity": {
+                                                "properties": {
+                                                    "uid": {
+                                                        "type": "string"
+                                                    },
+                                                    "name": {
+                                                        "type": "string"
+                                                    },
+                                                    "role": {
+                                                        "type": "string"
+                                                    },
+                                                    "status": {
+                                                        "type": "string"
+                                                    },
+                                                    "createdAt": {
+                                                        "type": "integer"
+                                                    }
+                                                },
+                                                "type": "object"
+                                            },
+                                            "entityType": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "type": "object"
+                                    },
+                                    "on": {
+                                        "properties": {
+                                            "entity": {
+                                                "properties": {
+                                                    "uid": {
+                                                        "type": "string"
+                                                    },
+                                                    "name": {
+                                                        "type": "string"
+                                                    },
+                                                    "role": {
+                                                        "type": "string"
+                                                    },
+                                                    "avatar": {
+                                                        "type": "string"
+                                                    },
+                                                    "status": {
+                                                        "type": "string"
+                                                    },
+                                                    "createdAt": {
+                                                        "type": "integer"
+                                                    }
+                                                },
+                                                "type": "object"
+                                            },
+                                            "entityType": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "type": "object"
+                                    },
+                                    "for": {
+                                        "properties": {
+                                            "entity": {
+                                                "properties": {
+                                                    "guid": {
+                                                        "type": "string"
+                                                    },
+                                                    "icon": {
+                                                        "type": "string"
+                                                    },
+                                                    "name": {
+                                                        "type": "string"
+                                                    },
+                                                    "tags": {
+                                                        "type": "array",
+                                                        "items": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "type": {
+                                                        "type": "string"
+                                                    },
+                                                    "owner": {
+                                                        "type": "string"
+                                                    },
+                                                    "createdAt": {
+                                                        "type": "integer"
+                                                    },
+                                                    "updatedAt": {
+                                                        "type": "integer"
+                                                    },
+                                                    "description": {
+                                                        "type": "string"
+                                                    },
+                                                    "membersCount": {
+                                                        "type": "integer"
+                                                    },
+                                                    "conversationId": {
+                                                        "type": "string"
+                                                    }
+                                                },
+                                                "type": "object"
+                                            },
+                                            "entityType": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "type": "object"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "avatar": {
+                        "type": "string"
+                    },
+                    "metadata": {
+                        "properties": {
+                            "email": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "status": {
+                        "type": "string"
+                    },
+                    "role": {
+                        "type": "string"
+                    },
+                    "createdAt": {
+                        "type": "integer"
+                    }
+                },
+                "type": "object"
+            },
+            "groupMemberListSchema": {
+                "description": "Response data",
+                "properties": {
+                    "uid": {
+                        "type": "string"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "avatar": {
+                        "type": "string"
+                    },
+                    "status": {
+                        "type": "string"
+                    },
+                    "role": {
+                        "type": "string"
+                    },
+                    "scope": {
+                        "type": "string"
+                    },
+                    "joinedAt": {
+                        "type": "integer"
+                    },
+                    "createdAt": {
+                        "type": "integer"
+                    },
+                    "updatedAt": {
+                        "type": "integer"
+                    },
+                    "conversationId": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "groupMemberSchema": {
+                "description": "Response data",
+                "properties": {
+                    "usersToBan": {
+                        "properties": {
+                            "<uid>": {
+                                "properties": {
+                                    "success": {
+                                        "type": "boolean"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "admins": {
+                        "properties": {
+                            "<uid>": {
+                                "properties": {
+                                    "success": {
+                                        "type": "boolean"
+                                    },
+                                    "data": {
+                                        "properties": {
+                                            "": {
+                                                "$ref": "#/components/schemas/groupEntitySchema"
+                                            }
+                                        },
+                                        "type": "object"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "moderators": {
+                        "properties": {
+                            "<uid>": {
+                                "properties": {
+                                    "success": {
+                                        "type": "boolean"
+                                    },
+                                    "data": {
+                                        "properties": {
+                                            "": {
+                                                "$ref": "#/components/schemas/groupEntitySchema"
+                                            }
+                                        },
+                                        "type": "object"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "participants": {
+                        "properties": {
+                            "<uid>": {
+                                "properties": {
+                                    "success": {
+                                        "type": "boolean"
+                                    },
+                                    "data": {
+                                        "properties": {
+                                            "": {
+                                                "$ref": "#/components/schemas/groupEntitySchema"
+                                            }
+                                        },
+                                        "type": "object"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        },
+                        "type": "object"
+                    }
+                },
+                "type": "object"
+            },
+            "groupSchema": {
+                "description": "Response data",
+                "properties": {
+                    "guid": {
+                        "type": "string"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "description": {
+                        "type": "string"
+                    },
+                    "icon": {
+                        "type": "string"
+                    },
+                    "type": {
+                        "type": "string"
+                    },
+                    "scope": {
+                        "type": "string"
+                    },
+                    "membersCount": {
+                        "type": "integer"
+                    },
+                    "joinedAt": {
+                        "type": "integer"
+                    },
+                    "conversationId": {
+                        "type": "string"
+                    },
+                    "hasJoined": {
+                        "type": "boolean"
+                    },
+                    "owner": {
+                        "type": "string"
+                    },
+                    "tags": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "createdAt": {
+                        "type": "integer"
+                    }
+                },
+                "type": "object"
+            },
+            "messageMetaSchema": {
+                "properties": {
+                    "current": {
+                        "properties": {
+                            "limit": {
+                                "type": "integer"
+                            },
+                            "count": {
+                                "type": "integer"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "next": {
+                        "properties": {
+                            "affix": {
+                                "type": "string"
+                            },
+                            "sentAt": {
+                                "type": "integer"
+                            },
+                            "id": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    }
+                },
+                "type": "object"
+            },
+            "messageSchema": {
+                "description": "Response data",
+                "properties": {
+                    "id": {
+                        "type": "string"
+                    },
+                    "conversationId": {
+                        "type": "string"
+                    },
+                    "sender": {
+                        "type": "string"
+                    },
+                    "receiverType": {
+                        "type": "string"
+                    },
+                    "receiver": {
+                        "type": "string"
+                    },
+                    "category": {
+                        "type": "string"
+                    },
+                    "type": {
+                        "type": "string"
+                    },
+                    "data": {
+                        "properties": {
+                            "text": {
+                                "type": "string"
+                            },
+                            "metadata": {
+                                "type": "object"
+                            },
+                            "entities": {
+                                "properties": {
+                                    "sender": {
+                                        "properties": {
+                                            "entity": {
+                                                "properties": {
+                                                    "uid": {
+                                                        "type": "string"
+                                                    },
+                                                    "name": {
+                                                        "type": "string"
+                                                    },
+                                                    "role": {
+                                                        "type": "string"
+                                                    },
+                                                    "avatar": {
+                                                        "type": "string"
+                                                    },
+                                                    "status": {
+                                                        "type": "string"
+                                                    },
+                                                    "createdAt": {
+                                                        "type": "integer"
+                                                    },
+                                                    "conversationId": {
+                                                        "type": "string"
+                                                    }
+                                                },
+                                                "type": "object"
+                                            },
+                                            "entityType": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "type": "object"
+                                    },
+                                    "receiver": {
+                                        "properties": {
+                                            "entity": {
+                                                "properties": {
+                                                    "uid": {
+                                                        "type": "string"
+                                                    },
+                                                    "name": {
+                                                        "type": "string"
+                                                    },
+                                                    "role": {
+                                                        "type": "string"
+                                                    },
+                                                    "avatar": {
+                                                        "type": "string"
+                                                    },
+                                                    "status": {
+                                                        "type": "string"
+                                                    },
+                                                    "createdAt": {
+                                                        "type": "integer"
+                                                    },
+                                                    "conversationId": {
+                                                        "type": "string"
+                                                    }
+                                                },
+                                                "type": "object"
+                                            },
+                                            "entityType": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "type": "object"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "sentAt": {
+                        "type": "integer"
+                    },
+                    "updatedAt": {
+                        "type": "integer"
+                    }
+                },
+                "type": "object"
+            },
+            "metaSchema": {
+                "properties": {
+                    "pagination": {
+                        "properties": {
+                            "total": {
+                                "type": "integer"
+                            },
+                            "count": {
+                                "type": "integer"
+                            },
+                            "per_page": {
+                                "type": "integer"
+                            },
+                            "current_page": {
+                                "type": "integer"
+                            },
+                            "total_pages": {
+                                "type": "integer"
+                            }
+                        },
+                        "type": "object"
+                    }
+                },
+                "type": "object"
+            },
+            "objectEntitySchema": {
+                "properties": {
+                    "entities": {
+                        "properties": {
+                            "by": {
+                                "properties": {
+                                    "entity": {
+                                        "properties": {
+                                            "uid": {
+                                                "type": "string"
+                                            },
+                                            "name": {
+                                                "type": "string"
+                                            },
+                                            "status": {
+                                                "type": "string"
+                                            },
+                                            "role": {
+                                                "type": "string"
+                                            },
+                                            "createdAt": {
+                                                "type": "integer"
+                                            }
+                                        },
+                                        "type": "object"
+                                    },
+                                    "entityType": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "for": {
+                                "properties": {
+                                    "entity": {
+                                        "properties": {
+                                            "guid": {
+                                                "type": "string"
+                                            },
+                                            "icon": {
+                                                "type": "string"
+                                            },
+                                            "name": {
+                                                "type": "string"
+                                            },
+                                            "type": {
+                                                "type": "string"
+                                            },
+                                            "owner": {
+                                                "type": "string"
+                                            },
+                                            "createdAt": {
+                                                "type": "integer"
+                                            },
+                                            "updatedAt": {
+                                                "type": "integer"
+                                            },
+                                            "updatedBy": {
+                                                "type": "integer"
+                                            },
+                                            "description": {
+                                                "type": "integer"
+                                            },
+                                            "membersCount": {
+                                                "type": "integer"
+                                            },
+                                            "conversationId": {
+                                                "type": "integer"
+                                            }
+                                        },
+                                        "type": "object"
+                                    },
+                                    "entityType": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "on": {
+                                "properties": {
+                                    "entity": {
+                                        "properties": {
+                                            "uid": {
+                                                "type": "string"
+                                            },
+                                            "link": {
+                                                "type": "string"
+                                            },
+                                            "name": {
+                                                "type": "string"
+                                            },
+                                            "role": {
+                                                "type": "string"
+                                            },
+                                            "avatar": {
+                                                "type": "string"
+                                            },
+                                            "status": {
+                                                "type": "string"
+                                            },
+                                            "createdAt": {
+                                                "type": "integer"
+                                            },
+                                            "updatedAt": {
+                                                "type": "integer"
+                                            },
+                                            "conversationId": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "type": "object"
+                                    },
+                                    "entityType": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        },
+                        "type": "object"
+                    }
+                },
+                "type": "object"
+            },
+            "roleSchema": {
+                "description": "Response data",
+                "properties": {
+                    "role": {
+                        "type": "string"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "description": {
+                        "type": "string"
+                    },
+                    "metadata": {
+                        "type": "object"
+                    },
+                    "email": {
+                        "type": "string"
+                    },
+                    "settings": {
+                        "properties": {
+                            "listUsers": {
+                                "type": "string"
+                            },
+                            "sendMessagesTo": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "createdAt": {
+                        "type": "integer"
+                    }
+                },
+                "type": "object"
+            },
+            "updatemessageSchema": {
+                "description": "Response data",
+                "properties": {
+                    "id": {
+                        "type": "string"
+                    },
+                    "conversationId": {
+                        "type": "string"
+                    },
+                    "sender": {
+                        "type": "string"
+                    },
+                    "receiverType": {
+                        "type": "string"
+                    },
+                    "receiver": {
+                        "type": "string"
+                    },
+                    "category": {
+                        "type": "string"
+                    },
+                    "type": {
+                        "type": "string"
+                    },
+                    "data": {
+                        "properties": {
+                            "action": {
+                                "type": "string"
+                            },
+                            "entities": {
+                                "properties": {
+                                    "by": {
+                                        "properties": {
+                                            "entity": {
+                                                "properties": {
+                                                    "uid": {
+                                                        "type": "string"
+                                                    },
+                                                    "name": {
+                                                        "type": "string"
+                                                    },
+                                                    "status": {
+                                                        "type": "string"
+                                                    },
+                                                    "role": {
+                                                        "type": "string"
+                                                    },
+                                                    "createdAt": {
+                                                        "type": "integer"
+                                                    },
+                                                    "updatedAt": {
+                                                        "type": "integer"
+                                                    }
+                                                },
+                                                "type": "object"
+                                            },
+                                            "entityType": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "type": "object"
+                                    },
+                                    "for": {
+                                        "properties": {
+                                            "entity": {
+                                                "properties": {
+                                                    "uid": {
+                                                        "type": "string"
+                                                    },
+                                                    "name": {
+                                                        "type": "string"
+                                                    },
+                                                    "avatar": {
+                                                        "type": "string"
+                                                    },
+                                                    "status": {
+                                                        "type": "string"
+                                                    },
+                                                    "role": {
+                                                        "type": "string"
+                                                    },
+                                                    "createdAt": {
+                                                        "type": "integer"
+                                                    }
+                                                },
+                                                "type": "object"
+                                            },
+                                            "entityType": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "type": "object"
+                                    },
+                                    "on": {
+                                        "properties": {
+                                            "entity": {
+                                                "properties": {
+                                                    "id": {
+                                                        "type": "string"
+                                                    },
+                                                    "conversationId": {
+                                                        "type": "string"
+                                                    },
+                                                    "sender": {
+                                                        "type": "string"
+                                                    },
+                                                    "receiverType": {
+                                                        "type": "string"
+                                                    },
+                                                    "receiver": {
+                                                        "type": "string"
+                                                    },
+                                                    "category": {
+                                                        "type": "string"
+                                                    },
+                                                    "type": {
+                                                        "type": "string"
+                                                    },
+                                                    "data": {
+                                                        "properties": {
+                                                            "text": {
+                                                                "type": "string"
+                                                            },
+                                                            "entities": {
+                                                                "properties": {
+                                                                    "sender": {
+                                                                        "properties": {
+                                                                            "entity": {
+                                                                                "properties": {
+                                                                                    "uid": {
+                                                                                        "type": "string"
+                                                                                    },
+                                                                                    "name": {
+                                                                                        "type": "string"
+                                                                                    },
+                                                                                    "role": {
+                                                                                        "type": "string"
+                                                                                    },
+                                                                                    "avatar": {
+                                                                                        "type": "string"
+                                                                                    },
+                                                                                    "status": {
+                                                                                        "type": "string"
+                                                                                    },
+                                                                                    "createdAt": {
+                                                                                        "type": "string"
+                                                                                    }
+                                                                                },
+                                                                                "type": "object"
+                                                                            },
+                                                                            "entityType": {
+                                                                                "type": "string"
+                                                                            }
+                                                                        },
+                                                                        "type": "object"
+                                                                    },
+                                                                    "receiver": {
+                                                                        "properties": {
+                                                                            "entity": {
+                                                                                "properties": {
+                                                                                    "uid": {
+                                                                                        "type": "string"
+                                                                                    },
+                                                                                    "name": {
+                                                                                        "type": "string"
+                                                                                    },
+                                                                                    "role": {
+                                                                                        "type": "string"
+                                                                                    },
+                                                                                    "avatar": {
+                                                                                        "type": "string"
+                                                                                    },
+                                                                                    "status": {
+                                                                                        "type": "string"
+                                                                                    },
+                                                                                    "createdAt": {
+                                                                                        "type": "string"
+                                                                                    },
+                                                                                    "conversationId": {
+                                                                                        "type": "string"
+                                                                                    }
+                                                                                },
+                                                                                "type": "object"
+                                                                            },
+                                                                            "entityType": {
+                                                                                "type": "string"
+                                                                            }
+                                                                        },
+                                                                        "type": "object"
+                                                                    }
+                                                                },
+                                                                "type": "object"
+                                                            }
+                                                        },
+                                                        "type": "object"
+                                                    },
+                                                    "sentAt": {
+                                                        "type": "integer"
+                                                    },
+                                                    "editedAt": {
+                                                        "type": "integer"
+                                                    },
+                                                    "editedBy": {
+                                                        "type": "integer"
+                                                    },
+                                                    "updatedAt": {
+                                                        "type": "integer"
+                                                    },
+                                                    "tags": {
+                                                        "type": "array",
+                                                        "items": {}
+                                                    }
+                                                },
+                                                "type": "object"
+                                            },
+                                            "entityType": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "type": "object"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "sentAt": {
+                        "type": "integer"
+                    },
+                    "updatedAt": {
+                        "type": "integer"
+                    }
+                },
+                "type": "object"
+            },
+            "userConversationSchema": {
+                "description": "Response data",
+                "properties": {
+                    "conversationId": {
+                        "type": "string"
+                    },
+                    "conversationType": {
+                        "type": "string"
+                    },
+                    "unreadMessageCount": {
+                        "type": "string"
+                    },
+                    "createdAt": {
+                        "type": "integer"
+                    },
+                    "updatedAt": {
+                        "type": "integer"
+                    },
+                    "lastMessage": {
+                        "properties": {
+                            "id": {
+                                "type": "string"
+                            },
+                            "conversationId": {
+                                "type": "string"
+                            },
+                            "sender": {
+                                "type": "string"
+                            },
+                            "receiverType": {
+                                "type": "string"
+                            },
+                            "receiver": {
+                                "type": "string"
+                            },
+                            "category": {
+                                "type": "string"
+                            },
+                            "type": {
+                                "type": "string"
+                            },
+                            "data": {
+                                "properties": {
+                                    "text": {
+                                        "type": "string"
+                                    },
+                                    "": {
+                                        "$ref": "#/components/schemas/objectEntitySchema"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "sentAt": {
+                                "type": "integer"
+                            },
+                            "updatedAt": {
+                                "type": "integer"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "conversationWith": {
+                        "properties": {
+                            "": {
+                                "$ref": "#/components/schemas/conversationWithSchema"
+                            }
+                        },
+                        "type": "object"
+                    }
+                },
+                "type": "object"
+            },
+            "userSchema": {
+                "description": "Response data",
+                "properties": {
+                    "uid": {
+                        "type": "string"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "avatar": {
+                        "type": "string"
+                    },
+                    "metadata": {
+                        "properties": {
+                            "email": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "status": {
+                        "type": "string"
+                    },
+                    "role": {
+                        "type": "string"
+                    },
+                    "createdAt": {
+                        "type": "integer"
+                    }
+                },
+                "type": "object"
+            }
+        },
+        "parameters": {
+            "authToken": {
+                "name": "authToken",
+                "in": "path",
+                "description": "An auth token of a user.",
+                "required": true,
+                "schema": {
+                    "type": "string"
+                },
+                "examples": {
+                    "string": {
+                        "summary": "Auth Token",
+                        "value": ""
+                    }
+                }
+            },
+            "conversationId": {
+                "name": "conversationId",
+                "in": "path",
+                "description": "(Required) conversation id",
+                "required": true,
+                "schema": {
+                    "type": "string"
+                }
+            },
+            "uid--conversation": {
+                "name": "uid",
+                "in": "path",
+                "description": "UID of the user whose conversation needs to be fetched.",
+                "required": true,
+                "schema": {
+                    "type": "string"
+                }
+            },
+            "guid--conversation": {
+                "name": "guid",
+                "in": "path",
+                "description": "GUID of the group whose conversation needs to be fetched.",
+                "required": true,
+                "schema": {
+                    "type": "string"
+                }
+            },
+            "uid": {
+                "name": "uid",
+                "in": "path",
+                "description": "An UID of a user.",
+                "required": true,
+                "schema": {
+                    "type": "string"
+                },
+                "examples": {
+                    "string": {
+                        "summary": "UID",
+                        "value": ""
+                    }
+                }
+            },
+            "guid": {
+                "name": "guid",
+                "in": "path",
+                "description": "A GUID of a group.",
+                "required": true,
+                "schema": {
+                    "type": "string"
+                },
+                "examples": {
+                    "string": {
+                        "summary": "GUID",
+                        "value": ""
+                    }
+                }
+            },
+            "requiredonBehalfOf": {
+                "name": "onBehalfOf",
+                "in": "header",
+                "description": "UID of the user on whose behalf the action is performed.",
+                "required": true,
+                "schema": {
+                    "type": "string"
+                }
+            },
+            "onBehalfOf": {
+                "name": "onBehalfOf",
+                "in": "header",
+                "description": "UID of the user on whose behalf the action is performed.",
+                "schema": {
+                    "type": "string"
+                }
+            }
+        },
+        "securitySchemes": {
+            "apiKey": {
+                "type": "apiKey",
+                "description": "API Key with fullAccess scope(i.e. Rest API Key from the Dashboard).",
+                "name": "apikey",
+                "in": "header"
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "API Keys",
+            "description": "The API keys are used to authorise the APIs"
+        },
+        {
+            "name": "Roles",
+            "description": "The roles are used to give user access rights"
+        },
+        {
+            "name": "Users",
+            "description": "The REST collection for users."
+        },
+        {
+            "name": "Auth Tokens",
+            "description": "The auth tokens are used to login end users using client SDKs."
+        },
+        {
+            "name": "Blocked Users",
+            "description": "The REST collections for blocked users."
+        },
+        {
+            "name": "Friends",
+            "description": "List,add and remove friends by passing UID in path variables"
+        },
+        {
+            "name": "Groups",
+            "description": "The REST collections for groups."
+        },
+        {
+            "name": "Banned Users",
+            "description": "Ban and Unban user by passing other UID in path variables."
+        },
+        {
+            "name": "Group Members",
+            "description": "The REST collections for group members."
+        },
+        {
+            "name": "Messages",
+            "description": "The REST collections for messages."
+        },
+        {
+            "name": "Conversations",
+            "description": "The REST collections for conversations."
+        },
+        {
+            "name": "Restrict Features",
+            "description": "Allows Restricting Features"
+        }
+    ],
+    "x-readme": {
+        "explorer-enabled": true,
+        "proxy-enabled": true,
+        "samples-enabled": true
+    }
+}

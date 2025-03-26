@@ -1,0 +1,29 @@
+{
+  "id": "Components/Interactive Messages/single-select-element",
+  "title": "Single Select Element",
+  "description": "The SingleSelectElement class is utilised to create a single selection input element in a user interface.",
+  "source": "@site/docs/ui-kits/angular/05-Components/05-Interactive Messages/11-single-select-element.md",
+  "sourceDirName": "05-Components/05-Interactive Messages",
+  "slug": "/interactive-single-select-element",
+  "permalink": "/docs/ui-kit/angular/interactive-single-select-element",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11,
+    "title": "Single Select Element",
+    "slug": "/interactive-single-select-element"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Label Element",
+    "permalink": "/docs/ui-kit/angular/interactive-label-element"
+  },
+  "next": {
+    "title": "Radio Button Element",
+    "permalink": "/docs/ui-kit/angular/interactive-radio-button-element"
+  }
+}

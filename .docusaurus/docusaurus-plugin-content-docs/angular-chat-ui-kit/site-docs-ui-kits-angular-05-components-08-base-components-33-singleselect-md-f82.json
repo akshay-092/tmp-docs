@@ -1,0 +1,29 @@
+{
+  "id": "Components/Base Components/singleselect",
+  "title": "Single Select",
+  "description": "Overview",
+  "source": "@site/docs/ui-kits/angular/05-Components/08-Base Components/33-singleselect.md",
+  "sourceDirName": "05-Components/08-Base Components",
+  "slug": "/singleselect",
+  "permalink": "/docs/ui-kit/angular/singleselect",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 32,
+  "frontMatter": {
+    "sidebar_position": 32,
+    "title": "Single Select",
+    "slug": "/singleselect"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Quick View",
+    "permalink": "/docs/ui-kit/angular/cometchat-quick-view"
+  },
+  "next": {
+    "title": "List",
+    "permalink": "/docs/ui-kit/angular/list"
+  }
+}

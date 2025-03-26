@@ -1,0 +1,29 @@
+{
+  "id": "Help Center/limits",
+  "title": "Limits",
+  "description": "Limits help to provide a reliable chat experience and reduce downtime and errors.",
+  "source": "@site/docs/articles/08-Help Center/05-limits.md",
+  "sourceDirName": "08-Help Center",
+  "slug": "/limits",
+  "permalink": "/docs/articles/limits",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Limits",
+    "slug": "/limits"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Properties and Constraints",
+    "permalink": "/docs/articles/properties-and-constraints"
+  },
+  "next": {
+    "title": "Docker",
+    "permalink": "/docs/articles/docker"
+  }
+}

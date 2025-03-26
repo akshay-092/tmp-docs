@@ -1,0 +1,29 @@
+{
+  "id": "Guides/CometChatUrlFormatter",
+  "title": "URL Formatter",
+  "description": "Overview",
+  "source": "@site/react-chat-ui-kit_versioned_docs/version-5.0/07-Guides/03-CometChatUrlFormatter.md",
+  "sourceDirName": "07-Guides",
+  "slug": "/url-formatter-guide",
+  "permalink": "/docs/ui-kit/react/v5/url-formatter-guide",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "5.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "URL Formatter",
+    "slug": "/url-formatter-guide"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Mentions Formatter",
+    "permalink": "/docs/ui-kit/react/v5/mentions-formatter-guide"
+  },
+  "next": {
+    "title": "ShortCut Formatter",
+    "permalink": "/docs/ui-kit/react/v5/shortcut-formatter-guide"
+  }
+}

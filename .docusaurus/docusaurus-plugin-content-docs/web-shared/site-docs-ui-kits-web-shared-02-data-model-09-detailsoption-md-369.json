@@ -1,0 +1,29 @@
+{
+  "id": "DATA MODEL/detailsoption",
+  "title": "DetailsOption",
+  "description": "CometChatDetailsOption is a pre-defined structure for creating option within a DetailsTemplate in the CometChatDetails component.",
+  "source": "@site/docs/ui-kits/web-shared/02-DATA MODEL/09-detailsoption.md",
+  "sourceDirName": "02-DATA MODEL",
+  "slug": "/detailsoption",
+  "permalink": "/docs/web-shared/detailsoption",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9,
+    "title": "DetailsOption",
+    "slug": "/detailsoption"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DetailsTemplate",
+    "permalink": "/docs/web-shared/detailstemplate"
+  },
+  "next": {
+    "title": "UIKitSettings",
+    "permalink": "/docs/web-shared/uikitsettings"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Components/Calls/call-logs-with-details",
+  "title": "Call Log With Details",
+  "description": "Overview",
+  "source": "@site/android-chat-ui-kit_versioned_docs/version-4.0/05-Components/06-Calls/11-call-logs-with-details.md",
+  "sourceDirName": "05-Components/06-Calls",
+  "slug": "/call-log-with-details",
+  "permalink": "/docs/ui-kit/android/v4/call-log-with-details",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "4.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10,
+    "title": "Call Log With Details",
+    "slug": "/call-log-with-details"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Call Log Participants",
+    "permalink": "/docs/ui-kit/android/v4/call-log-participants"
+  },
+  "next": {
+    "title": "Avatar",
+    "permalink": "/docs/ui-kit/android/v4/avatar"
+  }
+}

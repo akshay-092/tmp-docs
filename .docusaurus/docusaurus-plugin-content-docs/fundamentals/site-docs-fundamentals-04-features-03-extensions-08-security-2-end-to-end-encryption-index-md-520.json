@@ -1,0 +1,29 @@
+{
+  "id": "Features/Extensions/Security/2 End-to-end Encryption/index",
+  "title": "End-to-End Encryption",
+  "description": "Ensure only your users can read what is sent and nobody in between.",
+  "source": "@site/docs/fundamentals/04-Features/03-Extensions/08-Security/2 End-to-end Encryption/index.md",
+  "sourceDirName": "04-Features/03-Extensions/08-Security/2 End-to-end Encryption",
+  "slug": "/end-to-end-encryption",
+  "permalink": "/docs/fundamentals/end-to-end-encryption",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "End-to-End Encryption",
+    "slug": "/end-to-end-encryption"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Disappearing Messages",
+    "permalink": "/docs/fundamentals/disappearing-messages"
+  },
+  "next": {
+    "title": "AI User Copilot",
+    "permalink": "/docs/fundamentals/ai-user-copilot/overview"
+  }
+}

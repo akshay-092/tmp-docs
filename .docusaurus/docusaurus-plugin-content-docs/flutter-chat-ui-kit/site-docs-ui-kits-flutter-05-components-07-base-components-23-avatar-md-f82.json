@@ -1,0 +1,29 @@
+{
+  "id": "Components/Base-Components/avatar",
+  "title": "Avatar",
+  "description": "CometChatAvatar component displays an image or user's avatar with fallback to the first two letters of the username or group's icon with fallback to the first two letter of the group name.",
+  "source": "@site/docs/ui-kits/flutter/05-Components/07-Base-Components/23-avatar.md",
+  "sourceDirName": "05-Components/07-Base-Components",
+  "slug": "/avatar",
+  "permalink": "/docs/ui-kit/flutter/avatar",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 23,
+  "frontMatter": {
+    "sidebar_position": 23,
+    "title": "Avatar",
+    "slug": "/avatar"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Single Select",
+    "permalink": "/docs/ui-kit/flutter/single-select"
+  },
+  "next": {
+    "title": "Reactions",
+    "permalink": "/docs/ui-kit/flutter/reactions"
+  }
+}

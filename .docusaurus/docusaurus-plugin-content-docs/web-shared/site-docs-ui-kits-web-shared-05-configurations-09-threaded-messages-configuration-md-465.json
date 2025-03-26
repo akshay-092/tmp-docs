@@ -1,0 +1,29 @@
+{
+  "id": "CONFIGURATIONS/threaded-messages-configuration",
+  "title": "ThreadedMessagesConfiguration",
+  "description": "This refers to the properties of the CometChatThreadedMessages component that are available for customisation via the parent component when the component exists in a deep nested hierarchy.",
+  "source": "@site/docs/ui-kits/web-shared/05-CONFIGURATIONS/09-threaded-messages-configuration.md",
+  "sourceDirName": "05-CONFIGURATIONS",
+  "slug": "/threaded-messages-configuration",
+  "permalink": "/docs/web-shared/threaded-messages-configuration",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9,
+    "title": "ThreadedMessagesConfiguration",
+    "slug": "/threaded-messages-configuration"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MessageComposerConfiguration",
+    "permalink": "/docs/web-shared/message-composer-configuration"
+  },
+  "next": {
+    "title": "DetailsConfiguration",
+    "permalink": "/docs/web-shared/details-configuration"
+  }
+}

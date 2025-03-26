@@ -1,0 +1,29 @@
+{
+  "id": "Components/Calls/Call Log Recordings",
+  "title": "Call Log Recordings",
+  "description": "Overview",
+  "source": "@site/ios-chat-ui-kit_versioned_docs/version-4.0/05-Components/06-Calls/09-Call Log Recordings.md",
+  "sourceDirName": "05-Components/06-Calls",
+  "slug": "/call-log-recording",
+  "permalink": "/docs/ui-kit/ios/v4/call-log-recording",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "4.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9,
+    "title": "Call Log Recordings",
+    "slug": "/call-log-recording"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Call Log History",
+    "permalink": "/docs/ui-kit/ios/v4/call-log-history"
+  },
+  "next": {
+    "title": "Call Log Participants",
+    "permalink": "/docs/ui-kit/ios/v4/call-log-participants"
+  }
+}

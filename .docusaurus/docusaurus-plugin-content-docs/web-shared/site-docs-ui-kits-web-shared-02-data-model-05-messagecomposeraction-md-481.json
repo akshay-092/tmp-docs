@@ -1,0 +1,29 @@
+{
+  "id": "DATA MODEL/messagecomposeraction",
+  "title": "MessageComposerAction",
+  "description": "CometChatMessageComposerAction is a pre-defined structure for creating an attachment option in the CometChatMessageComposer component that the user can perform in addition to composing a message.",
+  "source": "@site/docs/ui-kits/web-shared/02-DATA MODEL/05-messagecomposeraction.md",
+  "sourceDirName": "02-DATA MODEL",
+  "slug": "/messagecomposeraction",
+  "permalink": "/docs/web-shared/messagecomposeraction",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "MessageComposerAction",
+    "slug": "/messagecomposeraction"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ActionsView",
+    "permalink": "/docs/web-shared/actionsview"
+  },
+  "next": {
+    "title": "ActionItem",
+    "permalink": "/docs/web-shared/actionitem"
+  }
+}

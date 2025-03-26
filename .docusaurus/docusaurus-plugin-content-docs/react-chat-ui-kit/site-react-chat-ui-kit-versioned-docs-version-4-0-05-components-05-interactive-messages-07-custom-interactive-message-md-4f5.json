@@ -1,0 +1,29 @@
+{
+  "id": "Components/Interactive Messages/custom-interactive-message",
+  "title": "Custom Interactive Message",
+  "description": "The CustomInteractiveMessage class extends CometChat's InteractiveMessage class and represents a custom interactive message that can be sent via CometChat.",
+  "source": "@site/react-chat-ui-kit_versioned_docs/version-4.0/05-Components/05-Interactive Messages/07-custom-interactive-message.md",
+  "sourceDirName": "05-Components/05-Interactive Messages",
+  "slug": "/interactive-custom-interactive-message",
+  "permalink": "/docs/ui-kit/react/v4/interactive-custom-interactive-message",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "4.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "title": "Custom Interactive Message",
+    "slug": "/interactive-custom-interactive-message"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Action Entity",
+    "permalink": "/docs/ui-kit/react/v4/interactive-action-entity"
+  },
+  "next": {
+    "title": "Button Element",
+    "permalink": "/docs/ui-kit/react/v4/interactive-button-element"
+  }
+}

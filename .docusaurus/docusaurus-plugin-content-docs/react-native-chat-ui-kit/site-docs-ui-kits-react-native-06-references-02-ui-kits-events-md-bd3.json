@@ -1,0 +1,29 @@
+{
+  "id": "References/ui-kits-events",
+  "title": "Events",
+  "description": "Overview",
+  "source": "@site/docs/ui-kits/react-native/06-References/02-ui-kits-events.md",
+  "sourceDirName": "06-References",
+  "slug": "/events",
+  "permalink": "/docs/ui-kit/react-native/events",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Events",
+    "slug": "/events"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Methods",
+    "permalink": "/docs/ui-kit/react-native/methods"
+  },
+  "next": {
+    "title": "Multi-Tab Chat UI Guide",
+    "permalink": "/docs/ui-kit/react-native/multi-tab-chat-ui-guide"
+  }
+}

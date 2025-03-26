@@ -1,0 +1,29 @@
+{
+  "id": "Components/Base Components/icon",
+  "title": "Icon",
+  "description": "Overview",
+  "source": "@site/react-chat-ui-kit_versioned_docs/version-4.0/05-Components/08-Base Components/22-icon.md",
+  "sourceDirName": "05-Components/08-Base Components",
+  "slug": "/icon",
+  "permalink": "/docs/ui-kit/react/v4/icon",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "4.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 21,
+  "frontMatter": {
+    "sidebar_position": 21,
+    "title": "Icon",
+    "slug": "/icon"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Pop Over",
+    "permalink": "/docs/ui-kit/react/v4/pop-over"
+  },
+  "next": {
+    "title": "Loader",
+    "permalink": "/docs/ui-kit/react/v4/loader"
+  }
+}

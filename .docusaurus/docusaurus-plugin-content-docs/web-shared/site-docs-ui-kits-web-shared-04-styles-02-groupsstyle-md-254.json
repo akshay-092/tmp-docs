@@ -1,0 +1,29 @@
+{
+  "id": "STYLES/groupsstyle",
+  "title": "GroupsStyle",
+  "description": "Styling properties of CometChatGroups component.",
+  "source": "@site/docs/ui-kits/web-shared/04-STYLES/02-groupsstyle.md",
+  "sourceDirName": "04-STYLES",
+  "slug": "/groupsstyle",
+  "permalink": "/docs/web-shared/groupsstyle",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "GroupsStyle",
+    "slug": "/groupsstyle"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "UsersStyle",
+    "permalink": "/docs/web-shared/usersstyle"
+  },
+  "next": {
+    "title": "ConversationsStyle",
+    "permalink": "/docs/web-shared/conversationsstyle"
+  }
+}

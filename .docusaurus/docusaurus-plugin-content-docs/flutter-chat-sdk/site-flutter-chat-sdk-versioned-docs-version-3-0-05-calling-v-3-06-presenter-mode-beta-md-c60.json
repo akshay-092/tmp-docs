@@ -1,0 +1,29 @@
+{
+  "id": "Calling v3/Presenter Mode(Beta)",
+  "title": "Presenter Mode",
+  "description": "Overview",
+  "source": "@site/flutter-chat-sdk_versioned_docs/version-3.0/05-Calling v3/06-Presenter Mode(Beta).md",
+  "sourceDirName": "05-Calling v3",
+  "slug": "/presenter",
+  "permalink": "/docs/sdk/flutter/3.0/presenter",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Presenter Mode",
+    "slug": "/presenter"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Recording",
+    "permalink": "/docs/sdk/flutter/3.0/recording"
+  },
+  "next": {
+    "title": "Users",
+    "permalink": "/docs/sdk/flutter/3.0/users"
+  }
+}

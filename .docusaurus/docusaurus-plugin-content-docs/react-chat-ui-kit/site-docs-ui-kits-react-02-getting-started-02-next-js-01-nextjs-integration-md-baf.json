@@ -1,0 +1,30 @@
+{
+  "id": "Getting Started/Next.js/nextjs-integration",
+  "title": "Integration",
+  "description": "Start your first conversation",
+  "source": "@site/docs/ui-kits/react/02-Getting Started/02-Next.js/01-nextjs-integration.md",
+  "sourceDirName": "02-Getting Started/02-Next.js",
+  "slug": "/next-js-integration",
+  "permalink": "/docs/ui-kit/react/v6/next-js-integration",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "sidebar_label": "Integration",
+    "title": "Integration",
+    "slug": "/next-js-integration"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tab-Based Chat Experience",
+    "permalink": "/docs/ui-kit/react/v6/react-tab-based-chat"
+  },
+  "next": {
+    "title": "Core",
+    "permalink": "/docs/ui-kit/react/v6/core-features"
+  }
+}

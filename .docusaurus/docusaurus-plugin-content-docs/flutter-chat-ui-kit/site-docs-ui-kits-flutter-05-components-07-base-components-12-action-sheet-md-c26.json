@@ -1,0 +1,29 @@
+{
+  "id": "Components/Base-Components/action-sheet",
+  "title": "Action Sheet",
+  "description": "CometChatActionSheet is a DraggableScrollableSheet which shows each ActionItem and returns the ActionItem that is clicked on . You can customize the appearance of CometChatActionSheet too.",
+  "source": "@site/docs/ui-kits/flutter/05-Components/07-Base-Components/12-action-sheet.md",
+  "sourceDirName": "05-Components/07-Base-Components",
+  "slug": "/action-sheet",
+  "permalink": "/docs/ui-kit/flutter/action-sheet",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12,
+    "title": "Action Sheet",
+    "slug": "/action-sheet"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Message Input",
+    "permalink": "/docs/ui-kit/flutter/message-input"
+  },
+  "next": {
+    "title": "Emoji Keyboard",
+    "permalink": "/docs/ui-kit/flutter/emoji-keyboard"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Messages/Message Header",
+  "title": "Message Header",
+  "description": "This component contains relevant information relevant to the chat conversation.",
+  "source": "@site/docs/ui-kits/vue/09-Messages/02-Message Header.md",
+  "sourceDirName": "09-Messages",
+  "slug": "/message-header",
+  "permalink": "/docs/ui-kit/vue/message-header",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Message Header",
+    "slug": "/message-header"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Messages",
+    "permalink": "/docs/ui-kit/vue/messages"
+  },
+  "next": {
+    "title": "Message List",
+    "permalink": "/docs/ui-kit/vue/message-list"
+  }
+}

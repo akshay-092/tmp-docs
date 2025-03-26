@@ -1,0 +1,29 @@
+{
+  "id": "CONFIGURATIONS/messages-configuration",
+  "title": "MessagesConfiguration",
+  "description": "This refers to the properties of the CometChatMessages component that are available for customisation via the parent component when the component exists in a deep nested hierarchy.",
+  "source": "@site/docs/ui-kits/web-shared/05-CONFIGURATIONS/05-messages-configuration.md",
+  "sourceDirName": "05-CONFIGURATIONS",
+  "slug": "/messages-configuration",
+  "permalink": "/docs/web-shared/messages-configuration",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "MessagesConfiguration",
+    "slug": "/messages-configuration"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "GroupsConfiguration",
+    "permalink": "/docs/web-shared/groups-configurations"
+  },
+  "next": {
+    "title": "MessageHeaderConfiguration",
+    "permalink": "/docs/web-shared/message-header-configuration"
+  }
+}

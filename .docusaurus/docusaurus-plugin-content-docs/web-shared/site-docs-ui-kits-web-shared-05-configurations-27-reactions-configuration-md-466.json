@@ -1,0 +1,29 @@
+{
+  "id": "CONFIGURATIONS/reactions-configuration",
+  "title": "ReactionsConfiguration",
+  "description": "You can modify the Reaction  component's properties using the ReactionsConfiguration object. To use a configuration, you simply need to pass it to respective parameter.",
+  "source": "@site/docs/ui-kits/web-shared/05-CONFIGURATIONS/27-reactions-configuration.md",
+  "sourceDirName": "05-CONFIGURATIONS",
+  "slug": "/reactions-configuration",
+  "permalink": "/docs/web-shared/reactions-configuration",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 27,
+  "frontMatter": {
+    "sidebar_position": 27,
+    "title": "ReactionsConfiguration",
+    "slug": "/reactions-configuration"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AIAssistBotConfiguration",
+    "permalink": "/docs/web-shared/ai-assist-bot-configuration"
+  },
+  "next": {
+    "title": "ReactionInfoConfiguration",
+    "permalink": "/docs/web-shared/reaction-info-configuration"
+  }
+}

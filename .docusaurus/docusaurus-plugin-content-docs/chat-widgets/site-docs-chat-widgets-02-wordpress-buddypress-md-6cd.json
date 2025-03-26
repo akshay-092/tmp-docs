@@ -1,0 +1,29 @@
+{
+  "id": "wordpress-buddypress",
+  "title": "WordPress / BuddyPress",
+  "description": "Before getting started",
+  "source": "@site/docs/chat-widgets/02-wordpress-buddypress.md",
+  "sourceDirName": ".",
+  "slug": "/wordpress-buddypress",
+  "permalink": "/docs/widget/wordpress-buddypress",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "WordPress / BuddyPress",
+    "slug": "/wordpress-buddypress"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/widget/overview"
+  },
+  "next": {
+    "title": "HTML / Bootstrap / jQuery",
+    "permalink": "/docs/widget/html-bootstrap-jquery"
+  }
+}

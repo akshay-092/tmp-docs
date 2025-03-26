@@ -1,0 +1,29 @@
+{
+  "id": "label",
+  "title": "Label",
+  "description": "This element provides descriptive information about the associated UI element.",
+  "source": "@site/docs/ui-kits/elements/24-label.md",
+  "sourceDirName": ".",
+  "slug": "/label",
+  "permalink": "/docs/web-elements/label",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 24,
+  "frontMatter": {
+    "sidebar_position": 24,
+    "title": "Label",
+    "slug": "/label"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Button Group",
+    "permalink": "/docs/web-elements/button-group"
+  },
+  "next": {
+    "title": "Input",
+    "permalink": "/docs/web-elements/input"
+  }
+}

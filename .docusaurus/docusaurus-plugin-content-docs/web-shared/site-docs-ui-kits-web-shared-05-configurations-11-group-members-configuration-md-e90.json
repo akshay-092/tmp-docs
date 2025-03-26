@@ -1,0 +1,29 @@
+{
+  "id": "CONFIGURATIONS/group-members-configuration",
+  "title": "GroupMembersConfiguration",
+  "description": "This refers to the properties of the CometChatGroupMembers component that are available for customisation via the parent component when the component exists in a deep nested hierarchy.",
+  "source": "@site/docs/ui-kits/web-shared/05-CONFIGURATIONS/11-group-members-configuration.md",
+  "sourceDirName": "05-CONFIGURATIONS",
+  "slug": "/group-members-configuration",
+  "permalink": "/docs/web-shared/group-members-configuration",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11,
+    "title": "GroupMembersConfiguration",
+    "slug": "/group-members-configuration"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DetailsConfiguration",
+    "permalink": "/docs/web-shared/details-configuration"
+  },
+  "next": {
+    "title": "AddMembersConfiguration",
+    "permalink": "/docs/web-shared/add-members-configuration"
+  }
+}

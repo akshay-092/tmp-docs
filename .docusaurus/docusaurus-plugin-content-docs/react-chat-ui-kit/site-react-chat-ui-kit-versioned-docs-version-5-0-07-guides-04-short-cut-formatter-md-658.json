@@ -1,0 +1,29 @@
+{
+  "id": "Guides/ShortCutFormatter",
+  "title": "ShortCut Formatter",
+  "description": "Overview",
+  "source": "@site/react-chat-ui-kit_versioned_docs/version-5.0/07-Guides/04-ShortCutFormatter.md",
+  "sourceDirName": "07-Guides",
+  "slug": "/shortcut-formatter-guide",
+  "permalink": "/docs/ui-kit/react/v5/shortcut-formatter-guide",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "5.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "ShortCut Formatter",
+    "slug": "/shortcut-formatter-guide"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "URL Formatter",
+    "permalink": "/docs/ui-kit/react/v5/url-formatter-guide"
+  },
+  "next": {
+    "title": "Upgrading from v4",
+    "permalink": "/docs/ui-kit/react/v5/upgrading-from-v4"
+  }
+}

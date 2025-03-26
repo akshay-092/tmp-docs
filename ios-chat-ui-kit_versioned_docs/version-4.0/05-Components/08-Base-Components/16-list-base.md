@@ -1,0 +1,144 @@
+---
+sidebar_position: 15
+title: List Base
+slug: /list-base
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+**CometChatListBase** is a container component having title (`navigationBar`), search (`search-bar`), `background`, and a container to embed a list view, such as `CometChatConversationList, CometChatGroupList, CometChatUserList,CometChatCallList.`
+
+<!-- ![](./assets/1644839413.png) -->
+
+---
+
+## Methods
+
+**Background:** The background is a `UIView` which is present in the backdrop for `CometChatListBase`. You can modify the background using the below methods:
+
+| Method                       | Description                                                                                                           |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| `set(background: [UIColor])` | Sets the background color for CometChatListBase, it can take an array of multiple colors for the gradient background. |
+
+**1. Title:** The title is a `UILabel` which specifies a title for `CometChatListBase`. You will be able to modify the title using the below methods:
+
+| Method                          | Description                                  |
+| ------------------------------- | -------------------------------------------- |
+| `set(title: String)`            | Sets the title for `CometChatListBase`       |
+| `set(titleColor: UIColor)`      | Sets the title color for `CometChatListBase` |
+| `_set(titleFont: UIFont)_`      | Sets the title font for `CometChatListBase`  |
+| `_set(largeTitleFont: UIFont)_` | Sets the title font for `CometChatListBase`  |
+
+**2. Search:** The search is a `UISearchController`, which is responsible for displaying and handling events for the search bar in `CometChatListBase`. You can modify the search bar using the below methods:
+
+| Method                                  | Description                                                           |
+| --------------------------------------- | --------------------------------------------------------------------- |
+| `set(searchBackground: UIColor)`        | Sets the background color for search bar in `CometChatListBase`       |
+| `set(searchCornerRadius: CGFloat)`      | Sets the corner radius for the search bar in `CometChatListBase`      |
+| `set(searchPlaceholder: String)`        | Set the placeholder for search bar in `CometChatListBase`             |
+| `set(searchTextColor: UIColor)`         | Set the text color for search bar in `CometChatListBase`              |
+| `set(searchTextFont: UIFont)`           | Set the font for search bar in `CometChatListBase`                    |
+| `set(searchCancelButtonColor: UIColor)` | Set the cancel button color for the search bar in `CometChatListBase` |
+| `set(searchBorderWidth: CGFloat)`       | Set the border for search bar in `CometChatListBase`                  |
+| `set(searchBorderColor: UIColor)`       | Set the border color for the search bar in `CometChatListBase`        |
+| `hide(search: Bool)`                    | Hide / unhide the search bar as per boolean value.                    |
+
+**3. Back:** The back button is a `UIButton` which the user can show if he wishes to. This button can be modified using the below methods:
+
+| Method                         | Description                                            |
+| ------------------------------ | ------------------------------------------------------ |
+| `show(backButton: Bool)`       | Hides / shows the back button as per the boolean value |
+| `set(backButtonTint: UIColor)` | Sets the tint color for the back button                |
+| `set(backButtonIcon: UIImage)` | Sets the icon for the back button                      |
+
+_**4. Container**\_\_: The container is a UIView which helps to embed any custom view._
+
+_[Props required]_
+
+---
+
+## Usage`(Not required)`
+
+<Tabs>
+<TabItem value="Swift" label="Swift">
+
+```swift
+//
+self.set(background:[UIColor.orange.cgColor,UIColor.red.cgColor])
+
+        .set(searchbarBackground:.white)
+
+        .set(searchbarPlaceholder:"Search")
+
+        .set(title:"CHATS".localized(),mode:.automatic)
+
+        .set(titleColor:.black)
+
+        .hide(search:false)
+
+```
+
+</TabItem>
+</Tabs>
+
+## Events
+
+_`CometChatListBase`_ _is having a listener/delegate named_ _`CometChatListBaseDelegate`_ _which will provide the events for search-bar and the_ _**back**_ _button present in the_ _`CometChatListBase`\_\_._
+
+**\_\_**×
+MethodDescription`onSearch(state: SearchState, text: String)`Fires when the search bar is active. It returns the text the user has entered in the search bar.`onBack()`Fires when the close button is visible and the user taps on it
+
+<!-- ---
+
+--- -->
+
+<!-- \_\_ -->
+
+---
+
+## `Usage (change required specific to listbase)`
+
+<Tabs>
+<TabItem value="Swift" label="Swift">
+
+```swift
+//
+classCometChatUsers:CometChatListBase{
+
+overridefuncviewDidLoad(){
+
+super.viewDidLoad()
+
+self.cometChatListBaseDelegate=self
+}
+
+}
+​
+extensionCometChatUsers:CometChatListBaseDelegate{
+
+​
+funconSearch(state:SearchState,text:String){
+
+switch state{
+
+casefilter: print("onSearch: (text)")
+
+caseclear:print("onSearch clear")
+
+}
+
+}
+
+funconBack(){
+
+print("onBack")
+
+}
+
+}
+
+```
+
+</TabItem>
+</Tabs>

@@ -1,0 +1,29 @@
+{
+  "id": "Components/Groups/Banned-members",
+  "title": "Banned Members",
+  "description": "Overview",
+  "source": "@site/ios-chat-ui-kit_versioned_docs/version-4.0/05-Components/03-Groups/07-Banned-members.md",
+  "sourceDirName": "05-Components/03-Groups",
+  "slug": "/group-banned-members",
+  "permalink": "/docs/ui-kit/ios/v4/group-banned-members",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "4.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "title": "Banned Members",
+    "slug": "/group-banned-members"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Add Members",
+    "permalink": "/docs/ui-kit/ios/v4/group-add-members"
+  },
+  "next": {
+    "title": "Transfer Ownership",
+    "permalink": "/docs/ui-kit/ios/v4/group-transfer-ownership"
+  }
+}

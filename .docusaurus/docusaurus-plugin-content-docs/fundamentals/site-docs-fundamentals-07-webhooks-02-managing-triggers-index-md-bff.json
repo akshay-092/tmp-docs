@@ -1,0 +1,29 @@
+{
+  "id": "Webhooks/Managing triggers/index",
+  "title": "Managing triggers",
+  "description": "Webhook management and configuration of triggers can be handled via CometChat's dashboard or by utilizing the Management APIs.",
+  "source": "@site/docs/fundamentals/07-Webhooks/02-Managing triggers/index.md",
+  "sourceDirName": "07-Webhooks/02-Managing triggers",
+  "slug": "/webhooks-management",
+  "permalink": "/docs/fundamentals/webhooks-management",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Managing triggers",
+    "slug": "/webhooks-management"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/fundamentals/webhooks-overview"
+  },
+  "next": {
+    "title": "Events",
+    "permalink": "/docs/fundamentals/webhooks-events"
+  }
+}

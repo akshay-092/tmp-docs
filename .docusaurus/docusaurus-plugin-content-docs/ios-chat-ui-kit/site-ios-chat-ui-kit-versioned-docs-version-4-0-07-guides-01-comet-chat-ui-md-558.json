@@ -1,0 +1,30 @@
+{
+  "id": "Guides/CometChat UI",
+  "title": "Multi-Tab Chat UI Guide",
+  "description": "How to add Tabbed layout for Chat,Users,Groups and Call modules?",
+  "source": "@site/ios-chat-ui-kit_versioned_docs/version-4.0/07-Guides/01-CometChat UI.md",
+  "sourceDirName": "07-Guides",
+  "slug": "/multi-tab-chat-ui-guide",
+  "permalink": "/docs/ui-kit/ios/v4/multi-tab-chat-ui-guide",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "4.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "sidebar_label": "Multi-Tab Chat UI Guide",
+    "title": "Multi-Tab Chat UI Guide",
+    "slug": "/multi-tab-chat-ui-guide"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Events",
+    "permalink": "/docs/ui-kit/ios/v4/events"
+  },
+  "next": {
+    "title": "Mentions Formatter",
+    "permalink": "/docs/ui-kit/ios/v4/mentions-formatter-guide"
+  }
+}

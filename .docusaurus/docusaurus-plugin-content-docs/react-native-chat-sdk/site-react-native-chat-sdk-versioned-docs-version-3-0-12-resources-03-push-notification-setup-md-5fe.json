@@ -1,0 +1,29 @@
+{
+  "id": "Resources/Push Notification Setup",
+  "title": "Push Notification Setup",
+  "description": "Installation",
+  "source": "@site/react-native-chat-sdk_versioned_docs/version-3.0/12-Resources/03-Push Notification Setup.md",
+  "sourceDirName": "12-Resources",
+  "slug": "/resources-push-notification-setup",
+  "permalink": "/docs/sdk/react-native/3.0/resources-push-notification-setup",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Push Notification Setup",
+    "slug": "/resources-push-notification-setup"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Upgrading from v2",
+    "permalink": "/docs/sdk/react-native/3.0/resources-upgrading-from-v2"
+  },
+  "next": {
+    "title": "Advanced",
+    "permalink": "/docs/sdk/react-native/3.0/advanced"
+  }
+}

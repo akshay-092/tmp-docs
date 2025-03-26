@@ -1,0 +1,29 @@
+{
+  "id": "AI/Integration",
+  "title": "Integration",
+  "description": "By default, SmartReplies and ConversationStarter will be enabled if they are enabled from the dashboard as well.",
+  "source": "@site/docs/ui-kits/vue/11-AI/01-Integration.md",
+  "sourceDirName": "11-AI",
+  "slug": "/ai-integration",
+  "permalink": "/docs/ui-kit/vue/ai-integration",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Integration",
+    "slug": "/ai-integration"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Call Buttons",
+    "permalink": "/docs/ui-kit/vue/call-buttons"
+  },
+  "next": {
+    "title": "AI Conversation Starter",
+    "permalink": "/docs/ui-kit/vue/ai-conversation-starter"
+  }
+}

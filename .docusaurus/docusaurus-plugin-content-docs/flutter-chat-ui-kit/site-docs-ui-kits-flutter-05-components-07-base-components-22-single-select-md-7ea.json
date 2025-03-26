@@ -1,0 +1,29 @@
+{
+  "id": "Components/Base-Components/single-select",
+  "title": "Single Select",
+  "description": "The CometChatSingleSelect component is a customizable Single Select component that allows you to choose one option from a list of box-structured options.",
+  "source": "@site/docs/ui-kits/flutter/05-Components/07-Base-Components/22-single-select.md",
+  "sourceDirName": "05-Components/07-Base-Components",
+  "slug": "/single-select",
+  "permalink": "/docs/ui-kit/flutter/single-select",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 22,
+  "frontMatter": {
+    "sidebar_position": 22,
+    "title": "Single Select",
+    "slug": "/single-select"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Quick View",
+    "permalink": "/docs/ui-kit/flutter/quick-view"
+  },
+  "next": {
+    "title": "Avatar",
+    "permalink": "/docs/ui-kit/flutter/avatar"
+  }
+}

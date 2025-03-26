@@ -1,0 +1,29 @@
+{
+  "id": "RESOURCES/localize",
+  "title": "Localize",
+  "description": "With language localization, CometChat UI Kit adapts to the language of a specific country or region. CometChatLocalize allows you to detect the language of your users based on their browser settings and set the language accordingly.",
+  "source": "@site/docs/ui-kits/web-shared/07-RESOURCES/02-localize.md",
+  "sourceDirName": "07-RESOURCES",
+  "slug": "/localize",
+  "permalink": "/docs/web-shared/localize",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Localize",
+    "slug": "/localize"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Theme",
+    "permalink": "/docs/web-shared/theme"
+  },
+  "next": {
+    "title": "Sound Manager",
+    "permalink": "/docs/web-shared/sound-manager"
+  }
+}

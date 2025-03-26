@@ -1,0 +1,29 @@
+{
+  "id": "Features/Ai-Copilot/Conversation Starter",
+  "title": "Conversation Starter",
+  "description": "Conversation Starter enables you to retrieve an initial message in a new conversation, often used to set the context for the conversation that is about to begin. This can be particularly useful for guiding users on how to interact within the chat or for delivering automated messages that engage users when they initiate a chat.",
+  "source": "@site/docs/fundamentals/04-Features/04-Ai-Copilot/02-Conversation Starter.md",
+  "sourceDirName": "04-Features/04-Ai-Copilot",
+  "slug": "/ai-user-copilot/conversation-starter",
+  "permalink": "/docs/fundamentals/ai-user-copilot/conversation-starter",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Conversation Starter",
+    "slug": "/ai-user-copilot/conversation-starter"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AI User Copilot",
+    "permalink": "/docs/fundamentals/ai-user-copilot/overview"
+  },
+  "next": {
+    "title": "Smart Replies",
+    "permalink": "/docs/fundamentals/ai-user-copilot/smart-replies"
+  }
+}

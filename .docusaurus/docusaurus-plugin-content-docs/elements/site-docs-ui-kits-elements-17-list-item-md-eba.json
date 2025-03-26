@@ -1,0 +1,29 @@
+{
+  "id": "list-item",
+  "title": "List item",
+  "description": "This element is used to display rows of information, such as a contact list, playlist, or menu. They contain Avatar, Status indicator, title, subtitle, tailView and menuView.",
+  "source": "@site/docs/ui-kits/elements/17-list-item.md",
+  "sourceDirName": ".",
+  "slug": "/list-item",
+  "permalink": "/docs/web-elements/list-item",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 17,
+  "frontMatter": {
+    "sidebar_position": 17,
+    "title": "List item",
+    "slug": "/list-item"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Confirm dialog",
+    "permalink": "/docs/web-elements/confirm-dialog"
+  },
+  "next": {
+    "title": "Modal",
+    "permalink": "/docs/web-elements/modal"
+  }
+}

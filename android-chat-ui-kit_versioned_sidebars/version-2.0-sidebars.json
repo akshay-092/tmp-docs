@@ -1,0 +1,41 @@
+{
+  "tutorialSidebar": [
+    {
+      "type": "category",
+      "label": "Overview",
+      "link": {
+        "type": "doc",
+        "id": "Overview/index"
+      },
+      "items": [
+        "Overview/Key Concepts",
+        "Overview/Message Structure and Hierarchy"
+      ]
+    },
+    {
+      "type": "doc",
+      "label": "UI Components",
+      "id": "UI Components/index"
+    },
+    {
+      "type": "doc",
+      "label": "Customize UI Kit",
+      "id": "Customize UI Kit/index"
+    },
+    {
+      "type": "doc",
+      "label": "UI Kit Library Structure",
+      "id": "UI Kit Library Structure/index"
+    },
+    {
+      "type": "link",
+      "label": "Android SDK",
+      "href": "/sdk/android/2.0/overview"
+    },
+    {
+      "type": "link",
+      "label": "Extensions",
+      "href": "/extensions/overview"
+    }
+  ]
+}

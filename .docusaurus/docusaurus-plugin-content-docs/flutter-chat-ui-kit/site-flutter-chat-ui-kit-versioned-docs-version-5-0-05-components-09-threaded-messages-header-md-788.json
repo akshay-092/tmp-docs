@@ -1,0 +1,29 @@
+{
+  "id": "Components/threaded-messages-header",
+  "title": "Threaded Messages Header",
+  "description": "Overview",
+  "source": "@site/flutter-chat-ui-kit_versioned_docs/version-5.0/05-Components/09-threaded-messages-header.md",
+  "sourceDirName": "05-Components",
+  "slug": "/threaded-messages-header",
+  "permalink": "/docs/ui-kit/flutter/5.0/threaded-messages-header",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "5.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9,
+    "title": "Threaded Messages Header",
+    "slug": "/threaded-messages-header"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Message Composer",
+    "permalink": "/docs/ui-kit/flutter/5.0/message-composer"
+  },
+  "next": {
+    "title": "Incoming Call",
+    "permalink": "/docs/ui-kit/flutter/5.0/incoming-call"
+  }
+}

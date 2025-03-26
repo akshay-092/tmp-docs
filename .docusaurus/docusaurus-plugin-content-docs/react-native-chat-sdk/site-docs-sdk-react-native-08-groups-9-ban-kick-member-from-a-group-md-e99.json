@@ -1,0 +1,29 @@
+{
+  "id": "groups/9 Ban_Kick Member from a Group",
+  "title": "Kick Member from a Group",
+  "description": "There are certain actions that can be performed on the group members:",
+  "source": "@site/docs/sdk/react-native/08-groups/9 Ban_Kick Member from a Group.md",
+  "sourceDirName": "08-groups",
+  "slug": "/group-kick-ban-members",
+  "permalink": "/docs/sdk/react-native/group-kick-ban-members",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9,
+    "title": "Kick Member from a Group",
+    "slug": "/group-kick-ban-members"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Add Members to a Group",
+    "permalink": "/docs/sdk/react-native/group-add-members"
+  },
+  "next": {
+    "title": "Change Member Scope",
+    "permalink": "/docs/sdk/react-native/group-change-member-scope"
+  }
+}

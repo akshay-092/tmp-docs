@@ -1,0 +1,47 @@
+{
+  "tutorialSidebar": [
+    {
+      "type": "category",
+      "label": "Overview",
+      "link": {
+        "type": "doc",
+        "id": "overview/index"
+      },
+      "items": [
+        "overview/conversation-list",
+        "overview/Key-Concepts",
+        "overview/how-to-add-ui-kit-module"
+      ]
+    },
+    {
+      "type": "doc",
+      "label": "UI Components",
+      "id": "ui-component/index"
+    },
+    {
+      "type": "doc",
+      "label": "Customize Ui Kit",
+      "id": "customize-ui-kit/index"
+    },
+    {
+      "type": "doc",
+      "label": "UI Kit Library Structure",
+      "id": "ui-kit-library-structure/index"
+    },
+    {
+      "type": "link",
+      "label": "Android SDK",
+      "href": "/sdk/android/overview"
+    },
+    {
+      "type": "link",
+      "label": "Extensions",
+      "href": "/extensions/overview"
+    },
+    {
+      "type": "link",
+      "label": "Version 4",
+      "href": "/ui-kit/android/v5/overview"
+    }
+  ]
+}

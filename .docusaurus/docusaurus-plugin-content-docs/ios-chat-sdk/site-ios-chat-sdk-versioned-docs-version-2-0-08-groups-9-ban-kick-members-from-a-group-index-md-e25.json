@@ -1,0 +1,29 @@
+{
+  "id": "groups/9 Ban_Kick Members from a Group/index",
+  "title": "Ban/Kick Members from a Group",
+  "description": "There are certain actions that can be performed on the group members:",
+  "source": "@site/ios-chat-sdk_versioned_docs/version-2.0/08-groups/9 Ban_Kick Members from a Group/index.md",
+  "sourceDirName": "08-groups/9 Ban_Kick Members from a Group",
+  "slug": "/kick-member-from-a-group",
+  "permalink": "/docs/sdk/ios/2.0/kick-member-from-a-group",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "2.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9,
+    "title": "Ban/Kick Members from a Group",
+    "slug": "/kick-member-from-a-group"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Retrieve Group Members",
+    "permalink": "/docs/sdk/ios/2.0/retrieve-group-members"
+  },
+  "next": {
+    "title": "Change Member Scope",
+    "permalink": "/docs/sdk/ios/2.0/change-member-scope"
+  }
+}

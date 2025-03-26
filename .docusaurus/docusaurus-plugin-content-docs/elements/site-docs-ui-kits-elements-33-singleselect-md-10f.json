@@ -1,0 +1,29 @@
+{
+  "id": "singleselect",
+  "title": "SingleSelect",
+  "description": "The CometChatSingleSelect  component is a customizable Single Select component that allows you to choose one option from a list of box-structured options. It extends from the LitElement's base class.",
+  "source": "@site/docs/ui-kits/elements/33-singleselect.md",
+  "sourceDirName": ".",
+  "slug": "/singleselect",
+  "permalink": "/docs/web-elements/singleselect",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 33,
+  "frontMatter": {
+    "sidebar_position": 33,
+    "title": "SingleSelect",
+    "slug": "/singleselect"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "QuickView",
+    "permalink": "/docs/web-elements/cometchat-quick-view"
+  },
+  "next": {
+    "title": "Text Input",
+    "permalink": "/docs/web-elements/text-input"
+  }
+}

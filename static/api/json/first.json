@@ -1,0 +1,966 @@
+{
+  "openapi": "3.0.0",
+  "id": "first_id",
+  "info": {
+    "title": "Analytics APIs",
+    "description": "Embed usage reports in your app using our analytics API.",
+    "version": "3.0"
+  },
+  "servers": [
+    {
+      "url": "https://{appid}.api-{region}.cometchat.io/v3",
+      "variables": {
+        "appid": { "default": "appId", "description": "(Required) App ID" },
+        "region": {
+          "enum": ["us", "eu"],
+          "default": "region",
+          "description": "Select Region"
+        }
+      }
+    }
+  ],
+  "paths": {
+    "/stats": {
+      "get": {
+        "tags": ["Metrics"],
+        "summary": "Usage Metrics",
+        "description": "Usage metrics of an app.",
+        "operationId": "usage-metrics",
+        "parameters": [
+          {
+            "name": "fromDate",
+            "in": "query",
+            "description": "Unix timestamp from which usage has to be fetched.",
+            "required": true,
+            "schema": { "type": "integer" }
+          },
+          {
+            "name": "toDate",
+            "in": "query",
+            "description": "Unix timestamp till which usage has to be fetched.",
+            "required": true,
+            "schema": { "type": "integer" }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Usage metrics of an app.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {
+                      "properties": {
+                        "": {
+                          "$ref": "#/components/schemas/usageMetricsSchema"
+                        }
+                      },
+                      "type": "object"
+                    }
+                  },
+                  "type": "object"
+                },
+                "example": {
+                  "data": {
+                    "metrics": {
+                      "audio_minutes": 0,
+                      "video_minutes": 0,
+                      "recorded_minutes": 0,
+                      "active_users": 0,
+                      "concurrent_users": 0
+                    },
+                    "time_range": {
+                      "fromDate": 1630164253000,
+                      "toDate": 1632842653000
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [{ "apiKey": [] }]
+      }
+    },
+    "/stats/messages": {
+      "get": {
+        "tags": ["Metrics"],
+        "summary": "Message Metrics",
+        "description": "Gives the number of messages sent and receipts received in an interval of five minutes.",
+        "operationId": "message-receipt-metrics",
+        "responses": {
+          "200": {
+            "description": "Gives the number of messages sent and receipts received in an interval of five minutes.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "dataPoints": {
+                      "type": "array",
+                      "items": {
+                        "properties": {
+                          "": { "$ref": "#/components/schemas/dataPointSchema" }
+                        },
+                        "type": "object"
+                      }
+                    }
+                  },
+                  "type": "object"
+                },
+                "example": {
+                  "data": {
+                    "startTime": "1682676600000",
+                    "endTime": "1682680200000",
+                    "dataPoints": [
+                      {
+                        "messagesSent": 0,
+                        "readReceipts": 0,
+                        "deliveryReceipts": 0,
+                        "startTime": "1682676600000",
+                        "endTime": "1682676900000"
+                      },
+                      {
+                        "messagesSent": 0,
+                        "readReceipts": 0,
+                        "deliveryReceipts": 0,
+                        "startTime": "1682676900000",
+                        "endTime": "1682677200000"
+                      }
+                    ],
+                    "appId": "235391c94852dc7d"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [{ "apiKey": [] }]
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "APIKeySchema": {
+        "description": "Response data",
+        "properties": {
+          "apiKey": { "type": "string" },
+          "name": { "type": "string" },
+          "scope": { "type": "string" },
+          "createdAt": { "type": "integer" }
+        },
+        "type": "object"
+      },
+      "authTokenSchema": {
+        "description": "Response data",
+        "properties": {
+          "uid": { "type": "string" },
+          "authToken": { "type": "string" },
+          "createdAt": { "type": "integer" }
+        },
+        "type": "object"
+      },
+      "bannedUserSchema": {
+        "description": "Response data",
+        "properties": {
+          "uid": { "type": "string" },
+          "name": { "type": "string" },
+          "avatar": { "type": "string" },
+          "status": { "type": "string" },
+          "role": { "type": "string" },
+          "scope": { "type": "string" },
+          "isBanned": { "type": "boolean" },
+          "joinedAt": { "type": "integer" },
+          "createdAt": { "type": "integer" }
+        },
+        "type": "object"
+      },
+      "blockedUserSchema": {
+        "description": "Response data",
+        "properties": {
+          "blockedByMe": { "type": "boolean" },
+          "blockedByMeAt": { "type": "integer" },
+          "blockedAt": { "type": "integer" },
+          "updatedAt": { "type": "integer" },
+          "conversationId": { "type": "string" }
+        },
+        "type": "object"
+      },
+      "conversationSchema": {
+        "description": "Response data",
+        "properties": {
+          "conversationId": { "type": "string" },
+          "conversationType": { "type": "string" },
+          "unreadMessageCount": { "type": "string" },
+          "createdAt": { "type": "integer" },
+          "updatedAt": { "type": "integer" },
+          "lastMessage": {
+            "properties": {
+              "id": { "type": "string" },
+              "conversationId": { "type": "string" },
+              "sender": { "type": "string" },
+              "receiverType": { "type": "string" },
+              "receiver": { "type": "string" },
+              "category": { "type": "string" },
+              "type": { "type": "string" },
+              "data": {
+                "properties": {
+                  "action": { "type": "string" },
+                  "": { "$ref": "#/components/schemas/objectEntitySchema" }
+                },
+                "type": "object"
+              },
+              "sentAt": { "type": "integer" },
+              "updatedAt": { "type": "integer" },
+              "receipts": {
+                "properties": { "data": { "type": "array", "items": {} } },
+                "type": "object"
+              }
+            },
+            "type": "object"
+          },
+          "conversationWith": {
+            "properties": {
+              "": { "$ref": "#/components/schemas/conversationWithSchema" }
+            },
+            "type": "object"
+          }
+        },
+        "type": "object"
+      },
+      "conversationWithSchema": {
+        "properties": {
+          "guid": { "type": "string" },
+          "name": { "type": "string" },
+          "description": { "type": "string" },
+          "icon": { "type": "string" },
+          "type": { "type": "string" },
+          "scope": { "type": "string" },
+          "membersCount": { "type": "integer" },
+          "joinedAt": { "type": "integer" },
+          "conversationId": { "type": "string" },
+          "hasJoined": { "type": "boolean", "default": "true" },
+          "createdAt": { "type": "integer" },
+          "owner": { "type": "string" },
+          "updatedAt": { "type": "integer" },
+          "updatedBy": { "type": "string" }
+        },
+        "type": "object"
+      },
+      "dataPointSchema": {
+        "description": "Response data",
+        "properties": {
+          "messagesSent": { "type": "integer" },
+          "readReceipts": { "type": "integer" },
+          "deliveryReceipts": { "type": "integer" },
+          "startTime": { "type": "integer" },
+          "endTime": { "type": "integer" }
+        },
+        "type": "object"
+      },
+      "deleteSchema": {
+        "properties": {
+          "success": { "type": "boolean" },
+          "message": { "type": "string" }
+        },
+        "type": "object"
+      },
+      "groupEntitySchema": {
+        "description": "Response data",
+        "properties": {
+          "id": { "type": "string" },
+          "conversationId": { "type": "string" },
+          "sender": { "type": "string" },
+          "receiverType": { "type": "string" },
+          "receiver": { "type": "string" },
+          "category": { "type": "string" },
+          "type": { "type": "string" },
+          "data": {
+            "properties": {
+              "action": { "type": "string" },
+              "entities": {
+                "properties": {
+                  "by": {
+                    "properties": {
+                      "entity": {
+                        "properties": {
+                          "uid": { "type": "string" },
+                          "name": { "type": "string" },
+                          "role": { "type": "string" },
+                          "status": { "type": "string" },
+                          "createdAt": { "type": "integer" }
+                        },
+                        "type": "object"
+                      },
+                      "entityType": { "type": "string" }
+                    },
+                    "type": "object"
+                  },
+                  "on": {
+                    "properties": {
+                      "entity": {
+                        "properties": {
+                          "uid": { "type": "string" },
+                          "name": { "type": "string" },
+                          "role": { "type": "string" },
+                          "avatar": { "type": "string" },
+                          "status": { "type": "string" },
+                          "createdAt": { "type": "integer" }
+                        },
+                        "type": "object"
+                      },
+                      "entityType": { "type": "string" }
+                    },
+                    "type": "object"
+                  },
+                  "for": {
+                    "properties": {
+                      "entity": {
+                        "properties": {
+                          "guid": { "type": "string" },
+                          "icon": { "type": "string" },
+                          "name": { "type": "string" },
+                          "tags": {
+                            "type": "array",
+                            "items": { "type": "string" }
+                          },
+                          "type": { "type": "string" },
+                          "owner": { "type": "string" },
+                          "createdAt": { "type": "integer" },
+                          "updatedAt": { "type": "integer" },
+                          "description": { "type": "string" },
+                          "membersCount": { "type": "integer" },
+                          "conversationId": { "type": "string" }
+                        },
+                        "type": "object"
+                      },
+                      "entityType": { "type": "string" }
+                    },
+                    "type": "object"
+                  }
+                },
+                "type": "object"
+              }
+            },
+            "type": "object"
+          },
+          "avatar": { "type": "string" },
+          "metadata": {
+            "properties": { "email": { "type": "string" } },
+            "type": "object"
+          },
+          "status": { "type": "string" },
+          "role": { "type": "string" },
+          "createdAt": { "type": "integer" }
+        },
+        "type": "object"
+      },
+      "groupMemberListSchema": {
+        "description": "Response data",
+        "properties": {
+          "uid": { "type": "string" },
+          "name": { "type": "string" },
+          "avatar": { "type": "string" },
+          "status": { "type": "string" },
+          "role": { "type": "string" },
+          "scope": { "type": "string" },
+          "joinedAt": { "type": "integer" },
+          "createdAt": { "type": "integer" },
+          "updatedAt": { "type": "integer" },
+          "conversationId": { "type": "string" }
+        },
+        "type": "object"
+      },
+      "groupMemberSchema": {
+        "description": "Response data",
+        "properties": {
+          "usersToBan": {
+            "properties": {
+              "<uid>": {
+                "properties": { "success": { "type": "boolean" } },
+                "type": "object"
+              }
+            },
+            "type": "object"
+          },
+          "admins": {
+            "properties": {
+              "<uid>": {
+                "properties": {
+                  "success": { "type": "boolean" },
+                  "data": {
+                    "properties": {
+                      "": { "$ref": "#/components/schemas/groupEntitySchema" }
+                    },
+                    "type": "object"
+                  }
+                },
+                "type": "object"
+              }
+            },
+            "type": "object"
+          },
+          "moderators": {
+            "properties": {
+              "<uid>": {
+                "properties": {
+                  "success": { "type": "boolean" },
+                  "data": {
+                    "properties": {
+                      "": { "$ref": "#/components/schemas/groupEntitySchema" }
+                    },
+                    "type": "object"
+                  }
+                },
+                "type": "object"
+              }
+            },
+            "type": "object"
+          },
+          "participants": {
+            "properties": {
+              "<uid>": {
+                "properties": {
+                  "success": { "type": "boolean" },
+                  "data": {
+                    "properties": {
+                      "": { "$ref": "#/components/schemas/groupEntitySchema" }
+                    },
+                    "type": "object"
+                  }
+                },
+                "type": "object"
+              }
+            },
+            "type": "object"
+          }
+        },
+        "type": "object"
+      },
+      "groupSchema": {
+        "description": "Response data",
+        "properties": {
+          "guid": { "type": "string" },
+          "name": { "type": "string" },
+          "description": { "type": "string" },
+          "icon": { "type": "string" },
+          "type": { "type": "string" },
+          "scope": { "type": "string" },
+          "membersCount": { "type": "integer" },
+          "joinedAt": { "type": "integer" },
+          "conversationId": { "type": "string" },
+          "hasJoined": { "type": "boolean" },
+          "owner": { "type": "string" },
+          "tags": { "type": "array", "items": { "type": "string" } },
+          "createdAt": { "type": "integer" }
+        },
+        "type": "object"
+      },
+      "messageMetaSchema": {
+        "properties": {
+          "current": {
+            "properties": {
+              "limit": { "type": "integer" },
+              "count": { "type": "integer" }
+            },
+            "type": "object"
+          },
+          "next": {
+            "properties": {
+              "affix": { "type": "string" },
+              "sentAt": { "type": "integer" },
+              "id": { "type": "string" }
+            },
+            "type": "object"
+          }
+        },
+        "type": "object"
+      },
+      "messageSchema": {
+        "description": "Response data",
+        "properties": {
+          "id": { "type": "string" },
+          "conversationId": { "type": "string" },
+          "sender": { "type": "string" },
+          "receiverType": { "type": "string" },
+          "receiver": { "type": "string" },
+          "category": { "type": "string" },
+          "type": { "type": "string" },
+          "data": {
+            "properties": {
+              "text": { "type": "string" },
+              "metadata": { "type": "object" },
+              "entities": {
+                "properties": {
+                  "sender": {
+                    "properties": {
+                      "entity": {
+                        "properties": {
+                          "uid": { "type": "string" },
+                          "name": { "type": "string" },
+                          "role": { "type": "string" },
+                          "avatar": { "type": "string" },
+                          "status": { "type": "string" },
+                          "createdAt": { "type": "integer" },
+                          "conversationId": { "type": "string" }
+                        },
+                        "type": "object"
+                      },
+                      "entityType": { "type": "string" }
+                    },
+                    "type": "object"
+                  },
+                  "receiver": {
+                    "properties": {
+                      "entity": {
+                        "properties": {
+                          "uid": { "type": "string" },
+                          "name": { "type": "string" },
+                          "role": { "type": "string" },
+                          "avatar": { "type": "string" },
+                          "status": { "type": "string" },
+                          "createdAt": { "type": "integer" },
+                          "conversationId": { "type": "string" }
+                        },
+                        "type": "object"
+                      },
+                      "entityType": { "type": "string" }
+                    },
+                    "type": "object"
+                  }
+                },
+                "type": "object"
+              }
+            },
+            "type": "object"
+          },
+          "sentAt": { "type": "integer" },
+          "updatedAt": { "type": "integer" }
+        },
+        "type": "object"
+      },
+      "metaSchema": {
+        "properties": {
+          "pagination": {
+            "properties": {
+              "total": { "type": "integer" },
+              "count": { "type": "integer" },
+              "per_page": { "type": "integer" },
+              "current_page": { "type": "integer" },
+              "total_pages": { "type": "integer" }
+            },
+            "type": "object"
+          }
+        },
+        "type": "object"
+      },
+      "objectEntitySchema": {
+        "properties": {
+          "entities": {
+            "properties": {
+              "by": {
+                "properties": {
+                  "entity": {
+                    "properties": {
+                      "uid": { "type": "string" },
+                      "name": { "type": "string" },
+                      "status": { "type": "string" },
+                      "role": { "type": "string" },
+                      "createdAt": { "type": "integer" }
+                    },
+                    "type": "object"
+                  },
+                  "entityType": { "type": "string" }
+                },
+                "type": "object"
+              },
+              "for": {
+                "properties": {
+                  "entity": {
+                    "properties": {
+                      "guid": { "type": "string" },
+                      "icon": { "type": "string" },
+                      "name": { "type": "string" },
+                      "type": { "type": "string" },
+                      "owner": { "type": "string" },
+                      "createdAt": { "type": "integer" },
+                      "updatedAt": { "type": "integer" },
+                      "updatedBy": { "type": "integer" },
+                      "description": { "type": "integer" },
+                      "membersCount": { "type": "integer" },
+                      "conversationId": { "type": "integer" }
+                    },
+                    "type": "object"
+                  },
+                  "entityType": { "type": "string" }
+                },
+                "type": "object"
+              },
+              "on": {
+                "properties": {
+                  "entity": {
+                    "properties": {
+                      "uid": { "type": "string" },
+                      "link": { "type": "string" },
+                      "name": { "type": "string" },
+                      "role": { "type": "string" },
+                      "avatar": { "type": "string" },
+                      "status": { "type": "string" },
+                      "createdAt": { "type": "integer" },
+                      "updatedAt": { "type": "integer" },
+                      "conversationId": { "type": "string" }
+                    },
+                    "type": "object"
+                  },
+                  "entityType": { "type": "string" }
+                },
+                "type": "object"
+              }
+            },
+            "type": "object"
+          }
+        },
+        "type": "object"
+      },
+      "roleSchema": {
+        "description": "Response data",
+        "properties": {
+          "role": { "type": "string" },
+          "name": { "type": "string" },
+          "description": { "type": "string" },
+          "metadata": { "type": "object" },
+          "email": { "type": "string" },
+          "settings": {
+            "properties": {
+              "listUsers": { "type": "string" },
+              "sendMessagesTo": { "type": "string" }
+            },
+            "type": "object"
+          },
+          "createdAt": { "type": "integer" }
+        },
+        "type": "object"
+      },
+      "updatemessageSchema": {
+        "description": "Response data",
+        "properties": {
+          "id": { "type": "string" },
+          "conversationId": { "type": "string" },
+          "sender": { "type": "string" },
+          "receiverType": { "type": "string" },
+          "receiver": { "type": "string" },
+          "category": { "type": "string" },
+          "type": { "type": "string" },
+          "data": {
+            "properties": {
+              "action": { "type": "string" },
+              "entities": {
+                "properties": {
+                  "by": {
+                    "properties": {
+                      "entity": {
+                        "properties": {
+                          "uid": { "type": "string" },
+                          "name": { "type": "string" },
+                          "status": { "type": "string" },
+                          "role": { "type": "string" },
+                          "createdAt": { "type": "integer" },
+                          "updatedAt": { "type": "integer" }
+                        },
+                        "type": "object"
+                      },
+                      "entityType": { "type": "string" }
+                    },
+                    "type": "object"
+                  },
+                  "for": {
+                    "properties": {
+                      "entity": {
+                        "properties": {
+                          "uid": { "type": "string" },
+                          "name": { "type": "string" },
+                          "avatar": { "type": "string" },
+                          "status": { "type": "string" },
+                          "role": { "type": "string" },
+                          "createdAt": { "type": "integer" }
+                        },
+                        "type": "object"
+                      },
+                      "entityType": { "type": "string" }
+                    },
+                    "type": "object"
+                  },
+                  "on": {
+                    "properties": {
+                      "entity": {
+                        "properties": {
+                          "id": { "type": "string" },
+                          "conversationId": { "type": "string" },
+                          "sender": { "type": "string" },
+                          "receiverType": { "type": "string" },
+                          "receiver": { "type": "string" },
+                          "category": { "type": "string" },
+                          "type": { "type": "string" },
+                          "data": {
+                            "properties": {
+                              "text": { "type": "string" },
+                              "entities": {
+                                "properties": {
+                                  "sender": {
+                                    "properties": {
+                                      "entity": {
+                                        "properties": {
+                                          "uid": { "type": "string" },
+                                          "name": { "type": "string" },
+                                          "role": { "type": "string" },
+                                          "avatar": { "type": "string" },
+                                          "status": { "type": "string" },
+                                          "createdAt": { "type": "string" }
+                                        },
+                                        "type": "object"
+                                      },
+                                      "entityType": { "type": "string" }
+                                    },
+                                    "type": "object"
+                                  },
+                                  "receiver": {
+                                    "properties": {
+                                      "entity": {
+                                        "properties": {
+                                          "uid": { "type": "string" },
+                                          "name": { "type": "string" },
+                                          "role": { "type": "string" },
+                                          "avatar": { "type": "string" },
+                                          "status": { "type": "string" },
+                                          "createdAt": { "type": "string" },
+                                          "conversationId": { "type": "string" }
+                                        },
+                                        "type": "object"
+                                      },
+                                      "entityType": { "type": "string" }
+                                    },
+                                    "type": "object"
+                                  }
+                                },
+                                "type": "object"
+                              }
+                            },
+                            "type": "object"
+                          },
+                          "sentAt": { "type": "integer" },
+                          "editedAt": { "type": "integer" },
+                          "editedBy": { "type": "integer" },
+                          "updatedAt": { "type": "integer" },
+                          "tags": { "type": "array", "items": {} }
+                        },
+                        "type": "object"
+                      },
+                      "entityType": { "type": "string" }
+                    },
+                    "type": "object"
+                  }
+                },
+                "type": "object"
+              }
+            },
+            "type": "object"
+          },
+          "sentAt": { "type": "integer" },
+          "updatedAt": { "type": "integer" }
+        },
+        "type": "object"
+      },
+      "usageMetricsSchema": {
+        "description": "Response data",
+        "properties": {
+          "metrics": {
+            "properties": {
+              "audio_minutes": { "type": "integer" },
+              "video_minutes": { "type": "integer" },
+              "recorded_minutes": { "type": "integer" },
+              "active_users": { "type": "integer" },
+              "concurrent_users": { "type": "integer" }
+            },
+            "type": "object"
+          },
+          "time_range": {
+            "properties": {
+              "fromDate": { "type": "integer" },
+              "toDate": { "type": "integer" }
+            },
+            "type": "object"
+          }
+        },
+        "type": "object"
+      },
+      "userConversationSchema": {
+        "description": "Response data",
+        "properties": {
+          "conversationId": { "type": "string" },
+          "conversationType": { "type": "string" },
+          "unreadMessageCount": { "type": "string" },
+          "createdAt": { "type": "integer" },
+          "updatedAt": { "type": "integer" },
+          "lastMessage": {
+            "properties": {
+              "id": { "type": "string" },
+              "conversationId": { "type": "string" },
+              "sender": { "type": "string" },
+              "receiverType": { "type": "string" },
+              "receiver": { "type": "string" },
+              "category": { "type": "string" },
+              "type": { "type": "string" },
+              "data": {
+                "properties": {
+                  "text": { "type": "string" },
+                  "": { "$ref": "#/components/schemas/objectEntitySchema" }
+                },
+                "type": "object"
+              },
+              "sentAt": { "type": "integer" },
+              "updatedAt": { "type": "integer" }
+            },
+            "type": "object"
+          },
+          "conversationWith": {
+            "properties": {
+              "": { "$ref": "#/components/schemas/conversationWithSchema" }
+            },
+            "type": "object"
+          }
+        },
+        "type": "object"
+      },
+      "userSchema": {
+        "description": "Response data",
+        "properties": {
+          "uid": { "type": "string" },
+          "name": { "type": "string" },
+          "avatar": { "type": "string" },
+          "metadata": {
+            "properties": { "email": { "type": "string" } },
+            "type": "object"
+          },
+          "status": { "type": "string" },
+          "role": { "type": "string" },
+          "createdAt": { "type": "integer" }
+        },
+        "type": "object"
+      }
+    },
+    "parameters": {
+      "authToken": {
+        "name": "authToken",
+        "in": "path",
+        "description": "An auth token of a user.",
+        "required": true,
+        "schema": { "type": "string" },
+        "examples": { "string": { "summary": "Auth Token", "value": "" } }
+      },
+      "conversationId": {
+        "name": "conversationId",
+        "in": "path",
+        "description": "(Required) conversation id",
+        "required": true,
+        "schema": { "type": "string" }
+      },
+      "uid--conversation": {
+        "name": "uid",
+        "in": "path",
+        "description": "UID of the user whose conversation needs to be fetched.",
+        "required": true,
+        "schema": { "type": "string" }
+      },
+      "guid--conversation": {
+        "name": "guid",
+        "in": "path",
+        "description": "GUID of the group whose conversation needs to be fetched.",
+        "required": true,
+        "schema": { "type": "string" }
+      },
+      "uid": {
+        "name": "uid",
+        "in": "path",
+        "description": "An UID of a user.",
+        "required": true,
+        "schema": { "type": "string" },
+        "examples": { "string": { "summary": "UID", "value": "" } }
+      },
+      "guid": {
+        "name": "guid",
+        "in": "path",
+        "description": "A GUID of a group.",
+        "required": true,
+        "schema": { "type": "string" },
+        "examples": { "string": { "summary": "GUID", "value": "" } }
+      },
+      "requiredonBehalfOf": {
+        "name": "onBehalfOf",
+        "in": "header",
+        "description": "UID of the user on whose behalf the action is performed.",
+        "required": true,
+        "schema": { "type": "string" }
+      },
+      "onBehalfOf": {
+        "name": "onBehalfOf",
+        "in": "header",
+        "description": "UID of the user on whose behalf the action is performed.",
+        "schema": { "type": "string" }
+      }
+    },
+    "securitySchemes": {
+      "apiKey": {
+        "type": "apiKey",
+        "description": "API Key with fullAccess scope(i.e. Rest API Key from the Dashboard).",
+        "name": "apikey",
+        "in": "header"
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "API Keys",
+      "description": "The API keys are used to authorise the APIs"
+    },
+    {
+      "name": "Roles",
+      "description": "The roles are used to give user access rights"
+    },
+    { "name": "Users", "description": "The REST collection for users." },
+    {
+      "name": "Auth Tokens",
+      "description": "The auth tokens are used to login end users using client SDKs."
+    },
+    {
+      "name": "Blocked Users",
+      "description": "The REST collections for blocked users."
+    },
+    {
+      "name": "Friends",
+      "description": "List,add and remove friends by passing UID in path variables"
+    },
+    { "name": "Groups", "description": "The REST collections for groups." },
+    {
+      "name": "Banned Users",
+      "description": "Ban and Unban user by passing other UID in path variables."
+    },
+    {
+      "name": "Group Members",
+      "description": "The REST collections for group members."
+    },
+    { "name": "Messages", "description": "The REST collections for messages." },
+    {
+      "name": "Conversations",
+      "description": "The REST collections for conversations."
+    },
+    {
+      "name": "Restrict Features",
+      "description": "Allows Restricting Features"
+    },
+    { "name": "Metrics", "description": "Allows accessing Data Metrics" }
+  ],
+  "x-readme": {
+    "explorer-enabled": true,
+    "proxy-enabled": true,
+    "samples-enabled": true
+  }
+}

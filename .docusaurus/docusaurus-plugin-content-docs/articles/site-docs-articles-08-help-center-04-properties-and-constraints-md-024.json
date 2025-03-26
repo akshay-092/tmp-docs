@@ -1,0 +1,29 @@
+{
+  "id": "Help Center/properties-and-constraints",
+  "title": "Properties and Constraints",
+  "description": "This page lists the properties and limits which are applicable to various CometChat systems.",
+  "source": "@site/docs/articles/08-Help Center/04-properties-and-constraints.md",
+  "sourceDirName": "08-Help Center",
+  "slug": "/properties-and-constraints",
+  "permalink": "/docs/articles/properties-and-constraints",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Properties and Constraints",
+    "slug": "/properties-and-constraints"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Rate Limits",
+    "permalink": "/docs/articles/rate-limits"
+  },
+  "next": {
+    "title": "Limits",
+    "permalink": "/docs/articles/limits"
+  }
+}

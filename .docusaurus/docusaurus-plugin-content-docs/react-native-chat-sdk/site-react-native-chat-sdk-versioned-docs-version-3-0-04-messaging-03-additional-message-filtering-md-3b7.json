@@ -1,0 +1,29 @@
+{
+  "id": "Messaging/Additional Message Filtering",
+  "title": "Additional Message Filtering",
+  "description": "The MessagesRequest class as you must be familiar with helps you to fetch messages based on the various parameters provided to it. This document will help you understand better the various options that are available using the MessagesRequest class.",
+  "source": "@site/react-native-chat-sdk_versioned_docs/version-3.0/04-Messaging/03-Additional Message Filtering.md",
+  "sourceDirName": "04-Messaging",
+  "slug": "/messaging-additional-message-filtering",
+  "permalink": "/docs/sdk/react-native/3.0/messaging-additional-message-filtering",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Additional Message Filtering",
+    "slug": "/messaging-additional-message-filtering"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Receive Messages",
+    "permalink": "/docs/sdk/react-native/3.0/messaging-receive-messages"
+  },
+  "next": {
+    "title": "Retrieve Conversations",
+    "permalink": "/docs/sdk/react-native/3.0/messaging-retrieve-conversations"
+  }
+}

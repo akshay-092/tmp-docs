@@ -1,0 +1,29 @@
+{
+  "id": "Resources/index",
+  "title": "Resources",
+  "description": "We have a number of resources that will help you while integrating CometChat in your app.",
+  "source": "@site/javascript-chat-sdk_versioned_docs/version-2.0/12-Resources/index.md",
+  "sourceDirName": "12-Resources",
+  "slug": "/resources",
+  "permalink": "/docs/sdk/javascript/2.0/resources",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "2.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11,
+    "title": "Resources",
+    "slug": "/resources"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Webhooks",
+    "permalink": "/docs/sdk/javascript/2.0/webhooks"
+  },
+  "next": {
+    "title": "All Real-time Listeners",
+    "permalink": "/docs/sdk/javascript/2.0/resources-all-real-time-listeners"
+  }
+}

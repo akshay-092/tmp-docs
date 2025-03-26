@@ -1,0 +1,29 @@
+{
+  "id": "groups/7 Add Members To a Group/index",
+  "title": "Add Members To A Group",
+  "description": "You can add members to the group using the addMembersToGroup() method. This method takes the below parameters:",
+  "source": "@site/docs/sdk/ios/08-groups/7 Add Members To a Group/index.md",
+  "sourceDirName": "08-groups/7 Add Members To a Group",
+  "slug": "/group-add-members",
+  "permalink": "/docs/sdk/ios/group-add-members",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "title": "Add Members To A Group",
+    "slug": "/group-add-members"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Delete a Group",
+    "permalink": "/docs/sdk/ios/delete-group"
+  },
+  "next": {
+    "title": "Retrieve Group Members",
+    "permalink": "/docs/sdk/ios/retrieve-group-members"
+  }
+}

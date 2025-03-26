@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/docs/chat/ui-kits/",
+  "source": "@site/src/pages/chat/ui-kits/index.md",
+  "title": "UI Kits | Cometchat Docs",
+  "description": "Introduction",
+  "frontMatter": {
+    "title": "UI Kits | Cometchat Docs"
+  },
+  "unlisted": false
+}

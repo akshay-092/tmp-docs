@@ -1,0 +1,29 @@
+{
+  "id": "authentication/index",
+  "title": "Authentication",
+  "description": "Create User",
+  "source": "@site/docs/sdk/ionic/03-authentication/index.md",
+  "sourceDirName": "03-authentication",
+  "slug": "/authentication",
+  "permalink": "/docs/sdk/ionic/authentication",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Authentication",
+    "slug": "/authentication"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Setup",
+    "permalink": "/docs/sdk/ionic/setup"
+  },
+  "next": {
+    "title": "Login Listeners",
+    "permalink": "/docs/sdk/ionic/login-listeners"
+  }
+}

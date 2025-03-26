@@ -1,0 +1,29 @@
+{
+  "id": "calling/default-calling",
+  "title": "Default Call",
+  "description": "This section will provide information on how a complete calling workflow can be set up using the CometChat SDK. We've built the complete workflow to help your users make calls, receive calls as well as accept/reject calls.",
+  "source": "@site/docs/sdk/react-native/05-calling/02-default-calling.md",
+  "sourceDirName": "05-calling",
+  "slug": "/default-call",
+  "permalink": "/docs/sdk/react-native/default-call",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Default Call",
+    "slug": "/default-call"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Setup",
+    "permalink": "/docs/sdk/react-native/calling-setup"
+  },
+  "next": {
+    "title": "Direct Call",
+    "permalink": "/docs/sdk/react-native/direct-call"
+  }
+}

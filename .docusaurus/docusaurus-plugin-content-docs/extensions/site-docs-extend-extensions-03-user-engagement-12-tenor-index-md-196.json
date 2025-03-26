@@ -1,0 +1,29 @@
+{
+  "id": "User Engagement/12 Tenor/index",
+  "title": "Tenor",
+  "description": "GIFs are a great way to change the tone or convey emotions in your conversations. Here's a guide which helps to implement Tenor in an easy and quick way. Let's get started!",
+  "source": "@site/docs/extend/extensions/03-User Engagement/12 Tenor/index.md",
+  "sourceDirName": "03-User Engagement/12 Tenor",
+  "slug": "/tenor",
+  "permalink": "/docs/extensions/tenor",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12,
+    "title": "Tenor",
+    "slug": "/tenor"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Giphy",
+    "permalink": "/docs/extensions/giphy"
+  },
+  "next": {
+    "title": "Gfycat (Deprecated)",
+    "permalink": "/docs/extensions/gfycat"
+  }
+}

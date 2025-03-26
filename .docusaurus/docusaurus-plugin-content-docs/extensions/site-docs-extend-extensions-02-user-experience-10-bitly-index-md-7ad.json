@@ -1,0 +1,29 @@
+{
+  "id": "User Experience/bitly/index",
+  "title": "Bitly",
+  "description": "Learn how to minify the long website links in your text messages using Bitly.",
+  "source": "@site/docs/extend/extensions/02-User Experience/10-bitly/index.md",
+  "sourceDirName": "02-User Experience/10-bitly",
+  "slug": "/bitly",
+  "permalink": "/docs/extensions/bitly",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11,
+    "title": "Bitly",
+    "slug": "/bitly"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "TinyURL",
+    "permalink": "/docs/extensions/tinyurl"
+  },
+  "next": {
+    "title": "Notifications",
+    "permalink": "/docs/extensions/notification-extensions"
+  }
+}

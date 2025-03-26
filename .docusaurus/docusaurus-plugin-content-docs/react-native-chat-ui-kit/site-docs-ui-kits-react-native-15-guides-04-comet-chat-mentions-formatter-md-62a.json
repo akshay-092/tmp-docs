@@ -1,0 +1,29 @@
+{
+  "id": "Guides/CometChatMentionsFormatter",
+  "title": "Mentions Formatter",
+  "description": "Overview",
+  "source": "@site/docs/ui-kits/react-native/15-Guides/04-CometChatMentionsFormatter.md",
+  "sourceDirName": "15-Guides",
+  "slug": "/mentions-formatter-guide",
+  "permalink": "/docs/ui-kit/react-native/mentions-formatter-guide",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Mentions Formatter",
+    "slug": "/mentions-formatter-guide"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Apple Privacy Manifest",
+    "permalink": "/docs/ui-kit/react-native/apple-privacy-manifest-guide"
+  },
+  "next": {
+    "title": "ShortCut Formatter",
+    "permalink": "/docs/ui-kit/react-native/shortcut-formatter-guide"
+  }
+}

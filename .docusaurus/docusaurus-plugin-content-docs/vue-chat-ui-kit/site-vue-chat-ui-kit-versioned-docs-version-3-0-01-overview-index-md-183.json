@@ -1,0 +1,25 @@
+{
+  "id": "overview/index",
+  "title": "Overview",
+  "description": "V4 UI kits offer modular design, extended functionality & > customization for a tailored chat experience. Check out our new UIKits here.",
+  "source": "@site/vue-chat-ui-kit_versioned_docs/version-3.0/01-overview/index.md",
+  "sourceDirName": "01-overview",
+  "slug": "/overview",
+  "permalink": "/docs/ui-kit/vue/3.0/overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Overview",
+    "slug": "/overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Key Concepts",
+    "permalink": "/docs/ui-kit/vue/3.0/key-concepts"
+  }
+}

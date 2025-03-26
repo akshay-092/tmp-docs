@@ -1,0 +1,42 @@
+[
+  {
+    "from": "/extensions/slow-mode",
+    "to": "/moderation/slow-mode"
+  },
+  {
+    "from": "/extensions/xss-filter",
+    "to": "/moderation/xss-filter"
+  },
+  {
+    "from": "/extensions/report-user",
+    "to": "/moderation/report-user"
+  },
+  {
+    "from": "/extensions/report-message",
+    "to": "/moderation/report-message"
+  },
+  {
+    "from": "/extensions/data-masking-filter",
+    "to": "/moderation/data-masking-filter"
+  },
+  {
+    "from": "/extensions/profanity-filter",
+    "to": "/moderation/profanity-filter"
+  },
+  {
+    "from": "/extensions/image-moderation",
+    "to": "/moderation/image-moderation"
+  },
+  {
+    "from": "/extensions/sentiment-analysis",
+    "to": "/moderation/sentiment-analysis"
+  },
+  {
+    "from": "/extensions/in-flight-message-moderation",
+    "to": "/moderation/in-flight-message-moderation"
+  },
+  {
+    "from": "/extensions/virus-malware-scanner",
+    "to": "/moderation/virus-malware-scanner"
+  }
+]

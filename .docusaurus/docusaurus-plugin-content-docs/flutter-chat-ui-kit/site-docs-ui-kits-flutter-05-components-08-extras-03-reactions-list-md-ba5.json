@@ -1,0 +1,30 @@
+{
+  "id": "Components/Extras/reactions-list",
+  "title": "Reactions List",
+  "description": "Overview",
+  "source": "@site/docs/ui-kits/flutter/05-Components/08-Extras/03-reactions-list.md",
+  "sourceDirName": "05-Components/08-Extras",
+  "slug": "/reactions-list",
+  "permalink": "/docs/ui-kit/flutter/reactions-list",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "sidebar_label": "Reactions List",
+    "title": "Reactions List",
+    "slug": "/reactions-list"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Reactions",
+    "permalink": "/docs/ui-kit/flutter/reactions"
+  },
+  "next": {
+    "title": "Methods",
+    "permalink": "/docs/ui-kit/flutter/methods"
+  }
+}

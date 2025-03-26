@@ -1,0 +1,29 @@
+{
+  "id": "groups/join-a-group",
+  "title": "Join a Group",
+  "description": "Join a Group",
+  "source": "@site/docs/sdk/javascript/08-groups/04-join-a-group.md",
+  "sourceDirName": "08-groups",
+  "slug": "/join-group",
+  "permalink": "/docs/sdk/javascript/join-group",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Join a Group",
+    "slug": "/join-group"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Update a Group",
+    "permalink": "/docs/sdk/javascript/update-group"
+  },
+  "next": {
+    "title": "Leave a Group",
+    "permalink": "/docs/sdk/javascript/leave-group"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Components/Base Components/video-bubble",
+  "title": "Video Bubble",
+  "description": "CometChatVideoBubble is the content view for a MediaMessage if the media sent is a video.",
+  "source": "@site/react-chat-ui-kit_versioned_docs/version-4.0/05-Components/08-Base Components/10-video-bubble.md",
+  "sourceDirName": "05-Components/08-Base Components",
+  "slug": "/video-bubble",
+  "permalink": "/docs/ui-kit/react/v4/video-bubble",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "4.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9,
+    "title": "Video Bubble",
+    "slug": "/video-bubble"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Audio Bubble",
+    "permalink": "/docs/ui-kit/react/v4/audio-bubble"
+  },
+  "next": {
+    "title": "Message Bubble",
+    "permalink": "/docs/ui-kit/react/v4/message-bubble"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Components/Messages/messages",
+  "title": "Messages",
+  "description": "Overview",
+  "source": "@site/android-chat-ui-kit_versioned_docs/version-4.0/05-Components/04-Messages/01-messages.md",
+  "sourceDirName": "05-Components/04-Messages",
+  "slug": "/messages",
+  "permalink": "/docs/ui-kit/android/v4/messages",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "4.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Messages",
+    "slug": "/messages"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Group Details",
+    "permalink": "/docs/ui-kit/android/v4/group-details"
+  },
+  "next": {
+    "title": "Message Header",
+    "permalink": "/docs/ui-kit/android/v4/message-header"
+  }
+}

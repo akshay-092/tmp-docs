@@ -1,0 +1,29 @@
+{
+  "id": "STYLES/bannedmembersstyle",
+  "title": "BannedMembersStyle",
+  "description": "Styling properties of the CometChatBannedMembers component.",
+  "source": "@site/docs/ui-kits/web-shared/04-STYLES/16-bannedmembersstyle.md",
+  "sourceDirName": "04-STYLES",
+  "slug": "/bannedmembersstyle",
+  "permalink": "/docs/web-shared/bannedmembersstyle",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 16,
+  "frontMatter": {
+    "sidebar_position": 16,
+    "title": "BannedMembersStyle",
+    "slug": "/bannedmembersstyle"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AddMembersStyle",
+    "permalink": "/docs/web-shared/addmembersstyle"
+  },
+  "next": {
+    "title": "TransferOwnershipStyle",
+    "permalink": "/docs/web-shared/transferownershipstyle"
+  }
+}

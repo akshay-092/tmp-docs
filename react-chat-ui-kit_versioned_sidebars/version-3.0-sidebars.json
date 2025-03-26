@@ -1,0 +1,40 @@
+{
+  "tutorialSidebar": [
+    {
+      "type": "category",
+      "label": "Overview",
+      "link": {
+        "type": "doc",
+        "id": "overview/index"
+      },
+      "items": [
+        "overview/key-concepts"
+      ]
+    },
+    {
+      "type": "doc",
+      "label": "UI Components",
+      "id": "ui-components/index"
+    },
+    {
+      "type": "doc",
+      "label": "Customize UI Kit",
+      "id": "customize-ui-kit/index"
+    },
+    {
+      "type": "doc",
+      "label": "Integration with Next.js",
+      "id": "integration-with-next-js/index"
+    },
+    {
+      "type": "link",
+      "label": "Javascript SDK",
+      "href": "/sdk/javascript/3.0/overview"
+    },
+    {
+      "type": "link",
+      "label": "Extensions",
+      "href": "/extensions/overview"
+    }
+  ]
+}

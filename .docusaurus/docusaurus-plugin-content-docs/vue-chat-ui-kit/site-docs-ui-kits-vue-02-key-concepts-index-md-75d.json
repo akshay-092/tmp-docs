@@ -1,0 +1,30 @@
+{
+  "id": "Key Concepts/index",
+  "title": "Key Concepts",
+  "description": "CometChat Dashboard",
+  "source": "@site/docs/ui-kits/vue/02-Key Concepts/index.md",
+  "sourceDirName": "02-Key Concepts",
+  "slug": "/key-concepts",
+  "permalink": "/docs/ui-kit/vue/key-concepts",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "sidebar_label": "Key Concepts",
+    "title": "Key Concepts",
+    "slug": "/key-concepts"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/ui-kit/vue/overview"
+  },
+  "next": {
+    "title": "Integration",
+    "permalink": "/docs/ui-kit/vue/integration"
+  }
+}

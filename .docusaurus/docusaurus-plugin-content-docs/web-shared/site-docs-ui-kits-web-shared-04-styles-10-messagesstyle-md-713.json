@@ -1,0 +1,29 @@
+{
+  "id": "STYLES/messagesstyle",
+  "title": "MessagesStyle",
+  "description": "Styling properties of CometChatMessages component.",
+  "source": "@site/docs/ui-kits/web-shared/04-STYLES/10-messagesstyle.md",
+  "sourceDirName": "04-STYLES",
+  "slug": "/messagesstyle",
+  "permalink": "/docs/web-shared/messagesstyle",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10,
+    "title": "MessagesStyle",
+    "slug": "/messagesstyle"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MessageComposerStyle",
+    "permalink": "/docs/web-shared/messagecomposerstyle"
+  },
+  "next": {
+    "title": "ThreadedMessagesStyle",
+    "permalink": "/docs/web-shared/threadedmessagesstyle"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "badge",
+  "title": "Badge",
+  "description": "This element is a numeric value descriptor i.e it displays the unread count of messages for 1-1/group chats.",
+  "source": "@site/docs/ui-kits/elements/04-badge.md",
+  "sourceDirName": ".",
+  "slug": "/badge",
+  "permalink": "/docs/web-elements/badge",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Badge",
+    "slug": "/badge"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Status Indicator",
+    "permalink": "/docs/web-elements/status-indicator"
+  },
+  "next": {
+    "title": "Receipt",
+    "permalink": "/docs/web-elements/receipt"
+  }
+}

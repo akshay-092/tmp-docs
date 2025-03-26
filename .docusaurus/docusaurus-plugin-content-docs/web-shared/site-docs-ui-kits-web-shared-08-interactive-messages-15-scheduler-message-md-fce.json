@@ -1,0 +1,29 @@
+{
+  "id": "INTERACTIVE MESSAGES/scheduler-message",
+  "title": "Scheduler Message",
+  "description": "The SchedulerMessage class is used to create an interactive scheduler message that can be sent via CometChat. It extends the Interactive Messages class from CometChat.",
+  "source": "@site/docs/ui-kits/web-shared/08-INTERACTIVE MESSAGES/15-scheduler-message.md",
+  "sourceDirName": "08-INTERACTIVE MESSAGES",
+  "slug": "/scheduler-message",
+  "permalink": "/docs/web-shared/scheduler-message",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 15,
+  "frontMatter": {
+    "sidebar_position": 15,
+    "title": "Scheduler Message",
+    "slug": "/scheduler-message"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DropdownElement",
+    "permalink": "/docs/web-shared/dropdown-element"
+  },
+  "next": {
+    "title": "SchedulerBubble",
+    "permalink": "/docs/web-shared/cometchatschedulerbubble"
+  }
+}

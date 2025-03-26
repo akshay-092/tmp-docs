@@ -1,0 +1,29 @@
+{
+  "id": "Features/Extensions/User Experience/rich-media-preview/index",
+  "title": "Rich Media Preview",
+  "description": "The Rich Media Preview Extension allows the developer to generate rich preview panels for all the popular sites. This extension fetches the first URL from the message for the generation of a preview.",
+  "source": "@site/docs/fundamentals/04-Features/03-Extensions/02-User Experience/05-rich-media-preview/index.md",
+  "sourceDirName": "04-Features/03-Extensions/02-User Experience/05-rich-media-preview",
+  "slug": "/rich-media-preview",
+  "permalink": "/docs/fundamentals/rich-media-preview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Rich Media Preview",
+    "slug": "/rich-media-preview"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Link Preview",
+    "permalink": "/docs/fundamentals/link-preview"
+  },
+  "next": {
+    "title": "Voice Transcription",
+    "permalink": "/docs/fundamentals/voice-transcription"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "messaging/index",
+  "title": "Messaging",
+  "description": "Messaging is one of the core features of CometChat. We've thoughtfully created methods to help you send, receive and fetch message history.",
+  "source": "@site/docs/sdk/react-native/03-messaging/index.md",
+  "sourceDirName": "03-messaging",
+  "slug": "/messaging-overview",
+  "permalink": "/docs/sdk/react-native/messaging-overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Messaging",
+    "slug": "/messaging-overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Login Listener",
+    "permalink": "/docs/sdk/react-native/login-listener"
+  },
+  "next": {
+    "title": "Send a Message",
+    "permalink": "/docs/sdk/react-native/send-message"
+  }
+}

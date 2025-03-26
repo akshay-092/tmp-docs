@@ -1,0 +1,29 @@
+{
+  "id": "Components/Base-Components/call-bubble",
+  "title": "Call Bubble",
+  "description": "CometChatCallBubble is a widget that displays the call information and a button to join a direct call.",
+  "source": "@site/docs/ui-kits/flutter/05-Components/07-Base-Components/20-call-bubble.md",
+  "sourceDirName": "05-Components/07-Base-Components",
+  "slug": "/call-bubble",
+  "permalink": "/docs/ui-kit/flutter/call-bubble",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 20,
+  "frontMatter": {
+    "sidebar_position": 20,
+    "title": "Call Bubble",
+    "slug": "/call-bubble"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Media Recorder",
+    "permalink": "/docs/ui-kit/flutter/media-recorder"
+  },
+  "next": {
+    "title": "Quick View",
+    "permalink": "/docs/ui-kit/flutter/quick-view"
+  }
+}

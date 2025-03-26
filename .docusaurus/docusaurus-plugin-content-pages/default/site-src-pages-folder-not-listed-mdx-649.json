@@ -1,0 +1,10 @@
+{
+  "type": "mdx",
+  "permalink": "/docs/folder/not_listed",
+  "source": "@site/src/pages/folder/not_listed.mdx",
+  "title": "not listed with some path",
+  "frontMatter": {
+    "title": "not listed with some path"
+  },
+  "unlisted": false
+}

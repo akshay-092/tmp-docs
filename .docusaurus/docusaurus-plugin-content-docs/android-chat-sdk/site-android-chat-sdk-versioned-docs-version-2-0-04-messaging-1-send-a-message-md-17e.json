@@ -1,0 +1,29 @@
+{
+  "id": "Messaging/1 Send a Message",
+  "title": "Send a Message",
+  "description": "Using CometChat, you can send three types of messages:",
+  "source": "@site/android-chat-sdk_versioned_docs/version-2.0/04-Messaging/1 Send a Message.md",
+  "sourceDirName": "04-Messaging",
+  "slug": "/send-message",
+  "permalink": "/docs/sdk/android/2.0/send-message",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "2.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Send a Message",
+    "slug": "/send-message"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Messaging",
+    "permalink": "/docs/sdk/android/2.0/messaging"
+  },
+  "next": {
+    "title": "Receive a Message",
+    "permalink": "/docs/sdk/android/2.0/receive-messages"
+  }
+}

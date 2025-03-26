@@ -1,0 +1,29 @@
+{
+  "id": "Components/Base-Components/button",
+  "title": "Button",
+  "description": "CometChatButton is a widget representing a button with optional icon and text. It provides customisable button styles through the buttonStyle object and handles tap events with onTap callback.",
+  "source": "@site/docs/ui-kits/flutter/05-Components/07-Base-Components/18-button.md",
+  "sourceDirName": "05-Components/07-Base-Components",
+  "slug": "/button",
+  "permalink": "/docs/ui-kit/flutter/button",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 18,
+  "frontMatter": {
+    "sidebar_position": 18,
+    "title": "Button",
+    "slug": "/button"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Card",
+    "permalink": "/docs/ui-kit/flutter/card"
+  },
+  "next": {
+    "title": "Media Recorder",
+    "permalink": "/docs/ui-kit/flutter/media-recorder"
+  }
+}

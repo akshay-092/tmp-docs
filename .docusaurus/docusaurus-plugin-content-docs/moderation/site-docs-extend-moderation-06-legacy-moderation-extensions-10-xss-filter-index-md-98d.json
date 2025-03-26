@@ -1,0 +1,25 @@
+{
+  "id": "Legacy Moderation (Extensions)/10 XSS Filter/index",
+  "title": "XSS Filter",
+  "description": "A client-side script can be injected into the message which can lead to an attack. The XSS Filter Extension helps you to sanitize the messages.",
+  "source": "@site/docs/extend/moderation/06-Legacy Moderation (Extensions)/10 XSS Filter/index.md",
+  "sourceDirName": "06-Legacy Moderation (Extensions)/10 XSS Filter",
+  "slug": "/xss-filter",
+  "permalink": "/docs/moderation/xss-filter",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10,
+    "title": "XSS Filter",
+    "slug": "/xss-filter"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Virus and Malware Scanner",
+    "permalink": "/docs/moderation/virus-malware-scanner"
+  }
+}

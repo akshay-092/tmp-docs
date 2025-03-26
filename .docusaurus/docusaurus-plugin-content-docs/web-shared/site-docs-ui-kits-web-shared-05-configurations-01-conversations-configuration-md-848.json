@@ -1,0 +1,29 @@
+{
+  "id": "CONFIGURATIONS/conversations-configuration",
+  "title": "ConversationsConfiguration",
+  "description": "This refers to the properties of the CometChatConversations component that are available for customisation via the parent component when the component exists in a deep nested hierarchy.",
+  "source": "@site/docs/ui-kits/web-shared/05-CONFIGURATIONS/01-conversations-configuration.md",
+  "sourceDirName": "05-CONFIGURATIONS",
+  "slug": "/conversations-configuration",
+  "permalink": "/docs/web-shared/conversations-configuration",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "ConversationsConfiguration",
+    "slug": "/conversations-configuration"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ReactionListStyle",
+    "permalink": "/docs/web-shared/reaction-list-style"
+  },
+  "next": {
+    "title": "UsersConfiguration",
+    "permalink": "/docs/web-shared/users-configuration"
+  }
+}

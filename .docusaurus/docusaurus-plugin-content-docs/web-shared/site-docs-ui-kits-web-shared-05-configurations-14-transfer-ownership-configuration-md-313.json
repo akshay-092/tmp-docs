@@ -1,0 +1,29 @@
+{
+  "id": "CONFIGURATIONS/transfer-ownership-configuration",
+  "title": "TransferOwnershipConfiguration",
+  "description": "This refers to the properties of the CometChatTransferOwnership component that are available for customisation via the parent component when the component exists in a deep nested hierarchy.",
+  "source": "@site/docs/ui-kits/web-shared/05-CONFIGURATIONS/14-transfer-ownership-configuration.md",
+  "sourceDirName": "05-CONFIGURATIONS",
+  "slug": "/transfer-ownership-configuration",
+  "permalink": "/docs/web-shared/transfer-ownership-configuration",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 14,
+  "frontMatter": {
+    "sidebar_position": 14,
+    "title": "TransferOwnershipConfiguration",
+    "slug": "/transfer-ownership-configuration"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "BannedMembersConfiguration",
+    "permalink": "/docs/web-shared/banned-members-configuration"
+  },
+  "next": {
+    "title": "MessageInformationConfiguration",
+    "permalink": "/docs/web-shared/message-information-configuration"
+  }
+}

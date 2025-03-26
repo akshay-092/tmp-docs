@@ -1,0 +1,20 @@
+{
+  "title": "Resources Title",
+  "comment": "Resources Comment",
+  "description": "Resources Description",
+  "viewAll": "View All Text",
+  "links": [
+    {
+      "title": "Link Title",
+      "url": "Link URL"
+    },
+    {
+      "title": "Second Link Title",
+      "url": "Second Link URL"
+    },
+    {
+      "title": "Third Link Title",
+      "url": "Third Link URL"
+    }
+  ]
+}

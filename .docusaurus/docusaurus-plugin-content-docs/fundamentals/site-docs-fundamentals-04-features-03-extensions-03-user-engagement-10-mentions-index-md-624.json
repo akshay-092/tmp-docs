@@ -1,0 +1,29 @@
+{
+  "id": "Features/Extensions/User Engagement/10 Mentions/index",
+  "title": "Mentions",
+  "description": "Mentions are a great way to get someone's attention in a conversation. Mentions start with the @ symbol followed by a  name.",
+  "source": "@site/docs/fundamentals/04-Features/03-Extensions/03-User Engagement/10 Mentions/index.md",
+  "sourceDirName": "04-Features/03-Extensions/03-User Engagement/10 Mentions",
+  "slug": "/mentions",
+  "permalink": "/docs/fundamentals/mentions",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10,
+    "title": "Mentions",
+    "slug": "/mentions"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Live Streaming by API Video",
+    "permalink": "/docs/fundamentals/video-broadcasting"
+  },
+  "next": {
+    "title": "Giphy",
+    "permalink": "/docs/fundamentals/giphy"
+  }
+}

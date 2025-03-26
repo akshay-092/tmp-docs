@@ -1,0 +1,29 @@
+{
+  "id": "resources/index",
+  "title": "Resources",
+  "description": "We have a number of resources that will help you while integrating CometChat in your app.",
+  "source": "@site/docs/sdk/ionic/11-resources/index.md",
+  "sourceDirName": "11-resources",
+  "slug": "/resources-overview",
+  "permalink": "/docs/sdk/ionic/resources-overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11,
+    "title": "Resources",
+    "slug": "/resources-overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Transfer Group Ownership",
+    "permalink": "/docs/sdk/ionic/transfer-group-ownership"
+  },
+  "next": {
+    "title": "All Real-time Listeners",
+    "permalink": "/docs/sdk/ionic/real-time-listeners"
+  }
+}

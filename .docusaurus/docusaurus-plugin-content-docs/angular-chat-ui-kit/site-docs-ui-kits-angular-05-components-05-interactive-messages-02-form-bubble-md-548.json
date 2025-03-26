@@ -1,0 +1,29 @@
+{
+  "id": "Components/Interactive Messages/form-bubble",
+  "title": "Form Bubble",
+  "description": "The CometChatFormBubble component is used to render a form within a chat bubble. The form fields are dynamically built based on the data passed in the message prop. The form fields can include text inputs, checkboxes, radio buttons, dropdown, labels, single selects, buttons. Once the form is filled out and submitted, the data will be sent to the provided URL or handled by a custom function.",
+  "source": "@site/docs/ui-kits/angular/05-Components/05-Interactive Messages/02-form-bubble.md",
+  "sourceDirName": "05-Components/05-Interactive Messages",
+  "slug": "/interactive-form-bubble",
+  "permalink": "/docs/ui-kit/angular/interactive-form-bubble",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Form Bubble",
+    "slug": "/interactive-form-bubble"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Form Message",
+    "permalink": "/docs/ui-kit/angular/interactive-form-message"
+  },
+  "next": {
+    "title": "Card Message",
+    "permalink": "/docs/ui-kit/angular/interactive-card-message"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ui-components/index",
+  "title": "UI Components",
+  "description": "CometChat's UI Kit is a set of pre-built UI components that allows you to easily craft an in-app chat with all the essential messaging features.",
+  "source": "@site/docs/ui-kits/vue/05-ui-components/index.md",
+  "sourceDirName": "05-ui-components",
+  "slug": "/ui-components-overview",
+  "permalink": "/docs/ui-kit/vue/ui-components-overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "UI Components",
+    "slug": "/ui-components-overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Nuxt.js Integration",
+    "permalink": "/docs/ui-kit/vue/nuxtjs-integration"
+  },
+  "next": {
+    "title": "Conversations With Messages",
+    "permalink": "/docs/ui-kit/vue/conversations-with-messages"
+  }
+}

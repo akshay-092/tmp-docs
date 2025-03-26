@@ -1,0 +1,29 @@
+{
+  "id": "STYLES/addmembersstyle",
+  "title": "AddMembersStyle",
+  "description": "Styling properties of the CometChatAddMembers component",
+  "source": "@site/docs/ui-kits/web-shared/04-STYLES/15-addmembersstyle.md",
+  "sourceDirName": "04-STYLES",
+  "slug": "/addmembersstyle",
+  "permalink": "/docs/web-shared/addmembersstyle",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 15,
+  "frontMatter": {
+    "sidebar_position": 15,
+    "title": "AddMembersStyle",
+    "slug": "/addmembersstyle"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "GroupMembersStyle",
+    "permalink": "/docs/web-shared/groupmembersstyle"
+  },
+  "next": {
+    "title": "BannedMembersStyle",
+    "permalink": "/docs/web-shared/bannedmembersstyle"
+  }
+}

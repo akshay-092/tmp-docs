@@ -1,0 +1,29 @@
+{
+  "id": "EVENTS/groups-events",
+  "title": "Groups Events",
+  "description": "CometChatGroupEvents emits events when the logged-in user executes some action on a group object.",
+  "source": "@site/docs/ui-kits/web-shared/06-EVENTS/03-groups-events.md",
+  "sourceDirName": "06-EVENTS",
+  "slug": "/groups-events",
+  "permalink": "/docs/web-shared/groups-events",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Groups Events",
+    "slug": "/groups-events"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Users Events",
+    "permalink": "/docs/web-shared/users-events"
+  },
+  "next": {
+    "title": "Messages Events",
+    "permalink": "/docs/web-shared/messages-events"
+  }
+}

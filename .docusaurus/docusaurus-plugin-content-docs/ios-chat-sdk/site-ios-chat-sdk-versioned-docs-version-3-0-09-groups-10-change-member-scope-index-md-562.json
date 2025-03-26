@@ -1,0 +1,29 @@
+{
+  "id": "groups/10 Change Member Scope/index",
+  "title": "Change Member Scope",
+  "description": "Change Scope of a Group Member",
+  "source": "@site/ios-chat-sdk_versioned_docs/version-3.0/09-groups/10 Change Member Scope/index.md",
+  "sourceDirName": "09-groups/10 Change Member Scope",
+  "slug": "/change-member-scope",
+  "permalink": "/docs/sdk/ios/3.0/change-member-scope",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10,
+    "title": "Change Member Scope",
+    "slug": "/change-member-scope"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Kick Member from a Group",
+    "permalink": "/docs/sdk/ios/3.0/kick-member-from-a-group"
+  },
+  "next": {
+    "title": "Transfer Group Ownership",
+    "permalink": "/docs/sdk/ios/3.0/transfer-group-ownership"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Advanced/index",
+  "title": "Advanced",
+  "description": "This section helps you to know about the Connection Listeners.",
+  "source": "@site/flutter-chat-sdk_versioned_docs/version-3.0/Advanced/index.md",
+  "sourceDirName": "Advanced",
+  "slug": "/advanced",
+  "permalink": "/docs/sdk/flutter/3.0/advanced",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 13,
+  "frontMatter": {
+    "sidebar_position": 13,
+    "title": "Advanced",
+    "slug": "/advanced"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "All Real-time Listeners",
+    "permalink": "/docs/sdk/flutter/3.0/resources-all-real-time-listeners"
+  },
+  "next": {
+    "title": "Connection Status",
+    "permalink": "/docs/sdk/flutter/3.0/advanced-connection-status"
+  }
+}

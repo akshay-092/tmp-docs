@@ -1,0 +1,29 @@
+{
+  "id": "Messages/Message List",
+  "title": "Message List",
+  "description": "This is a fundamental component of the chat interface that displays a list of chat messages exchanged between participants in a conversation. It serves as a chronological log of the conversation, presenting messages in the order they were sent.",
+  "source": "@site/docs/ui-kits/vue/09-Messages/03-Message List.md",
+  "sourceDirName": "09-Messages",
+  "slug": "/message-list",
+  "permalink": "/docs/ui-kit/vue/message-list",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Message List",
+    "slug": "/message-list"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Message Header",
+    "permalink": "/docs/ui-kit/vue/message-header"
+  },
+  "next": {
+    "title": "Message Composer",
+    "permalink": "/docs/ui-kit/vue/message-composer"
+  }
+}

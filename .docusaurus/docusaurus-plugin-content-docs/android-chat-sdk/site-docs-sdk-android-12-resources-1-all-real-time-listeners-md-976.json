@@ -1,0 +1,29 @@
+{
+  "id": "Resources/1 All Real-time Listeners",
+  "title": "All Real-time Listeners",
+  "description": "CometChat provides 4 listeners viz.",
+  "source": "@site/docs/sdk/android/12-Resources/1 All Real-time Listeners.md",
+  "sourceDirName": "12-Resources",
+  "slug": "/real-time-listeners",
+  "permalink": "/docs/sdk/android/real-time-listeners",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "All Real-time Listeners",
+    "slug": "/real-time-listeners"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Resources",
+    "permalink": "/docs/sdk/android/resources-overview"
+  },
+  "next": {
+    "title": "Upgrading from V3",
+    "permalink": "/docs/sdk/android/upgrading-from-v3-guide"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "action-sheet",
+  "title": "Action sheet",
+  "description": "This element is a slide-up pane for presenting the user with a set of actions.",
+  "source": "@site/docs/ui-kits/elements/14-action-sheet.md",
+  "sourceDirName": ".",
+  "slug": "/action-sheet",
+  "permalink": "/docs/web-elements/action-sheet",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 14,
+  "frontMatter": {
+    "sidebar_position": 14,
+    "title": "Action sheet",
+    "slug": "/action-sheet"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Emoji Keyboard",
+    "permalink": "/docs/web-elements/emoji-keyboard"
+  },
+  "next": {
+    "title": "Backdrop",
+    "permalink": "/docs/web-elements/backdrop"
+  }
+}

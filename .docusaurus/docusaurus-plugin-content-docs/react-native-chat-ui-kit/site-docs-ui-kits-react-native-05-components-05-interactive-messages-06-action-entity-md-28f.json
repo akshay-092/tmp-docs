@@ -1,0 +1,29 @@
+{
+  "id": "Components/Interactive Messages/Action Entity",
+  "title": "Action Entity",
+  "description": "Base class for defining the type of actions that can be performed on BaseInteractiveElement",
+  "source": "@site/docs/ui-kits/react-native/05-Components/05-Interactive Messages/06-Action Entity.md",
+  "sourceDirName": "05-Components/05-Interactive Messages",
+  "slug": "/interactive-action-entity",
+  "permalink": "/docs/ui-kit/react-native/interactive-action-entity",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Action Entity",
+    "slug": "/interactive-action-entity"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Element Entity",
+    "permalink": "/docs/ui-kit/react-native/interactive-element-entity"
+  },
+  "next": {
+    "title": "Custom Interactive Message",
+    "permalink": "/docs/ui-kit/react-native/interactive-custom-interactive-message"
+  }
+}

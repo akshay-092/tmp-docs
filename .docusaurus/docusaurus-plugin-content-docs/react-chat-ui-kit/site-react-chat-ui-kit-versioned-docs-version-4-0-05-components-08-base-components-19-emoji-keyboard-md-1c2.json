@@ -1,0 +1,29 @@
+{
+  "id": "Components/Base Components/emoji-keyboard",
+  "title": "Emoji Keyboard",
+  "description": "Overview",
+  "source": "@site/react-chat-ui-kit_versioned_docs/version-4.0/05-Components/08-Base Components/19-emoji-keyboard.md",
+  "sourceDirName": "05-Components/08-Base Components",
+  "slug": "/emoji-keyboard",
+  "permalink": "/docs/ui-kit/react/v4/emoji-keyboard",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "4.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 18,
+  "frontMatter": {
+    "sidebar_position": 18,
+    "title": "Emoji Keyboard",
+    "slug": "/emoji-keyboard"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Backdrop",
+    "permalink": "/docs/ui-kit/react/v4/backdrop"
+  },
+  "next": {
+    "title": "Modal",
+    "permalink": "/docs/ui-kit/react/v4/modal"
+  }
+}

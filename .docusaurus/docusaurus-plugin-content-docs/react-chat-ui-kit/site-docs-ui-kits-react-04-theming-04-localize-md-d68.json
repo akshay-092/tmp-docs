@@ -1,0 +1,29 @@
+{
+  "id": "Theming/localize",
+  "title": "Localize",
+  "description": "Overview",
+  "source": "@site/docs/ui-kits/react/04-Theming/04-localize.md",
+  "sourceDirName": "04-Theming",
+  "slug": "/localize",
+  "permalink": "/docs/ui-kit/react/v6/localize",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Localize",
+    "slug": "/localize"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Message Bubble Styling",
+    "permalink": "/docs/ui-kit/react/v6/theme/message-bubble-styling"
+  },
+  "next": {
+    "title": "Sound Manager",
+    "permalink": "/docs/ui-kit/react/v6/sound-manager"
+  }
+}

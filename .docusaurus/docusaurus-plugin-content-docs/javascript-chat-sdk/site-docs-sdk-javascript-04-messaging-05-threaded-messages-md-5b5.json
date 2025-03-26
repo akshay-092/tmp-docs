@@ -1,0 +1,29 @@
+{
+  "id": "messaging/threaded-messages",
+  "title": "Threaded Messages",
+  "description": "Messages that are started from a particular message are called Threaded messages or simply threads.",
+  "source": "@site/docs/sdk/javascript/04-messaging/05-threaded-messages.md",
+  "sourceDirName": "04-messaging",
+  "slug": "/threaded-messages",
+  "permalink": "/docs/sdk/javascript/threaded-messages",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Threaded Messages",
+    "slug": "/threaded-messages"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Retrieve Conversations",
+    "permalink": "/docs/sdk/javascript/retrieve-conversations"
+  },
+  "next": {
+    "title": "Edit a Message",
+    "permalink": "/docs/sdk/javascript/edit-message"
+  }
+}

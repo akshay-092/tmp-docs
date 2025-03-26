@@ -1,0 +1,29 @@
+{
+  "id": "Overview/Rate Limits",
+  "title": "Rate Limits",
+  "description": "CometChat Pro REST API Rate Limits",
+  "source": "@site/android-chat-sdk_versioned_docs/version-3.0/01-Overview/03-Rate Limits.md",
+  "sourceDirName": "01-Overview",
+  "slug": "/rate-limits",
+  "permalink": "/docs/sdk/android/3.0/rate-limits",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Rate Limits",
+    "slug": "/rate-limits"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Message structure and hierarchy",
+    "permalink": "/docs/sdk/android/3.0/message-structure-and-hierarchy"
+  },
+  "next": {
+    "title": "Authentication",
+    "permalink": "/docs/sdk/android/3.0/authentication"
+  }
+}

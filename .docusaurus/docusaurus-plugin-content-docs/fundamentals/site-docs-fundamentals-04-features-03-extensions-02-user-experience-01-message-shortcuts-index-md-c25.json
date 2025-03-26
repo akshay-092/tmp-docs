@@ -1,0 +1,29 @@
+{
+  "id": "Features/Extensions/User Experience/message-shortcuts/index",
+  "title": "Message Shortcuts",
+  "description": "The Message Shortcuts extension enables your users to send each other predefined messages.",
+  "source": "@site/docs/fundamentals/04-Features/03-Extensions/02-User Experience/01-message-shortcuts/index.md",
+  "sourceDirName": "04-Features/03-Extensions/02-User Experience/01-message-shortcuts",
+  "slug": "/message-shortcuts",
+  "permalink": "/docs/fundamentals/message-shortcuts",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Message Shortcuts",
+    "slug": "/message-shortcuts"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Extensions",
+    "permalink": "/docs/fundamentals/extensions-overview"
+  },
+  "next": {
+    "title": "Avatars",
+    "permalink": "/docs/fundamentals/avatars"
+  }
+}

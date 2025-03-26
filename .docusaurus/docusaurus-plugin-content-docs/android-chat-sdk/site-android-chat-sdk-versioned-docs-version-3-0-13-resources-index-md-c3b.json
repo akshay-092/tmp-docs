@@ -1,0 +1,29 @@
+{
+  "id": "Resources/index",
+  "title": "Resources",
+  "description": "We have a number of resources that will help you while integrating CometChat in your app.",
+  "source": "@site/android-chat-sdk_versioned_docs/version-3.0/13-Resources/index.md",
+  "sourceDirName": "13-Resources",
+  "slug": "/android-resources",
+  "permalink": "/docs/sdk/android/3.0/android-resources",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Resources",
+    "slug": "/android-resources"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Webhooks",
+    "permalink": "/docs/sdk/android/3.0/webhooks"
+  },
+  "next": {
+    "title": "All Real-time Listeners",
+    "permalink": "/docs/sdk/android/3.0/resources-all-real-time-listeners"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "Features/Chat/Extensions",
+  "title": "Extensions",
+  "description": "Overview",
+  "source": "@site/react-chat-ui-kit_versioned_docs/version-5.0/03-Features/01-Chat/02-Extensions.md",
+  "sourceDirName": "03-Features/01-Chat",
+  "slug": "/extensions",
+  "permalink": "/docs/ui-kit/react/v5/extensions",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "5.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "sidebar_label": "Extensions",
+    "title": "Extensions",
+    "slug": "/extensions"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Core",
+    "permalink": "/docs/ui-kit/react/v5/core-features"
+  },
+  "next": {
+    "title": "AI User Copilot",
+    "permalink": "/docs/ui-kit/react/v5/ai-features"
+  }
+}

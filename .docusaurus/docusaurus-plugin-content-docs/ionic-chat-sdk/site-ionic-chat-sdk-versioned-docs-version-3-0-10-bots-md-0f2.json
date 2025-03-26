@@ -1,0 +1,29 @@
+{
+  "id": "Bots",
+  "title": "Bots",
+  "description": "Bots are special users, in CometChat, who can send and receive messages autonomously. Users can text bots privately in one-on-one conversations as well as in groups. When a bot receives a message, either in a one-on-one conversation or in a group conversation, CometChat forwards the message to a Callback URL that you specify. Once you receive this message, you can send a reply using our API.",
+  "source": "@site/ionic-chat-sdk_versioned_docs/version-3.0/10-Bots.md",
+  "sourceDirName": ".",
+  "slug": "/bots",
+  "permalink": "/docs/sdk/ionic/3.0/bots",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10,
+    "title": "Bots",
+    "slug": "/bots"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Transfer Group Ownership",
+    "permalink": "/docs/sdk/ionic/3.0/groups-transfer-group-ownership"
+  },
+  "next": {
+    "title": "Webhooks",
+    "permalink": "/docs/sdk/ionic/3.0/webhooks"
+  }
+}

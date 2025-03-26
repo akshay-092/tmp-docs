@@ -1,0 +1,29 @@
+{
+  "id": "ENUMS/iconbuttonalignment",
+  "title": "IconButtonAlignment",
+  "description": "IconButtonAlignment describes the positioning of icon within the CometChatIconButton component.",
+  "source": "@site/docs/ui-kits/web-shared/03-ENUMS/09-iconbuttonalignment.md",
+  "sourceDirName": "03-ENUMS",
+  "slug": "/iconbuttonalignment",
+  "permalink": "/docs/web-shared/iconbuttonalignment",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9,
+    "title": "IconButtonAlignment",
+    "slug": "/iconbuttonalignment"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Receipts",
+    "permalink": "/docs/web-shared/receipts"
+  },
+  "next": {
+    "title": "AuxiliaryButtonAlignment",
+    "permalink": "/docs/web-shared/auxiliarybuttonalignment"
+  }
+}

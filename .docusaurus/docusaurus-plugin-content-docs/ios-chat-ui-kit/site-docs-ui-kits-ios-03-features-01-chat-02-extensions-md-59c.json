@@ -1,0 +1,30 @@
+{
+  "id": "Features/Chat/Extensions",
+  "title": "Extensions",
+  "description": "Overview",
+  "source": "@site/docs/ui-kits/ios/03-Features/01-Chat/02-Extensions.md",
+  "sourceDirName": "03-Features/01-Chat",
+  "slug": "/extensions",
+  "permalink": "/docs/ui-kit/ios/v5/extensions",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "sidebar_label": "Extensions",
+    "title": "Extensions",
+    "slug": "/extensions"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Core",
+    "permalink": "/docs/ui-kit/ios/v5/core-features"
+  },
+  "next": {
+    "title": "Call",
+    "permalink": "/docs/ui-kit/ios/v5/call-features"
+  }
+}

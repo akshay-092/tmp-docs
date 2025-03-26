@@ -1,0 +1,29 @@
+{
+  "id": "Guides/CometChat UI",
+  "title": "Multi-Tab Chat UI Guide",
+  "description": "This guide will help you achieve a tabbed layout (aka Multi-Tab Chat UI) of the components available in CometChatUIKit for Angular.",
+  "source": "@site/docs/ui-kits/angular/07-Guides/01-CometChat UI.md",
+  "sourceDirName": "07-Guides",
+  "slug": "/multi-tab-chat-ui-guide",
+  "permalink": "/docs/ui-kit/angular/multi-tab-chat-ui-guide",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Multi-Tab Chat UI Guide",
+    "slug": "/multi-tab-chat-ui-guide"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Events",
+    "permalink": "/docs/ui-kit/angular/events"
+  },
+  "next": {
+    "title": "New Attachment Option",
+    "permalink": "/docs/ui-kit/angular/new-attachment-option-guide"
+  }
+}

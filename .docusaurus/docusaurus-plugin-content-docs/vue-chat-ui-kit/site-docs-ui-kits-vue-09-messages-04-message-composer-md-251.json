@@ -1,0 +1,29 @@
+{
+  "id": "Messages/Message Composer",
+  "title": "Message Composer",
+  "description": "This component allows users to compose and send messages. It provides a text input area or field where users can enter their messages or responses before sending them to other participants in the conversation.",
+  "source": "@site/docs/ui-kits/vue/09-Messages/04-Message Composer.md",
+  "sourceDirName": "09-Messages",
+  "slug": "/message-composer",
+  "permalink": "/docs/ui-kit/vue/message-composer",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Message Composer",
+    "slug": "/message-composer"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Message List",
+    "permalink": "/docs/ui-kit/vue/message-list"
+  },
+  "next": {
+    "title": "Message Information",
+    "permalink": "/docs/ui-kit/vue/message-information"
+  }
+}

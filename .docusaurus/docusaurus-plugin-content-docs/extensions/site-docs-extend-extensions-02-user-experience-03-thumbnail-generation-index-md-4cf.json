@@ -1,0 +1,29 @@
+{
+  "id": "User Experience/thumbnail-generation/index",
+  "title": "Thumbnail Generation",
+  "description": "The Thumbnail Generation extension will help you generate a thumbnail preview of an image or a video message.",
+  "source": "@site/docs/extend/extensions/02-User Experience/03-thumbnail-generation/index.md",
+  "sourceDirName": "02-User Experience/03-thumbnail-generation",
+  "slug": "/thumbnail-generation",
+  "permalink": "/docs/extensions/thumbnail-generation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Thumbnail Generation",
+    "slug": "/thumbnail-generation"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Avatars",
+    "permalink": "/docs/extensions/avatars"
+  },
+  "next": {
+    "title": "Link Preview",
+    "permalink": "/docs/extensions/link-preview"
+  }
+}

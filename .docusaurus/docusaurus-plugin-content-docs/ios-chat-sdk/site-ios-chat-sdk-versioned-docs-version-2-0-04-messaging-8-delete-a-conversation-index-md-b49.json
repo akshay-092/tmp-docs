@@ -1,0 +1,29 @@
+{
+  "id": "messaging/8 Delete a Conversation/index",
+  "title": "Delete a Conversation",
+  "description": "In case you want to delete a conversation, you can use the deleteConversation() method.",
+  "source": "@site/ios-chat-sdk_versioned_docs/version-2.0/04-messaging/8 Delete a Conversation/index.md",
+  "sourceDirName": "04-messaging/8 Delete a Conversation",
+  "slug": "/delete-a-conversation",
+  "permalink": "/docs/sdk/ios/2.0/delete-a-conversation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "2.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "title": "Delete a Conversation",
+    "slug": "/delete-a-conversation"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Delete a Message",
+    "permalink": "/docs/sdk/ios/2.0/delete-a-message"
+  },
+  "next": {
+    "title": "Typing Indicators",
+    "permalink": "/docs/sdk/ios/2.0/typing-indicators"
+  }
+}

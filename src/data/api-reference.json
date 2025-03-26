@@ -1,0 +1,26 @@
+{
+  "whiteImg": "/homepage/api-ref-light.png",
+  "blackImg": "/homepage/api-ref-dark.png",
+  "alt": "Images Alt",
+  "title": "Api Ref Title",
+  "description": "Api Ref Description",
+  "link": "/api-ref",
+  "linkText": "Api Ref Link Text",
+  "list": [
+    {
+      "title": "First Title",
+      "description": "First Description",
+      "link": "/api-ref/first-link"
+    },
+    {
+      "title": "Second Title",
+      "description": "Second Description",
+      "link": "/api-ref/second-link"
+    },
+    {
+      "title": "Third Title",
+      "description": "Third Description",
+      "link": "/api-ref/third-link"
+    }
+  ]
+}

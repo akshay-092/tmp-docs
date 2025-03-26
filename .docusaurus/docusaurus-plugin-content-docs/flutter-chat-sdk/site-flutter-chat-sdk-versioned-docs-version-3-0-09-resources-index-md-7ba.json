@@ -1,0 +1,29 @@
+{
+  "id": "Resources/index",
+  "title": "Resources",
+  "description": "We have a number of resources that will help you while integrating CometChat in your app.",
+  "source": "@site/flutter-chat-sdk_versioned_docs/version-3.0/09-Resources/index.md",
+  "sourceDirName": "09-Resources",
+  "slug": "/flutter-resources",
+  "permalink": "/docs/sdk/flutter/3.0/flutter-resources",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9,
+    "title": "Resources",
+    "slug": "/flutter-resources"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Transfer Group Ownership",
+    "permalink": "/docs/sdk/flutter/3.0/groups-transfer-group-ownership"
+  },
+  "next": {
+    "title": "All Real-time Listeners",
+    "permalink": "/docs/sdk/flutter/3.0/resources-all-real-time-listeners"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "resources/index",
+  "title": "Resources",
+  "description": "We have a number of resources that will help you while integrating CometChat in your app.",
+  "source": "@site/docs/sdk/javascript/13-resources/index.md",
+  "sourceDirName": "13-resources",
+  "slug": "/resources-overview",
+  "permalink": "/docs/sdk/javascript/resources-overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12,
+    "title": "Resources",
+    "slug": "/resources-overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Transfer Group Ownership",
+    "permalink": "/docs/sdk/javascript/transfer-group-ownership"
+  },
+  "next": {
+    "title": "All Real-time Listeners",
+    "permalink": "/docs/sdk/javascript/all-real-time-listeners"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Preferences-templates-sounds/index",
+  "title": "Preferences, Templates & Sounds",
+  "description": "Common Preferences",
+  "source": "@site/docs/notifications/05-Preferences-templates-sounds/index.md",
+  "sourceDirName": "05-Preferences-templates-sounds",
+  "slug": "/preferences-templates-sounds",
+  "permalink": "/docs/notifications/preferences-templates-sounds",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Preferences, Templates & Sounds",
+    "slug": "/preferences-templates-sounds"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Customizations",
+    "permalink": "/docs/notifications/sms-customization"
+  },
+  "next": {
+    "title": "Push Notification Extension",
+    "permalink": "/docs/notifications/push-notification-extension-overview"
+  }
+}

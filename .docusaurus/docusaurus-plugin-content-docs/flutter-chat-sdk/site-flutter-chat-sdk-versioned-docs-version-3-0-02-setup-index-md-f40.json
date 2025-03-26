@@ -1,0 +1,29 @@
+{
+  "id": "Setup/index",
+  "title": "Setup",
+  "description": "Get your Application Keys",
+  "source": "@site/flutter-chat-sdk_versioned_docs/version-3.0/02-Setup/index.md",
+  "sourceDirName": "02-Setup",
+  "slug": "/setup",
+  "permalink": "/docs/sdk/flutter/3.0/setup",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Setup",
+    "slug": "/setup"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Rate Limits",
+    "permalink": "/docs/sdk/flutter/3.0/rate-limits"
+  },
+  "next": {
+    "title": "Authentication",
+    "permalink": "/docs/sdk/flutter/3.0/authentication"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Components/threaded-message-header",
+  "title": "Threaded Messages Header",
+  "description": "Overview",
+  "source": "@site/docs/ui-kits/android/05-Components/09-threaded-message-header.md",
+  "sourceDirName": "05-Components",
+  "slug": "/threaded-messages-header",
+  "permalink": "/docs/ui-kit/android/v5/threaded-messages-header",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9,
+    "title": "Threaded Messages Header",
+    "slug": "/threaded-messages-header"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Message Composer",
+    "permalink": "/docs/ui-kit/android/v5/message-composer"
+  },
+  "next": {
+    "title": "Incoming Call",
+    "permalink": "/docs/ui-kit/android/v5/incoming-call"
+  }
+}

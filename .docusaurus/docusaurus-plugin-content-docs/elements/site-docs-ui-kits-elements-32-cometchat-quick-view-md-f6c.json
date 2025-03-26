@@ -1,0 +1,29 @@
+{
+  "id": "cometchat-quick-view",
+  "title": "QuickView",
+  "description": "CometChat's Quick View component allows you to create a quick overview panel with a title, subtitle, and an optional close button. It extends from the LitElement's base class.",
+  "source": "@site/docs/ui-kits/elements/32-cometchat-quick-view.md",
+  "sourceDirName": ".",
+  "slug": "/cometchat-quick-view",
+  "permalink": "/docs/web-elements/cometchat-quick-view",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 32,
+  "frontMatter": {
+    "sidebar_position": 32,
+    "title": "QuickView",
+    "slug": "/cometchat-quick-view"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Media Recorder",
+    "permalink": "/docs/web-elements/media-recorder"
+  },
+  "next": {
+    "title": "SingleSelect",
+    "permalink": "/docs/web-elements/singleselect"
+  }
+}

@@ -1,0 +1,131 @@
+---
+sidebar_position: 2
+title: Create a Group
+slug: /create-a-group
+---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+
+## Create a Group
+
+_In other words, as a logged-in user, how do I create a public, private or password-protected group?_
+
+You can create a group using `createGroup()` method. This method takes a Group object as a parameter that takes all the information related to the group. So, in order to create a group, you will have to create an object of the group and assign all the values to the group.
+
+To create a group, you can use either of the below two initializers:
+
+1. `new Group(String GUID, String name, String groupType, String password)`
+2. `new Group(String GUID, String name, String groupType, String password, String icon, String description)`
+
+The `groupType` needs to be either of the below 3 values:
+
+1.`CometChatConstants.GROUP_TYPE_PUBLIC` (public)
+2.`CometChatConstants.GROUP_TYPE_PASSWORD` (password)
+3.`CometChatConstants.GROUP_TYPE_PRIVATE` (private)
+
+<Tabs>
+<TabItem value="Swift" label="Swift">
+
+```swift
+1 -* let GroupTobeCreated = Group(GUID: String, name: String, groupType: CometChatConstants.groupType, password: String?)
+
+2 -* let GroupTobeCreated = Group(GUID: String, name: String, groupType: CometChatConstants.groupType, password: String?, icon: String, description: String)
+```
+</TabItem>
+
+<TabItem value="Objective C" label="Objective C">
+
+```objectivec
+1 -*  Group *GroupTobeCreated = [[Group alloc]initWithGuid:(NSString * _Nonnull) name:(NSString * _Nonnull) groupType:(enum groupType) password:(NSString * _Nullable)];
+    
+2 -*  Group *GroupTobeCreated = [[Group alloc]initWithGuid:(NSString * _Nonnull) name:(NSString * _Nonnull) groupType:(enum groupType) password:(NSString * _Nullable) icon:(NSString * _Nonnull) description:(NSString * _Nonnull)];
+```
+
+</TabItem>
+</Tabs>
+
+
+
+<Tabs>
+<TabItem value="Swift" label="Swift">
+
+
+```swift
+let guid = "cometchat-guid-11";
+let groupName = "TestGroup1";
+let password = ""; //mandatory in case of password protected group type
+
+let group = Group(guid: guid, name: groupName, groupType: .private, password: password);
+
+CometChat.createGroup(group: group, onSuccess: { (group) in
+
+  print("Group created successfully. " + group.stringValue())
+
+}) { (error) in
+
+  print("Group creation failed with error:" + error!.errorDescription);
+}
+```
+</TabItem>
+
+<TabItem value="Objective C" label="Objective C">
+
+```objectivec
+NSString *guid = @"cometchat-guid-101";
+NSString *guid = @"cometchat-guid-101";
+NSString *name = @"TestGroup1";
+NSString *password = nil ; // mandatory in case of password protected group type
+
+Group *group = [[Group alloc]initWithGuid:guid name:name groupType:groupTypePublic password:password];
+
+[CometChat createGroupWithGroup:group onSuccess:^(Group * group) {
+    
+    NSLog(@"Group created successfully. %@",[group stringValue]);
+    
+} onError:^(CometChatException * error) {
+    
+    NSLog(@"Group creation failed with error: %@",[error errorDescription]);
+}];
+```
+</TabItem>
+</Tabs>
+
+
+
+The `createGroup()` method takes the following parameters:
+
+| Parameter | Description | 
+| ---- | ---- | 
+| group | An instance of `Group` class | 
+
+
+After the successful creation of the group, you will receive an instance of  class which contains all the information about the particular group.
+
+:::warning Warning
+GUID can be alphanumeric with underscore and hyphen. Spaces, punctuation and other special characters are not allowed.
+:::
+
+
+## Group Class
+
+
+
+| Field | Editable | Information | 
+| ---- | ---- | ---- | 
+| guid | Needs to be specified at group creation. Cannot be edited later | A unique identifier for a group | 
+| name | Yes | Name of the group | 
+| type | No | Type of the group: Can be <br />1. Public<br />2. Password<br />3. Private | 
+| password | No | Password for the group in case the group is of type password. | 
+| icon | Yes | An URL to group icon | 
+| description | Yes | Description about the group | 
+| owner | Yes | UID of the owner of the group. | 
+| metadata | Yes | Additional data for the group as Dictionary | 
+| createdAt | No | The Unix timestamp of the time the group was created | 
+| updatedAt | No | The Unix timestamp of the time the group was last updated | 
+| hasJoined | No | A boolean to determine if the logged-in user is a member of the group. | 
+| joinedAt | No | The Unix timestamp of the time the logged-in user joined the group. | 
+| scope | Yes | Scope of the logged in user. Can be:<br />1. Admin<br />2. Moderator<br />3. Participant | 
+| membersCount | No | The number of members in the groups | 
+| tags | Yes | A list of tags to identify specific groups. | 
+

@@ -1,0 +1,29 @@
+{
+  "id": "INTERACTIVE MESSAGES/element-type",
+  "title": "Element Type",
+  "description": "This is the base class for every element possible in the Interactive message component, defined by CometChat",
+  "source": "@site/docs/ui-kits/web-shared/08-INTERACTIVE MESSAGES/05-element-type.md",
+  "sourceDirName": "08-INTERACTIVE MESSAGES",
+  "slug": "/element-type",
+  "permalink": "/docs/web-shared/element-type",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Element Type",
+    "slug": "/element-type"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Card Bubble",
+    "permalink": "/docs/web-shared/card-bubble"
+  },
+  "next": {
+    "title": "Action Entity",
+    "permalink": "/docs/web-shared/action-entity"
+  }
+}

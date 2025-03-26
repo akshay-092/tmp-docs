@@ -1,0 +1,97 @@
+---
+sidebar_position: 1
+title: Login Listeners
+slug: /authentication-login-listeners
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+The CometChat SDK provides you with real-time updates for the `login` and `logout` events. This can be achieved using the `LoginListener` class provided. LoginListener consists of 4 events that can be triggered. These are as follows:
+
+| Callback Method | Information | 
+| ---- | ---- | 
+| loginSuccess(User user) | Informs you that the login was successful and provides you with a user object containing the data for the user that logged in | 
+| loginFailure(CometChatException e) | Informs you about the failure while logging in the user and provides you with the reason for the failure wrapped in an object of the `CometChatException` class | 
+| logoutSuccess() | Informs you about the user being logged out successfully. | 
+| logoutFailure(CometChatException e) | Informs you about the failure while logging out the user. The reason for the failure can be obtained from the object of the `CometChatException` class provided. | 
+
+
+To add the `LoginListener`, you need to use the `addLoginListener()` method provided by the SDK which takes a unique identifier for the listener and of the the `LoginListener` class itself.
+
+<Tabs>
+<TabItem value="Java" label="Java">
+
+```java
+CometChat.addLoginListener("UNIQUE_ID", new CometChat.LoginListener() {
+    @Override
+    public void loginSuccess(User user) {
+        Log.d("LoginListener", "loginSuccess " + user.toString());
+    }
+
+    @Override
+    public void loginFailure(CometChatException e) {
+        Log.d("LoginListener", "loginFailure " + e.getMessage());
+    }
+
+    @Override
+    public void logoutSuccess() {
+        Log.d("LoginListener", "logoutSuccess ");
+    }
+
+    @Override
+    public void logoutFailure(CometChatException e) {
+        Log.d("LoginListener", "logoutFailure ");
+    }
+});
+```
+</TabItem>
+<TabItem value="Kotlin" label="Kotlin">
+
+```kotlin
+CometChat.addLoginListener("UNIQUE_ID", object : LoginListener() {
+    override fun loginSuccess(user: User) {
+        Log.d("LoginListener", "loginSuccess $user")
+    }
+
+    override fun loginFailure(e: CometChatException) {
+        Log.d("LoginListener", "loginFailure " + e.message)
+    }
+
+    override fun logoutSuccess() {
+        Log.d("LoginListener", "logoutSuccess ")
+    }
+
+    override fun logoutFailure(e: CometChatException) {
+        Log.d("LoginListener", "logoutFailure ")
+    }
+})
+```
+</TabItem>
+</Tabs>
+
+
+
+
+
+
+In order to stop receiving events related to login and logout you need to use the `removeLoginListener()` method provided by the SDK and pas the ID of the listener that needs to be removed.
+
+<Tabs>
+<TabItem value="Java" label="Java">
+
+```java
+CometChat.removeLoginListener("UNIQUE_ID");
+```
+</TabItem>
+<TabItem value="Kotlin" label="Kotlin">
+
+```kotlin
+CometChat.removeLoginListener("UNIQUE_ID")
+```
+</TabItem>
+</Tabs>
+
+
+
+

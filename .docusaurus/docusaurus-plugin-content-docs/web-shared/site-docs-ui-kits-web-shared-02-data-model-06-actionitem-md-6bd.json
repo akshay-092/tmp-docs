@@ -1,0 +1,29 @@
+{
+  "id": "DATA MODEL/actionitem",
+  "title": "ActionItem",
+  "description": "CometChatActionItem is a pre-defined structure for creating action that can be used to perform an action such as a button click or navigating a link.",
+  "source": "@site/docs/ui-kits/web-shared/02-DATA MODEL/06-actionitem.md",
+  "sourceDirName": "02-DATA MODEL",
+  "slug": "/actionitem",
+  "permalink": "/docs/web-shared/actionitem",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "ActionItem",
+    "slug": "/actionitem"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MessageComposerAction",
+    "permalink": "/docs/web-shared/messagecomposeraction"
+  },
+  "next": {
+    "title": "Option",
+    "permalink": "/docs/web-shared/option"
+  }
+}

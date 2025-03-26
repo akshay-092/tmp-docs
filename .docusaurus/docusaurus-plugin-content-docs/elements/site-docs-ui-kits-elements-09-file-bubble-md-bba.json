@@ -1,0 +1,29 @@
+{
+  "id": "file-bubble",
+  "title": "File bubble",
+  "description": "This element handles the display and the download functionality for an individual file.",
+  "source": "@site/docs/ui-kits/elements/09-file-bubble.md",
+  "sourceDirName": ".",
+  "slug": "/file-bubble",
+  "permalink": "/docs/web-elements/file-bubble",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9,
+    "title": "File bubble",
+    "slug": "/file-bubble"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Image bubble",
+    "permalink": "/docs/web-elements/image-bubble"
+  },
+  "next": {
+    "title": "Audio bubble",
+    "permalink": "/docs/web-elements/audio-bubble"
+  }
+}

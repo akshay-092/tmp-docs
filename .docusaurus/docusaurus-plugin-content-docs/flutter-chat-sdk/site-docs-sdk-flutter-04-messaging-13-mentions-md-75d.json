@@ -1,0 +1,29 @@
+{
+  "id": "messaging/13 Mentions",
+  "title": "Mentions",
+  "description": "Mentions are a powerful tool for enhancing communication in messaging platforms. They streamline interaction by allowing users to easily engage and collaborate with particular individuals, especially in group conversations.",
+  "source": "@site/docs/sdk/flutter/04-messaging/13 Mentions.md",
+  "sourceDirName": "04-messaging",
+  "slug": "/mentions",
+  "permalink": "/docs/sdk/flutter/mentions",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 13,
+  "frontMatter": {
+    "sidebar_position": 13,
+    "title": "Mentions",
+    "slug": "/mentions"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Threaded Messages",
+    "permalink": "/docs/sdk/flutter/threaded-messages"
+  },
+  "next": {
+    "title": "Reactions",
+    "permalink": "/docs/sdk/flutter/reactions"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "groups/add-members-to-a-group",
+  "title": "Add Members to a Group",
+  "description": "Add Members to Group",
+  "source": "@site/docs/sdk/javascript/08-groups/08-add-members-to-a-group.md",
+  "sourceDirName": "08-groups",
+  "slug": "/group-add-members",
+  "permalink": "/docs/sdk/javascript/group-add-members",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "title": "Add Members to a Group",
+    "slug": "/group-add-members"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Retrieve Group Members",
+    "permalink": "/docs/sdk/javascript/retrieve-group-members"
+  },
+  "next": {
+    "title": "Ban or Kick Member from a Group",
+    "permalink": "/docs/sdk/javascript/group-kick-ban-members"
+  }
+}

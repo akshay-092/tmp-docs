@@ -1,0 +1,29 @@
+{
+  "id": "Features/Extensions/User Engagement/3 Message Translation/index",
+  "title": "Message Translation",
+  "description": "The Message Translation extension helps you translate messages into multiple languages.",
+  "source": "@site/docs/fundamentals/04-Features/03-Extensions/03-User Engagement/3 Message Translation/index.md",
+  "sourceDirName": "04-Features/03-Extensions/03-User Engagement/3 Message Translation",
+  "slug": "/message-translation",
+  "permalink": "/docs/fundamentals/message-translation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Message Translation",
+    "slug": "/message-translation"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Smart Replies",
+    "permalink": "/docs/fundamentals/smart-replies"
+  },
+  "next": {
+    "title": "Emojis (Deprecated)",
+    "permalink": "/docs/fundamentals/emojis"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "advanced/messaging-web-sockets-connections-manually",
+  "title": "Managing Web Sockets Connections Manually",
+  "description": "Default SDK behaviour on login",
+  "source": "@site/docs/sdk/javascript/14-advanced/02-messaging-web-sockets-connections-manually.md",
+  "sourceDirName": "14-advanced",
+  "slug": "/managing-web-sockets-connections-manually",
+  "permalink": "/docs/sdk/javascript/managing-web-sockets-connections-manually",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Managing Web Sockets Connections Manually",
+    "slug": "/managing-web-sockets-connections-manually"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Connection Status",
+    "permalink": "/docs/sdk/javascript/connection-status"
+  },
+  "next": {
+    "title": "Appendix",
+    "permalink": "/docs/sdk/javascript/appendix"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Theming/localize",
+  "title": "Localize",
+  "description": "Overview",
+  "source": "@site/docs/ui-kits/ios/04-Theming/05-localize.md",
+  "sourceDirName": "04-Theming",
+  "slug": "/localize",
+  "permalink": "/docs/ui-kit/ios/v5/localize",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Localize",
+    "slug": "/localize"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Message Bubble Styling",
+    "permalink": "/docs/ui-kit/ios/v5/message-bubble-styling"
+  },
+  "next": {
+    "title": "Sound Manager",
+    "permalink": "/docs/ui-kit/ios/v5/sound-manager"
+  }
+}

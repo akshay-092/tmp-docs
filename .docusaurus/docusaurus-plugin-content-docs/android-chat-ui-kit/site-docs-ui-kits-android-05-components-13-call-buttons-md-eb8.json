@@ -1,0 +1,29 @@
+{
+  "id": "Components/call-buttons",
+  "title": "Call Buttons",
+  "description": "Overview",
+  "source": "@site/docs/ui-kits/android/05-Components/13-call-buttons.md",
+  "sourceDirName": "05-Components",
+  "slug": "/call-buttons",
+  "permalink": "/docs/ui-kit/android/v5/call-buttons",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 13,
+  "frontMatter": {
+    "sidebar_position": 13,
+    "title": "Call Buttons",
+    "slug": "/call-buttons"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Outgoing Call",
+    "permalink": "/docs/ui-kit/android/v5/outgoing-call"
+  },
+  "next": {
+    "title": "Call Logs",
+    "permalink": "/docs/ui-kit/android/v5/call-logs"
+  }
+}

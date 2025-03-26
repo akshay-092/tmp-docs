@@ -1,0 +1,29 @@
+{
+  "id": "messaging/8 Typing Indicators",
+  "title": "Typing Indicators",
+  "description": "Send a Typing Indicator",
+  "source": "@site/docs/sdk/flutter/04-messaging/8 Typing Indicators.md",
+  "sourceDirName": "04-messaging",
+  "slug": "/typing-indicators",
+  "permalink": "/docs/sdk/flutter/typing-indicators",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "title": "Typing Indicators",
+    "slug": "/typing-indicators"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Delete a Conversation",
+    "permalink": "/docs/sdk/flutter/delete-conversation"
+  },
+  "next": {
+    "title": "Interactive Messages",
+    "permalink": "/docs/sdk/flutter/interactive-messages"
+  }
+}

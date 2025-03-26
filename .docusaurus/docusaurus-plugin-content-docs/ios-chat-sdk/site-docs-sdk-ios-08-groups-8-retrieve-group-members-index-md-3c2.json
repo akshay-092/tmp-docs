@@ -1,0 +1,29 @@
+{
+  "id": "groups/8 Retrieve Group Members/index",
+  "title": "Retrieve Group Members",
+  "description": "In order to fetch the list of groups members for a group, you can use the GroupMembersRequest class. To use this class i.e to create an object of the GroupMembersRequest class, you need to use the GroupMembersRequestBuilder class. The GroupMembersRequestBuilder class allows you to set the parameters based on which the groups are to be fetched.",
+  "source": "@site/docs/sdk/ios/08-groups/8 Retrieve Group Members/index.md",
+  "sourceDirName": "08-groups/8 Retrieve Group Members",
+  "slug": "/retrieve-group-members",
+  "permalink": "/docs/sdk/ios/retrieve-group-members",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "title": "Retrieve Group Members",
+    "slug": "/retrieve-group-members"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Add Members To A Group",
+    "permalink": "/docs/sdk/ios/group-add-members"
+  },
+  "next": {
+    "title": "Kick Member from a Group",
+    "permalink": "/docs/sdk/ios/group-kick-member"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Overview/1 Key Concepts",
+  "title": "Key Concepts",
+  "description": "CometChat Dashboard",
+  "source": "@site/docs/sdk/android/01-Overview/1 Key Concepts.md",
+  "sourceDirName": "01-Overview",
+  "slug": "/key-concepts",
+  "permalink": "/docs/sdk/android/key-concepts",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Key Concepts",
+    "slug": "/key-concepts"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/sdk/android/overview"
+  },
+  "next": {
+    "title": "Message Structure and Hierarchy",
+    "permalink": "/docs/sdk/android/message-structure-and-hierarchy"
+  }
+}

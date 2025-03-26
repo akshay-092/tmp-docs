@@ -1,0 +1,30 @@
+{
+  "id": "Components/Calls/Overview",
+  "title": "Overview",
+  "description": "Overview",
+  "source": "@site/ios-chat-ui-kit_versioned_docs/version-4.0/05-Components/06-Calls/01-Overview.md",
+  "sourceDirName": "05-Components/06-Calls",
+  "slug": "/call-overview",
+  "permalink": "/docs/ui-kit/ios/v4/call-overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "4.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0,
+    "sidebar_label": "Overview",
+    "title": "Overview",
+    "slug": "/call-overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DropDown Element",
+    "permalink": "/docs/ui-kit/ios/v4/interactive-dropdown-element"
+  },
+  "next": {
+    "title": "Incoming Call",
+    "permalink": "/docs/ui-kit/ios/v4/incoming-call"
+  }
+}

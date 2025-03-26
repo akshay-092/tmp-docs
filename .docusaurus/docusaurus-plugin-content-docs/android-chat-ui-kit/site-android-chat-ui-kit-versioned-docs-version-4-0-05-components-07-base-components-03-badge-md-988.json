@@ -1,0 +1,29 @@
+{
+  "id": "Components/Base Components/badge",
+  "title": "Badge",
+  "description": "CometChatBadge is the custom component which is used to display the unread message count. It can be used in places like CometChatListItem, etc.",
+  "source": "@site/android-chat-ui-kit_versioned_docs/version-4.0/05-Components/07-Base Components/03-badge.md",
+  "sourceDirName": "05-Components/07-Base Components",
+  "slug": "/badge",
+  "permalink": "/docs/ui-kit/android/v4/badge",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "4.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Badge",
+    "slug": "/badge"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Status Indicator",
+    "permalink": "/docs/ui-kit/android/v4/status-indicator"
+  },
+  "next": {
+    "title": "Receipt",
+    "permalink": "/docs/ui-kit/android/v4/receipt"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Messaging/8 Delete a conversation",
+  "title": "Delete a Conversation",
+  "description": "In case you want to delete a conversation, you can use the deleteConversation() method.",
+  "source": "@site/android-chat-sdk_versioned_docs/version-2.0/04-Messaging/8 Delete a conversation.md",
+  "sourceDirName": "04-Messaging",
+  "slug": "/delete-conversation",
+  "permalink": "/docs/sdk/android/2.0/delete-conversation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "2.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "title": "Delete a Conversation",
+    "slug": "/delete-conversation"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Delete a Message",
+    "permalink": "/docs/sdk/android/2.0/delete-message"
+  },
+  "next": {
+    "title": "Typing Indicators",
+    "permalink": "/docs/sdk/android/2.0/typing-indicators"
+  }
+}

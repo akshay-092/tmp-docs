@@ -1,0 +1,29 @@
+{
+  "id": "Legacy Moderation (Extensions)/3 Report message/index",
+  "title": "Report Message",
+  "description": "Enable your users to report messages in a group.",
+  "source": "@site/docs/extend/moderation/06-Legacy Moderation (Extensions)/3 Report message/index.md",
+  "sourceDirName": "06-Legacy Moderation (Extensions)/3 Report message",
+  "slug": "/report-message",
+  "permalink": "/docs/moderation/report-message",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Report Message",
+    "slug": "/report-message"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Report User",
+    "permalink": "/docs/moderation/report-user"
+  },
+  "next": {
+    "title": "Data Masking Filter",
+    "permalink": "/docs/moderation/data-masking-filter"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "STYLES/conversationsstyle",
+  "title": "ConversationsStyle",
+  "description": "Styling properties of CometChatConversations component",
+  "source": "@site/docs/ui-kits/web-shared/04-STYLES/03-conversationsstyle.md",
+  "sourceDirName": "04-STYLES",
+  "slug": "/conversationsstyle",
+  "permalink": "/docs/web-shared/conversationsstyle",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "ConversationsStyle",
+    "slug": "/conversationsstyle"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "GroupsStyle",
+    "permalink": "/docs/web-shared/groupsstyle"
+  },
+  "next": {
+    "title": "ContactsStyle",
+    "permalink": "/docs/web-shared/contactsstyle"
+  }
+}

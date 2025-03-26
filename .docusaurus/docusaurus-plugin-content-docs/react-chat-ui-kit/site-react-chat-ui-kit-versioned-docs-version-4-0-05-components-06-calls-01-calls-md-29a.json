@@ -1,0 +1,30 @@
+{
+  "id": "Components/Calls/calls",
+  "title": "Overview",
+  "description": "CometChat's Calls feature is a sophisticated function that facilitates the smooth integration of one-on-one and group audio-visual calling capabilities into your application, enhancing user interactivity and experience. This advanced feature is implemented effectively and efficiently in the React UI Kit.",
+  "source": "@site/react-chat-ui-kit_versioned_docs/version-4.0/05-Components/06-Calls/01-calls.md",
+  "sourceDirName": "05-Components/06-Calls",
+  "slug": "/call-overview",
+  "permalink": "/docs/ui-kit/react/v4/call-overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "4.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0,
+    "sidebar_label": "Overview",
+    "title": "Overview",
+    "slug": "/call-overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DateTimePickerElement",
+    "permalink": "/docs/ui-kit/react/v4/interactive-date-time-picker-element"
+  },
+  "next": {
+    "title": "Incoming Call",
+    "permalink": "/docs/ui-kit/react/v4/incoming-call"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "STYLES/calllogrecordingsstyle",
+  "title": "CallLogRecordingsStyle",
+  "description": "CometChatCallRecording",
+  "source": "@site/docs/ui-kits/web-shared/04-STYLES/28-calllogrecordingsstyle.md",
+  "sourceDirName": "04-STYLES",
+  "slug": "/calllogrecordingsstyle",
+  "permalink": "/docs/web-shared/calllogrecordingsstyle",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 28,
+  "frontMatter": {
+    "sidebar_position": 28,
+    "title": "CallLogRecordingsStyle",
+    "slug": "/calllogrecordingsstyle"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CallLogParticipantsStyle",
+    "permalink": "/docs/web-shared/calllogparticipantsstyle"
+  },
+  "next": {
+    "title": "WithDetailsStyle",
+    "permalink": "/docs/web-shared/withdetailsstyle"
+  }
+}

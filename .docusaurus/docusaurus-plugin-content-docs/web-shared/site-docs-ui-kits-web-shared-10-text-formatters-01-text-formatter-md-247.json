@@ -1,0 +1,29 @@
+{
+  "id": "TEXT FORMATTERS/text-formatter",
+  "title": "CometChatTextFormatter",
+  "description": "Introduction",
+  "source": "@site/docs/ui-kits/web-shared/10-TEXT FORMATTERS/01-text-formatter.md",
+  "sourceDirName": "10-TEXT FORMATTERS",
+  "slug": "/text-formatters",
+  "permalink": "/docs/web-shared/text-formatters",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "CometChatTextFormatter",
+    "slug": "/text-formatters",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ReactionInfo",
+    "permalink": "/docs/web-shared/reaction-info"
+  },
+  "next": {
+    "title": "CometChatUrlTextFormatter",
+    "permalink": "/docs/web-shared/url-text-formatter"
+  }
+}

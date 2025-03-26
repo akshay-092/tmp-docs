@@ -1,0 +1,29 @@
+{
+  "id": "Components/Calls/Ongoing Call",
+  "title": "Ongoing Call",
+  "description": "Overview",
+  "source": "@site/docs/ui-kits/react-native/05-Components/06-Calls/04-Ongoing Call.md",
+  "sourceDirName": "05-Components/06-Calls",
+  "slug": "/ongoing-call",
+  "permalink": "/docs/ui-kit/react-native/ongoing-call",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Ongoing Call",
+    "slug": "/ongoing-call"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Outgoing Call",
+    "permalink": "/docs/ui-kit/react-native/outgoing-call"
+  },
+  "next": {
+    "title": "Call Buttons",
+    "permalink": "/docs/ui-kit/react-native/call-buttons"
+  }
+}

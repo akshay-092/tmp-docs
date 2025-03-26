@@ -1,0 +1,29 @@
+{
+  "id": "Users/index",
+  "title": "Users",
+  "description": "The primary aim for our Users functionality is to allow you to quickly add users to CometChat.",
+  "source": "@site/react-native-chat-sdk_versioned_docs/version-2.0/07-Users/index.md",
+  "sourceDirName": "07-Users",
+  "slug": "/users",
+  "permalink": "/docs/sdk/react-native/2.0/users",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "2.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "title": "Users",
+    "slug": "/users"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Default Calling",
+    "permalink": "/docs/sdk/react-native/2.0/calling-default-calling"
+  },
+  "next": {
+    "title": "Retrieve Users",
+    "permalink": "/docs/sdk/react-native/2.0/users-retrieve-users"
+  }
+}

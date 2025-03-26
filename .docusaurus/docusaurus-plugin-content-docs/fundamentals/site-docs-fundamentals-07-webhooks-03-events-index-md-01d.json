@@ -1,0 +1,29 @@
+{
+  "id": "Webhooks/Events/index",
+  "title": "Events",
+  "description": "Messaging events",
+  "source": "@site/docs/fundamentals/07-Webhooks/03-Events/index.md",
+  "sourceDirName": "07-Webhooks/03-Events",
+  "slug": "/webhooks-events",
+  "permalink": "/docs/fundamentals/webhooks-events",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Events",
+    "slug": "/webhooks-events"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Managing triggers",
+    "permalink": "/docs/fundamentals/webhooks-management"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/fundamentals/webhooks-legacy-overview"
+  }
+}

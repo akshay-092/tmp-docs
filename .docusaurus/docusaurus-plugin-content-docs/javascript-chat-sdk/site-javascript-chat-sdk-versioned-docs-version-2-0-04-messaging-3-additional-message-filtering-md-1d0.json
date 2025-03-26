@@ -1,0 +1,29 @@
+{
+  "id": "Messaging/3 Additional Message Filtering",
+  "title": "Additional Message Filtering",
+  "description": "The MessagesRequest class as you must be familiar with helps you to fetch messages based on the various parameters provided to it. This document will help you understand better the various options that are available using the MessagesRequest class.",
+  "source": "@site/javascript-chat-sdk_versioned_docs/version-2.0/04-Messaging/3 Additional Message Filtering.md",
+  "sourceDirName": "04-Messaging",
+  "slug": "/messaging-additional-message-filtering",
+  "permalink": "/docs/sdk/javascript/2.0/messaging-additional-message-filtering",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "2.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Additional Message Filtering",
+    "slug": "/messaging-additional-message-filtering"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Receive Messages",
+    "permalink": "/docs/sdk/javascript/2.0/messaging-receive-message"
+  },
+  "next": {
+    "title": "Retrieve Conversations",
+    "permalink": "/docs/sdk/javascript/2.0/messaging-retrieve-conversations"
+  }
+}

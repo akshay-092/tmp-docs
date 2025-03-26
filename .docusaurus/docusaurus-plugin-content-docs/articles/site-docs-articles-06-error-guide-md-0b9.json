@@ -1,0 +1,29 @@
+{
+  "id": "error-guide",
+  "title": "Error Guide",
+  "description": "| Error Code | Error Description |",
+  "source": "@site/docs/articles/06-error-guide.md",
+  "sourceDirName": ".",
+  "slug": "/error-guide",
+  "permalink": "/docs/articles/error-guide",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Error Guide",
+    "slug": "/error-guide"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Calendar Scheduling",
+    "permalink": "/docs/articles/calendar-scheduling"
+  },
+  "next": {
+    "title": "Migration Guide",
+    "permalink": "/docs/articles/migration-guide"
+  }
+}

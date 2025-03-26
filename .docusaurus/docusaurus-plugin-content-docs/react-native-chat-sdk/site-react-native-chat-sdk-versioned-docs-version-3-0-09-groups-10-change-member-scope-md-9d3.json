@@ -1,0 +1,29 @@
+{
+  "id": "Groups/Change Member Scope",
+  "title": "Change Member Scope",
+  "description": "Change Scope of a Group Member",
+  "source": "@site/react-native-chat-sdk_versioned_docs/version-3.0/09-Groups/10-Change Member Scope.md",
+  "sourceDirName": "09-Groups",
+  "slug": "/groups-change-member-scope",
+  "permalink": "/docs/sdk/react-native/3.0/groups-change-member-scope",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10,
+    "title": "Change Member Scope",
+    "slug": "/groups-change-member-scope"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ban/Kick Member from a Group",
+    "permalink": "/docs/sdk/react-native/3.0/groups-kick-ban-members"
+  },
+  "next": {
+    "title": "Transfer Group Ownership",
+    "permalink": "/docs/sdk/react-native/3.0/groups-transfer-group-ownership"
+  }
+}

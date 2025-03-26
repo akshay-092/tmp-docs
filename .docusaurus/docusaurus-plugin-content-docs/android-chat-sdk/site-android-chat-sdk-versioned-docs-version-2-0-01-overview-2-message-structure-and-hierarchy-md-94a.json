@@ -1,0 +1,29 @@
+{
+  "id": "Overview/2 Message structure and hierarchy",
+  "title": "Message Structure and Hierarchy",
+  "description": "The below diagram helps you better understand the various message categories and types that a CometChat message can belong to.",
+  "source": "@site/android-chat-sdk_versioned_docs/version-2.0/01-Overview/2 Message structure and hierarchy.md",
+  "sourceDirName": "01-Overview",
+  "slug": "/message-structure-and-hierarchy",
+  "permalink": "/docs/sdk/android/2.0/message-structure-and-hierarchy",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "2.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Message Structure and Hierarchy",
+    "slug": "/message-structure-and-hierarchy"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Key Concepts",
+    "permalink": "/docs/sdk/android/2.0/key-concepts"
+  },
+  "next": {
+    "title": "Rate Limits",
+    "permalink": "/docs/sdk/android/2.0/rate-limits"
+  }
+}

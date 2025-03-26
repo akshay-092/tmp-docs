@@ -1,0 +1,29 @@
+{
+  "id": "Components/Interactive Messages/Label Element",
+  "title": "Label Element",
+  "description": "The LabelElement class enables the creation of a label element in a user interface.",
+  "source": "@site/docs/ui-kits/react-native/05-Components/05-Interactive Messages/10-Label Element.md",
+  "sourceDirName": "05-Components/05-Interactive Messages",
+  "slug": "/interactive-label-element",
+  "permalink": "/docs/ui-kit/react-native/interactive-label-element",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10,
+    "title": "Label Element",
+    "slug": "/interactive-label-element"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Text Input Element",
+    "permalink": "/docs/ui-kit/react-native/interactive-textinput-element"
+  },
+  "next": {
+    "title": "Single Select Element",
+    "permalink": "/docs/ui-kit/react-native/interactive-single-select-element"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Messaging/Transient Messages",
+  "title": "Transient Messages",
+  "description": "Transient messages are messages that are sent in real-time only and are not saved or tracked anywhere. The receiver of the message will only receive the message if he is online and these messages cannot be retrieved later.",
+  "source": "@site/flutter-chat-sdk_versioned_docs/version-3.0/04-Messaging/09-Transient Messages.md",
+  "sourceDirName": "04-Messaging",
+  "slug": "/messaging-transient-messages",
+  "permalink": "/docs/sdk/flutter/3.0/messaging-transient-messages",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9,
+    "title": "Transient Messages",
+    "slug": "/messaging-transient-messages"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Typing Indicators",
+    "permalink": "/docs/sdk/flutter/3.0/messaging-typing-indicators"
+  },
+  "next": {
+    "title": "Delivery & Read Receipts",
+    "permalink": "/docs/sdk/flutter/3.0/messaging-receipts"
+  }
+}

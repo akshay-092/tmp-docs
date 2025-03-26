@@ -1,0 +1,29 @@
+{
+  "id": "Advanced/1 Connection Status",
+  "title": "Connection Status",
+  "description": "CometChat SDK provides you with a mechanism to get real-time status of the connection to CometChat web-socket servers. To achieve this you need to use the ConnectionListener class provided by the CometChat SDK",
+  "source": "@site/android-chat-sdk_versioned_docs/version-2.0/13-Advanced/1 Connection Status.md",
+  "sourceDirName": "13-Advanced",
+  "slug": "/connection-status",
+  "permalink": "/docs/sdk/android/2.0/connection-status",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "2.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Connection Status",
+    "slug": "/connection-status"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Advanced",
+    "permalink": "/docs/sdk/android/2.0/advanced"
+  },
+  "next": {
+    "title": "Publishing App on PlayStore",
+    "permalink": "/docs/sdk/android/2.0/publishing-app-on-playstore"
+  }
+}

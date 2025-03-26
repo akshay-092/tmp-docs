@@ -1,0 +1,134 @@
+[
+  {
+    "from": "/extensions/notification-extensions",
+    "to": "/fundamentals/notification-extensions"
+  },
+  {
+    "from": "/extensions/message-shortcuts",
+    "to": "/fundamentals/message-shortcuts"
+  },
+  {
+    "from": "/extensions/avatars",
+    "to": "/fundamentals/avatars"
+  },
+  {
+    "from": "/extensions/thumbnail-generation",
+    "to": "/fundamentals/thumbnail-generation"
+  },
+  {
+    "from": "/extensions/link-preview",
+    "to": "/fundamentals/link-preview"
+  },
+  {
+    "from": "/extensions/rich-media-preview",
+    "to": "/fundamentals/rich-media-preview"
+  },
+  {
+    "from": "/extensions/voice-transcription",
+    "to": "/fundamentals/voice-transcription"
+  },
+  {
+    "from": "/extensions/pin-message",
+    "to": "/fundamentals/pin-message"
+  },
+  {
+    "from": "/extensions/save-message",
+    "to": "/fundamentals/save-message"
+  },
+  {
+    "from": "/extensions/tinyurl",
+    "to": "/fundamentals/tinyurl"
+  },
+  {
+    "from": "/extensions/bitly",
+    "to": "/fundamentals/bitly"
+  },
+  {
+    "from": "/extensions/email-replies",
+    "to": "/fundamentals/email-replies"
+  },
+  {
+    "from": "/extensions/mentions",
+    "to": "/fundamentals/mentions"
+  },
+  {
+    "from": "/extensions/giphy",
+    "to": "/fundamentals/giphy"
+  },
+  {
+    "from": "/extensions/tenor",
+    "to": "/fundamentals/tenor"
+  },
+  {
+    "from": "/extensions/gfycat",
+    "to": "/fundamentals/gfycat"
+  },
+  {
+    "from": "/extensions/reminders",
+    "to": "/fundamentals/reminders"
+  },
+  {
+    "from": "/extensions/smart-replies",
+    "to": "/fundamentals/smart-replies"
+  },
+  {
+    "from": "/extensions/message-translation",
+    "to": "/fundamentals/message-translation"
+  },
+  {
+    "from": "/extensions/emojis",
+    "to": "/fundamentals/emojis"
+  },
+  {
+    "from": "/extensions/polls",
+    "to": "/fundamentals/polls"
+  },
+  {
+    "from": "/extensions/reactions",
+    "to": "/fundamentals/reactions"
+  },
+  {
+    "from": "/extensions/stickers-stipop",
+    "to": "/fundamentals/stickers-stipop"
+  },
+  {
+    "from": "/extensions/stickers",
+    "to": "/fundamentals/stickers"
+  },
+  {
+    "from": "/extensions/video-broadcasting",
+    "to": "/fundamentals/video-broadcasting"
+  },
+  {
+    "from": "/extensions/collaborative-whiteboard",
+    "to": "/fundamentals/collaborative-whiteboard"
+  },
+  {
+    "from": "/extensions/collaborative-document",
+    "to": "/fundamentals/collaborative-document"
+  },
+  {
+    "from": "/extensions/chatwoot",
+    "to": "/fundamentals/chatwoot"
+  },
+  {
+    "from": "/extensions/intercom",
+    "to": "/fundamentals/intercom"
+  },
+  {
+    "from": "/extensions/moderation-extensions",
+    "to": "/fundamentals/moderation-extensions"
+  },
+  {
+    "from": "/extensions/disappearing-messages",
+    "to": "/fundamentals/disappearing-messages"
+  },
+  {
+    "from": "/extensions/end-to-end-encryption",
+    "to": "/fundamentals/end-to-end-encryption"
+  },
+  {
+    "from": "/extensions/overview",
+    "to": "/fundamentals/extensions-overview"
+  }
+]

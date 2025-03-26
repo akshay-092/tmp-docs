@@ -1,0 +1,29 @@
+{
+  "id": "RESOURCES/theme",
+  "title": "Theme",
+  "description": "CometChatTheme class is made up of two primary components such as:",
+  "source": "@site/docs/ui-kits/web-shared/07-RESOURCES/01-theme.md",
+  "sourceDirName": "07-RESOURCES",
+  "slug": "/theme",
+  "permalink": "/docs/web-shared/theme",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Theme",
+    "slug": "/theme"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "UI Events",
+    "permalink": "/docs/web-shared/ui-events"
+  },
+  "next": {
+    "title": "Localize",
+    "permalink": "/docs/web-shared/localize"
+  }
+}

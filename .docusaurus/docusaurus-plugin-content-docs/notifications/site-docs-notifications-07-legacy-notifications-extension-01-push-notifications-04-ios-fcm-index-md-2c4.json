@@ -1,0 +1,29 @@
+{
+  "id": "Legacy Notifications (Extension)/push-notifications/ios-fcm/index",
+  "title": "iOS - FCM",
+  "description": "Learn how to send out Push Notifications to your iOS using Firebase Cloud Messaging or FCM.",
+  "source": "@site/docs/notifications/07-Legacy Notifications (Extension)/01-push-notifications/04-ios-fcm/index.md",
+  "sourceDirName": "07-Legacy Notifications (Extension)/01-push-notifications/04-ios-fcm",
+  "slug": "/ios-fcm-push-notifications",
+  "permalink": "/docs/notifications/ios-fcm-push-notifications",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "iOS - FCM",
+    "slug": "/ios-fcm-push-notifications"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Android - Connection Service",
+    "permalink": "/docs/notifications/android-connection-service"
+  },
+  "next": {
+    "title": "iOS - APNs",
+    "permalink": "/docs/notifications/ios-apns-push-notifications"
+  }
+}

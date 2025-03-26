@@ -1,0 +1,53 @@
+---
+type: page
+title: Action Entity
+listed: true
+slug: /interactive-action-entity
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+Base class for defining the type of actions that can be performed on `BaseInteractiveElement`
+
+Various types of Actions:
+
+## Plugin Configuration
+
+| Action             | Description                                                                                         | Key           |
+| ------------------ | --------------------------------------------------------------------------------------------------- | ------------- |
+| **Api Action**     | To perform Post, PUT, DELETE, PATCH type of API actions on the user-defined APIs with given payload | apiAction     |
+| **URL Navigation** | To open any defined action on given URL                                                             | urlNavigation |
+| **Custom Action**  | To set a custom action on the front end                                                             | customAction  |
+
+### Api Action
+
+**Api Action**
+
+<Tabs>
+<TabItem value="Swift" label="Swift">
+
+```swift
+let action = APIAction()
+action.url = "url" //Replace this with the required url
+action.method = .post,//replace this with the type of method
+action.dataKey: "cometchatData",//replace this with the key , if you want to replace the key oin which all the data for form will be sent
+action.headers = header,//set the header for the request
+action.payload = payload//set the payloaf forn the request"\
+```
+
+</TabItem>
+</Tabs>
+
+**URL Navigation**
+
+<Tabs>
+<TabItem value="Swift" label="Swift">
+
+```swift
+let navigation = URLNavigationAction()
+navigation.url = "https://www.cometchat.com/"
+```
+
+</TabItem>
+</Tabs>

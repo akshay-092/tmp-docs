@@ -1,0 +1,29 @@
+{
+  "id": "CONFIGURATIONS/details-configuration",
+  "title": "DetailsConfiguration",
+  "description": "This refers to the properties of the CometChatDetails component that are available for customisation via the parent component when the component exists in a deep nested hierarchy.",
+  "source": "@site/docs/ui-kits/web-shared/05-CONFIGURATIONS/10-details-configuration.md",
+  "sourceDirName": "05-CONFIGURATIONS",
+  "slug": "/details-configuration",
+  "permalink": "/docs/web-shared/details-configuration",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10,
+    "title": "DetailsConfiguration",
+    "slug": "/details-configuration"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ThreadedMessagesConfiguration",
+    "permalink": "/docs/web-shared/threaded-messages-configuration"
+  },
+  "next": {
+    "title": "GroupMembersConfiguration",
+    "permalink": "/docs/web-shared/group-members-configuration"
+  }
+}

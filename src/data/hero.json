@@ -1,0 +1,18 @@
+{
+  "title": "Title",
+  "description": "Integrate high-quality, programmable and customizable live video and voice into your web mobile, and desktop applications with just a few lines of code.",
+  "image": {
+    "light": "/homepage/hero-light.png",
+    "dark": "/homepage/hero-dark.png"
+  },
+  "buttons": [
+    {
+      "text": "Button 1",
+      "link": "/"
+    },
+    {
+      "text": "Button 2",
+      "link": "/"
+    }
+  ]
+}

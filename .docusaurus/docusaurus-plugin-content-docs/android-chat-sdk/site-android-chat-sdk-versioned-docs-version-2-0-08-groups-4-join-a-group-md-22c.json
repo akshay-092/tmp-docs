@@ -1,0 +1,29 @@
+{
+  "id": "Groups/4 Join a Group",
+  "title": "Join a Group",
+  "description": "Join a Group",
+  "source": "@site/android-chat-sdk_versioned_docs/version-2.0/08-Groups/4 Join a Group.md",
+  "sourceDirName": "08-Groups",
+  "slug": "/join-a-group",
+  "permalink": "/docs/sdk/android/2.0/join-a-group",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "2.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Join a Group",
+    "slug": "/join-a-group"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Update a Group",
+    "permalink": "/docs/sdk/android/2.0/update-a-group"
+  },
+  "next": {
+    "title": "Leave a Group",
+    "permalink": "/docs/sdk/android/2.0/leave-a-group"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Legacy Moderation (Extensions)/8 In-flight Message Moderation/index",
+  "title": "In-flight Message Moderation",
+  "description": "In-flight message Moderation extension allows you to moderate messages manually.",
+  "source": "@site/docs/extend/moderation/06-Legacy Moderation (Extensions)/8 In-flight Message Moderation/index.md",
+  "sourceDirName": "06-Legacy Moderation (Extensions)/8 In-flight Message Moderation",
+  "slug": "/in-flight-message-moderation",
+  "permalink": "/docs/moderation/in-flight-message-moderation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "title": "In-flight Message Moderation",
+    "slug": "/in-flight-message-moderation"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sentiment Analysis",
+    "permalink": "/docs/moderation/sentiment-analysis"
+  },
+  "next": {
+    "title": "Virus and Malware Scanner",
+    "permalink": "/docs/moderation/virus-malware-scanner"
+  }
+}

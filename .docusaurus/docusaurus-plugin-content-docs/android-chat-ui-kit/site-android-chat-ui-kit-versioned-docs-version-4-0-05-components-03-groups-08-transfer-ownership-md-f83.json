@@ -1,0 +1,29 @@
+{
+  "id": "Components/Groups/transfer-ownership",
+  "title": "Transfer Ownership",
+  "description": "Overview",
+  "source": "@site/android-chat-ui-kit_versioned_docs/version-4.0/05-Components/03-Groups/08-transfer-ownership.md",
+  "sourceDirName": "05-Components/03-Groups",
+  "slug": "/transfer-ownership",
+  "permalink": "/docs/ui-kit/android/v4/transfer-ownership",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "4.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "title": "Transfer Ownership",
+    "slug": "/transfer-ownership"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Banned Members",
+    "permalink": "/docs/ui-kit/android/v4/banned-members"
+  },
+  "next": {
+    "title": "Group Details",
+    "permalink": "/docs/ui-kit/android/v4/group-details"
+  }
+}

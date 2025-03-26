@@ -1,0 +1,29 @@
+{
+  "id": "Guides/custom-text-formatter",
+  "title": "Custom Text Formatter",
+  "description": "Overview",
+  "source": "@site/docs/ui-kits/react/07-Guides/01-custom-text-formatter.md",
+  "sourceDirName": "07-Guides",
+  "slug": "/custom-text-formatter-guide",
+  "permalink": "/docs/ui-kit/react/v6/custom-text-formatter-guide",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Custom Text Formatter",
+    "slug": "/custom-text-formatter-guide"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Events",
+    "permalink": "/docs/ui-kit/react/v6/events"
+  },
+  "next": {
+    "title": "Mentions Formatter",
+    "permalink": "/docs/ui-kit/react/v6/mentions-formatter-guide"
+  }
+}

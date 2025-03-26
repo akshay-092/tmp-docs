@@ -1,0 +1,29 @@
+{
+  "id": "calling/1 Setup 2",
+  "title": "Setup",
+  "description": "Get your Application Keys",
+  "source": "@site/docs/sdk/flutter/05-calling/1 Setup 2.md",
+  "sourceDirName": "05-calling",
+  "slug": "/calling-setup",
+  "permalink": "/docs/sdk/flutter/calling-setup",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Setup",
+    "slug": "/calling-setup"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Calling",
+    "permalink": "/docs/sdk/flutter/calling-overview"
+  },
+  "next": {
+    "title": "Default Call",
+    "permalink": "/docs/sdk/flutter/default-call"
+  }
+}

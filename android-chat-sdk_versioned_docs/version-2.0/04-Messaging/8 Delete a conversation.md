@@ -1,0 +1,59 @@
+---
+sidebar_position: 8
+title: Delete a Conversation
+slug: /delete-conversation
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+
+In case you want to delete a conversation, you can use the `deleteConversation()` method.
+
+This method takes two parameters. The unique id (UID/GUID) of the conversation to be deleted & the type (user/group) of conversation to be deleted.
+
+<Tabs>
+<TabItem value="Java(User)" label="Java(User)">
+
+```java
+CometChat.deleteConversation("cometchat-uid-1", CometChatConstants.RECEIVER_TYPE_USER, new CometChat.CallbackListener<String>() {
+  @Override
+    public void onSuccess(String s) {
+    Log.d(TAG, s);
+  }
+
+  @Override
+    public void onError(CometChatException e) {
+    Log.d(TAG, e.getMessage());
+  }
+});
+```
+</TabItem>
+<TabItem value="Java(Group)" label="Java(Group)">
+
+```java
+CometChat.deleteConversation("cometchat-guid-1", CometChatConstants.RECEIVER_TYPE_GROUP, new CometChat.CallbackListener<String>() {
+  @Override
+    public void onSuccess(String s) {
+    Log.d(TAG, s);
+  }
+
+  @Override
+    public void onError(CometChatException e) {
+    Log.d(TAG, e.getMessage());
+  }
+});
+```
+</TabItem>
+</Tabs>
+
+
+
+This method deletes the conversation only for the logged-in user. To delete a conversation for all the users of the conversation, please refer to our REST API documentation [here](https://api-explorer.cometchat.com/v2/reference/delete-conversation-for-a-user).
+
+The `deleteConversation()` method takes the following parameters:
+
+| Parameter | Description | Required | 
+| ---- | ---- | ---- | 
+| conversationWith | `UID` of the user or `GUID` of the group whose conversation you want to delete. | YES | 
+| conversationType | The type of conversation you want to delete . It can be either `user` or `group`. | YES | 

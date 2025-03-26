@@ -1,0 +1,29 @@
+{
+  "id": "messaging/2 Receive Messages",
+  "title": "Receive a Message",
+  "description": "Receiving messages with CometChat has two parts:",
+  "source": "@site/docs/sdk/flutter/04-messaging/2 Receive Messages.md",
+  "sourceDirName": "04-messaging",
+  "slug": "/receive-messages",
+  "permalink": "/docs/sdk/flutter/receive-messages",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Receive a Message",
+    "slug": "/receive-messages"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Send a Message",
+    "permalink": "/docs/sdk/flutter/send-message"
+  },
+  "next": {
+    "title": "Additional Message Filtering",
+    "permalink": "/docs/sdk/flutter/additional-message-filtering"
+  }
+}

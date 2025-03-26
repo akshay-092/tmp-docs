@@ -1,0 +1,26 @@
+{
+    "title":"Title here",
+    "cards": [
+        {
+            "title": "Card title 1",
+            "icon": "/homepage/calendar.svg",
+            "description": "Card description 1",
+            "link": "http://www.google.com",
+            "linkText": "Link text 1"
+        },
+        {
+            "title": "Card title 2",
+            "icon": "/homepage/customer.svg",
+            "description": "Card description 2",
+            "link": "http://www.google.com",
+            "linkText": "Link text 2"
+        },
+        {
+            "title": "Card title 3",
+            "icon": "/homepage/chat.svg",
+            "description": "Card description 3",
+            "link": "http://www.google.com",
+            "linkText": "Link text 3"
+        }
+    ]
+}

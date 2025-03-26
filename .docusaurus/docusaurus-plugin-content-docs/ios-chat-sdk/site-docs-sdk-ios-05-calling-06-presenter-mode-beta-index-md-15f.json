@@ -1,0 +1,29 @@
+{
+  "id": "calling/Presenter Mode(Beta)/index",
+  "title": "Presenter Mode",
+  "description": "Overview",
+  "source": "@site/docs/sdk/ios/05-calling/06-Presenter Mode(Beta)/index.md",
+  "sourceDirName": "05-calling/06-Presenter Mode(Beta)",
+  "slug": "/presenter-mode",
+  "permalink": "/docs/sdk/ios/presenter-mode",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Presenter Mode",
+    "slug": "/presenter-mode"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Video View Customisation",
+    "permalink": "/docs/sdk/ios/video-view-customisation"
+  },
+  "next": {
+    "title": "Call Logs",
+    "permalink": "/docs/sdk/ios/call-logs"
+  }
+}

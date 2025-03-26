@@ -1,0 +1,29 @@
+{
+  "id": "User Engagement/2 Smart Replies/index",
+  "title": "Smart Replies",
+  "description": "The Smart Reply extension allows you to show quick reply options to a user so that they can easily respond to a message. We will always suggest 3 options; one positive, one neutral and one negative. We also add a category, in case you want to skip some suggestions.",
+  "source": "@site/docs/extend/extensions/03-User Engagement/2 Smart Replies/index.md",
+  "sourceDirName": "03-User Engagement/2 Smart Replies",
+  "slug": "/smart-replies",
+  "permalink": "/docs/extensions/smart-replies",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Smart Replies",
+    "slug": "/smart-replies"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Email Replies",
+    "permalink": "/docs/extensions/email-replies"
+  },
+  "next": {
+    "title": "Message Translation",
+    "permalink": "/docs/extensions/message-translation"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Guides/New message option",
+  "title": "New message Option",
+  "description": "This guide will help you add a custom option to the messages of type image. By default, CometChat UI Kit for Angular supports the following message options:",
+  "source": "@site/docs/ui-kits/angular/07-Guides/07-New message option.md",
+  "sourceDirName": "07-Guides",
+  "slug": "/new-message-option-guide",
+  "permalink": "/docs/ui-kit/angular/new-message-option-guide",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "title": "New message Option",
+    "slug": "/new-message-option-guide"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ShortCut Formatter",
+    "permalink": "/docs/ui-kit/angular/shortcut-formatter-guide"
+  },
+  "next": {
+    "title": "Custom Message",
+    "permalink": "/docs/ui-kit/angular/custom-message-guide"
+  }
+}

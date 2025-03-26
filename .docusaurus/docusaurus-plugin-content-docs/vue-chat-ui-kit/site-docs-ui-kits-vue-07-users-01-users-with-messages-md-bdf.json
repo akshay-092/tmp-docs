@@ -1,0 +1,29 @@
+{
+  "id": "Users/Users with Messages",
+  "title": "Users with Messages",
+  "description": "This component is responsible for listing all the users registered on CometChat. It also allows users to send text, images, videos, or other media as messages to communicate with one another in real-time.",
+  "source": "@site/docs/ui-kits/vue/07-Users/01-Users with Messages.md",
+  "sourceDirName": "07-Users",
+  "slug": "/users-with-messages",
+  "permalink": "/docs/ui-kit/vue/users-with-messages",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Users with Messages",
+    "slug": "/users-with-messages"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Contacts",
+    "permalink": "/docs/ui-kit/vue/contacts"
+  },
+  "next": {
+    "title": "Users",
+    "permalink": "/docs/ui-kit/vue/users"
+  }
+}

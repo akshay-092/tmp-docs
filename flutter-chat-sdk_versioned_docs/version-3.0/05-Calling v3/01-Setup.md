@@ -1,0 +1,93 @@
+---
+sidebar_position: 1
+title: Setup
+slug: /calling-setup
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+
+### Get your Application Keys
+
+[Signup for CometChat](https://app.cometchat.com) and then:
+
+1. Create a new app
+2. Head over to the **API Keys** section and note the **Auth Key**, **App ID** & **Region**
+
+:::info Minimum Requirement For Calling
+
+- Android API level 24 and above
+- iOS version 12 and above
+
+:::
+
+### Add the CometChatCalls Dependency
+
+1. Add the following code in your `pubspec.yaml` file and run `pub get` command.
+
+<Tabs>
+<TabItem value="1" label="Dart">
+
+```Dart
+cometchatcalls_plugin: 3.0.3
+```
+
+</TabItem>
+</Tabs>
+
+
+
+2. Import CometChatCalls using following code in dart
+
+<Tabs>
+<TabItem value="1" label="Dart">
+
+```Dart
+import 'package:cometchatcalls_plugin/cometchatcalls_plugin.dart';
+```
+
+</TabItem>
+</Tabs>
+
+
+
+## Initialise CometChatCalls
+
+The `init()` method initialises the settings required for CometChatCalls. The `init()` method takes the below parameters:
+
+1. callAppSettings - An object of the CallAppSettings class can be created using the CallAppSettingBuilder class. The appId and region field is mandatory and can be set using the `setAppId()` and `setRegion()` method.
+
+The `CallAppSettings` class allows you to configure three settings:
+
+- **App ID**: CometChat app ID.
+- **Region**: The region where you app was created.
+- **Host(host: string)**: This method takes the client URL as input and uses this client URL instead of the default client URL. This can be used in case of dedicated deployment of CometChat.
+
+We suggest you call the `init()` method on activity  `onCreate()`  method.
+
+<Tabs>
+<TabItem value="1" label="Dart">
+
+```Dart
+CallAppSettings callAppSettings= (CallAppSettingBuilder()
+  ..appId = "xxxxxxxxxx"
+  ..region= "xxxxxxxxxx"
+    //..host = "xxxxxxxxx"
+).build();
+CometChatCalls.init(callAppSettings, onSuccess: (String successMessage) {
+  debugPrint("Initialization completed successfully  $successMessage");
+}, onError: (CometChatCallsException e) {
+  debugPrint("Initialization failed with exception: ${e.message}");
+});
+```
+
+</TabItem>
+</Tabs>
+
+
+
+| Parameter | Description | 
+| ---- | ---- | 
+| `callAppSettings` | An object of the CallAppSettings class | 
+

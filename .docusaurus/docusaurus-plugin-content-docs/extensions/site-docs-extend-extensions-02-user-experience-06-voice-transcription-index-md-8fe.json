@@ -1,0 +1,29 @@
+{
+  "id": "User Experience/voice-transcription/index",
+  "title": "Voice Transcription",
+  "description": "Voice transcription extension allows you to convert an audio message into text.",
+  "source": "@site/docs/extend/extensions/02-User Experience/06-voice-transcription/index.md",
+  "sourceDirName": "02-User Experience/06-voice-transcription",
+  "slug": "/voice-transcription",
+  "permalink": "/docs/extensions/voice-transcription",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Voice Transcription",
+    "slug": "/voice-transcription"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Rich Media Preview",
+    "permalink": "/docs/extensions/rich-media-preview"
+  },
+  "next": {
+    "title": "Pin Message",
+    "permalink": "/docs/extensions/pin-message"
+  }
+}

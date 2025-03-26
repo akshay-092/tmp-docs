@@ -1,0 +1,25 @@
+{
+  "id": "Legacy Notifications (Extension)/sms-notifications/index",
+  "title": "SMS Notification Extension",
+  "description": "About the extension",
+  "source": "@site/docs/notifications/07-Legacy Notifications (Extension)/03-sms-notifications/index.md",
+  "sourceDirName": "07-Legacy Notifications (Extension)/03-sms-notifications",
+  "slug": "/sms-notification-extension",
+  "permalink": "/docs/notifications/sms-notification-extension",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "SMS Notification Extension",
+    "slug": "/sms-notification-extension"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Email Notification Extension",
+    "permalink": "/docs/notifications/email-notification-extension"
+  }
+}

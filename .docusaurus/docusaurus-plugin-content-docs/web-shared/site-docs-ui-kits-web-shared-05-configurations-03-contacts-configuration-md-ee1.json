@@ -1,0 +1,29 @@
+{
+  "id": "CONFIGURATIONS/contacts-configuration",
+  "title": "ContactsConfiguration",
+  "description": "This refers to the properties of the CometChatContacts component that are available for customisation via the parent component when the component exists in a deep nested hierarchy.",
+  "source": "@site/docs/ui-kits/web-shared/05-CONFIGURATIONS/03-contacts-configuration.md",
+  "sourceDirName": "05-CONFIGURATIONS",
+  "slug": "/contacts-configuration",
+  "permalink": "/docs/web-shared/contacts-configuration",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "ContactsConfiguration",
+    "slug": "/contacts-configuration"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "UsersConfiguration",
+    "permalink": "/docs/web-shared/users-configuration"
+  },
+  "next": {
+    "title": "GroupsConfiguration",
+    "permalink": "/docs/web-shared/groups-configurations"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "overview/index",
+  "title": "Overview",
+  "description": "The CometChat UI Kit for React is a powerful solution designed to seamlessly integrate chat functionality into applications. It provides a robust set of prebuilt UI components that are modular, customizable, and highly scalable, allowing developers to accelerate their development process with minimal effort.",
+  "source": "@site/docs/ui-kits/react/01-overview/index.mdx",
+  "sourceDirName": "01-overview",
+  "slug": "/overview",
+  "permalink": "/docs/ui-kit/react/v6/overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Overview",
+    "slug": "/overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Integration",
+    "permalink": "/docs/ui-kit/react/v6/react-js-integration"
+  }
+}

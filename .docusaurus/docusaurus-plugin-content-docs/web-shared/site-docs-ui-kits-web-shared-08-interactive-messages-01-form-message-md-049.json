@@ -1,0 +1,29 @@
+{
+  "id": "INTERACTIVE MESSAGES/form-message",
+  "title": "Form Message",
+  "description": "The FormMessage class is used to create an interactive form message that can be sent via CometChat. It extends the InteractiveMessage class from CometChat.",
+  "source": "@site/docs/ui-kits/web-shared/08-INTERACTIVE MESSAGES/01-form-message.md",
+  "sourceDirName": "08-INTERACTIVE MESSAGES",
+  "slug": "/form-message",
+  "permalink": "/docs/web-shared/form-message",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Form Message",
+    "slug": "/form-message"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sound Manager",
+    "permalink": "/docs/web-shared/sound-manager"
+  },
+  "next": {
+    "title": "Form Bubble",
+    "permalink": "/docs/web-shared/form-bubble"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Legacy Notifications (Extension)/push-notifications/flutter/index",
+  "title": "Flutter",
+  "description": "Learn how to implement Push notifications for the Flutter platform using FCM as well as APNs. This document guides you to set up Flutter push notifications as follows:",
+  "source": "@site/docs/notifications/07-Legacy Notifications (Extension)/01-push-notifications/06-flutter/index.md",
+  "sourceDirName": "07-Legacy Notifications (Extension)/01-push-notifications/06-flutter",
+  "slug": "/flutter-push-notifications",
+  "permalink": "/docs/notifications/flutter-push-notifications",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Flutter",
+    "slug": "/flutter-push-notifications"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "iOS - APNs",
+    "permalink": "/docs/notifications/ios-apns-push-notifications"
+  },
+  "next": {
+    "title": "React Native",
+    "permalink": "/docs/notifications/react-native-push-notifications"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "TEXT FORMATTERS/mentions-text-formatter",
+  "title": "CometChatMentionsTextFormatter",
+  "description": "Introduction",
+  "source": "@site/docs/ui-kits/web-shared/10-TEXT FORMATTERS/03-mentions-text-formatter.md",
+  "sourceDirName": "10-TEXT FORMATTERS",
+  "slug": "/mentions-text-formatter",
+  "permalink": "/docs/web-shared/mentions-text-formatter",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "CometChatMentionsTextFormatter",
+    "slug": "/mentions-text-formatter",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CometChatUrlTextFormatter",
+    "permalink": "/docs/web-shared/url-text-formatter"
+  }
+}

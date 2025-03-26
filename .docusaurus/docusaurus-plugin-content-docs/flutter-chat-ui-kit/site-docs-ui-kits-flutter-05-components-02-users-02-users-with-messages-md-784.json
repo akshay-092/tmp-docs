@@ -1,0 +1,29 @@
+{
+  "id": "Components/Users/users-with-messages",
+  "title": "Users with Messages",
+  "description": "Overview",
+  "source": "@site/docs/ui-kits/flutter/05-Components/02-Users/02-users-with-messages.md",
+  "sourceDirName": "05-Components/02-Users",
+  "slug": "/users-with-messages",
+  "permalink": "/docs/ui-kit/flutter/users-with-messages",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Users with Messages",
+    "slug": "/users-with-messages"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Users",
+    "permalink": "/docs/ui-kit/flutter/users"
+  },
+  "next": {
+    "title": "User Details",
+    "permalink": "/docs/ui-kit/flutter/user-details"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "Components/Extras/Reactions List",
+  "title": "Reactions List",
+  "description": "Overview",
+  "source": "@site/ios-chat-ui-kit_versioned_docs/version-4.0/05-Components/07-Extras/03-Reactions List.md",
+  "sourceDirName": "05-Components/07-Extras",
+  "slug": "/reactions-list",
+  "permalink": "/docs/ui-kit/ios/v4/reactions-list",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "4.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "sidebar_label": "Reactions List",
+    "title": "Reactions List",
+    "slug": "/reactions-list"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Quick Reactions",
+    "permalink": "/docs/ui-kit/ios/v4/quick-reactions"
+  },
+  "next": {
+    "title": "Avatar",
+    "permalink": "/docs/ui-kit/ios/v4/avatar"
+  }
+}

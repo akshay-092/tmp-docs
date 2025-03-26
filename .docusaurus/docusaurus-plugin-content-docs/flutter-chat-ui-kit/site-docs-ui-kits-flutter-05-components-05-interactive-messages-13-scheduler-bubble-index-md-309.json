@@ -1,0 +1,29 @@
+{
+  "id": "Components/Interactive Messages/scheduler-bubble/index",
+  "title": "Scheduler Bubble",
+  "description": "CometChatSchedulerBubble is a versatile type of message widget designed to facilitate easy and efficient event scheduling. It offers the following key features:",
+  "source": "@site/docs/ui-kits/flutter/05-Components/05-Interactive Messages/13-scheduler-bubble/index.md",
+  "sourceDirName": "05-Components/05-Interactive Messages/13-scheduler-bubble",
+  "slug": "/interactive-scheduler-bubble",
+  "permalink": "/docs/ui-kit/flutter/interactive-scheduler-bubble",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {
+    "type": "page",
+    "title": "Scheduler Bubble",
+    "listed": true,
+    "slug": "/interactive-scheduler-bubble"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Scheduler Message",
+    "permalink": "/docs/ui-kit/flutter/interactive-scheduler-message"
+  },
+  "next": {
+    "title": "Date Time Picker Element",
+    "permalink": "/docs/ui-kit/flutter/interactive-date-time-picker-element"
+  }
+}

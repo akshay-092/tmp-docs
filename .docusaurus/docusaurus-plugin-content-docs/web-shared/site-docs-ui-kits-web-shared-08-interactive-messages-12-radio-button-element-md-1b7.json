@@ -1,0 +1,29 @@
+{
+  "id": "INTERACTIVE MESSAGES/radio-button-element",
+  "title": "Radio Button Element",
+  "description": "The RadioButtonElement class is designed to create a radio button input element in a user interface.",
+  "source": "@site/docs/ui-kits/web-shared/08-INTERACTIVE MESSAGES/12-radio-button-element.md",
+  "sourceDirName": "08-INTERACTIVE MESSAGES",
+  "slug": "/radio-button-element",
+  "permalink": "/docs/web-shared/radio-button-element",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12,
+    "title": "Radio Button Element",
+    "slug": "/radio-button-element"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Single Select Element",
+    "permalink": "/docs/web-shared/single-select-element"
+  },
+  "next": {
+    "title": "Checkbox Element",
+    "permalink": "/docs/web-shared/checkbox-element"
+  }
+}

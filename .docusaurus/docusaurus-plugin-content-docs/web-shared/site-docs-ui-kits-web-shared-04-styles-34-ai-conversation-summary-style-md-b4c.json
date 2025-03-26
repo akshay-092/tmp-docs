@@ -1,0 +1,29 @@
+{
+  "id": "STYLES/ai-conversation-summary-style",
+  "title": "AIConversationSummaryStyle",
+  "description": "Styling properties of AIConversationSummary component.",
+  "source": "@site/docs/ui-kits/web-shared/04-STYLES/34-ai-conversation-summary-style.md",
+  "sourceDirName": "04-STYLES",
+  "slug": "/ai-conversation-summary-style",
+  "permalink": "/docs/web-shared/ai-conversation-summary-style",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 34,
+  "frontMatter": {
+    "sidebar_position": 34,
+    "title": "AIConversationSummaryStyle",
+    "slug": "/ai-conversation-summary-style"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AIConversationStarterStyle",
+    "permalink": "/docs/web-shared/ai-conversation-starter-style"
+  },
+  "next": {
+    "title": "AIAssistBotStyle",
+    "permalink": "/docs/web-shared/ai-assist-bot-style"
+  }
+}

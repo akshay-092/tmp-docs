@@ -1,0 +1,26 @@
+{
+  "id": "Help Center/docker",
+  "title": "Docker",
+  "description": "It is suggested to be familiar with the various kinds of roles for the on-premise deployment.",
+  "source": "@site/docs/articles/08-Help Center/08-docker.md",
+  "sourceDirName": "08-Help Center",
+  "slug": "/docker",
+  "permalink": "/docs/articles/docker",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "title": "Docker",
+    "slug": "/docker",
+    "sidebar_class_name": "hidden"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Limits",
+    "permalink": "/docs/articles/limits"
+  }
+}

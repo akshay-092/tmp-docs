@@ -1,0 +1,25 @@
+{
+  "id": "Overview/index",
+  "title": "Overview",
+  "description": "With CometChat's UI Kit for Android, you can effortlessly build a chat app equipped with all the essential messaging features, along with customizable options tailored to your application requirements. This UI Kit comprises prebuilt UI components organized into smaller modules and components, each configurable to meet your specific needs.",
+  "source": "@site/docs/ui-kits/android/01-Overview/index.md",
+  "sourceDirName": "01-Overview",
+  "slug": "/overview",
+  "permalink": "/docs/ui-kit/android/v5/overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Overview",
+    "slug": "/overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Getting Started",
+    "permalink": "/docs/ui-kit/android/v5/getting-started"
+  }
+}

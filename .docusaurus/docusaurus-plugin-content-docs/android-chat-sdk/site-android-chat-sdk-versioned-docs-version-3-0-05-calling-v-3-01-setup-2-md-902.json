@@ -1,0 +1,29 @@
+{
+  "id": "Calling v3/Setup 2",
+  "title": "Setup",
+  "description": "Get your Application Keys",
+  "source": "@site/android-chat-sdk_versioned_docs/version-3.0/05-Calling v3/01-Setup 2.md",
+  "sourceDirName": "05-Calling v3",
+  "slug": "/setup-v3",
+  "permalink": "/docs/sdk/android/3.0/setup-v3",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Setup",
+    "slug": "/setup-v3"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Calling v3",
+    "permalink": "/docs/sdk/android/3.0/calling-v3"
+  },
+  "next": {
+    "title": "Default Calling",
+    "permalink": "/docs/sdk/android/3.0/default-calling-v3"
+  }
+}

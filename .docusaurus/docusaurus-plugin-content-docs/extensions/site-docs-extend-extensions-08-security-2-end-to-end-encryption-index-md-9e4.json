@@ -1,0 +1,25 @@
+{
+  "id": "Security/2 End-to-end Encryption/index",
+  "title": "End-to-End Encryption",
+  "description": "Ensure only your users can read what is sent and nobody in between.",
+  "source": "@site/docs/extend/extensions/08-Security/2 End-to-end Encryption/index.md",
+  "sourceDirName": "08-Security/2 End-to-end Encryption",
+  "slug": "/end-to-end-encryption",
+  "permalink": "/docs/extensions/end-to-end-encryption",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "End-to-End Encryption",
+    "slug": "/end-to-end-encryption"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Disappearing Messages",
+    "permalink": "/docs/extensions/disappearing-messages"
+  }
+}

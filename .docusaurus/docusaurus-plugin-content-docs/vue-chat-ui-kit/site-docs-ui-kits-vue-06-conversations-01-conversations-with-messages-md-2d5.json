@@ -1,0 +1,29 @@
+{
+  "id": "Conversations/Conversations with Messages",
+  "title": "Conversations With Messages",
+  "description": "This component is responsible for displaying the recent conversation between participants in a 1:1 or group chat. It also allows users to send text, images, videos, or other media as messages to communicate with one another in real-time.",
+  "source": "@site/docs/ui-kits/vue/06-Conversations/01-Conversations with Messages.md",
+  "sourceDirName": "06-Conversations",
+  "slug": "/conversations-with-messages",
+  "permalink": "/docs/ui-kit/vue/conversations-with-messages",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Conversations With Messages",
+    "slug": "/conversations-with-messages"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "UI Components",
+    "permalink": "/docs/ui-kit/vue/ui-components-overview"
+  },
+  "next": {
+    "title": "Conversations",
+    "permalink": "/docs/ui-kit/vue/conversations"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Guides/apple-privacy-manifest",
+  "title": "Apple Privacy Manifest",
+  "description": "Overview",
+  "source": "@site/docs/ui-kits/react-native/15-Guides/03-apple-privacy-manifest.md",
+  "sourceDirName": "15-Guides",
+  "slug": "/apple-privacy-manifest-guide",
+  "permalink": "/docs/ui-kit/react-native/apple-privacy-manifest-guide",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Apple Privacy Manifest",
+    "slug": "/apple-privacy-manifest-guide"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Expo Integration",
+    "permalink": "/docs/ui-kit/react-native/expo-integration-guide"
+  },
+  "next": {
+    "title": "Mentions Formatter",
+    "permalink": "/docs/ui-kit/react-native/mentions-formatter-guide"
+  }
+}

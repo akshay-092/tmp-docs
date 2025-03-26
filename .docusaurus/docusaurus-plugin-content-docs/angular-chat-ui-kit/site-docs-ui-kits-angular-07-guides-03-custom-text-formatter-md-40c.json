@@ -1,0 +1,29 @@
+{
+  "id": "Guides/custom-text-formatter",
+  "title": "Custom Text Formatter",
+  "description": "Overview",
+  "source": "@site/docs/ui-kits/angular/07-Guides/03-custom-text-formatter.md",
+  "sourceDirName": "07-Guides",
+  "slug": "/custom-text-formatter-guide",
+  "permalink": "/docs/ui-kit/angular/custom-text-formatter-guide",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Custom Text Formatter",
+    "slug": "/custom-text-formatter-guide"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "New Attachment Option",
+    "permalink": "/docs/ui-kit/angular/new-attachment-option-guide"
+  },
+  "next": {
+    "title": "Mentions Formatter",
+    "permalink": "/docs/ui-kit/angular/mentions-formatter-guide"
+  }
+}

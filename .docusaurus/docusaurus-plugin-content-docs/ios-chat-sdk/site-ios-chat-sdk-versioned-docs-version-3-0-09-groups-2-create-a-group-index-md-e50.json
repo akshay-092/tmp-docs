@@ -1,0 +1,29 @@
+{
+  "id": "groups/2 Create a Group/index",
+  "title": "Create a Group",
+  "description": "Create a Group",
+  "source": "@site/ios-chat-sdk_versioned_docs/version-3.0/09-groups/2 Create a Group/index.md",
+  "sourceDirName": "09-groups/2 Create a Group",
+  "slug": "/create-a-group",
+  "permalink": "/docs/sdk/ios/3.0/create-a-group",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Create a Group",
+    "slug": "/create-a-group"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Retrieve Groups",
+    "permalink": "/docs/sdk/ios/3.0/retrieve-groups"
+  },
+  "next": {
+    "title": "Update a Group",
+    "permalink": "/docs/sdk/ios/3.0/update-a-group"
+  }
+}

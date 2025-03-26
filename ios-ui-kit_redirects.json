@@ -1,0 +1,846 @@
+[
+  {
+    "from": "/ui-kit/ios",
+    "to": "/ui-kit/ios/v5/overview"
+  },
+  {
+    "from": "/ui-kit/ios/v5",
+    "to": "/ui-kit/ios/v5/overview"
+  },
+  {
+    "from": "/ui-kit/ios/v4",
+    "to": "/ui-kit/ios/v4/overview"
+  },
+  {
+    "from": "/ui-kit/ios/5.0",
+    "to": "/ui-kit/ios/v5/overview"
+  },
+  {
+    "from": "/ui-kit/ios/4.0",
+    "to": "/ui-kit/ios/v4/overview"
+  },
+  {
+    "from": "/ui-kit/ios/3.0",
+    "to": "/ui-kit/ios/v3/overview"
+  },
+  {
+    "from": "/ui-kit/ios/2.0",
+    "to": "/ui-kit/ios/v2/overview"
+  },
+  {
+    "from": "/ui-kit/ios/5.0/overview",
+    "to": "/ui-kit/ios/v5/overview"
+  },
+  {
+    "from": "/ui-kit/ios/5.0/getting-started",
+    "to": "/ui-kit/ios/v5/getting-started"
+  },
+  {
+    "from": "/ui-kit/ios/5.0/core-features",
+    "to": "/ui-kit/ios/v5/core-features"
+  },
+  {
+    "from": "/ui-kit/ios/5.0/extensions",
+    "to": "/ui-kit/ios/v5/extensions"
+  },
+  {
+    "from": "/ui-kit/ios/5.0/call-features",
+    "to": "/ui-kit/ios/v5/call-features"
+  },
+  {
+    "from": "/ui-kit/ios/5.0/ai-features",
+    "to": "/ui-kit/ios/v5/ai-features"
+  },
+  {
+    "from": "/ui-kit/ios/5.0/theme-introduction",
+    "to": "/ui-kit/ios/v5/theme-introduction"
+  },
+  {
+    "from": "/ui-kit/ios/5.0/color-resources",
+    "to": "/ui-kit/ios/v5/color-resources"
+  },
+  {
+    "from": "/ui-kit/ios/5.0/component-styling",
+    "to": "/ui-kit/ios/v5/component-styling"
+  },
+  {
+    "from": "/ui-kit/ios/5.0/message-bubble-styling",
+    "to": "/ui-kit/ios/v5/message-bubble-styling"
+  },
+  {
+    "from": "/ui-kit/ios/5.0/localize",
+    "to": "/ui-kit/ios/v5/localize"
+  },
+  {
+    "from": "/ui-kit/ios/5.0/sound-manager",
+    "to": "/ui-kit/ios/v5/sound-manager"
+  },
+  {
+    "from": "/ui-kit/ios/5.0/components-overview",
+    "to": "/ui-kit/ios/v5/components-overview"
+  },
+  {
+    "from": "/ui-kit/ios/5.0/conversations",
+    "to": "/ui-kit/ios/v5/conversations"
+  },
+  {
+    "from": "/ui-kit/ios/5.0/users",
+    "to": "/ui-kit/ios/v5/users"
+  },
+  {
+    "from": "/ui-kit/ios/5.0/groups",
+    "to": "/ui-kit/ios/v5/groups"
+  },
+  {
+    "from": "/ui-kit/ios/5.0/group-members",
+    "to": "/ui-kit/ios/v5/group-members"
+  },
+  {
+    "from": "/ui-kit/ios/5.0/message-header",
+    "to": "/ui-kit/ios/v5/message-header"
+  },
+  {
+    "from": "/ui-kit/ios/5.0/message-list",
+    "to": "/ui-kit/ios/v5/message-list"
+  },
+  {
+    "from": "/ui-kit/ios/5.0/message-composer",
+    "to": "/ui-kit/ios/v5/message-composer"
+  },
+  {
+    "from": "/ui-kit/ios/5.0/threaded-messages-header",
+    "to": "/ui-kit/ios/v5/threaded-messages-header"
+  },
+  {
+    "from": "/ui-kit/ios/5.0/incoming-call",
+    "to": "/ui-kit/ios/v5/incoming-call"
+  },
+  {
+    "from": "/ui-kit/ios/5.0/outgoing-call",
+    "to": "/ui-kit/ios/v5/outgoing-call"
+  },
+  {
+    "from": "/ui-kit/ios/5.0/ongoing-call",
+    "to": "/ui-kit/ios/v5/ongoing-call"
+  },
+  {
+    "from": "/ui-kit/ios/5.0/call-buttons",
+    "to": "/ui-kit/ios/v5/call-buttons"
+  },
+  {
+    "from": "/ui-kit/ios/5.0/call-logs",
+    "to": "/ui-kit/ios/v5/call-logs"
+  },
+  {
+    "from": "/ui-kit/ios/5.0/events",
+    "to": "/ui-kit/ios/v5/events"
+  },
+  {
+    "from": "/ui-kit/ios/5.0/methods",
+    "to": "/ui-kit/ios/v5/methods"
+  },
+  {
+    "from": "/ui-kit/ios/5.0/shortcut-formatter-guide",
+    "to": "/ui-kit/ios/v5/shortcut-formatter-guide"
+  },
+  {
+    "from": "/ui-kit/ios/5.0/mentions-formatter-guide",
+    "to": "/ui-kit/ios/v5/mentions-formatter-guide"
+  },
+  {
+    "from": "/ui-kit/ios/5.0/message-template",
+    "to": "/ui-kit/ios/v5/message-template"
+  },
+  {
+    "from": "/ui-kit/ios/overview",
+    "to": "/ui-kit/ios/v4/overview"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/overview",
+    "to": "/ui-kit/ios/v4/overview"
+  },
+  {
+    "from": "/ui-kit/ios/getting-started",
+    "to": "/ui-kit/ios/v4/getting-started"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/getting-started",
+    "to": "/ui-kit/ios/v4/getting-started"
+  },
+  {
+    "from": "/ui-kit/ios/core-features",
+    "to": "/ui-kit/ios/v4/core-features"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/core-features",
+    "to": "/ui-kit/ios/v4/core-features"
+  },
+  {
+    "from": "/ui-kit/ios/extensions",
+    "to": "/ui-kit/ios/v4/extensions"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/extensions",
+    "to": "/ui-kit/ios/v4/extensions"
+  },
+  {
+    "from": "/ui-kit/ios/call-features",
+    "to": "/ui-kit/ios/v4/call-features"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/call-features",
+    "to": "/ui-kit/ios/v4/call-features"
+  },
+  {
+    "from": "/ui-kit/ios/ai-features",
+    "to": "/ui-kit/ios/v4/ai-features"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/ai-features",
+    "to": "/ui-kit/ios/v4/ai-features"
+  },
+  {
+    "from": "/ui-kit/ios/theme",
+    "to": "/ui-kit/ios/v4/theme"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/theme",
+    "to": "/ui-kit/ios/v4/theme"
+  },
+  {
+    "from": "/ui-kit/ios/localize",
+    "to": "/ui-kit/ios/v4/localize"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/localize",
+    "to": "/ui-kit/ios/v4/localize"
+  },
+  {
+    "from": "/ui-kit/ios/sound-manager",
+    "to": "/ui-kit/ios/v4/sound-manager"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/sound-manager",
+    "to": "/ui-kit/ios/v4/sound-manager"
+  },
+  {
+    "from": "/ui-kit/ios/components-overview",
+    "to": "/ui-kit/ios/v4/components-overview"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/components-overview",
+    "to": "/ui-kit/ios/v4/components-overview"
+  },
+  {
+    "from": "/ui-kit/ios/conversations",
+    "to": "/ui-kit/ios/v4/conversations"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/conversations",
+    "to": "/ui-kit/ios/v4/conversations"
+  },
+  {
+    "from": "/ui-kit/ios/conversations-with-messages",
+    "to": "/ui-kit/ios/v4/conversations-with-messages"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/conversations-with-messages",
+    "to": "/ui-kit/ios/v4/conversations-with-messages"
+  },
+  {
+    "from": "/ui-kit/ios/contacts",
+    "to": "/ui-kit/ios/v4/contacts"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/contacts",
+    "to": "/ui-kit/ios/v4/contacts"
+  },
+  {
+    "from": "/ui-kit/ios/users",
+    "to": "/ui-kit/ios/v4/users"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/users",
+    "to": "/ui-kit/ios/v4/users"
+  },
+  {
+    "from": "/ui-kit/ios/users-with-messages",
+    "to": "/ui-kit/ios/v4/users-with-messages"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/users-with-messages",
+    "to": "/ui-kit/ios/v4/users-with-messages"
+  },
+  {
+    "from": "/ui-kit/ios/user-details",
+    "to": "/ui-kit/ios/v4/user-details"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/user-details",
+    "to": "/ui-kit/ios/v4/user-details"
+  },
+  {
+    "from": "/ui-kit/ios/groups",
+    "to": "/ui-kit/ios/v4/groups"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/groups",
+    "to": "/ui-kit/ios/v4/groups"
+  },
+  {
+    "from": "/ui-kit/ios/groups-with-messages",
+    "to": "/ui-kit/ios/v4/groups-with-messages"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/groups-with-messages",
+    "to": "/ui-kit/ios/v4/groups-with-messages"
+  },
+  {
+    "from": "/ui-kit/ios/create-group",
+    "to": "/ui-kit/ios/v4/create-group"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/create-group",
+    "to": "/ui-kit/ios/v4/create-group"
+  },
+  {
+    "from": "/ui-kit/ios/join-protected-group",
+    "to": "/ui-kit/ios/v4/join-protected-group"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/join-protected-group",
+    "to": "/ui-kit/ios/v4/join-protected-group"
+  },
+  {
+    "from": "/ui-kit/ios/group-members",
+    "to": "/ui-kit/ios/v4/group-members"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/group-members",
+    "to": "/ui-kit/ios/v4/group-members"
+  },
+  {
+    "from": "/ui-kit/ios/group-add-members",
+    "to": "/ui-kit/ios/v4/group-add-members"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/group-add-members",
+    "to": "/ui-kit/ios/v4/group-add-members"
+  },
+  {
+    "from": "/ui-kit/ios/group-banned-members",
+    "to": "/ui-kit/ios/v4/group-banned-members"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/group-banned-members",
+    "to": "/ui-kit/ios/v4/group-banned-members"
+  },
+  {
+    "from": "/ui-kit/ios/group-transfer-ownership",
+    "to": "/ui-kit/ios/v4/group-transfer-ownership"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/group-transfer-ownership",
+    "to": "/ui-kit/ios/v4/group-transfer-ownership"
+  },
+  {
+    "from": "/ui-kit/ios/group-details",
+    "to": "/ui-kit/ios/v4/group-details"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/group-details",
+    "to": "/ui-kit/ios/v4/group-details"
+  },
+  {
+    "from": "/ui-kit/ios/messages",
+    "to": "/ui-kit/ios/v4/messages"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/messages",
+    "to": "/ui-kit/ios/v4/messages"
+  },
+  {
+    "from": "/ui-kit/ios/message-header",
+    "to": "/ui-kit/ios/v4/message-header"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/message-header",
+    "to": "/ui-kit/ios/v4/message-header"
+  },
+  {
+    "from": "/ui-kit/ios/message-list",
+    "to": "/ui-kit/ios/v4/message-list"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/message-list",
+    "to": "/ui-kit/ios/v4/message-list"
+  },
+  {
+    "from": "/ui-kit/ios/message-template",
+    "to": "/ui-kit/ios/v4/message-template"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/message-template",
+    "to": "/ui-kit/ios/v4/message-template"
+  },
+  {
+    "from": "/ui-kit/ios/message-composer",
+    "to": "/ui-kit/ios/v4/message-composer"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/message-composer",
+    "to": "/ui-kit/ios/v4/message-composer"
+  },
+  {
+    "from": "/ui-kit/ios/message-information",
+    "to": "/ui-kit/ios/v4/message-information"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/message-information",
+    "to": "/ui-kit/ios/v4/message-information"
+  },
+  {
+    "from": "/ui-kit/ios/threaded-messages",
+    "to": "/ui-kit/ios/v4/threaded-messages"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/threaded-messages",
+    "to": "/ui-kit/ios/v4/threaded-messages"
+  },
+  {
+    "from": "/ui-kit/ios/interactive-form-bubble",
+    "to": "/ui-kit/ios/v4/interactive-form-bubble"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/interactive-form-bubble",
+    "to": "/ui-kit/ios/v4/interactive-form-bubble"
+  },
+  {
+    "from": "/ui-kit/ios/interactive-form-message",
+    "to": "/ui-kit/ios/v4/interactive-form-message"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/interactive-form-message",
+    "to": "/ui-kit/ios/v4/interactive-form-message"
+  },
+  {
+    "from": "/ui-kit/ios/interactive-card-bubble",
+    "to": "/ui-kit/ios/v4/interactive-card-bubble"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/interactive-card-bubble",
+    "to": "/ui-kit/ios/v4/interactive-card-bubble"
+  },
+  {
+    "from": "/ui-kit/ios/interactive-card-message",
+    "to": "/ui-kit/ios/v4/interactive-card-message"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/interactive-card-message",
+    "to": "/ui-kit/ios/v4/interactive-card-message"
+  },
+  {
+    "from": "/ui-kit/ios/interactive-element-entity",
+    "to": "/ui-kit/ios/v4/interactive-element-entity"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/interactive-element-entity",
+    "to": "/ui-kit/ios/v4/interactive-element-entity"
+  },
+  {
+    "from": "/ui-kit/ios/interactive-action-entity",
+    "to": "/ui-kit/ios/v4/interactive-action-entity"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/interactive-action-entity",
+    "to": "/ui-kit/ios/v4/interactive-action-entity"
+  },
+  {
+    "from": "/ui-kit/ios/interactive-button-element",
+    "to": "/ui-kit/ios/v4/interactive-button-element"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/interactive-button-element",
+    "to": "/ui-kit/ios/v4/interactive-button-element"
+  },
+  {
+    "from": "/ui-kit/ios/interactive-label-element",
+    "to": "/ui-kit/ios/v4/interactive-label-element"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/interactive-label-element",
+    "to": "/ui-kit/ios/v4/interactive-label-element"
+  },
+  {
+    "from": "/ui-kit/ios/interactive-radio-button-element",
+    "to": "/ui-kit/ios/v4/interactive-radio-button-element"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/interactive-radio-button-element",
+    "to": "/ui-kit/ios/v4/interactive-radio-button-element"
+  },
+  {
+    "from": "/ui-kit/ios/interactive-check-box-element",
+    "to": "/ui-kit/ios/v4/interactive-check-box-element"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/interactive-check-box-element",
+    "to": "/ui-kit/ios/v4/interactive-check-box-element"
+  },
+  {
+    "from": "/ui-kit/ios/interactive-textinput-element",
+    "to": "/ui-kit/ios/v4/interactive-textinput-element"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/interactive-textinput-element",
+    "to": "/ui-kit/ios/v4/interactive-textinput-element"
+  },
+  {
+    "from": "/ui-kit/ios/interactive-scheduler-message",
+    "to": "/ui-kit/ios/v4/interactive-scheduler-message"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/interactive-scheduler-message",
+    "to": "/ui-kit/ios/v4/interactive-scheduler-message"
+  },
+  {
+    "from": "/ui-kit/ios/interactive-scheduler-bubble",
+    "to": "/ui-kit/ios/v4/interactive-scheduler-bubble"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/interactive-scheduler-bubble",
+    "to": "/ui-kit/ios/v4/interactive-scheduler-bubble"
+  },
+  {
+    "from": "/ui-kit/ios/interactive-date-time-picker-element",
+    "to": "/ui-kit/ios/v4/interactive-date-time-picker-element"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/interactive-date-time-picker-element",
+    "to": "/ui-kit/ios/v4/interactive-date-time-picker-element"
+  },
+  {
+    "from": "/ui-kit/ios/interactive-dropdown-element",
+    "to": "/ui-kit/ios/v4/interactive-dropdown-element"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/interactive-dropdown-element",
+    "to": "/ui-kit/ios/v4/interactive-dropdown-element"
+  },
+  {
+    "from": "/ui-kit/ios/call-overview",
+    "to": "/ui-kit/ios/v4/call-overview"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/call-overview",
+    "to": "/ui-kit/ios/v4/call-overview"
+  },
+  {
+    "from": "/ui-kit/ios/incoming-call",
+    "to": "/ui-kit/ios/v4/incoming-call"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/incoming-call",
+    "to": "/ui-kit/ios/v4/incoming-call"
+  },
+  {
+    "from": "/ui-kit/ios/ongoing-call",
+    "to": "/ui-kit/ios/v4/ongoing-call"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/ongoing-call",
+    "to": "/ui-kit/ios/v4/ongoing-call"
+  },
+  {
+    "from": "/ui-kit/ios/outgoing-call",
+    "to": "/ui-kit/ios/v4/outgoing-call"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/outgoing-call",
+    "to": "/ui-kit/ios/v4/outgoing-call"
+  },
+  {
+    "from": "/ui-kit/ios/call-buttons",
+    "to": "/ui-kit/ios/v4/call-buttons"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/call-buttons",
+    "to": "/ui-kit/ios/v4/call-buttons"
+  },
+  {
+    "from": "/ui-kit/ios/call-logs",
+    "to": "/ui-kit/ios/v4/call-logs"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/call-logs",
+    "to": "/ui-kit/ios/v4/call-logs"
+  },
+  {
+    "from": "/ui-kit/ios/call-log-details",
+    "to": "/ui-kit/ios/v4/call-log-details"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/call-log-details",
+    "to": "/ui-kit/ios/v4/call-log-details"
+  },
+  {
+    "from": "/ui-kit/ios/call-log-history",
+    "to": "/ui-kit/ios/v4/call-log-history"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/call-log-history",
+    "to": "/ui-kit/ios/v4/call-log-history"
+  },
+  {
+    "from": "/ui-kit/ios/call-log-recording",
+    "to": "/ui-kit/ios/v4/call-log-recording"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/call-log-recording",
+    "to": "/ui-kit/ios/v4/call-log-recording"
+  },
+  {
+    "from": "/ui-kit/ios/call-log-participants",
+    "to": "/ui-kit/ios/v4/call-log-participants"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/call-log-participants",
+    "to": "/ui-kit/ios/v4/call-log-participants"
+  },
+  {
+    "from": "/ui-kit/ios/call-log-with-details",
+    "to": "/ui-kit/ios/v4/call-log-with-details"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/call-log-with-details",
+    "to": "/ui-kit/ios/v4/call-log-with-details"
+  },
+  {
+    "from": "/ui-kit/ios/reactions",
+    "to": "/ui-kit/ios/v4/reactions"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/reactions",
+    "to": "/ui-kit/ios/v4/reactions"
+  },
+  {
+    "from": "/ui-kit/ios/quick-reactions",
+    "to": "/ui-kit/ios/v4/quick-reactions"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/quick-reactions",
+    "to": "/ui-kit/ios/v4/quick-reactions"
+  },
+  {
+    "from": "/ui-kit/ios/reactions-list",
+    "to": "/ui-kit/ios/v4/reactions-list"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/reactions-list",
+    "to": "/ui-kit/ios/v4/reactions-list"
+  },
+  {
+    "from": "/ui-kit/ios/avatar",
+    "to": "/ui-kit/ios/v4/avatar"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/avatar",
+    "to": "/ui-kit/ios/v4/avatar"
+  },
+  {
+    "from": "/ui-kit/ios/status-indicator",
+    "to": "/ui-kit/ios/v4/status-indicator"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/status-indicator",
+    "to": "/ui-kit/ios/v4/status-indicator"
+  },
+  {
+    "from": "/ui-kit/ios/badge",
+    "to": "/ui-kit/ios/v4/badge"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/badge",
+    "to": "/ui-kit/ios/v4/badge"
+  },
+  {
+    "from": "/ui-kit/ios/receipt",
+    "to": "/ui-kit/ios/v4/receipt"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/receipt",
+    "to": "/ui-kit/ios/v4/receipt"
+  },
+  {
+    "from": "/ui-kit/ios/date",
+    "to": "/ui-kit/ios/v4/date"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/date",
+    "to": "/ui-kit/ios/v4/date"
+  },
+  {
+    "from": "/ui-kit/ios/text-bubble",
+    "to": "/ui-kit/ios/v4/text-bubble"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/text-bubble",
+    "to": "/ui-kit/ios/v4/text-bubble"
+  },
+  {
+    "from": "/ui-kit/ios/image-bubble",
+    "to": "/ui-kit/ios/v4/image-bubble"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/image-bubble",
+    "to": "/ui-kit/ios/v4/image-bubble"
+  },
+  {
+    "from": "/ui-kit/ios/file-bubble",
+    "to": "/ui-kit/ios/v4/file-bubble"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/file-bubble",
+    "to": "/ui-kit/ios/v4/file-bubble"
+  },
+  {
+    "from": "/ui-kit/ios/audio-bubble",
+    "to": "/ui-kit/ios/v4/audio-bubble"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/audio-bubble",
+    "to": "/ui-kit/ios/v4/audio-bubble"
+  },
+  {
+    "from": "/ui-kit/ios/video-bubble",
+    "to": "/ui-kit/ios/v4/video-bubble"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/video-bubble",
+    "to": "/ui-kit/ios/v4/video-bubble"
+  },
+  {
+    "from": "/ui-kit/ios/message-bubble",
+    "to": "/ui-kit/ios/v4/message-bubble"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/message-bubble",
+    "to": "/ui-kit/ios/v4/message-bubble"
+  },
+  {
+    "from": "/ui-kit/ios/message-input",
+    "to": "/ui-kit/ios/v4/message-input"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/message-input",
+    "to": "/ui-kit/ios/v4/message-input"
+  },
+  {
+    "from": "/ui-kit/ios/action-sheet",
+    "to": "/ui-kit/ios/v4/action-sheet"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/action-sheet",
+    "to": "/ui-kit/ios/v4/action-sheet"
+  },
+  {
+    "from": "/ui-kit/ios/media-recorder",
+    "to": "/ui-kit/ios/v4/media-recorder"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/media-recorder",
+    "to": "/ui-kit/ios/v4/media-recorder"
+  },
+  {
+    "from": "/ui-kit/ios/list-item",
+    "to": "/ui-kit/ios/v4/list-item"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/list-item",
+    "to": "/ui-kit/ios/v4/list-item"
+  },
+  {
+    "from": "/ui-kit/ios/list-base",
+    "to": "/ui-kit/ios/v4/list-base"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/list-base",
+    "to": "/ui-kit/ios/v4/list-base"
+  },
+  {
+    "from": "/ui-kit/ios/events",
+    "to": "/ui-kit/ios/v4/events"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/events",
+    "to": "/ui-kit/ios/v4/events"
+  },
+  {
+    "from": "/ui-kit/ios/methods",
+    "to": "/ui-kit/ios/v4/methods"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/methods",
+    "to": "/ui-kit/ios/v4/methods"
+  },
+  {
+    "from": "/ui-kit/ios/multi-tab-chat-ui-guide",
+    "to": "/ui-kit/ios/v4/multi-tab-chat-ui-guide"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/multi-tab-chat-ui-guide",
+    "to": "/ui-kit/ios/v4/multi-tab-chat-ui-guide"
+  },
+  {
+    "from": "/ui-kit/ios/mentions-formatter-guide",
+    "to": "/ui-kit/ios/v4/mentions-formatter-guide"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/mentions-formatter-guide",
+    "to": "/ui-kit/ios/v4/mentions-formatter-guide"
+  },
+  {
+    "from": "/ui-kit/ios/shortcut-formatter-guide",
+    "to": "/ui-kit/ios/v4/shortcut-formatter-guide"
+  },
+  {
+    "from": "/ui-kit/ios/4.0/shortcut-formatter-guide",
+    "to": "/ui-kit/ios/v4/shortcut-formatter-guide"
+  },
+  {
+    "from": "/ui-kit/ios/3.0/key-concepts",
+    "to": "/ui-kit/ios/v3/key-concepts"
+  },
+  {
+    "from": "/ui-kit/ios/3.0/overview",
+    "to": "/ui-kit/ios/v3/overview"
+  },
+  {
+    "from": "/ui-kit/ios/3.0/ios-ui-components",
+    "to": "/ui-kit/ios/v3/ios-ui-components"
+  },
+  {
+    "from": "/ui-kit/ios/3.0/customize-ui-kit",
+    "to": "/ui-kit/ios/v3/customize-ui-kit"
+  },
+  {
+    "from": "/ui-kit/ios/2.0/key-concepts",
+    "to": "/ui-kit/ios/v2/key-concepts"
+  },
+  {
+    "from": "/ui-kit/ios/2.0/message-structure-and-hierarchy",
+    "to": "/ui-kit/ios/v2/message-structure-and-hierarchy"
+  },
+  {
+    "from": "/ui-kit/ios/2.0/overview",
+    "to": "/ui-kit/ios/v2/overview"
+  },
+  {
+    "from": "/ui-kit/ios/2.0/ui-components",
+    "to": "/ui-kit/ios/v2/ui-components"
+  },
+  {
+    "from": "/ui-kit/ios/2.0/ios-customize-ui-kit",
+    "to": "/ui-kit/ios/v2/ios-customize-ui-kit"
+  }
+]

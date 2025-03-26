@@ -1,0 +1,29 @@
+{
+  "id": "Messaging/13 Mentions",
+  "title": "Mentions",
+  "description": "Mentions",
+  "source": "@site/docs/sdk/android/04-Messaging/13 Mentions.md",
+  "sourceDirName": "04-Messaging",
+  "slug": "/mentions",
+  "permalink": "/docs/sdk/android/mentions",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 13,
+  "frontMatter": {
+    "sidebar_position": 13,
+    "title": "Mentions",
+    "slug": "/mentions"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Interactive Messages",
+    "permalink": "/docs/sdk/android/interactive-messages"
+  },
+  "next": {
+    "title": "Reactions",
+    "permalink": "/docs/sdk/android/reactions"
+  }
+}

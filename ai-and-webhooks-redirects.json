@@ -1,0 +1,54 @@
+[
+  {
+    "from": "/ai/overview",
+    "to": "/fundamentals/ai-user-copilot/overview"
+  },
+  {
+    "from": "/ai/conversation-starter",
+    "to": "/fundamentals/ai-user-copilot/conversation-starter"
+  },
+  {
+    "from": "/ai/smart-replies",
+    "to": "/fundamentals/ai-user-copilot/smart-replies"
+  },
+  {
+    "from": "/ai/conversation-summary",
+    "to": "/fundamentals/ai-user-copilot/conversation-summary"
+  },
+  {
+    "from": "/webhooks/overview",
+    "to": "/fundamentals/webhooks-overview"
+  },
+  {
+    "from": "/webhooks/webhooks-management",
+    "to": "/fundamentals/webhooks-management"
+  },
+  {
+    "from": "/webhooks/webhooks-events",
+    "to": "/fundamentals/webhooks-events"
+  },
+  {
+    "from": "/webhooks/webhooks-legacy-overview",
+    "to": "/fundamentals/webhooks-legacy-overview"
+  },
+  {
+    "from": "/webhooks/webhooks-legacy-management",
+    "to": "/fundamentals/webhooks-legacy-management"
+  },
+  {
+    "from": "/webhooks/webhooks-legacy-events",
+    "to": "/fundamentals/webhooks-legacy-events"
+  },
+  {
+    "from": "/ai/bots",
+    "to": "/ai-chatbots/bots"
+  },
+  {
+    "from": "/ai/personalities",
+    "to": "/ai-chatbots/instructions"
+  },
+  {
+    "from": "/bots/overview",
+    "to": "/ai-chatbots/non-ai-bots"
+  }
+]

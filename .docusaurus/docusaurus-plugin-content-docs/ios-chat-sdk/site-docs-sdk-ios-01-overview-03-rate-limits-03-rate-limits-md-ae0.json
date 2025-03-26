@@ -1,0 +1,29 @@
+{
+  "id": "overview/rate-limits/rate-limits",
+  "title": "Rate Limits",
+  "description": "CometChat REST API Rate Limits",
+  "source": "@site/docs/sdk/ios/01-overview/03-rate-limits/03-rate-limits.md",
+  "sourceDirName": "01-overview/03-rate-limits",
+  "slug": "/rate-limits",
+  "permalink": "/docs/sdk/ios/rate-limits",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Rate Limits",
+    "slug": "/rate-limits"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Message Structure and Hierarchy",
+    "permalink": "/docs/sdk/ios/message-structure-and-hierarchy"
+  },
+  "next": {
+    "title": "Setup",
+    "permalink": "/docs/sdk/ios/setup"
+  }
+}

@@ -1,0 +1,68 @@
+---
+sidebar_position: 20
+title: Pop Over
+slug: /pop-over
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+## Overview
+
+This element displays additional content or options in a small, overlay-like window. It appears on top of the current screen without requiring the user to navigate to a different page or screen.
+
+## Properties
+
+| Name | Type | Description | 
+| ---- | ---- | ---- | 
+| placement | [Placement](./pop-over#placement) | Group of constants representing the positioning or alignment of popover placement | 
+| hasToolTip | boolean | When set to true, displays the cursor | 
+| popoverStyle | [PopoverStyle](./pop-over#popoverstyle) | Styling properties and values of the element | 
+
+
+## Slots
+
+| Name | Description | 
+| ---- | ---- | 
+| content | Placeholder to display the content for the trigger element | 
+| children | Placeholder to display the actual content that will be displayed when the popover is triggered. | 
+
+
+## Placement
+
+| Name | Description | 
+| ---- | ---- | 
+| top | The element appears above the trigger element, aligning with the top edge of the trigger. | 
+| left | The element appears to the left of the trigger element, aligning with the left edge of the trigger. | 
+| right | The element appears to the right of the trigger element, aligning with the right edge of the trigger. | 
+| bottom | The element appears below the trigger element, aligning with the bottom edge of the trigger. | 
+
+
+## PopoverStyle
+
+Styling properties and values of the element
+
+| Name | Description | 
+| ---- | ---- | 
+| width | Sets the width of the element | 
+| height | Sets the height of the element | 
+| border | Sets the border of the element | 
+| borderRadius | Sets the borderRadius of the element | 
+| background | Sets all background style properties at once, such as color, image, origin and size, or repeat method. [Reference link](https://developer.mozilla.org/en-US/docs/Web/CSS/background) | 
+| boxShadow | Sets shadow effects around the element | 
+
+
+## Usage
+
+<Tabs>
+<TabItem value="js" label="Javascript">
+
+```javascript
+import '@cometchat/uikit-elements';//import the web component package.
+import { Placement } from '@cometchat/uikit-elements';
+
+<cometchat-popover placement="Placement.top" hasToolTip="true"></cometchat-popover>
+```
+
+</TabItem>
+</Tabs>

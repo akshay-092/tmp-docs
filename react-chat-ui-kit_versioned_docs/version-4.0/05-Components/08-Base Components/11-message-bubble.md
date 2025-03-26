@@ -1,0 +1,63 @@
+---
+sidebar_position: 10
+title: Message Bubble
+slug: /message-bubble
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+
+This component is used to visually represent individual messages and display them in a conversation-like format.
+
+Here are key characteristics of the message bubble:
+
+1. Shape and Style: It is designed to visually encapsulate the content of a message.
+2. Message Content: The message bubble contains the text or multimedia content of the message, such as plain text, images, emojis, or other media. It displays the actual content of the message sent by the sender.
+3. Sender Information: Message bubbles includes additional information about the sender of the message, such as their name, profile picture, or timestamp. This information helps to identify who sent the message and when it was sent.
+4. Layout and Placement: Message bubbles are typically arranged in a chronological order, displaying the messages in the order they were sent beginning from latest to earliest.
+5. Visual Indicators: Message bubbles also includes visual indicators to convey additional information or status of the message i.e. delivered or read status indicator.
+
+![](./assets/ecd5hd9xab9f7szqeay58x0ax1ij7rh2hbqqi7z3bwp5dtpi7f4gbe5mgetlohnw.png)
+
+## Properties
+
+| Name               | Type                                                                                                         | Description                                                                                                  |
+| ------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
+| id                 | string                                                                                                       | Unique identifier of each message bubble                                                                     |
+| leadingView        | Object as PropType&lt;ViewType&gt;                                                                           | User-defined component to customise the avatar of the message sender.                                        |
+| headerView         | Object as PropType&lt;ViewType&gt;                                                                           | User-defined component to customise the header section of the message bubble.                                |
+| replyView          | Object as PropType&lt;ViewType&gt;                                                                           | User-defined component to customise the header section of the message bubble.                                |
+| BottomView         | Object as PropType&lt;ViewType&gt;                                                                           | User-defined component to customise the _quote or reference to the original message_ view                    |
+| contentView        | Object as PropType&lt;ViewType&gt;                                                                           | User-defined component to customise the actual content of the message bubble                                 |
+| threadView         | Object as PropType&lt;ViewType&gt;                                                                           | User-defined component to customise the thread view that displays the no. of replies or responses            |
+| footerView         | Object as PropType&lt;ViewType&gt;                                                                           | User-defined component to display the footer view that display the timestamp and read-receipt of the message |
+| options            | Array [CometChatActionsIcon](/web-shared/actionsicon) &#124; [CometChatActionsView](/web-shared/actionsview) | User-defined actions which appears for each message bubble on mouseover.                                     |
+| alignment          | [MessageBubbleAlignment](/web-shared/messagebubblealignment)                                                 | Group of constants representing the alignment of message bubble                                              |
+| moreIconURL        | string                                                                                                       | Asset URL for the more icon that appears in the context menu                                                 |
+| topMenuSize        | number                                                                                                       | List of menu button that appears by default in the context menu                                              |
+| messageBubbleStyle | [MessageBubbleStyle](/web-shared/messagebubblestyle)                                                         | Styling properties and values of the component                                                               |
+
+
+## Usage
+
+<Tabs>
+<TabItem value="js" label="Javascript">
+
+```jsx 
+
+import '@cometchat/uikit-elements';//import the web component package.
+
+//use the element
+<CometChatMessageBubble
+leadingView={leadingView}
+footerView={footerView}
+headerView={headerView}
+bottomView={bottomView}
+contentView={contentView}
+></CometChatMessageBubble>
+
+```
+
+</TabItem>
+</Tabs>

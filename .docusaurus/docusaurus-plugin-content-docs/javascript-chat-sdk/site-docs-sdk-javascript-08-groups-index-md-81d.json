@@ -1,0 +1,29 @@
+{
+  "id": "groups/index",
+  "title": "Groups",
+  "description": "Groups help your users to converse together in a single space. You can have three types of groups- private, public and password protected.",
+  "source": "@site/docs/sdk/javascript/08-groups/index.md",
+  "sourceDirName": "08-groups",
+  "slug": "/groups-overview",
+  "permalink": "/docs/sdk/javascript/groups-overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9,
+    "title": "Groups",
+    "slug": "/groups-overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "User Presence",
+    "permalink": "/docs/sdk/javascript/user-presence"
+  },
+  "next": {
+    "title": "Retrieve Groups",
+    "permalink": "/docs/sdk/javascript/retrieve-groups"
+  }
+}

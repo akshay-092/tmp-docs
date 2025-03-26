@@ -1,0 +1,30 @@
+{
+  "id": "Theming/Color-resources",
+  "title": "Color Resources",
+  "description": "Introduction",
+  "source": "@site/docs/ui-kits/react/04-Theming/02-Color-resources.md",
+  "sourceDirName": "04-Theming",
+  "slug": "/theme/color-resources",
+  "permalink": "/docs/ui-kit/react/v6/theme/color-resources",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "sidebar_label": "Color Resources",
+    "title": "Color Resources",
+    "slug": "/theme/color-resources"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/ui-kit/react/v6/theme"
+  },
+  "next": {
+    "title": "Message Bubble Styling",
+    "permalink": "/docs/ui-kit/react/v6/theme/message-bubble-styling"
+  }
+}

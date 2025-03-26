@@ -1,0 +1,29 @@
+{
+  "id": "STYLES/calllogparticipantsstyle",
+  "title": "CallLogParticipantsStyle",
+  "description": "CometChatCallLogParticipants",
+  "source": "@site/docs/ui-kits/web-shared/04-STYLES/27-calllogparticipantsstyle.md",
+  "sourceDirName": "04-STYLES",
+  "slug": "/calllogparticipantsstyle",
+  "permalink": "/docs/web-shared/calllogparticipantsstyle",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 27,
+  "frontMatter": {
+    "sidebar_position": 27,
+    "title": "CallLogParticipantsStyle",
+    "slug": "/calllogparticipantsstyle"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CallLogHistoryStyle",
+    "permalink": "/docs/web-shared/callloghistorystyle"
+  },
+  "next": {
+    "title": "CallLogRecordingsStyle",
+    "permalink": "/docs/web-shared/calllogrecordingsstyle"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "STYLES/joinggroupstyle",
+  "title": "JoinGroupStyle",
+  "description": "Styling properties of CometChatJoinGroup component.",
+  "source": "@site/docs/ui-kits/web-shared/04-STYLES/13-joinggroupstyle.md",
+  "sourceDirName": "04-STYLES",
+  "slug": "/joinggroupstyle",
+  "permalink": "/docs/web-shared/joinggroupstyle",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 13,
+  "frontMatter": {
+    "sidebar_position": 13,
+    "title": "JoinGroupStyle",
+    "slug": "/joinggroupstyle"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CreateGroupStyle",
+    "permalink": "/docs/web-shared/creategroupstyle"
+  },
+  "next": {
+    "title": "GroupMembersStyle",
+    "permalink": "/docs/web-shared/groupmembersstyle"
+  }
+}

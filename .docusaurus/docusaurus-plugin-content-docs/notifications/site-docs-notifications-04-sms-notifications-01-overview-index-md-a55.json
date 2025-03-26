@@ -1,0 +1,29 @@
+{
+  "id": "SMS Notifications/Overview/index",
+  "title": "Overview",
+  "description": "Introduction",
+  "source": "@site/docs/notifications/04-SMS Notifications/01-Overview/index.md",
+  "sourceDirName": "04-SMS Notifications/01-Overview",
+  "slug": "/sms-overview",
+  "permalink": "/docs/notifications/sms-overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Overview",
+    "slug": "/sms-overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Customizations",
+    "permalink": "/docs/notifications/email-customization"
+  },
+  "next": {
+    "title": "Integration",
+    "permalink": "/docs/notifications/sms-integration"
+  }
+}

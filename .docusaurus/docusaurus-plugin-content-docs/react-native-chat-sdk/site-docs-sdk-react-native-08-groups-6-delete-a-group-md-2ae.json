@@ -1,0 +1,29 @@
+{
+  "id": "groups/6 Delete a Group",
+  "title": "Delete a Group",
+  "description": "Delete a Group",
+  "source": "@site/docs/sdk/react-native/08-groups/6 Delete a Group.md",
+  "sourceDirName": "08-groups",
+  "slug": "/delete-group",
+  "permalink": "/docs/sdk/react-native/delete-group",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Delete a Group",
+    "slug": "/delete-group"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Leave a Group",
+    "permalink": "/docs/sdk/react-native/leave-group"
+  },
+  "next": {
+    "title": "Retrieve Group Members",
+    "permalink": "/docs/sdk/react-native/retrieve-group-members"
+  }
+}

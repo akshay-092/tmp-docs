@@ -1,0 +1,29 @@
+{
+  "id": "resources/2 Increment App Icon Badge Count/index",
+  "title": "Increment App Icon Badge Count",
+  "description": "This guide helps you to set up an incremented badge for the app icon using Notification Service Extension.",
+  "source": "@site/docs/sdk/ios/13-resources/2 Increment App Icon Badge Count/index.md",
+  "sourceDirName": "13-resources/2 Increment App Icon Badge Count",
+  "slug": "/increment-app-icon-badge-count",
+  "permalink": "/docs/sdk/ios/increment-app-icon-badge-count",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Increment App Icon Badge Count",
+    "slug": "/increment-app-icon-badge-count"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "All Real-Time Delegates (Listeners)",
+    "permalink": "/docs/sdk/ios/all-real-time-delegates-listeners"
+  },
+  "next": {
+    "title": "Remove Delivered Notifications",
+    "permalink": "/docs/sdk/ios/remove-delivered-notifications"
+  }
+}

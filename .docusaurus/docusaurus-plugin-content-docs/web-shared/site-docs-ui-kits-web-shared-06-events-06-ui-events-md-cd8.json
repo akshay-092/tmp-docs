@@ -1,0 +1,29 @@
+{
+  "id": "EVENTS/ui-events",
+  "title": "UI Events",
+  "description": "UI events, refer to actions or interactions performed by a user within the CometChat's UI Kit. These events are triggered when a user interacts with various UI elements, such as buttons, menus, checkboxes, input fields, or any other interactive components.",
+  "source": "@site/docs/ui-kits/web-shared/06-EVENTS/06-ui-events.md",
+  "sourceDirName": "06-EVENTS",
+  "slug": "/ui-events",
+  "permalink": "/docs/web-shared/ui-events",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "UI Events",
+    "slug": "/ui-events"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Calls Events",
+    "permalink": "/docs/web-shared/calls-events"
+  },
+  "next": {
+    "title": "Theme",
+    "permalink": "/docs/web-shared/theme"
+  }
+}

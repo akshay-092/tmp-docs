@@ -1,0 +1,29 @@
+{
+  "id": "Groups/Add Members",
+  "title": "Add Members",
+  "description": "This component allows administrators or group owners to add new members to a specific group. It enables administrators or group owners to extend the membership of a group by adding new users to participate in the group's discussions and activities. By utilising this feature, administrators can manage group membership, and control access to group content.",
+  "source": "@site/docs/ui-kits/vue/08-Groups/04-Add Members.md",
+  "sourceDirName": "08-Groups",
+  "slug": "/group-add-members",
+  "permalink": "/docs/ui-kit/vue/group-add-members",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Add Members",
+    "slug": "/group-add-members"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Group Members",
+    "permalink": "/docs/ui-kit/vue/group-members"
+  },
+  "next": {
+    "title": "Banned Members",
+    "permalink": "/docs/ui-kit/vue/group-banned-members"
+  }
+}

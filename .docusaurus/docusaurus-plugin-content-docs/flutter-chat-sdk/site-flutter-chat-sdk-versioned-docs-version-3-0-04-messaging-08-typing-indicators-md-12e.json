@@ -1,0 +1,29 @@
+{
+  "id": "Messaging/Typing Indicators",
+  "title": "Typing Indicators",
+  "description": "Send a Typing Indicator",
+  "source": "@site/flutter-chat-sdk_versioned_docs/version-3.0/04-Messaging/08-Typing Indicators.md",
+  "sourceDirName": "04-Messaging",
+  "slug": "/messaging-typing-indicators",
+  "permalink": "/docs/sdk/flutter/3.0/messaging-typing-indicators",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "title": "Typing Indicators",
+    "slug": "/messaging-typing-indicators"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Delete a conversation",
+    "permalink": "/docs/sdk/flutter/3.0/messaging-delete-conversation"
+  },
+  "next": {
+    "title": "Transient Messages",
+    "permalink": "/docs/sdk/flutter/3.0/messaging-transient-messages"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Components/Interactive Messages/text-input-element",
+  "title": "Text Input Element",
+  "description": "The TextInputElement class is used to create a text input element in a user interface.",
+  "source": "@site/react-chat-ui-kit_versioned_docs/version-4.0/05-Components/05-Interactive Messages/09-text-input-element.md",
+  "sourceDirName": "05-Components/05-Interactive Messages",
+  "slug": "/interactive-text-input-element",
+  "permalink": "/docs/ui-kit/react/v4/interactive-text-input-element",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "4.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9,
+    "title": "Text Input Element",
+    "slug": "/interactive-text-input-element"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Button Element",
+    "permalink": "/docs/ui-kit/react/v4/interactive-button-element"
+  },
+  "next": {
+    "title": "Label Element",
+    "permalink": "/docs/ui-kit/react/v4/interactive-label-element"
+  }
+}

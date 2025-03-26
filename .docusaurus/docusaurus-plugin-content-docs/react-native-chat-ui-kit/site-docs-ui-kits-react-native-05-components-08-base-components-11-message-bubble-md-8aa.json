@@ -1,0 +1,29 @@
+{
+  "id": "Components/Base Components/message-bubble",
+  "title": "Message Bubble",
+  "description": "Overview",
+  "source": "@site/docs/ui-kits/react-native/05-Components/08- Base Components/11-message-bubble.md",
+  "sourceDirName": "05-Components/08- Base Components",
+  "slug": "/message-bubble",
+  "permalink": "/docs/ui-kit/react-native/message-bubble",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11,
+    "title": "Message Bubble",
+    "slug": "/message-bubble"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Video Bubble",
+    "permalink": "/docs/ui-kit/react-native/video-bubble"
+  },
+  "next": {
+    "title": "Media Recorder",
+    "permalink": "/docs/ui-kit/react-native/media-recorder"
+  }
+}

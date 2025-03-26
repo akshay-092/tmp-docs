@@ -1,0 +1,19 @@
+- question: first question in General?
+  tags: ["General"]
+  answer: |-
+    first answer in General
+
+- question: second question in General?
+  tags: ["General"]
+  answer: |-
+    second answer in General
+
+- question: First question in Category?
+  tags: ["Category"]
+  answer: |-
+    first answer in Category
+
+- question: Second question in Category?
+  tags: ["Category"]
+  answer: |-
+    second answer in Category

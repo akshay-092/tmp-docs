@@ -1,0 +1,29 @@
+{
+  "id": "Components/Message-template",
+  "title": "Message Template",
+  "description": "Overview",
+  "source": "@site/react-chat-ui-kit_versioned_docs/version-5.0/05-Components/08-Message-template.md",
+  "sourceDirName": "05-Components",
+  "slug": "/message-template",
+  "permalink": "/docs/ui-kit/react/v5/message-template",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "5.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9,
+    "title": "Message Template",
+    "slug": "/message-template"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Message Composer",
+    "permalink": "/docs/ui-kit/react/v5/message-composer"
+  },
+  "next": {
+    "title": "Threaded Message Preview",
+    "permalink": "/docs/ui-kit/react/v5/threaded-message-preview"
+  }
+}

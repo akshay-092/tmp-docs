@@ -1,0 +1,31 @@
+{
+  "tutorialSidebar": [
+    {
+      "type": "category",
+      "label": "Overview",
+      "link": {
+        "type": "doc",
+        "id": "Overview/index"
+      },
+      "items": [
+        "Overview/Key Concepts",
+        "Overview/Message Structure and Hierarchy"
+      ]
+    },
+    {
+      "type": "doc",
+      "label": "UI Components",
+      "id": "UI Components/index"
+    },
+    {
+      "type": "link",
+      "label": "Javascript SDK",
+      "href": "/sdk/javascript/2.0/overview"
+    },
+    {
+      "type": "link",
+      "label": "Extensions",
+      "href": "/extensions/overview"
+    }
+  ]
+}

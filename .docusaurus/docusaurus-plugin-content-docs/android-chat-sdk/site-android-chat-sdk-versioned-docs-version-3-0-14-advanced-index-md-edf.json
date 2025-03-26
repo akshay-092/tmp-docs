@@ -1,0 +1,29 @@
+{
+  "id": "Advanced/index",
+  "title": "Advanced",
+  "description": "",
+  "source": "@site/android-chat-sdk_versioned_docs/version-3.0/14-Advanced/index.md",
+  "sourceDirName": "14-Advanced",
+  "slug": "/android-advanced",
+  "permalink": "/docs/sdk/android/3.0/android-advanced",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Advanced",
+    "slug": "/android-advanced"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Upgrading from v2",
+    "permalink": "/docs/sdk/android/3.0/resources-upgrading-from-v2"
+  },
+  "next": {
+    "title": "Connection Status",
+    "permalink": "/docs/sdk/android/3.0/advanced-connection-status"
+  }
+}

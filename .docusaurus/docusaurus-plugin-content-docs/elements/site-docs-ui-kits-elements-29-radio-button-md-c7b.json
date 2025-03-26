@@ -1,0 +1,29 @@
+{
+  "id": "radio-button",
+  "title": "Radio button",
+  "description": "This element allows the user to exactly select one item from a set.",
+  "source": "@site/docs/ui-kits/elements/29-radio-button.md",
+  "sourceDirName": ".",
+  "slug": "/radio-button",
+  "permalink": "/docs/web-elements/radio-button",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 29,
+  "frontMatter": {
+    "sidebar_position": 29,
+    "title": "Radio button",
+    "slug": "/radio-button"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Checkbox",
+    "permalink": "/docs/web-elements/checkbox"
+  },
+  "next": {
+    "title": "Dropdown",
+    "permalink": "/docs/web-elements/dropdown"
+  }
+}

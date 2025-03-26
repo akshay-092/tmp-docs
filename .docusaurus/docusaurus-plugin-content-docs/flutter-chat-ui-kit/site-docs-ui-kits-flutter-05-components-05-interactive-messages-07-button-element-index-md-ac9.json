@@ -1,0 +1,29 @@
+{
+  "id": "Components/Interactive Messages/button-element/index",
+  "title": "Button Element",
+  "description": "The ButtonElement class, inherited from the BaseInteractiveElement class, represents an interactive button element that can be added to a chat interface. It comprises of properties like button text and a flag indicating whether the button should be disabled after interaction.",
+  "source": "@site/docs/ui-kits/flutter/05-Components/05-Interactive Messages/07-button-element/index.md",
+  "sourceDirName": "05-Components/05-Interactive Messages/07-button-element",
+  "slug": "/interactive-button-element",
+  "permalink": "/docs/ui-kit/flutter/interactive-button-element",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {
+    "type": "page",
+    "title": "Button Element",
+    "listed": true,
+    "slug": "/interactive-button-element"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Action Entity",
+    "permalink": "/docs/ui-kit/flutter/interactive-action-entity"
+  },
+  "next": {
+    "title": "Label Element",
+    "permalink": "/docs/ui-kit/flutter/interactive-label-element"
+  }
+}

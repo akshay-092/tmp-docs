@@ -1,0 +1,29 @@
+{
+  "id": "Security/1 Disappearing messages/index",
+  "title": "Disappearing Messages",
+  "description": "The Disappearing Messages extension allows end-users to send messages that disappear after a certain interval of time. This extension works for both private (one-on-one) and group messages.",
+  "source": "@site/docs/extend/extensions/08-Security/1 Disappearing messages/index.md",
+  "sourceDirName": "08-Security/1 Disappearing messages",
+  "slug": "/disappearing-messages",
+  "permalink": "/docs/extensions/disappearing-messages",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Disappearing Messages",
+    "slug": "/disappearing-messages"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Intercom",
+    "permalink": "/docs/extensions/intercom"
+  },
+  "next": {
+    "title": "End-to-End Encryption",
+    "permalink": "/docs/extensions/end-to-end-encryption"
+  }
+}

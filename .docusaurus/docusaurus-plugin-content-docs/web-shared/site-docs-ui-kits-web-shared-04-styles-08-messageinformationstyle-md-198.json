@@ -1,0 +1,29 @@
+{
+  "id": "STYLES/messageinformationstyle",
+  "title": "MessageInformationStyle",
+  "description": "Styling properties of CometChatMessageInformation component.",
+  "source": "@site/docs/ui-kits/web-shared/04-STYLES/08-messageinformationstyle.md",
+  "sourceDirName": "04-STYLES",
+  "slug": "/messageinformationstyle",
+  "permalink": "/docs/web-shared/messageinformationstyle",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "title": "MessageInformationStyle",
+    "slug": "/messageinformationstyle"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MessageBubbleStyle",
+    "permalink": "/docs/web-shared/messagebubblestyle"
+  },
+  "next": {
+    "title": "MessageComposerStyle",
+    "permalink": "/docs/web-shared/messagecomposerstyle"
+  }
+}

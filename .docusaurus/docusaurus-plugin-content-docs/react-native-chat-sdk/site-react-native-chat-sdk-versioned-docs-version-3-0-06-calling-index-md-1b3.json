@@ -1,0 +1,29 @@
+{
+  "id": "Calling/index",
+  "title": "Calling",
+  "description": "Calling is a core feature of CometChat. Calling allows users to connect over voice/video calls.",
+  "source": "@site/react-native-chat-sdk_versioned_docs/version-3.0/06-Calling/index.md",
+  "sourceDirName": "06-Calling",
+  "slug": "/calling",
+  "permalink": "/docs/sdk/react-native/3.0/calling",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Calling",
+    "slug": "/calling"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Presenter Mode",
+    "permalink": "/docs/sdk/react-native/3.0/presenter-mode"
+  },
+  "next": {
+    "title": "Direct Calling",
+    "permalink": "/docs/sdk/react-native/3.0/calling-direct-calling"
+  }
+}

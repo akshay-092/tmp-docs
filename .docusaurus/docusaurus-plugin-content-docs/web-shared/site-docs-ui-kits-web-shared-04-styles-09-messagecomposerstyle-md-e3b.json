@@ -1,0 +1,29 @@
+{
+  "id": "STYLES/messagecomposerstyle",
+  "title": "MessageComposerStyle",
+  "description": "Styling properties of the CometChatMessageComposer component",
+  "source": "@site/docs/ui-kits/web-shared/04-STYLES/09-messagecomposerstyle.md",
+  "sourceDirName": "04-STYLES",
+  "slug": "/messagecomposerstyle",
+  "permalink": "/docs/web-shared/messagecomposerstyle",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9,
+    "title": "MessageComposerStyle",
+    "slug": "/messagecomposerstyle"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MessageInformationStyle",
+    "permalink": "/docs/web-shared/messageinformationstyle"
+  },
+  "next": {
+    "title": "MessagesStyle",
+    "permalink": "/docs/web-shared/messagesstyle"
+  }
+}

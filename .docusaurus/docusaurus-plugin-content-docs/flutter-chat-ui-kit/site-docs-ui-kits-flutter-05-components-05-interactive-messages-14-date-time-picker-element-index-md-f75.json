@@ -1,0 +1,29 @@
+{
+  "id": "Components/Interactive Messages/date-time-picker-element/index",
+  "title": "Date Time Picker Element",
+  "description": "DateTimeElement is used to represent a single input field that allows to select date and time.",
+  "source": "@site/docs/ui-kits/flutter/05-Components/05-Interactive Messages/14-date-time-picker-element/index.md",
+  "sourceDirName": "05-Components/05-Interactive Messages/14-date-time-picker-element",
+  "slug": "/interactive-date-time-picker-element",
+  "permalink": "/docs/ui-kit/flutter/interactive-date-time-picker-element",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {
+    "type": "page",
+    "title": "Date Time Picker Element",
+    "listed": true,
+    "slug": "/interactive-date-time-picker-element"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Scheduler Bubble",
+    "permalink": "/docs/ui-kit/flutter/interactive-scheduler-bubble"
+  },
+  "next": {
+    "title": "DropDown Element",
+    "permalink": "/docs/ui-kit/flutter/interactive-dropdown-element"
+  }
+}

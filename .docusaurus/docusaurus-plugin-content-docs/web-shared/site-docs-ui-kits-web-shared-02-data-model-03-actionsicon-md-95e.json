@@ -1,0 +1,29 @@
+{
+  "id": "DATA MODEL/actionsicon",
+  "title": "ActionsIcon",
+  "description": "CometChatActionsIcon is a pre-defined structure for creating actions that the user can perform on a message with an icon representation.",
+  "source": "@site/docs/ui-kits/web-shared/02-DATA MODEL/03-actionsicon.md",
+  "sourceDirName": "02-DATA MODEL",
+  "slug": "/actionsicon",
+  "permalink": "/docs/web-shared/actionsicon",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "ActionsIcon",
+    "slug": "/actionsicon"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "TabItem",
+    "permalink": "/docs/web-shared/tabitem"
+  },
+  "next": {
+    "title": "ActionsView",
+    "permalink": "/docs/web-shared/actionsview"
+  }
+}

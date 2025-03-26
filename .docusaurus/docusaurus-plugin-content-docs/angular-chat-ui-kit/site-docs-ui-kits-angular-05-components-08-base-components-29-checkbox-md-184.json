@@ -1,0 +1,29 @@
+{
+  "id": "Components/Base Components/checkbox",
+  "title": "Checkbox",
+  "description": "Overview",
+  "source": "@site/docs/ui-kits/angular/05-Components/08-Base Components/29-checkbox.md",
+  "sourceDirName": "05-Components/08-Base Components",
+  "slug": "/checkbox",
+  "permalink": "/docs/ui-kit/angular/checkbox",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 28,
+  "frontMatter": {
+    "sidebar_position": 28,
+    "title": "Checkbox",
+    "slug": "/checkbox"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Search Input",
+    "permalink": "/docs/ui-kit/angular/search-input"
+  },
+  "next": {
+    "title": "Radio Button",
+    "permalink": "/docs/ui-kit/angular/radio-button"
+  }
+}

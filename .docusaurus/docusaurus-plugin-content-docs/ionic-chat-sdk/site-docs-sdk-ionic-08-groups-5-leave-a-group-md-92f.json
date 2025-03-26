@@ -1,0 +1,29 @@
+{
+  "id": "groups/5 Leave a Group",
+  "title": "Leave a Group",
+  "description": "Leave a Group",
+  "source": "@site/docs/sdk/ionic/08-groups/5 Leave a Group.md",
+  "sourceDirName": "08-groups",
+  "slug": "/leave-group",
+  "permalink": "/docs/sdk/ionic/leave-group",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Leave a Group",
+    "slug": "/leave-group"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Join a Group",
+    "permalink": "/docs/sdk/ionic/join-group"
+  },
+  "next": {
+    "title": "Delete a Group",
+    "permalink": "/docs/sdk/ionic/delete-group"
+  }
+}

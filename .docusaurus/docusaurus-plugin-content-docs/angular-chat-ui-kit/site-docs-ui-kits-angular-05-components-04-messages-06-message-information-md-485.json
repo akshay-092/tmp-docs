@@ -1,0 +1,29 @@
+{
+  "id": "Components/Messages/Message Information",
+  "title": "Message Information",
+  "description": "The MessageInformation is a Component designed to display message-related information, such as delivery and read receipts. It serves as an integral part of the CometChat UI UI Kit, extending the List Item class, which provides the underlying infrastructure for CometChat UI components. With its rich set of methods and properties, developers can easily customize and tailor the appearance and behavior of the message information view to suit the specific requirements of their application.",
+  "source": "@site/docs/ui-kits/angular/05-Components/04-Messages/06-Message Information.md",
+  "sourceDirName": "05-Components/04-Messages",
+  "slug": "/message-information",
+  "permalink": "/docs/ui-kit/angular/message-information",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Message Information",
+    "slug": "/message-information"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Message Composer",
+    "permalink": "/docs/ui-kit/angular/message-composer"
+  },
+  "next": {
+    "title": "Threaded Messages",
+    "permalink": "/docs/ui-kit/angular/threaded-messages"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DATA MODEL/uikitsettings",
+  "title": "UIKitSettings",
+  "description": "UIKitSettings is pre-defined structure containing credentials required to initialise CometChat SDK.",
+  "source": "@site/docs/ui-kits/web-shared/02-DATA MODEL/10-uikitsettings.md",
+  "sourceDirName": "02-DATA MODEL",
+  "slug": "/uikitsettings",
+  "permalink": "/docs/web-shared/uikitsettings",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10,
+    "title": "UIKitSettings",
+    "slug": "/uikitsettings"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DetailsOption",
+    "permalink": "/docs/web-shared/detailsoption"
+  },
+  "next": {
+    "title": "TabsVisibility",
+    "permalink": "/docs/web-shared/tabsvisibility"
+  }
+}

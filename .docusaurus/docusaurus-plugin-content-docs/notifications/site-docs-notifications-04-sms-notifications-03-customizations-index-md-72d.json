@@ -1,0 +1,29 @@
+{
+  "id": "SMS Notifications/customizations/index",
+  "title": "Customizations",
+  "description": "Customizations allow controlling notifications for message events, group events, and call events. Users can set preferences for incoming notifications based on notification schedules, Do Not Disturb (DND) mode, and the mute status of specific conversations.",
+  "source": "@site/docs/notifications/04-SMS Notifications/03-customizations/index.md",
+  "sourceDirName": "04-SMS Notifications/03-customizations",
+  "slug": "/sms-customization",
+  "permalink": "/docs/notifications/sms-customization",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Customizations",
+    "slug": "/sms-customization"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Integration",
+    "permalink": "/docs/notifications/sms-integration"
+  },
+  "next": {
+    "title": "Preferences, Templates & Sounds",
+    "permalink": "/docs/notifications/preferences-templates-sounds"
+  }
+}

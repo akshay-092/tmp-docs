@@ -1,0 +1,29 @@
+{
+  "id": "Components/Base-Components/list-item",
+  "title": "List Item",
+  "description": "CometChatListItem contains one to three lines of text optionally flanked by icons or other widgets, such as CometChatAvatar, CometChatDate or Text. CometChatAvatar will always be shown in the leading view therefore either one among the avatarURL or  avatarName must be provided. The icons (or other widgets) for the list item are defined with the tailView parameter. The first line of text is optional and is specified with title. The value of subtitle is also optional, will occupy the space allocated for an additional line of text or some other widget.",
+  "source": "@site/docs/ui-kits/flutter/05-Components/07-Base-Components/14-list-item.md",
+  "sourceDirName": "05-Components/07-Base-Components",
+  "slug": "/list-item",
+  "permalink": "/docs/ui-kit/flutter/list-item",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 14,
+  "frontMatter": {
+    "sidebar_position": 14,
+    "title": "List Item",
+    "slug": "/list-item"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Emoji Keyboard",
+    "permalink": "/docs/ui-kit/flutter/emoji-keyboard"
+  },
+  "next": {
+    "title": "List Base",
+    "permalink": "/docs/ui-kit/flutter/list-base"
+  }
+}

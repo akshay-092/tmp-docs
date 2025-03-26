@@ -1,0 +1,29 @@
+{
+  "id": "overview/key-concepts/index",
+  "title": "Key Concepts",
+  "description": "CometChat Dashboard",
+  "source": "@site/docs/sdk/ios/01-overview/01-key-concepts/index.md",
+  "sourceDirName": "01-overview/01-key-concepts",
+  "slug": "/key-concepts",
+  "permalink": "/docs/sdk/ios/key-concepts",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Key Concepts",
+    "slug": "/key-concepts"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/sdk/ios/overview"
+  },
+  "next": {
+    "title": "Message Structure and Hierarchy",
+    "permalink": "/docs/sdk/ios/message-structure-and-hierarchy"
+  }
+}

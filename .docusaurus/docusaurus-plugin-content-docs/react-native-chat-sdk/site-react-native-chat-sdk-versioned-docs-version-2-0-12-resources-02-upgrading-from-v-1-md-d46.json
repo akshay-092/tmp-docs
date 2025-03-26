@@ -1,0 +1,29 @@
+{
+  "id": "Resources/Upgrading from v1",
+  "title": "Upgrading from v1",
+  "description": "Upgrading from v1.x to v2 is fairly simple. Below are the major changes that are released as a part of CometChat Pro v2:",
+  "source": "@site/react-native-chat-sdk_versioned_docs/version-2.0/12-Resources/02-Upgrading from v1.md",
+  "sourceDirName": "12-Resources",
+  "slug": "/resources-upgrading-from-v1",
+  "permalink": "/docs/sdk/react-native/2.0/resources-upgrading-from-v1",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "2.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Upgrading from v1",
+    "slug": "/resources-upgrading-from-v1"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "All Real-time Listeners",
+    "permalink": "/docs/sdk/react-native/2.0/resources-all-real-time-listeners"
+  },
+  "next": {
+    "title": "Push Notification Setup",
+    "permalink": "/docs/sdk/react-native/2.0/resources-push-notification-setup"
+  }
+}

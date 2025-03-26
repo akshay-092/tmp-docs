@@ -1,0 +1,29 @@
+{
+  "id": "Users/Block Users",
+  "title": "Block Users",
+  "description": "Block Users",
+  "source": "@site/android-chat-sdk_versioned_docs/version-3.0/07-Users/03-Block Users.md",
+  "sourceDirName": "07-Users",
+  "slug": "/users-block-users",
+  "permalink": "/docs/sdk/android/3.0/users-block-users",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Block Users",
+    "slug": "/users-block-users"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "User management",
+    "permalink": "/docs/sdk/android/3.0/users-user-management"
+  },
+  "next": {
+    "title": "User Presence",
+    "permalink": "/docs/sdk/android/3.0/user-presence"
+  }
+}

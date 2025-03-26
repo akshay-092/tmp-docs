@@ -1,0 +1,29 @@
+{
+  "id": "Components/call-logs",
+  "title": "Call Logs",
+  "description": "Overview",
+  "source": "@site/docs/ui-kits/ios/05-Components/14-call-logs.md",
+  "sourceDirName": "05-Components",
+  "slug": "/call-logs",
+  "permalink": "/docs/ui-kit/ios/v5/call-logs",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 14,
+  "frontMatter": {
+    "sidebar_position": 14,
+    "title": "Call Logs",
+    "slug": "/call-logs"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Call Buttons",
+    "permalink": "/docs/ui-kit/ios/v5/call-buttons"
+  },
+  "next": {
+    "title": "Methods",
+    "permalink": "/docs/ui-kit/ios/v5/methods"
+  }
+}

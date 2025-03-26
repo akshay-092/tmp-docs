@@ -1,0 +1,29 @@
+{
+  "id": "Components/Interactive Messages/cometchatschedulerbubble",
+  "title": "SchedulerBubble",
+  "description": "SchedulerBubble is a versatile type of component designed to facilitate easy and efficient event scheduling. It offers the following key features:",
+  "source": "@site/docs/ui-kits/angular/05-Components/05-Interactive Messages/16-cometchatschedulerbubble.md",
+  "sourceDirName": "05-Components/05-Interactive Messages",
+  "slug": "/interactive-scheduler-bubble",
+  "permalink": "/docs/ui-kit/angular/interactive-scheduler-bubble",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 16,
+  "frontMatter": {
+    "sidebar_position": 16,
+    "title": "SchedulerBubble",
+    "slug": "/interactive-scheduler-bubble"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Scheduler Message",
+    "permalink": "/docs/ui-kit/angular/interactive-scheduler-message"
+  },
+  "next": {
+    "title": "DateTimePickerElement",
+    "permalink": "/docs/ui-kit/angular/interactive-date-time-picker-element"
+  }
+}

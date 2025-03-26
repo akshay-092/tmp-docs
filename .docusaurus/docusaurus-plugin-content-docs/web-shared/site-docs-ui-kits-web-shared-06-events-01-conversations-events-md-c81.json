@@ -1,0 +1,29 @@
+{
+  "id": "EVENTS/conversations-events",
+  "title": "Conversations Events",
+  "description": "CometChatConversationEvents emits events when the logged-in user executes some action on a conversation object.",
+  "source": "@site/docs/ui-kits/web-shared/06-EVENTS/01-conversations-events.md",
+  "sourceDirName": "06-EVENTS",
+  "slug": "/conversations-events",
+  "permalink": "/docs/web-shared/conversations-events",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Conversations Events",
+    "slug": "/conversations-events"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "UserMemberWrapperConfiguration",
+    "permalink": "/docs/web-shared/usermember-wrapper-configuration"
+  },
+  "next": {
+    "title": "Users Events",
+    "permalink": "/docs/web-shared/users-events"
+  }
+}

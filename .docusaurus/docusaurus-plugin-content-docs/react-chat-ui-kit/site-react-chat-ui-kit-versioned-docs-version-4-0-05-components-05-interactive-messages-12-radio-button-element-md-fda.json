@@ -1,0 +1,29 @@
+{
+  "id": "Components/Interactive Messages/radio-button-element",
+  "title": "Radio Button Element",
+  "description": "The RadioButtonElement class is designed to create a radio button input element in a user interface.",
+  "source": "@site/react-chat-ui-kit_versioned_docs/version-4.0/05-Components/05-Interactive Messages/12-radio-button-element.md",
+  "sourceDirName": "05-Components/05-Interactive Messages",
+  "slug": "/interactive-radio-button-element",
+  "permalink": "/docs/ui-kit/react/v4/interactive-radio-button-element",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "4.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12,
+    "title": "Radio Button Element",
+    "slug": "/interactive-radio-button-element"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Single Select Element",
+    "permalink": "/docs/ui-kit/react/v4/interactive-single-select-element"
+  },
+  "next": {
+    "title": "Checkbox Element",
+    "permalink": "/docs/ui-kit/react/v4/interactive-checkbox-element"
+  }
+}

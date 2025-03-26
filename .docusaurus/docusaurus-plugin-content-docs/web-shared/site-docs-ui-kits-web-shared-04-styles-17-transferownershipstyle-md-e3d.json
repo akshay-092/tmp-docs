@@ -1,0 +1,29 @@
+{
+  "id": "STYLES/transferownershipstyle",
+  "title": "TransferOwnershipStyle",
+  "description": "Styling properties of the CometChatTransferOwnership component.",
+  "source": "@site/docs/ui-kits/web-shared/04-STYLES/17-transferownershipstyle.md",
+  "sourceDirName": "04-STYLES",
+  "slug": "/transferownershipstyle",
+  "permalink": "/docs/web-shared/transferownershipstyle",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 17,
+  "frontMatter": {
+    "sidebar_position": 17,
+    "title": "TransferOwnershipStyle",
+    "slug": "/transferownershipstyle"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "BannedMembersStyle",
+    "permalink": "/docs/web-shared/bannedmembersstyle"
+  },
+  "next": {
+    "title": "DetailsStyle",
+    "permalink": "/docs/web-shared/detailsstyle"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "overview/index",
+  "title": "Overview",
+  "description": "CometChat's UI Kit for Flutter simplifies the development of chat applications by providing a comprehensive set of customizable UI widgets. These widgets are organized into modules, allowing for easy integration and adaptation to match the specific requirements of your app. With this UI Kit, you can effortlessly incorporate essential messaging features while tailoring the interface to align with your application's unique style and functionality.",
+  "source": "@site/docs/ui-kits/flutter/01-overview/index.md",
+  "sourceDirName": "01-overview",
+  "slug": "/overview",
+  "permalink": "/docs/ui-kit/flutter/overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Overview",
+    "slug": "/overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Getting Started",
+    "permalink": "/docs/ui-kit/flutter/getting-started"
+  }
+}

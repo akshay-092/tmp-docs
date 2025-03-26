@@ -1,0 +1,29 @@
+{
+  "id": "DATA MODEL/actionsview",
+  "title": "ActionsView",
+  "description": "CometChatActionsView is a pre-defined structure for creating actions that the user can perform on a message with a customised UI view representation.",
+  "source": "@site/docs/ui-kits/web-shared/02-DATA MODEL/04-actionsview.md",
+  "sourceDirName": "02-DATA MODEL",
+  "slug": "/actionsview",
+  "permalink": "/docs/web-shared/actionsview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "ActionsView",
+    "slug": "/actionsview"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ActionsIcon",
+    "permalink": "/docs/web-shared/actionsicon"
+  },
+  "next": {
+    "title": "MessageComposerAction",
+    "permalink": "/docs/web-shared/messagecomposeraction"
+  }
+}

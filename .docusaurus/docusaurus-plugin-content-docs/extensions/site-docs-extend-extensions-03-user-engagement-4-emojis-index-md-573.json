@@ -1,0 +1,29 @@
+{
+  "id": "User Engagement/4 Emojis/index",
+  "title": "Emojis (Deprecated)",
+  "description": "This extension is outdated as all the major browsers natively support emojis.",
+  "source": "@site/docs/extend/extensions/03-User Engagement/4 Emojis/index.md",
+  "sourceDirName": "03-User Engagement/4 Emojis",
+  "slug": "/emojis",
+  "permalink": "/docs/extensions/emojis",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Emojis (Deprecated)",
+    "slug": "/emojis"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Message Translation",
+    "permalink": "/docs/extensions/message-translation"
+  },
+  "next": {
+    "title": "Polls",
+    "permalink": "/docs/extensions/polls"
+  }
+}

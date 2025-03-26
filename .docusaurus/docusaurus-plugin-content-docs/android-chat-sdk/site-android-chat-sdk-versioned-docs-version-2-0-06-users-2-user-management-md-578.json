@@ -1,0 +1,29 @@
+{
+  "id": "Users/2 User management",
+  "title": "User Management",
+  "description": "When a user logs into your app, you need to programmatically login the user into CometChat. But before you log in the user to CometChat, you need to create the user.",
+  "source": "@site/android-chat-sdk_versioned_docs/version-2.0/06-Users/2 User management.md",
+  "sourceDirName": "06-Users",
+  "slug": "/user-management",
+  "permalink": "/docs/sdk/android/2.0/user-management",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "2.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "User Management",
+    "slug": "/user-management"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Retrieve Users",
+    "permalink": "/docs/sdk/android/2.0/retrieve-users"
+  },
+  "next": {
+    "title": "Block Users",
+    "permalink": "/docs/sdk/android/2.0/block-users"
+  }
+}

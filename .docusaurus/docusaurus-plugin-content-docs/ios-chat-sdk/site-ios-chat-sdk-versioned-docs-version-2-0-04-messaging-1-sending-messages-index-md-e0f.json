@@ -1,0 +1,29 @@
+{
+  "id": "messaging/1 Sending Messages/index",
+  "title": "Send a Message",
+  "description": "Using CometChat, you can send three types of messages:",
+  "source": "@site/ios-chat-sdk_versioned_docs/version-2.0/04-messaging/1 Sending Messages/index.md",
+  "sourceDirName": "04-messaging/1 Sending Messages",
+  "slug": "/send-a-message",
+  "permalink": "/docs/sdk/ios/2.0/send-a-message",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "2.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Send a Message",
+    "slug": "/send-a-message"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Messaging",
+    "permalink": "/docs/sdk/ios/2.0/messaging"
+  },
+  "next": {
+    "title": "Receive a Message",
+    "permalink": "/docs/sdk/ios/2.0/receive-a-message"
+  }
+}

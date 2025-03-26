@@ -1,0 +1,29 @@
+{
+  "id": "Messaging/Delivery & Read Rceipts",
+  "title": "Delivery & Read Receipts",
+  "description": "Mark Messages as Delivered",
+  "source": "@site/react-native-chat-sdk_versioned_docs/version-2.0/04-Messaging/10-Delivery & Read Rceipts.md",
+  "sourceDirName": "04-Messaging",
+  "slug": "/messaging-receipts",
+  "permalink": "/docs/sdk/react-native/2.0/messaging-receipts",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "2.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10,
+    "title": "Delivery & Read Receipts",
+    "slug": "/messaging-receipts"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Typing Indicators",
+    "permalink": "/docs/sdk/react-native/2.0/messaging-typing-indicators"
+  },
+  "next": {
+    "title": "Calling",
+    "permalink": "/docs/sdk/react-native/2.0/calling"
+  }
+}

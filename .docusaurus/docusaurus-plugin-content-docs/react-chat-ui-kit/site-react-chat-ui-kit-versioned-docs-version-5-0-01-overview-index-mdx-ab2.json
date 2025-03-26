@@ -1,0 +1,25 @@
+{
+  "id": "overview/index",
+  "title": "Overview",
+  "description": "With CometChat's UI Kit for React, you can effortlessly build a chat app equipped with all the essential messaging features, along with customizable options tailored to your application requirements. This UI Kit comprises of prebuilt UI components organized into smaller modules and components, each configurable to meet your specific needs.",
+  "source": "@site/react-chat-ui-kit_versioned_docs/version-5.0/01-overview/index.mdx",
+  "sourceDirName": "01-overview",
+  "slug": "/overview",
+  "permalink": "/docs/ui-kit/react/v5/overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "5.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Overview",
+    "slug": "/overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "React Integration",
+    "permalink": "/docs/ui-kit/react/v5/integration"
+  }
+}

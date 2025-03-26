@@ -1,0 +1,29 @@
+{
+  "id": "INTERACTIVE MESSAGES/action-entity",
+  "title": "Action Entity",
+  "description": "Base class for defining the type of actions that can be performed on BaseInteractiveElement",
+  "source": "@site/docs/ui-kits/web-shared/08-INTERACTIVE MESSAGES/06-action-entity.md",
+  "sourceDirName": "08-INTERACTIVE MESSAGES",
+  "slug": "/action-entity",
+  "permalink": "/docs/web-shared/action-entity",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Action Entity",
+    "slug": "/action-entity"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Element Type",
+    "permalink": "/docs/web-shared/element-type"
+  },
+  "next": {
+    "title": "Custom Interactive Message",
+    "permalink": "/docs/web-shared/custom-interactive-message"
+  }
+}

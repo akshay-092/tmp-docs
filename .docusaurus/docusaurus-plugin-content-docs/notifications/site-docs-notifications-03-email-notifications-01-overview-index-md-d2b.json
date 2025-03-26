@@ -1,0 +1,29 @@
+{
+  "id": "Email Notifications/Overview/index",
+  "title": "Overview",
+  "description": "Introduction",
+  "source": "@site/docs/notifications/03-Email Notifications/01-Overview/index.md",
+  "sourceDirName": "03-Email Notifications/01-Overview",
+  "slug": "/email-overview",
+  "permalink": "/docs/notifications/email-overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Overview",
+    "slug": "/email-overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Customizations",
+    "permalink": "/docs/notifications/push-customization"
+  },
+  "next": {
+    "title": "Integration",
+    "permalink": "/docs/notifications/email-integration"
+  }
+}

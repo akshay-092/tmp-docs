@@ -1,0 +1,29 @@
+{
+  "id": "DATA MODEL/messagetemplate",
+  "title": "MessageTemplate",
+  "description": "CometChatMessageTemplate is a pre-defined structure for creating message views that can be used as a starting point or blueprint for creating message views, often known as message bubbles. These views appear in the message list view and render the messages of that particular chat or conversation. It allows developers to define standard message viewing formats that can be reused or customised for different use cases, or even add new ones for their own purposes.",
+  "source": "@site/docs/ui-kits/web-shared/02-DATA MODEL/01-messagetemplate.md",
+  "sourceDirName": "02-DATA MODEL",
+  "slug": "/message-template",
+  "permalink": "/docs/web-shared/message-template",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "MessageTemplate",
+    "slug": "/message-template"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/web-shared/overview"
+  },
+  "next": {
+    "title": "TabItem",
+    "permalink": "/docs/web-shared/tabitem"
+  }
+}

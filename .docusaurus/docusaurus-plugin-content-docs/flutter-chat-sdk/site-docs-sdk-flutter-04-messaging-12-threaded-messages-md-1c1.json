@@ -1,0 +1,29 @@
+{
+  "id": "messaging/12 Threaded Messages",
+  "title": "Threaded Messages",
+  "description": "Messages that are started from a particular message are called Threaded messages or simply threads.",
+  "source": "@site/docs/sdk/flutter/04-messaging/12 Threaded Messages.md",
+  "sourceDirName": "04-messaging",
+  "slug": "/threaded-messages",
+  "permalink": "/docs/sdk/flutter/threaded-messages",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12,
+    "title": "Threaded Messages",
+    "slug": "/threaded-messages"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Delivery & Read Receipts",
+    "permalink": "/docs/sdk/flutter/delivery-read-receipts"
+  },
+  "next": {
+    "title": "Mentions",
+    "permalink": "/docs/sdk/flutter/mentions"
+  }
+}

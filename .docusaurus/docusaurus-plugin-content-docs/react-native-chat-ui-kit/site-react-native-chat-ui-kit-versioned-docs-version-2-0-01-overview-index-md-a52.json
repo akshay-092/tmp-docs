@@ -1,0 +1,25 @@
+{
+  "id": "Overview/index",
+  "title": "Overview",
+  "description": "The CometChat React Native UI Kit is developed to keep developers in mind and aims to reduce development efforts significantly.",
+  "source": "@site/react-native-chat-ui-kit_versioned_docs/version-2.0/01-Overview/index.md",
+  "sourceDirName": "01-Overview",
+  "slug": "/overview",
+  "permalink": "/docs/ui-kit/react-native/2.0/overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "2.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Overview",
+    "slug": "/overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Key Concepts",
+    "permalink": "/docs/ui-kit/react-native/2.0/key-concepts"
+  }
+}

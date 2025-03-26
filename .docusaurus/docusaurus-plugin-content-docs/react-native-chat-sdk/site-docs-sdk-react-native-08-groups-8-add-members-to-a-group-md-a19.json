@@ -1,0 +1,29 @@
+{
+  "id": "groups/8 Add Members to a Group",
+  "title": "Add Members to a Group",
+  "description": "Add Members to Group",
+  "source": "@site/docs/sdk/react-native/08-groups/8 Add Members to a Group.md",
+  "sourceDirName": "08-groups",
+  "slug": "/group-add-members",
+  "permalink": "/docs/sdk/react-native/group-add-members",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "title": "Add Members to a Group",
+    "slug": "/group-add-members"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Retrieve Group Members",
+    "permalink": "/docs/sdk/react-native/retrieve-group-members"
+  },
+  "next": {
+    "title": "Kick Member from a Group",
+    "permalink": "/docs/sdk/react-native/group-kick-ban-members"
+  }
+}

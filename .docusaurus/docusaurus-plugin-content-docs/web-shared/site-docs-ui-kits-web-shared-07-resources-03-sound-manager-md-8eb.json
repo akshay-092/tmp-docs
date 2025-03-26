@@ -1,0 +1,29 @@
+{
+  "id": "RESOURCES/sound-manager",
+  "title": "Sound Manager",
+  "description": "CometChatSoundManager provides functionalities for managing audio playback for incoming / outgoing messages in 1:1 or group chat.",
+  "source": "@site/docs/ui-kits/web-shared/07-RESOURCES/03-sound-manager.md",
+  "sourceDirName": "07-RESOURCES",
+  "slug": "/sound-manager",
+  "permalink": "/docs/web-shared/sound-manager",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Sound Manager",
+    "slug": "/sound-manager"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Localize",
+    "permalink": "/docs/web-shared/localize"
+  },
+  "next": {
+    "title": "Form Message",
+    "permalink": "/docs/web-shared/form-message"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "DATA MODEL/tabitem",
+  "title": "TabItem",
+  "description": "CometChatTabItem is a pre-defined structure for creating a tab item that can be part of tabbed interface.",
+  "source": "@site/docs/ui-kits/web-shared/02-DATA MODEL/02-tabitem.md",
+  "sourceDirName": "02-DATA MODEL",
+  "slug": "/tabitem",
+  "permalink": "/docs/web-shared/tabitem",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "TabItem",
+    "slug": "/tabitem"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MessageTemplate",
+    "permalink": "/docs/web-shared/message-template"
+  },
+  "next": {
+    "title": "ActionsIcon",
+    "permalink": "/docs/web-shared/actionsicon"
+  }
+}

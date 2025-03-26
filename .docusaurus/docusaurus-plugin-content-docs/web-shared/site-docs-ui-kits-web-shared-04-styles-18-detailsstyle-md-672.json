@@ -1,0 +1,29 @@
+{
+  "id": "STYLES/detailsstyle",
+  "title": "DetailsStyle",
+  "description": "Styling properties of the CometChatDetails component",
+  "source": "@site/docs/ui-kits/web-shared/04-STYLES/18-detailsstyle.md",
+  "sourceDirName": "04-STYLES",
+  "slug": "/detailsstyle",
+  "permalink": "/docs/web-shared/detailsstyle",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 18,
+  "frontMatter": {
+    "sidebar_position": 18,
+    "title": "DetailsStyle",
+    "slug": "/detailsstyle"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "TransferOwnershipStyle",
+    "permalink": "/docs/web-shared/transferownershipstyle"
+  },
+  "next": {
+    "title": "WithMessagesStyle",
+    "permalink": "/docs/web-shared/withmessagesstyle"
+  }
+}

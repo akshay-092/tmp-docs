@@ -1,0 +1,29 @@
+{
+  "id": "calling/expo-integration",
+  "title": "Expo Integration",
+  "description": "Add the CometChatCalls Dependency",
+  "source": "@site/docs/sdk/react-native/05-calling/08-expo-integration.md",
+  "sourceDirName": "05-calling",
+  "slug": "/expo-integration-guide",
+  "permalink": "/docs/sdk/react-native/expo-integration-guide",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "title": "Expo Integration",
+    "slug": "/expo-integration-guide"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Call Logs",
+    "permalink": "/docs/sdk/react-native/call-logs"
+  },
+  "next": {
+    "title": "Users",
+    "permalink": "/docs/sdk/react-native/users-overview"
+  }
+}

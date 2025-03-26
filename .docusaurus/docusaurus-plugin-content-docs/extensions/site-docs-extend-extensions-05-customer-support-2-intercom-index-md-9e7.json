@@ -1,0 +1,29 @@
+{
+  "id": "Customer Support/2 Intercom/index",
+  "title": "Intercom",
+  "description": "The Intercom extension makes customer support seamless for your users. Instead of having two interfaces- one for chat between users and one for chat with your support team, you can use CometChat as a front-end for your customer support use case as well!",
+  "source": "@site/docs/extend/extensions/05-Customer Support/2 Intercom/index.md",
+  "sourceDirName": "05-Customer Support/2 Intercom",
+  "slug": "/intercom",
+  "permalink": "/docs/extensions/intercom",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Intercom",
+    "slug": "/intercom"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chatwoot",
+    "permalink": "/docs/extensions/chatwoot"
+  },
+  "next": {
+    "title": "Disappearing Messages",
+    "permalink": "/docs/extensions/disappearing-messages"
+  }
+}

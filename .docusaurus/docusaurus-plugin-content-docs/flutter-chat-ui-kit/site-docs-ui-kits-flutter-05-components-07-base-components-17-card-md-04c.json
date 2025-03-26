@@ -1,0 +1,29 @@
+{
+  "id": "Components/Base-Components/card",
+  "title": "Card",
+  "description": "CometChatCard is a prebuilt widget which is used to display a card with title, subtitle, avatar and bottom view.",
+  "source": "@site/docs/ui-kits/flutter/05-Components/07-Base-Components/17-card.md",
+  "sourceDirName": "05-Components/07-Base-Components",
+  "slug": "/card",
+  "permalink": "/docs/ui-kit/flutter/card",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 17,
+  "frontMatter": {
+    "sidebar_position": 17,
+    "title": "Card",
+    "slug": "/card"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Confirm Dialog",
+    "permalink": "/docs/ui-kit/flutter/confirm-dialog"
+  },
+  "next": {
+    "title": "Button",
+    "permalink": "/docs/ui-kit/flutter/button"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Components/Users/users-with-messages",
+  "title": "Users with Messages",
+  "description": "Overview",
+  "source": "@site/android-chat-ui-kit_versioned_docs/version-4.0/05-Components/02-Users/02-users-with-messages.md",
+  "sourceDirName": "05-Components/02-Users",
+  "slug": "/users-with-messages",
+  "permalink": "/docs/ui-kit/android/v4/users-with-messages",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "4.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Users with Messages",
+    "slug": "/users-with-messages"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Users",
+    "permalink": "/docs/ui-kit/android/v4/users"
+  },
+  "next": {
+    "title": "Groups",
+    "permalink": "/docs/ui-kit/android/v4/groups"
+  }
+}

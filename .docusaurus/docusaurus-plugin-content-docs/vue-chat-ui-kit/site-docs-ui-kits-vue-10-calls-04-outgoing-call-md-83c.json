@@ -1,0 +1,29 @@
+{
+  "id": "Calls/Outgoing Call",
+  "title": "Outgoing Call",
+  "description": "Overview",
+  "source": "@site/docs/ui-kits/vue/10-Calls/04-Outgoing Call.md",
+  "sourceDirName": "10-Calls",
+  "slug": "/outgoing-call",
+  "permalink": "/docs/ui-kit/vue/outgoing-call",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Outgoing Call",
+    "slug": "/outgoing-call"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ongoing Call",
+    "permalink": "/docs/ui-kit/vue/ongoing-call"
+  },
+  "next": {
+    "title": "Call Buttons",
+    "permalink": "/docs/ui-kit/vue/call-buttons"
+  }
+}

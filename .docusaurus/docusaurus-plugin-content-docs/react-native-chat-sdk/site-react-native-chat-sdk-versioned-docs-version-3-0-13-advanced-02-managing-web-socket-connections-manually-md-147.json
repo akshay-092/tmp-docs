@@ -1,0 +1,25 @@
+{
+  "id": "Advanced/Managing Web-Socket connections manually",
+  "title": "Managing Web-Socket connections manually",
+  "description": "Default SDK behaviour on login",
+  "source": "@site/react-native-chat-sdk_versioned_docs/version-3.0/13-Advanced/02.Managing Web-Socket connections manually.md",
+  "sourceDirName": "13-Advanced",
+  "slug": "/managing-web-socket-connections-manually",
+  "permalink": "/docs/sdk/react-native/3.0/managing-web-socket-connections-manually",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Managing Web-Socket connections manually",
+    "slug": "/managing-web-socket-connections-manually"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Connection Status",
+    "permalink": "/docs/sdk/react-native/3.0/advanced-connection-listener"
+  }
+}

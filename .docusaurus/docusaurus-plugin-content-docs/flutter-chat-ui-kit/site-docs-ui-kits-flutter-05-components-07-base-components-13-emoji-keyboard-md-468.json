@@ -1,0 +1,29 @@
+{
+  "id": "Components/Base-Components/emoji-keyboard",
+  "title": "Emoji Keyboard",
+  "description": "CometChatEmojiKeyboard is CometChat's very own customizable emoji keyboard. it can be rendered by calling function showCometChatEmojiKeyboard.",
+  "source": "@site/docs/ui-kits/flutter/05-Components/07-Base-Components/13-emoji-keyboard.md",
+  "sourceDirName": "05-Components/07-Base-Components",
+  "slug": "/emoji-keyboard",
+  "permalink": "/docs/ui-kit/flutter/emoji-keyboard",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 13,
+  "frontMatter": {
+    "sidebar_position": 13,
+    "title": "Emoji Keyboard",
+    "slug": "/emoji-keyboard"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Action Sheet",
+    "permalink": "/docs/ui-kit/flutter/action-sheet"
+  },
+  "next": {
+    "title": "List Item",
+    "permalink": "/docs/ui-kit/flutter/list-item"
+  }
+}

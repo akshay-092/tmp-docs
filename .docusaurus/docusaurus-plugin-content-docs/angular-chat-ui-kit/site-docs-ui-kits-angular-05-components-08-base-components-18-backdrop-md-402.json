@@ -1,0 +1,29 @@
+{
+  "id": "Components/Base Components/backdrop",
+  "title": "Backdrop",
+  "description": "This element represents the background against which other elements are presented.",
+  "source": "@site/docs/ui-kits/angular/05-Components/08-Base Components/18-backdrop.md",
+  "sourceDirName": "05-Components/08-Base Components",
+  "slug": "/backdrop",
+  "permalink": "/docs/ui-kit/angular/backdrop",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 17,
+  "frontMatter": {
+    "sidebar_position": 17,
+    "title": "Backdrop",
+    "slug": "/backdrop"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Confirm Dialog",
+    "permalink": "/docs/ui-kit/angular/confirm-dialog"
+  },
+  "next": {
+    "title": "Emoji Keyboard",
+    "permalink": "/docs/ui-kit/angular/emoji-keyboard"
+  }
+}

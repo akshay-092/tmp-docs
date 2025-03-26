@@ -1,0 +1,29 @@
+{
+  "id": "Features/Extensions/User Experience/save-message/index",
+  "title": "Save Message",
+  "description": "Extension settings",
+  "source": "@site/docs/fundamentals/04-Features/03-Extensions/02-User Experience/08-save-message/index.md",
+  "sourceDirName": "04-Features/03-Extensions/02-User Experience/08-save-message",
+  "slug": "/save-message",
+  "permalink": "/docs/fundamentals/save-message",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9,
+    "title": "Save Message",
+    "slug": "/save-message"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Pin Message",
+    "permalink": "/docs/fundamentals/pin-message"
+  },
+  "next": {
+    "title": "TinyURL",
+    "permalink": "/docs/fundamentals/tinyurl"
+  }
+}

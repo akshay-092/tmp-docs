@@ -1,0 +1,29 @@
+{
+  "id": "SHARED-COMPONENTS/reactions",
+  "title": "Reactions",
+  "description": "The CometChatReactions component is used to display a list of reactions to a specific message. Users can see who has reacted to the message and with what emoji.",
+  "source": "@site/docs/ui-kits/web-shared/09-SHARED-COMPONENTS/03-reactions.md",
+  "sourceDirName": "09-SHARED-COMPONENTS",
+  "slug": "/reactions",
+  "permalink": "/docs/web-shared/reactions",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Reactions",
+    "slug": "/reactions"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DateTimePickerElement",
+    "permalink": "/docs/web-shared/Date-time-picker-element"
+  },
+  "next": {
+    "title": "ReactionList",
+    "permalink": "/docs/web-shared/reaction-list"
+  }
+}

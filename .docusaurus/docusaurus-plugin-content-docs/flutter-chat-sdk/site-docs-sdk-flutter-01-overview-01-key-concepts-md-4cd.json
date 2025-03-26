@@ -1,0 +1,29 @@
+{
+  "id": "overview/key-concepts",
+  "title": "Key Concepts",
+  "description": "CometChat Dashboard",
+  "source": "@site/docs/sdk/flutter/01-overview/01-key-concepts.md",
+  "sourceDirName": "01-overview",
+  "slug": "/key-concepts",
+  "permalink": "/docs/sdk/flutter/key-concepts",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Key Concepts",
+    "slug": "/key-concepts"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/sdk/flutter/overview"
+  },
+  "next": {
+    "title": "Message Structure and Hierarchy",
+    "permalink": "/docs/sdk/flutter/message-structure-and-hierarchy"
+  }
+}

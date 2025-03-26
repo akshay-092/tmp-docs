@@ -1,0 +1,29 @@
+{
+  "id": "calling/4 Video view customisation",
+  "title": "Video View Customisation",
+  "description": "This section will guide you to customise the main video container.",
+  "source": "@site/docs/sdk/flutter/05-calling/4 Video view customisation.md",
+  "sourceDirName": "05-calling",
+  "slug": "/video-view-customisation",
+  "permalink": "/docs/sdk/flutter/video-view-customisation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Video View Customisation",
+    "slug": "/video-view-customisation"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Direct Call",
+    "permalink": "/docs/sdk/flutter/direct-call"
+  },
+  "next": {
+    "title": "Recording",
+    "permalink": "/docs/sdk/flutter/recording"
+  }
+}

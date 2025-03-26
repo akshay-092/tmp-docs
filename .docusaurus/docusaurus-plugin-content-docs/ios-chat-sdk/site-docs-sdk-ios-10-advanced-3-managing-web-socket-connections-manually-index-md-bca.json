@@ -1,0 +1,29 @@
+{
+  "id": "advanced/3 Managing Web-Socket connections manually/index",
+  "title": "Managing Web-Socket connections manually",
+  "description": "Default SDK behaviour on login",
+  "source": "@site/docs/sdk/ios/10-advanced/3 Managing Web-Socket connections manually/index.md",
+  "sourceDirName": "10-advanced/3 Managing Web-Socket connections manually",
+  "slug": "/managing-web-socket-connections-manually",
+  "permalink": "/docs/sdk/ios/managing-web-socket-connections-manually",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Managing Web-Socket connections manually",
+    "slug": "/managing-web-socket-connections-manually"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Connection behaviour",
+    "permalink": "/docs/sdk/ios/web-socket-connection-behaviour"
+  },
+  "next": {
+    "title": "Marking delivered from Push Notification",
+    "permalink": "/docs/sdk/ios/marking-delivered-with-push-notification"
+  }
+}

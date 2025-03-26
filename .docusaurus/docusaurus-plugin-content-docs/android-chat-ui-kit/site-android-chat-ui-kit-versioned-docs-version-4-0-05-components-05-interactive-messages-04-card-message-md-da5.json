@@ -1,0 +1,29 @@
+{
+  "id": "Components/Interactive Messages/Card Message",
+  "title": "Card Message",
+  "description": "The CardMessage class is used to create a card message for CometChat. It extends the InteractiveMessage class from CometChat.",
+  "source": "@site/android-chat-ui-kit_versioned_docs/version-4.0/05-Components/05-Interactive Messages/04-Card Message.md",
+  "sourceDirName": "05-Components/05-Interactive Messages",
+  "slug": "/interactive-card-message",
+  "permalink": "/docs/ui-kit/android/v4/interactive-card-message",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "4.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Card Message",
+    "slug": "/interactive-card-message"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Card Bubble",
+    "permalink": "/docs/ui-kit/android/v4/interactive-card-bubble"
+  },
+  "next": {
+    "title": "Element Entity",
+    "permalink": "/docs/ui-kit/android/v4/interactive-element-entity"
+  }
+}

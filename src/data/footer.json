@@ -1,0 +1,11 @@
+{
+  "logo": {
+    "light": "/img/logo.svg",
+    "dark": "/img/logo.svg",
+    "alt": "Logo"
+  },
+  "discordLink": "https://google.com",
+  "twitterLink": "https://google.com",
+  "linkedinLink": "https://google.com",
+  "copyright": "My Copyright since 2020. All rights reserved."
+}

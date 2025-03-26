@@ -1,0 +1,29 @@
+{
+  "id": "Guides/CometChatMentionsFormatter",
+  "title": "Mentions Formatter",
+  "description": "Overview",
+  "source": "@site/react-chat-ui-kit_versioned_docs/version-4.0/07-Guides/04-CometChatMentionsFormatter.md",
+  "sourceDirName": "07-Guides",
+  "slug": "/mentions-formatter-guide",
+  "permalink": "/docs/ui-kit/react/v4/mentions-formatter-guide",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "4.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Mentions Formatter",
+    "slug": "/mentions-formatter-guide"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Custom Text Formatter",
+    "permalink": "/docs/ui-kit/react/v4/custom-text-formatter-guide"
+  },
+  "next": {
+    "title": "URL Formatter",
+    "permalink": "/docs/ui-kit/react/v4/url-formatter-guide"
+  }
+}

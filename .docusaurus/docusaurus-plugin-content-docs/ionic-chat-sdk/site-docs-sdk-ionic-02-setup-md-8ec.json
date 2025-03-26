@@ -1,0 +1,29 @@
+{
+  "id": "setup",
+  "title": "Setup",
+  "description": "Skip the create new app step. Your existing v2 app can be migrated to v3. Follow steps mentioned in Add the CometChat dependency section below to upgrade to latest version of v3",
+  "source": "@site/docs/sdk/ionic/02-setup.md",
+  "sourceDirName": ".",
+  "slug": "/setup",
+  "permalink": "/docs/sdk/ionic/setup",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Setup",
+    "slug": "/setup"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Rate Limits",
+    "permalink": "/docs/sdk/ionic/rate-limits"
+  },
+  "next": {
+    "title": "Authentication",
+    "permalink": "/docs/sdk/ionic/authentication"
+  }
+}

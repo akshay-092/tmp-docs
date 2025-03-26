@@ -1,0 +1,29 @@
+{
+  "id": "INTERACTIVE MESSAGES/button-element",
+  "title": "Button Element",
+  "description": "The ButtonElement class, inherited from the BaseInteractiveElement class, represents an interactive button element that can be added to a chat interface. It comprises of properties like button text and a flag indicating whether the button should be disabled after interaction.",
+  "source": "@site/docs/ui-kits/web-shared/08-INTERACTIVE MESSAGES/08-button-element.md",
+  "sourceDirName": "08-INTERACTIVE MESSAGES",
+  "slug": "/button-element",
+  "permalink": "/docs/web-shared/button-element",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "title": "Button Element",
+    "slug": "/button-element"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Custom Interactive Message",
+    "permalink": "/docs/web-shared/custom-interactive-message"
+  },
+  "next": {
+    "title": "Text Input Element",
+    "permalink": "/docs/web-shared/text-input-element"
+  }
+}

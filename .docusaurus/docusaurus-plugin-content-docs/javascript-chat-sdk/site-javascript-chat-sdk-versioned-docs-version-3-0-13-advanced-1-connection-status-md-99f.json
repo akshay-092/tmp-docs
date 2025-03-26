@@ -1,0 +1,29 @@
+{
+  "id": "Advanced/1 Connection Status",
+  "title": "Connection Status",
+  "description": "CometChat SDK provides you with a mechanism to get real-time status of the connection to CometChat web-socket servers.",
+  "source": "@site/javascript-chat-sdk_versioned_docs/version-3.0/13-Advanced/1 Connection Status.md",
+  "sourceDirName": "13-Advanced",
+  "slug": "/advanced-connection-listeners",
+  "permalink": "/docs/sdk/javascript/3.0/advanced-connection-listeners",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Connection Status",
+    "slug": "/advanced-connection-listeners"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Advanced",
+    "permalink": "/docs/sdk/javascript/3.0/advanced"
+  },
+  "next": {
+    "title": "Managing Web-Socket connections manually",
+    "permalink": "/docs/sdk/javascript/3.0/advanced-managing-web-socket-connections-manually"
+  }
+}

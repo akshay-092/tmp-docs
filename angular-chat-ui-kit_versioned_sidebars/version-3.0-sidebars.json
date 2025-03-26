@@ -1,0 +1,35 @@
+{
+  "tutorialSidebar": [
+    {
+      "type": "category",
+      "label": "Overview",
+      "link": {
+        "type": "doc",
+        "id": "overview/index"
+      },
+      "items": [
+        "overview/Key Concepts"
+      ]
+    },
+    {
+      "type": "doc",
+      "label": "UI Components",
+      "id": "ui-components/index"
+    },
+    {
+      "type": "link",
+      "label": "Javascript SDK",
+      "href": "/sdk/javascript/3.0/overview"
+    },
+    {
+      "type": "link",
+      "label": "Extensions",
+      "href": "/extensions/overview"
+    },
+    {
+      "type": "link",
+      "label": "Version 4",
+      "href": "/ui-kit/angular/overview"
+    }
+  ]
+}

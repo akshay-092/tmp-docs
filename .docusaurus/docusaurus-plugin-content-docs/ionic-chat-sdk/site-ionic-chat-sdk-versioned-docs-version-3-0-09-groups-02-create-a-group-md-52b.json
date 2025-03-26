@@ -1,0 +1,29 @@
+{
+  "id": "Groups/Create a Group",
+  "title": "Create a Group",
+  "description": "Create a Group",
+  "source": "@site/ionic-chat-sdk_versioned_docs/version-3.0/09-Groups/02-Create a Group.md",
+  "sourceDirName": "09-Groups",
+  "slug": "/groups-create-group",
+  "permalink": "/docs/sdk/ionic/3.0/groups-create-group",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Create a Group",
+    "slug": "/groups-create-group"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Retrieve Groups",
+    "permalink": "/docs/sdk/ionic/3.0/groups-retrieve-groups"
+  },
+  "next": {
+    "title": "Update a Group",
+    "permalink": "/docs/sdk/ionic/3.0/groups-update-group"
+  }
+}

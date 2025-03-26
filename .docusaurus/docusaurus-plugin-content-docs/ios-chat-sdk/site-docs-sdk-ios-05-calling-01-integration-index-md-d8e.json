@@ -1,0 +1,29 @@
+{
+  "id": "calling/Integration/index",
+  "title": "Integration",
+  "description": "The CometChatCalls is developed to keep developers in mind and aims to reduce development efforts significantly. Let's start to integrate Calls Kit into your project.",
+  "source": "@site/docs/sdk/ios/05-calling/01-Integration/index.md",
+  "sourceDirName": "05-calling/01-Integration",
+  "slug": "/calling-integration",
+  "permalink": "/docs/sdk/ios/calling-integration",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Integration",
+    "slug": "/calling-integration"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Calling",
+    "permalink": "/docs/sdk/ios/calling-overview"
+  },
+  "next": {
+    "title": "Default Calling",
+    "permalink": "/docs/sdk/ios/default-calling"
+  }
+}

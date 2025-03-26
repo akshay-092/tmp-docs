@@ -1,0 +1,30 @@
+{
+  "id": "Theming/Theme",
+  "title": "Theme",
+  "description": "Overview",
+  "source": "@site/docs/ui-kits/react-native/04-Theming/01-Theme.md",
+  "sourceDirName": "04-Theming",
+  "slug": "/theme",
+  "permalink": "/docs/ui-kit/react-native/theme",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "sidebar_label": "Theme",
+    "title": "Theme",
+    "slug": "/theme"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AI",
+    "permalink": "/docs/ui-kit/react-native/ai-features"
+  },
+  "next": {
+    "title": "Localize",
+    "permalink": "/docs/ui-kit/react-native/localize"
+  }
+}

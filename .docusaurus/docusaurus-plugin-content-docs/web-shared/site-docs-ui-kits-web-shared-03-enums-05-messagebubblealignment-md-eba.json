@@ -1,0 +1,29 @@
+{
+  "id": "ENUMS/messagebubblealignment",
+  "title": "MessageBubbleAlignment",
+  "description": "MessageBubbleAlignment describes the positioning of the message bubble.",
+  "source": "@site/docs/ui-kits/web-shared/03-ENUMS/05-messagebubblealignment.md",
+  "sourceDirName": "03-ENUMS",
+  "slug": "/messagebubblealignment",
+  "permalink": "/docs/web-shared/messagebubblealignment",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "MessageBubbleAlignment",
+    "slug": "/messagebubblealignment"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MessageListAlignment",
+    "permalink": "/docs/web-shared/messagelistalignment"
+  },
+  "next": {
+    "title": "TimestampAlignment",
+    "permalink": "/docs/web-shared/timestampalignment"
+  }
+}

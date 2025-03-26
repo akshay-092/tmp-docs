@@ -1,0 +1,29 @@
+{
+  "id": "Components/Base-Components/confirm-dialog",
+  "title": "Confirm Dialog",
+  "description": "CometChatConfirmDialog is a customizable alert dialog .",
+  "source": "@site/docs/ui-kits/flutter/05-Components/07-Base-Components/16-confirm-dialog.md",
+  "sourceDirName": "05-Components/07-Base-Components",
+  "slug": "/confirm-dialog",
+  "permalink": "/docs/ui-kit/flutter/confirm-dialog",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 16,
+  "frontMatter": {
+    "sidebar_position": 16,
+    "title": "Confirm Dialog",
+    "slug": "/confirm-dialog"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "List Base",
+    "permalink": "/docs/ui-kit/flutter/list-base"
+  },
+  "next": {
+    "title": "Card",
+    "permalink": "/docs/ui-kit/flutter/card"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Migration Guide/upgrading-from-v5",
+  "title": "Upgrading from v5",
+  "description": "Introduction",
+  "source": "@site/docs/ui-kits/react/08-Migration Guide/01-upgrading-from-v5.md",
+  "sourceDirName": "08-Migration Guide",
+  "slug": "/upgrading-from-v5",
+  "permalink": "/docs/ui-kit/react/v6/upgrading-from-v5",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Upgrading from v5",
+    "slug": "/upgrading-from-v5"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ShortCut Formatter",
+    "permalink": "/docs/ui-kit/react/v6/shortcut-formatter-guide"
+  },
+  "next": {
+    "title": "Property Changes",
+    "permalink": "/docs/ui-kit/react/v6/property-changes"
+  }
+}

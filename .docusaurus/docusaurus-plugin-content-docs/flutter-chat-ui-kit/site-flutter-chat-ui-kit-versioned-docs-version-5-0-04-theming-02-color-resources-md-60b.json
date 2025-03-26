@@ -1,0 +1,29 @@
+{
+  "id": "Theming/color-resources",
+  "title": "Color Resources",
+  "description": "Introducing CometChatColorPalette:",
+  "source": "@site/flutter-chat-ui-kit_versioned_docs/version-5.0/04-Theming/02-color-resources.md",
+  "sourceDirName": "04-Theming",
+  "slug": "/color-resources",
+  "permalink": "/docs/ui-kit/flutter/5.0/color-resources",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "5.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Color Resources",
+    "slug": "/color-resources"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/ui-kit/flutter/5.0/theme-introduction"
+  },
+  "next": {
+    "title": "Component Styling",
+    "permalink": "/docs/ui-kit/flutter/5.0/component-styling"
+  }
+}

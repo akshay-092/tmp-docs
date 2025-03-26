@@ -1,0 +1,29 @@
+{
+  "id": "ENUMS/selectionmode",
+  "title": "SelectionMode",
+  "description": "MessageListAlignment describes the positioning or arrangement of message bubbles in the component",
+  "source": "@site/docs/ui-kits/web-shared/03-ENUMS/03-selectionmode.md",
+  "sourceDirName": "03-ENUMS",
+  "slug": "/selectionmode",
+  "permalink": "/docs/web-shared/selectionmode",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "SelectionMode",
+    "slug": "/selectionmode"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "TabAlignment",
+    "permalink": "/docs/web-shared/tabalignment"
+  },
+  "next": {
+    "title": "MessageListAlignment",
+    "permalink": "/docs/web-shared/messagelistalignment"
+  }
+}

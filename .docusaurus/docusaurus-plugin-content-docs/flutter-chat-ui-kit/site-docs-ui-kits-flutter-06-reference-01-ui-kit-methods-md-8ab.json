@@ -1,0 +1,29 @@
+{
+  "id": "Reference/ui-kit-methods",
+  "title": "Methods",
+  "description": "Overview",
+  "source": "@site/docs/ui-kits/flutter/06-Reference/01-ui-kit-methods.md",
+  "sourceDirName": "06-Reference",
+  "slug": "/methods",
+  "permalink": "/docs/ui-kit/flutter/methods",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Methods",
+    "slug": "/methods"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Reactions List",
+    "permalink": "/docs/ui-kit/flutter/reactions-list"
+  },
+  "next": {
+    "title": "Events",
+    "permalink": "/docs/ui-kit/flutter/events"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "resources/index",
+  "title": "Resources",
+  "description": "We have a number of resources that will help you while integrating CometChat in your app.",
+  "source": "@site/docs/sdk/react-native/12-resources/index.md",
+  "sourceDirName": "12-resources",
+  "slug": "/resources-overview",
+  "permalink": "/docs/sdk/react-native/resources-overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11,
+    "title": "Resources",
+    "slug": "/resources-overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Transfer Group Ownership",
+    "permalink": "/docs/sdk/react-native/transfer-group-ownership"
+  },
+  "next": {
+    "title": "All Real-time Listeners",
+    "permalink": "/docs/sdk/react-native/real-time-listeners"
+  }
+}

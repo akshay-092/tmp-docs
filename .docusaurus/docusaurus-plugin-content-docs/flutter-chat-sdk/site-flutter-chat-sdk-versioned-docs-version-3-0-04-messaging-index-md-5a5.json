@@ -1,0 +1,29 @@
+{
+  "id": "Messaging/index",
+  "title": "Messaging",
+  "description": "Messaging is one of the core features of CometChat. We've thoughtfully created methods to help you send, receive and fetch message history.",
+  "source": "@site/flutter-chat-sdk_versioned_docs/version-3.0/04-Messaging/index.md",
+  "sourceDirName": "04-Messaging",
+  "slug": "/messaging",
+  "permalink": "/docs/sdk/flutter/3.0/messaging",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Messaging",
+    "slug": "/messaging"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Login Listeners",
+    "permalink": "/docs/sdk/flutter/3.0/authentication-login-listeners"
+  },
+  "next": {
+    "title": "Send a Message",
+    "permalink": "/docs/sdk/flutter/3.0/messaging-send-message"
+  }
+}

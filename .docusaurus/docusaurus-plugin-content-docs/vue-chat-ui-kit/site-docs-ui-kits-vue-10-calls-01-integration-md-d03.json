@@ -1,0 +1,29 @@
+{
+  "id": "Calls/Integration",
+  "title": "Integration",
+  "description": "Integration",
+  "source": "@site/docs/ui-kits/vue/10-Calls/01-Integration.md",
+  "sourceDirName": "10-Calls",
+  "slug": "/calls-integration",
+  "permalink": "/docs/ui-kit/vue/calls-integration",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Integration",
+    "slug": "/calls-integration"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Threaded Messages",
+    "permalink": "/docs/ui-kit/vue/threaded-messages"
+  },
+  "next": {
+    "title": "Incoming Call",
+    "permalink": "/docs/ui-kit/vue/incoming-call"
+  }
+}

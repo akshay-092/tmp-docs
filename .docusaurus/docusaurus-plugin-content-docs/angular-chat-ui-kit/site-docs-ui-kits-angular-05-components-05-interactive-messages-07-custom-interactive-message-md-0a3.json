@@ -1,0 +1,29 @@
+{
+  "id": "Components/Interactive Messages/custom-interactive-message",
+  "title": "Custom Interactive Message",
+  "description": "The CustomInteractiveMessage class extends CometChat's InteractiveMessage class and represents a custom interactive message that can be sent via CometChat.",
+  "source": "@site/docs/ui-kits/angular/05-Components/05-Interactive Messages/07-custom-interactive-message.md",
+  "sourceDirName": "05-Components/05-Interactive Messages",
+  "slug": "/interactive-custom-interactive-message",
+  "permalink": "/docs/ui-kit/angular/interactive-custom-interactive-message",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "title": "Custom Interactive Message",
+    "slug": "/interactive-custom-interactive-message"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Action Entity",
+    "permalink": "/docs/ui-kit/angular/interactive-action-entity"
+  },
+  "next": {
+    "title": "Button Element",
+    "permalink": "/docs/ui-kit/angular/interactive-button-element"
+  }
+}

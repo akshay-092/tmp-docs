@@ -1,0 +1,29 @@
+{
+  "id": "Components/outgoing-call",
+  "title": "Outgoing Call",
+  "description": "Overview",
+  "source": "@site/docs/ui-kits/ios/05-Components/11-outgoing-call.md",
+  "sourceDirName": "05-Components",
+  "slug": "/outgoing-call",
+  "permalink": "/docs/ui-kit/ios/v5/outgoing-call",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11,
+    "title": "Outgoing Call",
+    "slug": "/outgoing-call"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Incoming Call",
+    "permalink": "/docs/ui-kit/ios/v5/incoming-call"
+  },
+  "next": {
+    "title": "Ongoing Call",
+    "permalink": "/docs/ui-kit/ios/v5/ongoing-call"
+  }
+}

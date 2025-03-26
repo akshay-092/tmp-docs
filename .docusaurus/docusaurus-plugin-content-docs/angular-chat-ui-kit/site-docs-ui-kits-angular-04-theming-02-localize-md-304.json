@@ -1,0 +1,29 @@
+{
+  "id": "Theming/localize",
+  "title": "Localize",
+  "description": "Overview",
+  "source": "@site/docs/ui-kits/angular/04-Theming/02-localize.md",
+  "sourceDirName": "04-Theming",
+  "slug": "/localize",
+  "permalink": "/docs/ui-kit/angular/localize",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Localize",
+    "slug": "/localize"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Theme",
+    "permalink": "/docs/ui-kit/angular/theme"
+  },
+  "next": {
+    "title": "Sound Manager",
+    "permalink": "/docs/ui-kit/angular/sound-manager"
+  }
+}

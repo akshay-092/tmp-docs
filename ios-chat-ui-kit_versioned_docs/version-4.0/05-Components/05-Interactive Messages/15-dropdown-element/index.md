@@ -1,0 +1,43 @@
+---
+type: page
+title: DropDown Element
+listed: true
+slug: /interactive-dropdown-element
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+The `DropDownElement` class is utilised to create a single selection input element in a user interface.
+
+### Properties
+
+| Name             | Type              | Description                                  |
+| ---------------- | ----------------- | -------------------------------------------- |
+| **elementId**    | `string`          | Used to set a unique ID for the element      |
+| **label**        | `string`          | Used to set a label for the element          |
+| **options**      | `[OptionElement]` | Used to set options for the element          |
+| **optional**     | `bool`            | Used to set an optional flag for the element |
+| **defaultValue** | `String`          | Used to set a default value for the element  |
+
+### Usage
+
+Here's how to create an instance of the `DropDownElement` class:
+<Tabs>
+<TabItem value="Swift" label="Swift">
+
+```swift
+let option1 = OptionElement()
+option1.id = "A"
+option1.value = "B"
+let option2 = OptionElement()
+option2.id = "B"
+option2.value = "A"
+let dropdownElement = DropdownElement()
+dropdownElement.elementId = "Block"
+dropdownElement.label: "Select block"
+dropdownElement.options: [option1,option2]
+```
+
+</TabItem>
+</Tabs>

@@ -1,0 +1,29 @@
+{
+  "id": "messaging/6 Editing Messages/index",
+  "title": "Edit a Message",
+  "description": "While editing a message is straightforward, receiving events for edited messages with CometChat has two parts:",
+  "source": "@site/ios-chat-sdk_versioned_docs/version-3.0/04-messaging/6 Editing Messages/index.md",
+  "sourceDirName": "04-messaging/6 Editing Messages",
+  "slug": "/edit-a-message",
+  "permalink": "/docs/sdk/ios/3.0/edit-a-message",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Edit a Message",
+    "slug": "/edit-a-message"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Threaded Messages",
+    "permalink": "/docs/sdk/ios/3.0/threaded-messages"
+  },
+  "next": {
+    "title": "Delete a Message",
+    "permalink": "/docs/sdk/ios/3.0/delete-a-message"
+  }
+}

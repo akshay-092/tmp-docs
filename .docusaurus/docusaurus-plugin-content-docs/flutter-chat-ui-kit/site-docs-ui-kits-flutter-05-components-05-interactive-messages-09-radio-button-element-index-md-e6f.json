@@ -1,0 +1,29 @@
+{
+  "id": "Components/Interactive Messages/radio-button-element/index",
+  "title": "Radio Button Element",
+  "description": "The RadioButtonElement class is utilised to create a single selection input element in a user interface.",
+  "source": "@site/docs/ui-kits/flutter/05-Components/05-Interactive Messages/09-radio-button-element/index.md",
+  "sourceDirName": "05-Components/05-Interactive Messages/09-radio-button-element",
+  "slug": "/interactive-radio-button-element",
+  "permalink": "/docs/ui-kit/flutter/interactive-radio-button-element",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {
+    "type": "page",
+    "title": "Radio Button Element",
+    "listed": true,
+    "slug": "/interactive-radio-button-element"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Label Element",
+    "permalink": "/docs/ui-kit/flutter/interactive-label-element"
+  },
+  "next": {
+    "title": "Check Box Element",
+    "permalink": "/docs/ui-kit/flutter/interactive-check-box-element"
+  }
+}

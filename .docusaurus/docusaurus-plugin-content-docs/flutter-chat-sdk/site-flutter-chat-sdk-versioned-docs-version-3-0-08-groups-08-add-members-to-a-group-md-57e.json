@@ -1,0 +1,29 @@
+{
+  "id": "Groups/Add Members to a Group",
+  "title": "Add Members to a Group",
+  "description": "Add Members to Group",
+  "source": "@site/flutter-chat-sdk_versioned_docs/version-3.0/08-Groups/08-Add Members to a Group.md",
+  "sourceDirName": "08-Groups",
+  "slug": "/groups-add-members-to-group",
+  "permalink": "/docs/sdk/flutter/3.0/groups-add-members-to-group",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "title": "Add Members to a Group",
+    "slug": "/groups-add-members-to-group"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Retrieve Group Members",
+    "permalink": "/docs/sdk/flutter/3.0/groups-retrieve-group-members"
+  },
+  "next": {
+    "title": "Ban/Kick Member from a Group",
+    "permalink": "/docs/sdk/flutter/3.0/groups-kick-ban-members"
+  }
+}

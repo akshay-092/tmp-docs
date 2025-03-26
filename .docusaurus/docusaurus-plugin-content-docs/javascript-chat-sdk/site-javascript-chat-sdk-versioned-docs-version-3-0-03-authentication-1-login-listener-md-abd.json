@@ -1,0 +1,29 @@
+{
+  "id": "Authentication/1 Login Listener",
+  "title": "Login Listener",
+  "description": "The CometChat SDK provides you with real-time updates for the login and logout events. This can be achieved using the LoginListener class provided. LoginListener consists of 4 events that can be triggered. These are as follows:",
+  "source": "@site/javascript-chat-sdk_versioned_docs/version-3.0/03-Authentication/1 Login Listener.md",
+  "sourceDirName": "03-Authentication",
+  "slug": "/authentication-login-listeners",
+  "permalink": "/docs/sdk/javascript/3.0/authentication-login-listeners",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Login Listener",
+    "slug": "/authentication-login-listeners"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Authentication",
+    "permalink": "/docs/sdk/javascript/3.0/authentication"
+  },
+  "next": {
+    "title": "Messaging",
+    "permalink": "/docs/sdk/javascript/3.0/messaging"
+  }
+}

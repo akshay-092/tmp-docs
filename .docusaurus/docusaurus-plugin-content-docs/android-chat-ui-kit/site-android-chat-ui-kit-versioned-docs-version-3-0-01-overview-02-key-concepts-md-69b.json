@@ -1,0 +1,29 @@
+{
+  "id": "overview/Key-Concepts",
+  "title": "Key-Concepts",
+  "description": "CometChat Dashboard",
+  "source": "@site/android-chat-ui-kit_versioned_docs/version-3.0/01-overview/02-Key-Concepts.md",
+  "sourceDirName": "01-overview",
+  "slug": "/key-concepts",
+  "permalink": "/docs/ui-kit/android/v3/key-concepts",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "sidebar_label": "Key Concepts",
+    "slug": "/key-concepts"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ConversationList",
+    "permalink": "/docs/ui-kit/android/v3/conversationlist"
+  },
+  "next": {
+    "title": "How to add UIKit Module?",
+    "permalink": "/docs/ui-kit/android/v3/how-to-add-uikit-module"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Components/Users/Users with Messages",
+  "title": "Users with Messages",
+  "description": "Overview",
+  "source": "@site/react-chat-ui-kit_versioned_docs/version-4.0/05-Components/02-Users/02-Users with Messages.md",
+  "sourceDirName": "05-Components/02-Users",
+  "slug": "/users-with-messages",
+  "permalink": "/docs/ui-kit/react/v4/users-with-messages",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "4.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Users with Messages",
+    "slug": "/users-with-messages"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Users",
+    "permalink": "/docs/ui-kit/react/v4/users"
+  },
+  "next": {
+    "title": "User Details",
+    "permalink": "/docs/ui-kit/react/v4/users-details"
+  }
+}

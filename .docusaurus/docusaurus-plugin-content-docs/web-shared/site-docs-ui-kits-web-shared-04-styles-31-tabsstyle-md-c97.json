@@ -1,0 +1,29 @@
+{
+  "id": "STYLES/tabsstyle",
+  "title": "TabsStyle",
+  "description": "Styling properties of CometChatTabs component.",
+  "source": "@site/docs/ui-kits/web-shared/04-STYLES/31-tabsstyle.md",
+  "sourceDirName": "04-STYLES",
+  "slug": "/tabsstyle",
+  "permalink": "/docs/web-shared/tabsstyle",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 31,
+  "frontMatter": {
+    "sidebar_position": 31,
+    "title": "TabsStyle",
+    "slug": "/tabsstyle"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "TabItemStyle",
+    "permalink": "/docs/web-shared/tabitemstyle"
+  },
+  "next": {
+    "title": "AISmartRepliesStyle",
+    "permalink": "/docs/web-shared/ai-smart-replies-style"
+  }
+}

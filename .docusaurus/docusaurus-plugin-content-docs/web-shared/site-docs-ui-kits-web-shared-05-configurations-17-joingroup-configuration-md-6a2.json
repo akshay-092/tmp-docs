@@ -1,0 +1,29 @@
+{
+  "id": "CONFIGURATIONS/joingroup-configuration",
+  "title": "JoinGroupConfiguration",
+  "description": "Configurable properties of CometChatJoinGroup component.",
+  "source": "@site/docs/ui-kits/web-shared/05-CONFIGURATIONS/17-joingroup-configuration.md",
+  "sourceDirName": "05-CONFIGURATIONS",
+  "slug": "/joingroup-configuration",
+  "permalink": "/docs/web-shared/joingroup-configuration",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 17,
+  "frontMatter": {
+    "sidebar_position": 17,
+    "title": "JoinGroupConfiguration",
+    "slug": "/joingroup-configuration"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CreateGroupConfiguration",
+    "permalink": "/docs/web-shared/creategroup-configuration"
+  },
+  "next": {
+    "title": "CallLogsConfiguration",
+    "permalink": "/docs/web-shared/call-logs-configuration"
+  }
+}

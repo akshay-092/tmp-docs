@@ -1,0 +1,29 @@
+{
+  "id": "Features/Extensions/User Engagement/6 Reactions/index",
+  "title": "Reactions",
+  "description": "Reactions are the ability to react to an individual message with a specific emotion, quickly showing acknowledgment or expressing how you feel in a lightweight way.",
+  "source": "@site/docs/fundamentals/04-Features/03-Extensions/03-User Engagement/6 Reactions/index.md",
+  "sourceDirName": "04-Features/03-Extensions/03-User Engagement/6 Reactions",
+  "slug": "/reactions",
+  "permalink": "/docs/fundamentals/reactions",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Reactions",
+    "slug": "/reactions"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Polls",
+    "permalink": "/docs/fundamentals/polls"
+  },
+  "next": {
+    "title": "Stipop",
+    "permalink": "/docs/fundamentals/stickers-stipop"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "CONFIGURATIONS/reaction-info-configuration",
+  "title": "ReactionInfoConfiguration",
+  "description": "You can modify the Reaction Info component's properties using the ReactionInfoConfiguration object. To use a configuration, you simply need to pass it to respective parameter.",
+  "source": "@site/docs/ui-kits/web-shared/05-CONFIGURATIONS/28-reaction-info-configuration.md",
+  "sourceDirName": "05-CONFIGURATIONS",
+  "slug": "/reaction-info-configuration",
+  "permalink": "/docs/web-shared/reaction-info-configuration",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 28,
+  "frontMatter": {
+    "sidebar_position": 28,
+    "title": "ReactionInfoConfiguration",
+    "slug": "/reaction-info-configuration"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ReactionsConfiguration",
+    "permalink": "/docs/web-shared/reactions-configuration"
+  },
+  "next": {
+    "title": "ReactionListConfiguration",
+    "permalink": "/docs/web-shared/reaction-list-configuration"
+  }
+}

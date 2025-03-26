@@ -1,0 +1,29 @@
+{
+  "id": "messaging/2 Receiving Messages/index",
+  "title": "Receive a Message",
+  "description": "Receiving messages with CometChat has two parts:",
+  "source": "@site/ios-chat-sdk_versioned_docs/version-3.0/04-messaging/2 Receiving Messages/index.md",
+  "sourceDirName": "04-messaging/2 Receiving Messages",
+  "slug": "/receive-a-message",
+  "permalink": "/docs/sdk/ios/3.0/receive-a-message",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Receive a Message",
+    "slug": "/receive-a-message"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Send a Message",
+    "permalink": "/docs/sdk/ios/3.0/send-a-message"
+  },
+  "next": {
+    "title": "Additional Message Filtering",
+    "permalink": "/docs/sdk/ios/3.0/additional-message-filtering"
+  }
+}

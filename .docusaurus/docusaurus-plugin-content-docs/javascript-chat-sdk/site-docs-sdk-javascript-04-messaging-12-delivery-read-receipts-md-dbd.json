@@ -1,0 +1,29 @@
+{
+  "id": "messaging/delivery-read-receipts",
+  "title": "Delivery & Read Receipts",
+  "description": "Mark Messages as Delivered",
+  "source": "@site/docs/sdk/javascript/04-messaging/12-delivery-read-receipts.md",
+  "sourceDirName": "04-messaging",
+  "slug": "/delivery-read-receipts",
+  "permalink": "/docs/sdk/javascript/delivery-read-receipts",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12,
+    "title": "Delivery & Read Receipts",
+    "slug": "/delivery-read-receipts"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Transient Messages",
+    "permalink": "/docs/sdk/javascript/transient-messages"
+  },
+  "next": {
+    "title": "Mentions",
+    "permalink": "/docs/sdk/javascript/mentions"
+  }
+}

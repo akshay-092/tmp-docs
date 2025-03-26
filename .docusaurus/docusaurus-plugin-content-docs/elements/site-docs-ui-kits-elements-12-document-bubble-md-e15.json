@@ -1,0 +1,29 @@
+{
+  "id": "document-bubble",
+  "title": "Document bubble",
+  "description": "This element is a card view consisting of title, subtitle, url, icon and a launch button.",
+  "source": "@site/docs/ui-kits/elements/12-document-bubble.md",
+  "sourceDirName": ".",
+  "slug": "/document-bubble",
+  "permalink": "/docs/web-elements/document-bubble",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12,
+    "title": "Document bubble",
+    "slug": "/document-bubble"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Video bubble",
+    "permalink": "/docs/web-elements/video-bubble"
+  },
+  "next": {
+    "title": "Emoji Keyboard",
+    "permalink": "/docs/web-elements/emoji-keyboard"
+  }
+}

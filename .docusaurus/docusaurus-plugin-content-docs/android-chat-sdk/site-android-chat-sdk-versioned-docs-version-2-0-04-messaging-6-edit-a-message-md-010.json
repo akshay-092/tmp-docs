@@ -1,0 +1,29 @@
+{
+  "id": "Messaging/6 Edit a Message",
+  "title": "Edit a Message",
+  "description": "While editing a message is straightforward, receiving events for edited messages with CometChat has two parts:",
+  "source": "@site/android-chat-sdk_versioned_docs/version-2.0/04-Messaging/6 Edit a Message.md",
+  "sourceDirName": "04-Messaging",
+  "slug": "/edit-message",
+  "permalink": "/docs/sdk/android/2.0/edit-message",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "2.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Edit a Message",
+    "slug": "/edit-message"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Threaded Messages",
+    "permalink": "/docs/sdk/android/2.0/threaded-messages"
+  },
+  "next": {
+    "title": "Delete a Message",
+    "permalink": "/docs/sdk/android/2.0/delete-message"
+  }
+}

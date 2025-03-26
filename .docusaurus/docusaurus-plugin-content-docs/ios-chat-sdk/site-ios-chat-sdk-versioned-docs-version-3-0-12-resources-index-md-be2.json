@@ -1,0 +1,29 @@
+{
+  "id": "resources/index",
+  "title": "Resources",
+  "description": "We have a number of resources that will help you while integrating CometChat in your app.",
+  "source": "@site/ios-chat-sdk_versioned_docs/version-3.0/12-resources/index.md",
+  "sourceDirName": "12-resources",
+  "slug": "/resources",
+  "permalink": "/docs/sdk/ios/3.0/resources",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12,
+    "title": "Resources",
+    "slug": "/resources"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Webhooks",
+    "permalink": "/docs/sdk/ios/3.0/webhooks"
+  },
+  "next": {
+    "title": "All Real-Time Delegates (Listeners)",
+    "permalink": "/docs/sdk/ios/3.0/all-real-time-delegates-listeners"
+  }
+}

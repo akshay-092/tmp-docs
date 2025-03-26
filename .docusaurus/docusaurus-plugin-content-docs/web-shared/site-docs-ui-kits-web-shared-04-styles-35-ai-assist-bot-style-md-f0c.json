@@ -1,0 +1,29 @@
+{
+  "id": "STYLES/ai-assist-bot-style",
+  "title": "AIAssistBotStyle",
+  "description": "Styling properties of AIAssistBot component.",
+  "source": "@site/docs/ui-kits/web-shared/04-STYLES/35-ai-assist-bot-style.md",
+  "sourceDirName": "04-STYLES",
+  "slug": "/ai-assist-bot-style",
+  "permalink": "/docs/web-shared/ai-assist-bot-style",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 35,
+  "frontMatter": {
+    "sidebar_position": 35,
+    "title": "AIAssistBotStyle",
+    "slug": "/ai-assist-bot-style"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AIConversationSummaryStyle",
+    "permalink": "/docs/web-shared/ai-conversation-summary-style"
+  },
+  "next": {
+    "title": "ReactionsStyle",
+    "permalink": "/docs/web-shared/reactions-style"
+  }
+}

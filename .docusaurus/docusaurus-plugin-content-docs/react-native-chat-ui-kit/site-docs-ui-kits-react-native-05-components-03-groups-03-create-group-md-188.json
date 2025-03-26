@@ -1,0 +1,29 @@
+{
+  "id": "Components/Groups/Create Group",
+  "title": "Create Group",
+  "description": "Overview",
+  "source": "@site/docs/ui-kits/react-native/05-Components/03-Groups/03-Create Group.md",
+  "sourceDirName": "05-Components/03-Groups",
+  "slug": "/create-group",
+  "permalink": "/docs/ui-kit/react-native/create-group",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Create Group",
+    "slug": "/create-group"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Groups with Messages",
+    "permalink": "/docs/ui-kit/react-native/groups-with-messages"
+  },
+  "next": {
+    "title": "Join Protected Group",
+    "permalink": "/docs/ui-kit/react-native/join-protected-group"
+  }
+}

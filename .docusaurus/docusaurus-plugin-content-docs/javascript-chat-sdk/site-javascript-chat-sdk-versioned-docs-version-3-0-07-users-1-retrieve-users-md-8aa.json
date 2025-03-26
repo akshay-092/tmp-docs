@@ -1,0 +1,29 @@
+{
+  "id": "Users/1 Retrieve Users",
+  "title": "Retrieve Users",
+  "description": "Retrieve Logged In User Details",
+  "source": "@site/javascript-chat-sdk_versioned_docs/version-3.0/07-Users/1 Retrieve Users.md",
+  "sourceDirName": "07-Users",
+  "slug": "/users-retrieve-users",
+  "permalink": "/docs/sdk/javascript/3.0/users-retrieve-users",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Retrieve Users",
+    "slug": "/users-retrieve-users"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Users",
+    "permalink": "/docs/sdk/javascript/3.0/users"
+  },
+  "next": {
+    "title": "User Management",
+    "permalink": "/docs/sdk/javascript/3.0/users-user-management"
+  }
+}

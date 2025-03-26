@@ -1,0 +1,29 @@
+{
+  "id": "Calling v3/Recording 3",
+  "title": "Recording",
+  "description": "This section will guide you to implement call recording feature for the voice and video calls.",
+  "source": "@site/android-chat-sdk_versioned_docs/version-3.0/05-Calling v3/05-Recording 3.md",
+  "sourceDirName": "05-Calling v3",
+  "slug": "/calling-recording-v3",
+  "permalink": "/docs/sdk/android/3.0/calling-recording-v3",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Recording",
+    "slug": "/calling-recording-v3"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Video view customisation",
+    "permalink": "/docs/sdk/android/3.0/video-view-customisation-v3"
+  },
+  "next": {
+    "title": "Presenter Mode",
+    "permalink": "/docs/sdk/android/3.0/presenter-mode"
+  }
+}

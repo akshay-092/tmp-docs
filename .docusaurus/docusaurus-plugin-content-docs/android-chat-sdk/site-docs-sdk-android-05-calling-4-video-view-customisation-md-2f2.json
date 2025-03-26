@@ -1,0 +1,29 @@
+{
+  "id": "Calling/4 Video view customisation",
+  "title": "Video View Customisation",
+  "description": "This section will guide you to customise the main video container.",
+  "source": "@site/docs/sdk/android/05-Calling/4 Video view customisation.md",
+  "sourceDirName": "05-Calling",
+  "slug": "/video-view-customisation",
+  "permalink": "/docs/sdk/android/video-view-customisation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Video View Customisation",
+    "slug": "/video-view-customisation"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Recording",
+    "permalink": "/docs/sdk/android/recording"
+  },
+  "next": {
+    "title": "Presenter Mode",
+    "permalink": "/docs/sdk/android/presenter-mode"
+  }
+}

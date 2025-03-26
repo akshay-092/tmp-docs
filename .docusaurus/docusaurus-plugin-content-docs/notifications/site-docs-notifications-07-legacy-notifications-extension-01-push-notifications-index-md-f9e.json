@@ -1,0 +1,29 @@
+{
+  "id": "Legacy Notifications (Extension)/push-notifications/index",
+  "title": "Push Notification Extension",
+  "description": "Learn how to send push notifications to mobile apps and desktop browsers.",
+  "source": "@site/docs/notifications/07-Legacy Notifications (Extension)/01-push-notifications/index.md",
+  "sourceDirName": "07-Legacy Notifications (Extension)/01-push-notifications",
+  "slug": "/push-notification-extension-overview",
+  "permalink": "/docs/notifications/push-notification-extension-overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Push Notification Extension",
+    "slug": "/push-notification-extension-overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Preferences, Templates & Sounds",
+    "permalink": "/docs/notifications/preferences-templates-sounds"
+  },
+  "next": {
+    "title": "Web",
+    "permalink": "/docs/notifications/web-push-notifications"
+  }
+}

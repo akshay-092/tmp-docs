@@ -1,0 +1,29 @@
+{
+  "id": "Users/User Details",
+  "title": "User Details",
+  "description": "CometChatDetails is a component that provides additional information and settings related to a specific user.",
+  "source": "@site/docs/ui-kits/vue/07-Users/03-User Details.md",
+  "sourceDirName": "07-Users",
+  "slug": "/user-details",
+  "permalink": "/docs/ui-kit/vue/user-details",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "User Details",
+    "slug": "/user-details"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Users",
+    "permalink": "/docs/ui-kit/vue/users"
+  },
+  "next": {
+    "title": "Groups with Messages",
+    "permalink": "/docs/ui-kit/vue/groups-with-messages"
+  }
+}

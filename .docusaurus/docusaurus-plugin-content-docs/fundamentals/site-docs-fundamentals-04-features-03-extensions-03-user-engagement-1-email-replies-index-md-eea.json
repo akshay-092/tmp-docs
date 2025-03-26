@@ -1,0 +1,29 @@
+{
+  "id": "Features/Extensions/User Engagement/1 Email Replies/index",
+  "title": "Email Replies",
+  "description": "About the extension",
+  "source": "@site/docs/fundamentals/04-Features/03-Extensions/03-User Engagement/1 Email Replies/index.md",
+  "sourceDirName": "04-Features/03-Extensions/03-User Engagement/1 Email Replies",
+  "slug": "/email-replies",
+  "permalink": "/docs/fundamentals/email-replies",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Email Replies",
+    "slug": "/email-replies"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Notifications",
+    "permalink": "/docs/fundamentals/notification-extensions"
+  },
+  "next": {
+    "title": "Smart Replies",
+    "permalink": "/docs/fundamentals/smart-replies"
+  }
+}

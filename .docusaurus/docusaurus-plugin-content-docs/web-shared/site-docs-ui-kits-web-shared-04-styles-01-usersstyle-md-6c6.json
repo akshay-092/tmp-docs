@@ -1,0 +1,29 @@
+{
+  "id": "STYLES/usersstyle",
+  "title": "UsersStyle",
+  "description": "Styling properties of CometChatUsers component.",
+  "source": "@site/docs/ui-kits/web-shared/04-STYLES/01-usersstyle.md",
+  "sourceDirName": "04-STYLES",
+  "slug": "/usersstyle",
+  "permalink": "/docs/web-shared/usersstyle",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "UsersStyle",
+    "slug": "/usersstyle"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "LabelAlignment",
+    "permalink": "/docs/web-shared/labelalignment"
+  },
+  "next": {
+    "title": "GroupsStyle",
+    "permalink": "/docs/web-shared/groupsstyle"
+  }
+}

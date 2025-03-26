@@ -1,0 +1,29 @@
+{
+  "id": "Components/Groups/join-protected-group",
+  "title": "Join Protected Group",
+  "description": "Overview",
+  "source": "@site/android-chat-ui-kit_versioned_docs/version-4.0/05-Components/03-Groups/04-join-protected-group.md",
+  "sourceDirName": "05-Components/03-Groups",
+  "slug": "/join-protected-group",
+  "permalink": "/docs/ui-kit/android/v4/join-protected-group",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "4.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Join Protected Group",
+    "slug": "/join-protected-group"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create Group",
+    "permalink": "/docs/ui-kit/android/v4/create-group"
+  },
+  "next": {
+    "title": "Group Members",
+    "permalink": "/docs/ui-kit/android/v4/group-members"
+  }
+}

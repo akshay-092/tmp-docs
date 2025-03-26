@@ -1,0 +1,29 @@
+{
+  "id": "Getting Started/nextjs-integration",
+  "title": "Next.js Integration",
+  "description": "Start your first conversation",
+  "source": "@site/react-chat-ui-kit_versioned_docs/version-5.0/02-Getting Started/02-nextjs-integration.md",
+  "sourceDirName": "02-Getting Started",
+  "slug": "/integration/next-js",
+  "permalink": "/docs/ui-kit/react/v5/integration/next-js",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "5.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Next.js Integration",
+    "slug": "/integration/next-js"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "React Integration",
+    "permalink": "/docs/ui-kit/react/v5/integration"
+  },
+  "next": {
+    "title": "Core",
+    "permalink": "/docs/ui-kit/react/v5/core-features"
+  }
+}

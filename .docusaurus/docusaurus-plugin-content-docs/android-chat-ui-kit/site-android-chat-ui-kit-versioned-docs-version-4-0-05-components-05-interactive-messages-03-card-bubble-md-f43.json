@@ -1,0 +1,29 @@
+{
+  "id": "Components/Interactive Messages/Card Bubble",
+  "title": "Card Bubble",
+  "description": "The CometChatCardBubble component is used to display a card within a chat bubble. The card includes an image, text, and action buttons. It helps to offer action-oriented chat experiences, like booking a flight, ordering food, scheduling a meeting, etc., directly in the chat.",
+  "source": "@site/android-chat-ui-kit_versioned_docs/version-4.0/05-Components/05-Interactive Messages/03-Card Bubble.md",
+  "sourceDirName": "05-Components/05-Interactive Messages",
+  "slug": "/interactive-card-bubble",
+  "permalink": "/docs/ui-kit/android/v4/interactive-card-bubble",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "4.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Card Bubble",
+    "slug": "/interactive-card-bubble"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Form Message",
+    "permalink": "/docs/ui-kit/android/v4/interactive-form-message"
+  },
+  "next": {
+    "title": "Card Message",
+    "permalink": "/docs/ui-kit/android/v4/interactive-card-message"
+  }
+}

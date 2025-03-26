@@ -1,0 +1,29 @@
+{
+  "id": "Components/Base-Components/status-indicator",
+  "title": "Status Indicator",
+  "description": "CometChatStatusIndicator is a component which indicates whether user is online or offline. You can customize the border and background color of this component.",
+  "source": "@site/docs/ui-kits/flutter/05-Components/07-Base-Components/01-status-indicator.md",
+  "sourceDirName": "05-Components/07-Base-Components",
+  "slug": "/status-indicator",
+  "permalink": "/docs/ui-kit/flutter/status-indicator",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Status Indicator",
+    "slug": "/status-indicator"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Call Log With Details",
+    "permalink": "/docs/ui-kit/flutter/call-log-with-details"
+  },
+  "next": {
+    "title": "Badge",
+    "permalink": "/docs/ui-kit/flutter/badge"
+  }
+}

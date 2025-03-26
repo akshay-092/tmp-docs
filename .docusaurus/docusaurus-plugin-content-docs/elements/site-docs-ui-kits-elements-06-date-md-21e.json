@@ -1,0 +1,29 @@
+{
+  "id": "date",
+  "title": "Date",
+  "description": "This element displays the date with the in-built support of 3 date patterns.",
+  "source": "@site/docs/ui-kits/elements/06-date.md",
+  "sourceDirName": ".",
+  "slug": "/date",
+  "permalink": "/docs/web-elements/date",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Date",
+    "slug": "/date"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Receipt",
+    "permalink": "/docs/web-elements/receipt"
+  },
+  "next": {
+    "title": "Text bubble",
+    "permalink": "/docs/web-elements/text-bubble"
+  }
+}

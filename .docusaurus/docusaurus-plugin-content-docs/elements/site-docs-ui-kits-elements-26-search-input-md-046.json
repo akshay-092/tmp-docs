@@ -1,0 +1,29 @@
+{
+  "id": "search-input",
+  "title": "Search Input",
+  "description": "This element is built on top of Input element and enables users to enter a search string.",
+  "source": "@site/docs/ui-kits/elements/26-search-input.md",
+  "sourceDirName": ".",
+  "slug": "/search-input",
+  "permalink": "/docs/web-elements/search-input",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 26,
+  "frontMatter": {
+    "sidebar_position": 26,
+    "title": "Search Input",
+    "slug": "/search-input"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Input",
+    "permalink": "/docs/web-elements/input"
+  },
+  "next": {
+    "title": "Message Input",
+    "permalink": "/docs/web-elements/message-input"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "calling-v3/2 Default Calling 2",
+  "title": "Default Calling",
+  "description": "This section will provide information on how a complete calling workflow can be set up using the CometChat SDK. We've built the complete workflow to help your users make calls, receive calls as well as accept/reject calls.",
+  "source": "@site/docs/sdk/ionic/05-calling-v3/2 Default Calling 2.md",
+  "sourceDirName": "05-calling-v3",
+  "slug": "/default-call",
+  "permalink": "/docs/sdk/ionic/default-call",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Default Calling",
+    "slug": "/default-call"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Setup",
+    "permalink": "/docs/sdk/ionic/calling-setup"
+  },
+  "next": {
+    "title": "Direct Calling",
+    "permalink": "/docs/sdk/ionic/direct-call"
+  }
+}

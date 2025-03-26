@@ -1,0 +1,29 @@
+{
+  "id": "Components/Message-composer",
+  "title": "Message Composer",
+  "description": "Overview",
+  "source": "@site/react-chat-ui-kit_versioned_docs/version-5.0/05-Components/07-Message-composer.md",
+  "sourceDirName": "05-Components",
+  "slug": "/message-composer",
+  "permalink": "/docs/ui-kit/react/v5/message-composer",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "5.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "title": "Message Composer",
+    "slug": "/message-composer"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Message List",
+    "permalink": "/docs/ui-kit/react/v5/message-list"
+  },
+  "next": {
+    "title": "Message Template",
+    "permalink": "/docs/ui-kit/react/v5/message-template"
+  }
+}

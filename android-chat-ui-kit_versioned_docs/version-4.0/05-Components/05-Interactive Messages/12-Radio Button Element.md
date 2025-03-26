@@ -1,0 +1,83 @@
+---
+sidebar_position: 12
+title: Radio Button Element
+slug: /interactive-radio-button-element
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+The `RadioButtonElement` class is utilised to create a single selection input element in a user interface.
+
+### Constructor
+
+| Name      | Type                  | Description                                                 |
+| --------- | --------------------- | ----------------------------------------------------------- |
+| elementId | `string`              | This property in constructor accepts the Id for the element |
+| label     | `string`              | This property in constructor accepts the label for radio    |
+| options   | `List<OptionElement>` | This property in constructor accepts options for radio      |
+
+### Class Usage
+
+Here's how to create an instance of the `RadioButtonElement` class:
+
+<Tabs>
+<TabItem value="java" label="Java">
+
+```java
+OptionElement option1 = new OptionElement("Option1", "1");
+OptionElement option2 = new OptionElement("Option2", "2");
+List<OptionElement> optionElementList = new ArrayList<>();
+optionElementList.add(option1);
+optionElementList.add(option2);
+
+RadioButtonElement radioButtonElement = new RadioButtonElement("idSelect", "Choose an option", optionElementList);
+```
+
+</TabItem>
+</Tabs>
+
+In this example, a new instance of `RadioButtonElement` is created with an elementId "idSelect", a label "Choose an option", and a list of two options.
+
+### Key Properties and Methods
+
+#### Default Value of the Input Element
+
+The `setDefaultValue()` method sets the default value in the single select input, while the `getDefaultValue()` retrieves it.
+
+For example:
+
+<Tabs>
+<TabItem value="java" label="Java">
+
+```java
+radioButtonElement.setDefaultValue("1");
+```
+
+</TabItem>
+</Tabs>
+
+### Example
+
+Here is an example that showcases the creation and manipulation of an instance of `SingleSelectElement`:
+
+<Tabs>
+<TabItem value="java" label="Java">
+
+```java
+// Create some options
+OptionElement option1 = new OptionElement("Option1", "1");
+OptionElement option2 = new OptionElement("Option2", "2");
+List<OptionElement> optionElementList = new ArrayList<>();
+optionElementList.add(option1);
+optionElementList.add(option2);
+
+// Create a new instance of SingleSelectElement
+RadioButtonElement radioButtonElement = new SingleSelectElement("1", "Choose an option", optionsList);
+
+// Set and get the default value
+radioButtonElement.setDefaultValue("1");
+```
+
+</TabItem>
+</Tabs>

@@ -1,0 +1,62 @@
+[
+  {
+    "from": "/extensions/web-push-notifications",
+    "to": "/notifications/web-push-notifications"
+  },
+  {
+    "from": "/extensions/android-push-notifications",
+    "to": "/notifications/android-push-notifications"
+  },
+  {
+    "from": "/extensions/android-connection-service",
+    "to": "/notifications/android-connection-service"
+  },
+  {
+    "from": "/extensions/ios-fcm-push-notifications",
+    "to": "/notifications/ios-fcm-push-notifications"
+  },
+  {
+    "from": "/extensions/ios-apns-push-notifications",
+    "to": "/notifications/ios-apns-push-notifications"
+  },
+  {
+    "from": "/extensions/flutter-push-notifications",
+    "to": "/notifications/flutter-push-notifications"
+  },
+  {
+    "from": "/extensions/react-native-push-notifications",
+    "to": "/notifications/react-native-push-notifications"
+  },
+  {
+    "from": "/extensions/capacitor-cordova-ionic-push-notifications",
+    "to": "/notifications/capacitor-cordova-ionic-push-notifications"
+  },
+  {
+    "from": "/extensions/migration-guide-push-notifications",
+    "to": "/notifications/migration-guide-push-notifications"
+  },
+  {
+    "from": "/extensions/mute-functionality",
+    "to": "/notifications/mute-functionality"
+  },
+  {
+    "from": "/extensions/token-management",
+    "to": "/notifications/token-management"
+  },
+  {
+    "from": "/extensions/legacy-push-notifications",
+    "to": "/notifications/legacy-push-notifications"
+  },
+  {
+    "from": "/extensions/push-notifications-overview",
+    "to": "/notifications/push-notification-extension-overview"
+  },
+  {
+    "from": "/extensions/email-notifications",
+    "to": "/notifications/email-notification-extension"
+  },
+  {
+    "from": "/extensions/sms-notifications",
+    "to": "/notifications/sms-notification-extension"
+  }
+]

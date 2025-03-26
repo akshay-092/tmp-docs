@@ -1,0 +1,29 @@
+{
+  "id": "Components/Base-Components/media-recorder",
+  "title": "Media Recorder",
+  "description": "CometChatMediaRecorder is a class that allows users to record and send audio  messages. It has a start button to start recording, a stop button to stop recording, a play button to play the recorded message, a pause button to pause the recorded message, a submit button to submit the recorded message and a close button to close the media recorder.",
+  "source": "@site/docs/ui-kits/flutter/05-Components/07-Base-Components/19-media-recorder.md",
+  "sourceDirName": "05-Components/07-Base-Components",
+  "slug": "/media-recorder",
+  "permalink": "/docs/ui-kit/flutter/media-recorder",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 19,
+  "frontMatter": {
+    "sidebar_position": 19,
+    "title": "Media Recorder",
+    "slug": "/media-recorder"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Button",
+    "permalink": "/docs/ui-kit/flutter/button"
+  },
+  "next": {
+    "title": "Call Bubble",
+    "permalink": "/docs/ui-kit/flutter/call-bubble"
+  }
+}

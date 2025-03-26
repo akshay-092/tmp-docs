@@ -1,0 +1,29 @@
+{
+  "id": "Components/Interactive Messages/Element Entity",
+  "title": "Element Entity",
+  "description": "This is the base class for every element possible in the Interactive message component, defined by cometchat",
+  "source": "@site/docs/ui-kits/react-native/05-Components/05-Interactive Messages/05-Element Entity.md",
+  "sourceDirName": "05-Components/05-Interactive Messages",
+  "slug": "/interactive-element-entity",
+  "permalink": "/docs/ui-kit/react-native/interactive-element-entity",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Element Entity",
+    "slug": "/interactive-element-entity"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Card Message",
+    "permalink": "/docs/ui-kit/react-native/interactive-card-message"
+  },
+  "next": {
+    "title": "Action Entity",
+    "permalink": "/docs/ui-kit/react-native/interactive-action-entity"
+  }
+}

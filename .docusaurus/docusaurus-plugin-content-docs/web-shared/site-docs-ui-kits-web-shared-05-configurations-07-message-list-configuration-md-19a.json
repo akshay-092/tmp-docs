@@ -1,0 +1,29 @@
+{
+  "id": "CONFIGURATIONS/message-list-configuration",
+  "title": "MessageListConfiguration",
+  "description": "This refers to the properties of the CometChatMessageList component that are available for customisation via the parent component when the component exists in a deep nested hierarchy.",
+  "source": "@site/docs/ui-kits/web-shared/05-CONFIGURATIONS/07-message-list-configuration.md",
+  "sourceDirName": "05-CONFIGURATIONS",
+  "slug": "/message-list-configuration",
+  "permalink": "/docs/web-shared/message-list-configuration",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "title": "MessageListConfiguration",
+    "slug": "/message-list-configuration"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MessageHeaderConfiguration",
+    "permalink": "/docs/web-shared/message-header-configuration"
+  },
+  "next": {
+    "title": "MessageComposerConfiguration",
+    "permalink": "/docs/web-shared/message-composer-configuration"
+  }
+}

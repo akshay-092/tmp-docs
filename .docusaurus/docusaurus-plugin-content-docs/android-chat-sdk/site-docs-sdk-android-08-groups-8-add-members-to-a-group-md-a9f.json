@@ -1,0 +1,29 @@
+{
+  "id": "Groups/8 Add Members To a Group",
+  "title": "Add Members To A Group",
+  "description": "Add Members to Group",
+  "source": "@site/docs/sdk/android/08-Groups/8 Add Members To a Group.md",
+  "sourceDirName": "08-Groups",
+  "slug": "/group-add-members",
+  "permalink": "/docs/sdk/android/group-add-members",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "title": "Add Members To A Group",
+    "slug": "/group-add-members"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Retrieve Group Members",
+    "permalink": "/docs/sdk/android/retrieve-group-members"
+  },
+  "next": {
+    "title": "Ban/Kick Member from a Group",
+    "permalink": "/docs/sdk/android/group-kick-member"
+  }
+}

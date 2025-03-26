@@ -1,0 +1,29 @@
+{
+  "id": "calling/video-view-customisation",
+  "title": "Video View Customisation",
+  "description": "This section will guide you to customise the main video container.",
+  "source": "@site/docs/sdk/react-native/05-calling/04-video-view-customisation.md",
+  "sourceDirName": "05-calling",
+  "slug": "/video-view-customisation",
+  "permalink": "/docs/sdk/react-native/video-view-customisation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Video View Customisation",
+    "slug": "/video-view-customisation"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Recording (Beta)",
+    "permalink": "/docs/sdk/react-native/recording"
+  },
+  "next": {
+    "title": "Presenter Mode",
+    "permalink": "/docs/sdk/react-native/presenter-mode"
+  }
+}

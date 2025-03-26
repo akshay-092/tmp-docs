@@ -1,0 +1,29 @@
+{
+  "id": "calling/call-logs",
+  "title": "Call Logs",
+  "description": "Overview",
+  "source": "@site/docs/sdk/javascript/05-calling/09-call-logs.md",
+  "sourceDirName": "05-calling",
+  "slug": "/call-logs",
+  "permalink": "/docs/sdk/javascript/call-logs",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9,
+    "title": "Call Logs",
+    "slug": "/call-logs"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Presenter Mode",
+    "permalink": "/docs/sdk/javascript/presenter-mode"
+  },
+  "next": {
+    "title": "Users",
+    "permalink": "/docs/sdk/javascript/users-overview"
+  }
+}

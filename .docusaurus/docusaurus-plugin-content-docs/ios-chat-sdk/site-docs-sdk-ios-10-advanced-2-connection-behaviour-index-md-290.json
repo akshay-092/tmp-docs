@@ -1,0 +1,29 @@
+{
+  "id": "advanced/2 Connection Behaviour/index",
+  "title": "Connection behaviour",
+  "description": "Default SDK behaviour",
+  "source": "@site/docs/sdk/ios/10-advanced/2 Connection Behaviour/index.md",
+  "sourceDirName": "10-advanced/2 Connection Behaviour",
+  "slug": "/web-socket-connection-behaviour",
+  "permalink": "/docs/sdk/ios/web-socket-connection-behaviour",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Connection behaviour",
+    "slug": "/web-socket-connection-behaviour"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Connection Status",
+    "permalink": "/docs/sdk/ios/connection-status"
+  },
+  "next": {
+    "title": "Managing Web-Socket connections manually",
+    "permalink": "/docs/sdk/ios/managing-web-socket-connections-manually"
+  }
+}

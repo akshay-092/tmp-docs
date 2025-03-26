@@ -1,0 +1,29 @@
+{
+  "id": "CONFIGURATIONS/message-information-configuration",
+  "title": "MessageInformationConfiguration",
+  "description": "This refers to the properties of the CometChatMessageInformation component that are available for customisation via the parent component when the component exists in a deep nested hierarchy.",
+  "source": "@site/docs/ui-kits/web-shared/05-CONFIGURATIONS/15-message-information-configuration.md",
+  "sourceDirName": "05-CONFIGURATIONS",
+  "slug": "/message-information-configuration",
+  "permalink": "/docs/web-shared/message-information-configuration",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 15,
+  "frontMatter": {
+    "sidebar_position": 15,
+    "title": "MessageInformationConfiguration",
+    "slug": "/message-information-configuration"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "TransferOwnershipConfiguration",
+    "permalink": "/docs/web-shared/transfer-ownership-configuration"
+  },
+  "next": {
+    "title": "CreateGroupConfiguration",
+    "permalink": "/docs/web-shared/creategroup-configuration"
+  }
+}

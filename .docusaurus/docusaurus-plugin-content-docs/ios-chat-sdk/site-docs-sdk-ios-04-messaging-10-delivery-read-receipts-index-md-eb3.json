@@ -1,0 +1,29 @@
+{
+  "id": "messaging/10 Delivery & Read Receipts/index",
+  "title": "Delivery & Read Receipts",
+  "description": "Mark Messages as Delivered",
+  "source": "@site/docs/sdk/ios/04-messaging/10 Delivery & Read Receipts/index.md",
+  "sourceDirName": "04-messaging/10 Delivery & Read Receipts",
+  "slug": "/delivery-read-receipts",
+  "permalink": "/docs/sdk/ios/delivery-read-receipts",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10,
+    "title": "Delivery & Read Receipts",
+    "slug": "/delivery-read-receipts"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Typing Indicators",
+    "permalink": "/docs/sdk/ios/typing-indicators"
+  },
+  "next": {
+    "title": "Interactive Messages",
+    "permalink": "/docs/sdk/ios/interactive-messages"
+  }
+}

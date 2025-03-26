@@ -1,0 +1,29 @@
+{
+  "id": "resources/8 Upgrading from v3/index",
+  "title": "Upgrading from v3",
+  "description": "Upgrading from v3 to v4 is fairly simple. Below are the major changes that are released as a part of CometChat v4. We have renamed our SDK from CometChatPro to CometChatSDK and CometChatCalls to CometChatCallsSDK for Chat and Calls SDK receptively. Note only import name is changed all class name inside the SDKs are same as it is before. There will only be few changes required for v4 migration. Let's start!",
+  "source": "@site/docs/sdk/ios/13-resources/8 Upgrading from v3/index.md",
+  "sourceDirName": "13-resources/8 Upgrading from v3",
+  "slug": "/upgrading-from-v3-to-v4",
+  "permalink": "/docs/sdk/ios/upgrading-from-v3-to-v4",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "title": "Upgrading from v3",
+    "slug": "/upgrading-from-v3-to-v4"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Prepare your app for background updates",
+    "permalink": "/docs/sdk/ios/prepare-your-app-for-background-updates"
+  },
+  "next": {
+    "title": "Upgrading from v2",
+    "permalink": "/docs/sdk/ios/upgrading-from-v2"
+  }
+}

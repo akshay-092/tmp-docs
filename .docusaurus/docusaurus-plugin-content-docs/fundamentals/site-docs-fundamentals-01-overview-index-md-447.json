@@ -1,0 +1,26 @@
+{
+  "id": "overview/index",
+  "title": "What is CometChat?",
+  "description": "CometChat is a comprehensive communications platform that empowers businesses to seamlessly integrate real-time chat, voice and video calling functionalities. These integrations can be done picking up the implementation methods that align best with your goals.",
+  "source": "@site/docs/fundamentals/01-overview/index.md",
+  "sourceDirName": "01-overview",
+  "slug": "/overview",
+  "permalink": "/docs/fundamentals/overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0,
+    "sidebar_label": "Overview",
+    "title": "What is CometChat?",
+    "slug": "/overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Implementation checklist",
+    "permalink": "/docs/fundamentals/implementation-checklist"
+  }
+}

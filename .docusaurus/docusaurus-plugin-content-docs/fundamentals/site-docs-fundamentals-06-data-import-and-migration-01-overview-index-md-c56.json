@@ -1,0 +1,29 @@
+{
+  "id": "Data import and migration/Overview/index",
+  "title": "Overview",
+  "description": "Data import and migration, in the context of CometChat, involves transferring your existing chat-related data from your own servers or another chat service provider to the CometChat platform. This process typically encompasses the migration of users, their messages, any chat groups, and the list of members within those groups. The goal of migration is to ensure a seamless transition and continuity of the chat service for your users.",
+  "source": "@site/docs/fundamentals/06-Data import and migration/01-Overview/index.md",
+  "sourceDirName": "06-Data import and migration/01-Overview",
+  "slug": "/data-import-and-migration-overview",
+  "permalink": "/docs/fundamentals/data-import-and-migration-overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0,
+    "title": "Overview",
+    "slug": "/data-import-and-migration-overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Best practices",
+    "permalink": "/docs/fundamentals/multi-tenancy-best-practices"
+  },
+  "next": {
+    "title": "Import historical data",
+    "permalink": "/docs/fundamentals/import-historical-data"
+  }
+}

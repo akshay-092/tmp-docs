@@ -1,0 +1,29 @@
+{
+  "id": "Components/Group-members",
+  "title": "Group Members",
+  "description": "Overview",
+  "source": "@site/react-chat-ui-kit_versioned_docs/version-5.0/05-Components/04-Group-members.md",
+  "sourceDirName": "05-Components",
+  "slug": "/group-members",
+  "permalink": "/docs/ui-kit/react/v5/group-members",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "5.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Group Members",
+    "slug": "/group-members"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Groups",
+    "permalink": "/docs/ui-kit/react/v5/groups"
+  },
+  "next": {
+    "title": "Message Header",
+    "permalink": "/docs/ui-kit/react/v5/message-header"
+  }
+}

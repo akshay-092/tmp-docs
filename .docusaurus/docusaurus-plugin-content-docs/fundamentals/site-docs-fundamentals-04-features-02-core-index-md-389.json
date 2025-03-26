@@ -1,0 +1,30 @@
+{
+  "id": "Features/core/index",
+  "title": "Core in-app messaging features",
+  "description": "CometChat provides a powerful suite of messaging features. A subset of these features called 'Messaging Core' provide features which are bare minimum to build a good chat user experience.",
+  "source": "@site/docs/fundamentals/04-Features/02-core/index.md",
+  "sourceDirName": "04-Features/02-core",
+  "slug": "/features-core",
+  "permalink": "/docs/fundamentals/features-core",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0,
+    "sidebar_label": "Core",
+    "title": "Core in-app messaging features",
+    "slug": "/features-core"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Key concepts",
+    "permalink": "/docs/fundamentals/key-concepts"
+  },
+  "next": {
+    "title": "Extensions",
+    "permalink": "/docs/fundamentals/extensions-overview"
+  }
+}

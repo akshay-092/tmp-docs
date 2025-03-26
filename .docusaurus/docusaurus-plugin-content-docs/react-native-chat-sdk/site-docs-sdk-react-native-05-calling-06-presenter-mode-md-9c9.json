@@ -1,0 +1,29 @@
+{
+  "id": "calling/presenter-mode",
+  "title": "Presenter Mode",
+  "description": "Overview",
+  "source": "@site/docs/sdk/react-native/05-calling/06-presenter-mode.md",
+  "sourceDirName": "05-calling",
+  "slug": "/presenter-mode",
+  "permalink": "/docs/sdk/react-native/presenter-mode",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Presenter Mode",
+    "slug": "/presenter-mode"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Video View Customisation",
+    "permalink": "/docs/sdk/react-native/video-view-customisation"
+  },
+  "next": {
+    "title": "Call Logs",
+    "permalink": "/docs/sdk/react-native/call-logs"
+  }
+}

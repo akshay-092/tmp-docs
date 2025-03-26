@@ -1,0 +1,29 @@
+{
+  "id": "Groups/4 Join a Group",
+  "title": "Join a Group",
+  "description": "Join a Group",
+  "source": "@site/javascript-chat-sdk_versioned_docs/version-3.0/09-Groups/4 Join a Group.md",
+  "sourceDirName": "09-Groups",
+  "slug": "/groups-join-group",
+  "permalink": "/docs/sdk/javascript/3.0/groups-join-group",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Join a Group",
+    "slug": "/groups-join-group"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Update a Group",
+    "permalink": "/docs/sdk/javascript/3.0/groups-update-group"
+  },
+  "next": {
+    "title": "Leave a Group",
+    "permalink": "/docs/sdk/javascript/3.0/groups-leave-group"
+  }
+}

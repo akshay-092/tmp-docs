@@ -1,0 +1,29 @@
+{
+  "id": "Messaging/Edit a Message",
+  "title": "Edit a Message",
+  "description": "While editing a message is straightforward, receiving events for edited messages with CometChat has two parts:",
+  "source": "@site/flutter-chat-sdk_versioned_docs/version-3.0/04-Messaging/05-Edit a Message.md",
+  "sourceDirName": "04-Messaging",
+  "slug": "/messaging-edit-message",
+  "permalink": "/docs/sdk/flutter/3.0/messaging-edit-message",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Edit a Message",
+    "slug": "/messaging-edit-message"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Retrieve Conversations",
+    "permalink": "/docs/sdk/flutter/3.0/messaging-retrieve-conversations"
+  },
+  "next": {
+    "title": "Delete a Message",
+    "permalink": "/docs/sdk/flutter/3.0/messaging-delete-message"
+  }
+}

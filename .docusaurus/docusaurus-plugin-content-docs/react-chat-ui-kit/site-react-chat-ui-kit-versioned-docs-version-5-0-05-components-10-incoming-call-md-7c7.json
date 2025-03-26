@@ -1,0 +1,29 @@
+{
+  "id": "Components/Incoming-call",
+  "title": "Incoming Call",
+  "description": "Overview",
+  "source": "@site/react-chat-ui-kit_versioned_docs/version-5.0/05-Components/10-Incoming-call.md",
+  "sourceDirName": "05-Components",
+  "slug": "/incoming-call",
+  "permalink": "/docs/ui-kit/react/v5/incoming-call",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "5.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11,
+    "title": "Incoming Call",
+    "slug": "/incoming-call"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Threaded Message Preview",
+    "permalink": "/docs/ui-kit/react/v5/threaded-message-preview"
+  },
+  "next": {
+    "title": "Outgoing Call",
+    "permalink": "/docs/ui-kit/react/v5/outgoing-call"
+  }
+}

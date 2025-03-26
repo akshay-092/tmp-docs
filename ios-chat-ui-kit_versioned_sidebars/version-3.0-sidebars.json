@@ -1,0 +1,41 @@
+{
+  "tutorialSidebar": [
+    {
+      "type": "category",
+      "label": "Overview",
+      "link": {
+        "type": "doc",
+        "id": "overview/index"
+      },
+      "items": [
+        "overview/index",
+        "overview/key-concepts"
+      ]
+    },
+    {
+      "type": "doc",
+      "label": "UI Components",
+      "id": "ui-components/index"
+    },
+    {
+      "type": "doc",
+      "label": "Customize UI Kit",
+      "id": "customize-ui-ki/index"
+    },
+    {
+      "type": "link",
+      "label": "IOS SDK",
+      "href": "/sdk/ios/3.0/overview"
+    },
+    {
+      "type": "link",
+      "label": "Extensions",
+      "href": "/extensions/overview"
+    },
+    {
+      "type": "link",
+      "label": "Version 4",
+      "href": "/ui-kit/ios/v4/overview"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Groups/Transfer Ownership",
+  "title": "Transfer Ownership",
+  "description": "This component allows the current owner or administrator of a group to transfer the ownership rights and administrative control of that group to another user. By transferring ownership, the original owner can designate a new user as the group owner, giving them full control and administrative privileges over the group.",
+  "source": "@site/docs/ui-kits/vue/08-Groups/06-Transfer Ownership.md",
+  "sourceDirName": "08-Groups",
+  "slug": "/group-transfer-ownership",
+  "permalink": "/docs/ui-kit/vue/group-transfer-ownership",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Transfer Ownership",
+    "slug": "/group-transfer-ownership"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Banned Members",
+    "permalink": "/docs/ui-kit/vue/group-banned-members"
+  },
+  "next": {
+    "title": "Group Details",
+    "permalink": "/docs/ui-kit/vue/group-details"
+  }
+}

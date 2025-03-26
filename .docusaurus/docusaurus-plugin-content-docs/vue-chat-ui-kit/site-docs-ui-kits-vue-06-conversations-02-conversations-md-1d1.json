@@ -1,0 +1,29 @@
+{
+  "id": "Conversations/Conversations",
+  "title": "Conversations",
+  "description": "This component lists the most recent or latest conversations or contacts with whom you have exchanged messages. It provides a convenient way to quickly access and resume conversations with the people you have been in contact with recently.",
+  "source": "@site/docs/ui-kits/vue/06-Conversations/02-Conversations.md",
+  "sourceDirName": "06-Conversations",
+  "slug": "/conversations",
+  "permalink": "/docs/ui-kit/vue/conversations",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Conversations",
+    "slug": "/conversations"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Conversations With Messages",
+    "permalink": "/docs/ui-kit/vue/conversations-with-messages"
+  },
+  "next": {
+    "title": "Contacts",
+    "permalink": "/docs/ui-kit/vue/contacts"
+  }
+}

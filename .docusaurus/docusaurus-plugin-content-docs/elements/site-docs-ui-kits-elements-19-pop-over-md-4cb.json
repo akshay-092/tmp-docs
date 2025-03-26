@@ -1,0 +1,29 @@
+{
+  "id": "pop-over",
+  "title": "Popover",
+  "description": "This element displays additional content or options in a small, overlay-like window. It appears on top of the current screen without requiring the user to navigate to a different page or screen.",
+  "source": "@site/docs/ui-kits/elements/19-pop-over.md",
+  "sourceDirName": ".",
+  "slug": "/pop-over",
+  "permalink": "/docs/web-elements/pop-over",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 19,
+  "frontMatter": {
+    "sidebar_position": 19,
+    "title": "Popover",
+    "slug": "/pop-over"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Modal",
+    "permalink": "/docs/web-elements/modal"
+  },
+  "next": {
+    "title": "Icon",
+    "permalink": "/docs/web-elements/icon"
+  }
+}

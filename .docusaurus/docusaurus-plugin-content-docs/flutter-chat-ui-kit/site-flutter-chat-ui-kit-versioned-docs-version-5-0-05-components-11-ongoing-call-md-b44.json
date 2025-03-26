@@ -1,0 +1,29 @@
+{
+  "id": "Components/ongoing-call",
+  "title": "Ongoing Call",
+  "description": "Overview",
+  "source": "@site/flutter-chat-ui-kit_versioned_docs/version-5.0/05-Components/11-ongoing-call.md",
+  "sourceDirName": "05-Components",
+  "slug": "/ongoing-call",
+  "permalink": "/docs/ui-kit/flutter/5.0/ongoing-call",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "5.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11,
+    "title": "Ongoing Call",
+    "slug": "/ongoing-call"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Incoming Call",
+    "permalink": "/docs/ui-kit/flutter/5.0/incoming-call"
+  },
+  "next": {
+    "title": "Outgoing Call",
+    "permalink": "/docs/ui-kit/flutter/5.0/outgoing-call"
+  }
+}

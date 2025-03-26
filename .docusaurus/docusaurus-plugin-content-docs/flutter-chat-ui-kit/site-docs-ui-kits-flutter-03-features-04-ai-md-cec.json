@@ -1,0 +1,30 @@
+{
+  "id": "Features/ai",
+  "title": "AI",
+  "description": "Overview",
+  "source": "@site/docs/ui-kits/flutter/03-Features/04-ai.md",
+  "sourceDirName": "03-Features",
+  "slug": "/ai-features",
+  "permalink": "/docs/ui-kit/flutter/ai-features",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "sidebar_label": "AI",
+    "title": "AI",
+    "slug": "/ai-features"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Call",
+    "permalink": "/docs/ui-kit/flutter/call-features"
+  },
+  "next": {
+    "title": "Theme",
+    "permalink": "/docs/ui-kit/flutter/theme"
+  }
+}

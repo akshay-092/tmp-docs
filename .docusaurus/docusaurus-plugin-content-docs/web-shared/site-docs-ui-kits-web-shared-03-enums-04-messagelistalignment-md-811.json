@@ -1,0 +1,29 @@
+{
+  "id": "ENUMS/messagelistalignment",
+  "title": "MessageListAlignment",
+  "description": "MessageListAlignment describes the positioning or arrangement of message bubbles in the component",
+  "source": "@site/docs/ui-kits/web-shared/03-ENUMS/04-messagelistalignment.md",
+  "sourceDirName": "03-ENUMS",
+  "slug": "/messagelistalignment",
+  "permalink": "/docs/web-shared/messagelistalignment",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "MessageListAlignment",
+    "slug": "/messagelistalignment"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SelectionMode",
+    "permalink": "/docs/web-shared/selectionmode"
+  },
+  "next": {
+    "title": "MessageBubbleAlignment",
+    "permalink": "/docs/web-shared/messagebubblealignment"
+  }
+}

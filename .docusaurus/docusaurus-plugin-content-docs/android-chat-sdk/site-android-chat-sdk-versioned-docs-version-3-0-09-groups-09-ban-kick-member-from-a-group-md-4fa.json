@@ -1,0 +1,29 @@
+{
+  "id": "Groups/Ban_Kick Member from a Group",
+  "title": "Ban/Kick Member from a Group",
+  "description": "There are certain actions that can be performed on the group members:",
+  "source": "@site/android-chat-sdk_versioned_docs/version-3.0/09-Groups/09-Ban_Kick Member from a Group.md",
+  "sourceDirName": "09-Groups",
+  "slug": "/groups-kick-ban-members",
+  "permalink": "/docs/sdk/android/3.0/groups-kick-ban-members",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "3.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Ban/Kick Member from a Group",
+    "slug": "/groups-kick-ban-members"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Add Members To a Group",
+    "permalink": "/docs/sdk/android/3.0/groups-add-members-to-group"
+  },
+  "next": {
+    "title": "Change Member Scope",
+    "permalink": "/docs/sdk/android/3.0/groups-change-member-scope"
+  }
+}

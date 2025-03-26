@@ -1,0 +1,29 @@
+{
+  "id": "messaging/1 Send a Message",
+  "title": "Send a Message",
+  "description": "Using CometChat, you can send three types of messages:",
+  "source": "@site/docs/sdk/react-native/03-messaging/1 Send a Message.md",
+  "sourceDirName": "03-messaging",
+  "slug": "/send-message",
+  "permalink": "/docs/sdk/react-native/send-message",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Send a Message",
+    "slug": "/send-message"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Messaging",
+    "permalink": "/docs/sdk/react-native/messaging-overview"
+  },
+  "next": {
+    "title": "Receive a Message",
+    "permalink": "/docs/sdk/react-native/receive-messages"
+  }
+}

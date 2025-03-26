@@ -1,0 +1,29 @@
+{
+  "id": "messaging/4 Retrieve Conversations/index",
+  "title": "Retrieve Conversations",
+  "description": "CometChat Allows you to fetch the list of conversations the logged-in user is a part of. This list of conversations consists of both user and group conversations.",
+  "source": "@site/ios-chat-sdk_versioned_docs/version-2.0/04-messaging/4 Retrieve Conversations/index.md",
+  "sourceDirName": "04-messaging/4 Retrieve Conversations",
+  "slug": "/retrieve-conversations",
+  "permalink": "/docs/sdk/ios/2.0/retrieve-conversations",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "2.0",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Retrieve Conversations",
+    "slug": "/retrieve-conversations"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Additional Message Filtering",
+    "permalink": "/docs/sdk/ios/2.0/additional-message-filtering"
+  },
+  "next": {
+    "title": "Threaded Messages",
+    "permalink": "/docs/sdk/ios/2.0/threaded-messages"
+  }
+}
