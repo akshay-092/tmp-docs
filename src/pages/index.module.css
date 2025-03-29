@@ -21,3 +21,79 @@
   align-items: center;
   justify-content: center;
 }
+
+
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* New Css */
+
+/* src/pages/index.module.css */
+.main {
+  padding-top: 30px;
+  /* Adjust if your navbar height is different than 60px */
+  min-height: calc(100vh - 60px);
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 6rem;
+}
+
+.breadcrumbs {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.breadcrumbs a {
+  color: var(--ifm-color-emphasis-600);
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+  color: var(--ifm-color-primary);
+  text-decoration: underline;
+}
+
+.hero {
+  margin-bottom: 1rem;
+}
+
+.heroTitle {
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.heroDescription {
+  font-size: 1.1rem;
+  color: var(--ifm-color-emphasis-700);
+  max-width: 800px;
+  line-height: 1.6;
+
+}
