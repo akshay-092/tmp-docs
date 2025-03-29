@@ -7,7 +7,7 @@ import "./Navbar.css";
 import ThemeToggle from "./theme-toggle";
 import IntegrationDropdownMenu from "./integrationMenuBar";
 import PlatformDropdownMenu from "./platformMenuBar";
-
+import SearchBar from '@theme/SearchBar';
 type DropdownType = "integrate" | "platform" | null;
 
 function Navbar(): React.ReactNode {
@@ -87,16 +87,17 @@ function Navbar(): React.ReactNode {
 
         {/* Search Box */}
         <div className="search-container">
-          <div className="search-box">
-            <input
+        <SearchBar /> 
+          {/* <div className="search-box"> */}
+            {/* <input
               type="text"
               placeholder="Search docs..."
               className="search-input"
             />
             <button className="search-button">
               <span className="search-shortcut">⌘ K</span>
-            </button>
-          </div>
+            </button> */}
+          {/* </div> */}
         </div>
 
         {/* Action Buttons */}

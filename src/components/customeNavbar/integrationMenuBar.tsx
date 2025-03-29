@@ -1,9 +1,12 @@
 import React from "react";
 import "./Navbar.css";
+import { IoChatboxEllipsesOutline } from "react-icons/io5";
+import { IconType } from "react-icons/lib";
+import { RiUserSettingsLine } from "react-icons/ri";
 
 // Define types for the items in the lists
 interface MenuItem {
-  icon: string;
+  icon: string | IconType;
   name: string;
 }
 
@@ -75,11 +78,12 @@ const IntegrationDropdownMenu: React.FC = () => {
   const apis = [
     {
       name: "Chat APIs",
-      icon: "https://img.icons8.com/windows/96/chat-message.png",
+      icon: IoChatboxEllipsesOutline
+
     },
     {
       name: "Managment API",
-      icon: "https://img.icons8.com/nolan/96/api-settings.png",
+      icon: RiUserSettingsLine,
     },
   ];
 
@@ -97,13 +101,13 @@ const IntegrationDropdownMenu: React.FC = () => {
                 width={"20px"}
                 alt={item.name}
               />
-              <span>{item.name}</span>
+              <span className="text-[#333] " style={{fontWeight:'700'}}>{item.name}</span>
             </div>
           ))}
         </div>
         <div className="vertical-line"></div>
         <div className="menu-col-1">
-          <span className="menu-heading">SDKs</span>
+          <span className="menu-heading" style={{fontWeight:'bold'}}>SDKs</span>
           {sdks.map((item, index) => (
             <div className="item-container" key={index}>
               <img
@@ -146,13 +150,14 @@ const IntegrationDropdownMenu: React.FC = () => {
             </span>
             {apis.map((item, index) => (
               <div className="item-container" key={index}>
-                <img
+                <item.icon  style={{ marginRight: "10px" }} color="#0408CD"/>
+                {/* <img
                   src={item.icon}
                   style={{ marginRight: "10px" }}
                   height={"20px"}
                   width={"20px"}
                   alt={item.name}
-                />
+                /> */}
                 <span>{item.name}</span>
               </div>
             ))}

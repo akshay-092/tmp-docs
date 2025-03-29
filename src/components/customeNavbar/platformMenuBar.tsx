@@ -1,9 +1,15 @@
 import React from "react";
 import "./Navbar.css";
+import { IconType } from "react-icons/lib";
+import { MdDashboard ,MdAccountTree,MdNotificationsActive,MdInsights} from "react-icons/md";
+import { FaShapes } from "react-icons/fa";
+import { BiTransfer } from "react-icons/bi";
+import { VscFileCode } from "react-icons/vsc";
+import { FaShield,FaRobot } from "react-icons/fa6";
 
 // Define types for the items in the lists
 interface MenuItem {
-  icon: string;
+  icon: string | IconType;
   name: string;
 }
 
@@ -15,27 +21,27 @@ const PlatformDropdownMenu: React.FC = () => {
   const chatsAndCalling = [
     {
       name: "Overview",
-      icon: "https://img.icons8.com/material/96/dashboard-layout.png",
+      icon: MdDashboard,
       description:'Learn the basic of CometChat messaging system.'
     },
     {
       name: "Features",
-      icon: "https://img.icons8.com/external-kmg-design-glyph-kmg-design/64/external-shapes-graphic-design-kmg-design-glyph-kmg-design.png",
+      icon: FaShapes,
       description:"Enhance in-app messaging with CometChat's extensions."
     },
     {
       name: "Multi-tenancy",
-      icon: "https://img.icons8.com/metro/52/parallel-tasks.png",
+      icon: MdAccountTree,
       description:"Manage multiple accounts efficiently with multi-tenancy."
     },
     {
       name: "Data Migration",
-      icon: "https://img.icons8.com/ios-filled/100/data-in-both-directions.png?tint=6A12E0",
+      icon: BiTransfer,
       description:"Seamlessly migrate chats from other provider to CometChat."
     },
     {
       name: "Webhooks",
-      icon: "https://img.icons8.com/ios/100/code--v1.png",
+      icon: VscFileCode,
       description:"Receive real-time CometChat events via HTTP requests."
     }
   ];
@@ -43,22 +49,22 @@ const PlatformDropdownMenu: React.FC = () => {
   const extendData = [
     {
       name: "Notification",
-      icon: "https://img.icons8.com/ios-filled/100/appointment-reminders--v1.png?style=color:FF0000",
+      icon: MdNotificationsActive,
       description:'Boost engagment by sending instant user notification.'
     },
     {
       name: "Moderation",
-      icon: "https://img.icons8.com/ios-filled/100/shield.png",
+      icon: FaShield,
       description:"Ensure safety with advance content filtering tools."
     },
     {
       name: "AI Chatbots",
-      icon: "https://img.icons8.com/ios-glyphs/90/bot.png",
+      icon: FaRobot,
       description:"Automate conversations using AI-powered chatbot technology."
     },
     {
       name: "Insights",
-      icon: "https://img.icons8.com/material-two-tone/96/increase-profits.png",
+      icon: MdInsights,
       description:"Generate AI-powered insights for meaningful conversation."
     }
   ];
@@ -94,13 +100,14 @@ const PlatformDropdownMenu: React.FC = () => {
           {chatsAndCalling.map((item, index) => (
             <div className="item-container-platform">
               <div className="item-container-platform-sub" key={index}>
-                <img
+              <item.icon  style={{ marginRight: "10px" }} color="#0408CD"/>
+                {/* <img
                   src={item.icon}
                   style={{ marginRight: "10px",}}
                   height={"20px"}
                   width={"20px"}
                   alt={item.name}
-                />
+                /> */}
                 <span>{item.name}</span>
               </div>
               <div className="item-container-desc" key={index}>
@@ -115,13 +122,14 @@ const PlatformDropdownMenu: React.FC = () => {
           {extendData.map((item, index) => (
             <div className="item-container-platform">
               <div className="item-container-platform-sub" key={index}>
-                <img
+              <item.icon  style={{ marginRight: "10px" }} color="#0408CD"/>
+                {/* <img
                   src={item.icon}
                   style={{ marginRight: "10px", color:'#6A12E0!important' }}
                   height={"20px"}
                   width={"20px"}
                   alt={item.name}
-                />
+                /> */}
                 <span>{item.name}</span>
               </div>
               <div className="item-container-desc" key={index}>
@@ -145,6 +153,7 @@ const PlatformDropdownMenu: React.FC = () => {
               <span>{item.name}</span>
             </div>
           ))}
+        <p style={{marginLeft:'10px', marginTop:'10px',color:'#0408CD', cursor:'pointer'}}>See All Apps</p>
         </div>
       </div>
     </div>
