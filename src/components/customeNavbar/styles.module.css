@@ -1,0 +1,109 @@
+/* src/components/CustomNavbar/styles.module.css */
+.myCustomNavbar {
+    background-color: #ffffff; /* Example background */
+    padding: 10px 20px;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    position: sticky; /* Make it sticky if you want */
+    top: 0;
+    z-index: 100; /* Ensure it's above other content */
+    height: 60px; /* Match Docusaurus default or set your own */
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Add dark mode styles if needed */
+  [data-theme='dark'] .myCustomNavbar {
+     background-color: #1b1b1d; /* Dark background */
+     border-bottom: 1px solid #333;
+  }
+  
+  
+  .navbarInner {
+    width: 100%;
+    max-width: 1140px; /* Or your preferred max width */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbarLogo {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0; /* Prevent logo from shrinking */
+  }
+  
+  .navbarLogo img {
+     height: 30px; /* Adjust size */
+     width: auto;
+  }
+  
+  .navbarLinks {
+    display: flex;
+    gap: 20px; /* Space between links */
+    align-items: center;
+  }
+  
+  .navbarLink {
+    color: #333; /* Example link color */
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  
+  .navbarLink:hover {
+    color: #007bff; /* Example hover color */
+  }
+  
+  [data-theme='dark'] .navbarLink {
+     color: #ccc;
+  }
+  [data-theme='dark'] .navbarLink:hover {
+     color: #fff;
+  }
+  
+  
+  .navbarRight {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .navbarButton {
+     padding: 8px 15px;
+     border-radius: 4px;
+     border: 1px solid transparent; /* Base border */
+  }
+  
+  .navbarButton.contactButton { /* Example specific button styles */
+     background-color: #007bff;
+     color: white;
+     border-color: #007bff;
+  }
+  .navbarButton.contactButton:hover {
+     background-color: #0056b3;
+     border-color: #0056b3;
+     color: white; /* Ensure text stays white */
+     text-decoration: none;
+  }
+  
+  [data-theme='dark'] .navbarButton.contactButton {
+      background-color: #2979ff;
+      border-color: #2979ff;
+  }
+   [data-theme='dark'] .navbarButton.contactButton:hover {
+      background-color: #1c6ae4;
+      border-color: #1c6ae4;
+  }
+  
+  /* Basic Responsive Example (add more as needed) */
+  @media (max-width: 996px) {
+    .navbarLinks {
+      display: none; /* Hide links on smaller screens - you'll need a mobile menu solution */
+    }
+    .navbarInner {
+        justify-content: space-between;
+    }
+    /* You might need to implement a hamburger menu button here */
+  }
