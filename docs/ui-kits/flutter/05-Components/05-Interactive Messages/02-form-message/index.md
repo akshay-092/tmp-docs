@@ -1,0 +1,149 @@
+---
+type: page
+title: Form Message
+listed: true
+slug: /interactive-form-message
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+The `FormMessage` class is used to create an interactive form message that can be sent via CometChat. It extends the [Interactive Messages](/sdk/flutter/interactive-messages) class from CometChat.
+
+### Properties
+
+| Name | Type | Description | 
+| ---- | ---- | ---- | 
+| receiverUid | String | The ID of the receiver | 
+| receiverType | String | The type of the receiver | 
+| title | String | The title of the form | 
+| formFields | List&lt;[ElementEntity](/ui-kit/flutter/interactive-element-entity)&gt; | The fields of the form | 
+| submitElement | ButtonElement | The submit button of the form | 
+| goalCompletionText | String | The text visible after completion of goal | 
+| interactionGoal | [InteractionGoal](/sdk/flutter/interactive-messages#interactiongoal) | The sets the interaction goal for the form to ma | 
+| interactions | [Interactions](/sdk/flutter/interactive-messages#interaction) | Gives the list of elements you have interacted with | 
+| allowSenderInteraction | bool | Allows the sender interaction | 
+
+---
+
+### Class Usage
+
+How to create an instance of the `FormMessage` class:
+
+<Tabs>
+
+<TabItem value="Dart" label="Dart">
+
+```dart
+String receiver = "cometchat-uid-2";//replace this with receiver user
+String appId = "XXXXX";
+String apiKey = "XXXXXX";//Replace this with your api key
+String senderId = "XXXXXXX";//Replace this with sender/on behalf of user id
+String receiverType = ReceiverTypeConstants.user; //replace this with receiver type
+User? loggedInUser = await CometChat.getLoggedInUser();
+
+Map<String, String> header = {
+  "appId": appId,
+  "apiKey": apiKey,
+  "onBehalfOf": senderId,
+  "Content-Type": "application/json",
+  "accept": "application/json"
+};
+
+Map<String, dynamic> payload = {
+  "data": {
+    "text": "Thanks For filling the Form!"
+  },
+  "type": "text",
+  "category": "message",
+  "receiver": receiver,
+  "receiverType": "user"
+};
+
+FormMessage formMessage  = FormMessage(
+    muid: DateTime.now().microsecondsSinceEpoch.toString(),
+    allowSenderInteraction: true,
+    title: "Society Survey",
+    receiverType: receiverType,
+    receiverUid: receiver,
+    sender: loggedInUser,
+    formFields: [
+        TextInputElement( elementId: "name", label: "Enter name ", optional: false),
+        TextInputElement( elementId: "age", label: "Enter age "),
+        SingleSelectElement(
+            elementId: "gender",
+            label: "Gender",
+            options: [
+                OptionElement(label: "Male",value: "Male" ),
+                OptionElement(label: "Female",value: "Female" ),
+            ],
+            optional: false
+        ),
+        CheckBoxElement( elementId: "service",
+            label: "Select Services",
+            defaultValue: ["pool"],
+            options: [
+                OptionElement(label: "pool",value: "pool" ),
+                OptionElement(label: "gym",value: "gym" ),
+                OptionElement(label: "garden",value: "garden" ),
+            ]
+        ),
+        DropdownElement(elementId: "Block", label: "Select block" ,
+            options: [
+                OptionElement(label: "A",value: "A" ),
+                OptionElement(label: "B",value: "B" ),
+            ],
+        ),
+        ButtonElement(//Button element to open web view with given url
+            elementId : "aboutUs",
+            buttonText: "About Us" ,
+            action: URLNavigationAction(
+                url: "https://www.cometchat.com/",
+            )
+        ),
+    ],
+    submitElement : ButtonElement(//Submit button with call to cometchat's managment api to send anoher message
+        elementId : "button1",
+        buttonText: "Submit" ,
+        action: APIAction(
+            url: "https://${appId}.api-${CometChatConstants.region}.cometchat.io/v3/messages",
+            method: APIRequestTypeConstants.post,
+            dataKey: "cometchatData",
+            headers: header,
+            payload: payload
+        )
+    ),
+    interactionGoal: InteractionGoal(
+        type:  InteractionGoalTypeConstants.allOf,
+        elementIds: ["button1"]
+    ),
+    goalCompletionText: "Goal completed !!",
+);
+```
+
+</TabItem>
+
+</Tabs>
+
+---
+
+### Send Form Message
+
+<Tabs>
+
+<TabItem value="Dart" label="Dart">
+
+```dart
+CometChatUIKit.sendFormMessage(formMessage, onSuccess: (FormMessage message){
+    // TODO("Not yet implemented")
+}, onError: (exception){
+    // TODO("Not yet implemented")
+});
+```
+
+</TabItem>
+
+</Tabs>
+
+
+

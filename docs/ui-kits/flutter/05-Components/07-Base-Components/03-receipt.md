@@ -1,0 +1,89 @@
+---
+sidebar_position: 3
+title: Receipt
+slug: /receipt
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+The `CometChatReceipt` component renders the receipts such as sending, sent, delivered, read, and error state indicators of a message.
+
+## How to integrate CometChatReceipt?
+
+Since `CometChatReceipt` is a widget, it can be added directly in the build method. `CometChatReceipt` includes various attributes and methods to customize its UI.
+
+<Tabs>
+
+<TabItem value="Dart" label="Dart">
+
+```dart
+CometChatReceipt(
+  status: ReceiptStatus.read,
+  waitIcon: Image.asset(
+    "<image_url>",
+  ),
+  sentIcon: Image.asset(
+    "<image_url>",
+  ),
+  deliveredIcon: Image.asset(
+    "<image_url>",
+  ),
+  readIcon: Image.asset(
+    "<image_url>",
+  ),
+  errorIcon: Image.asset(
+    "<image_url>",
+  ),
+);
+```
+
+</TabItem>
+
+</Tabs>
+
+---
+
+## Properties
+
+To style or customize the `CometChatReceipt`, you can use the available parameters.
+
+| Attributes | Type | Description | 
+| ---- | ---- | ---- | 
+| **status** | ReceiptStatus | Receipt status from which `sentAt` and `readAt` will be read to get the receipts | 
+| **waitIcon** | Widget | It is used to pass a user-defined image into the `MessageReceipt`, to change the icon while sending the message. | 
+| **sentIcon** | Widget | It is used to pass a user-defined image into the `MessageReceipt`, to change the icon when the message is sent. | 
+| **deliveredIcon** | Widget | It is used to pass a user-defined image into the `MessageReceipt`, to change the icon when the message is delivered. | 
+| **readIcon** | Widget | It is used to pass a user-defined image into the `MessageReceipt`, to change the icon when the message is read. | 
+| **errorIcon** | Widget | It is used to pass a user-defined image into the `MessageReceipt`, to change the icon when an error occurs. | 
+
+---
+
+## ReceiptStyle
+
+Custom style for receipts.
+
+| Attributes | Type | Description | 
+| ---- | ---- | ---- | 
+| **sentIconTint** | Widget | It is used to change the icon color of the receipt when `ReceiptStatus` is sent. | 
+| **deliveredIconTint** | Widget | It is used to change the icon color of the receipt when `ReceiptStatus` is delivered. | 
+| **readIconTint** | Widget | It is used to change the icon color of the receipt when `ReceiptStatus` is read. | 
+
+---
+
+## Usage
+
+<Tabs>
+
+<TabItem value="Dart" label="Dart">
+
+```dart
+CometChatReceipt(
+  status: ReceiptStatus.read,
+)
+```
+
+</TabItem>
+
+</Tabs>
+

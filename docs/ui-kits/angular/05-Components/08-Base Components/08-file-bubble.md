@@ -1,0 +1,63 @@
+---
+sidebar_position: 7
+title: File Bubble
+slug: /file-bubble
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+`CometChatFileBubble` is the content view for a MediaMessage if the media sent is a file.
+
+## Properties
+
+| Name | Type | Description | 
+| ---- | ---- | ---- | 
+| title | string | Title of the element | 
+| subtitle | string | Subtitle of the element | 
+| fileUrl | string | URL of the file | 
+| downloadIconURL | string | Asset URL for the download icon | 
+| fileStyle | [FileBubbleStyle](./file-bubble#filebubblestyle) | Styling properties of the element | 
+
+
+## FileBubbleStyle
+
+Styling properties of the element
+
+| Name | Description | 
+| ---- | ---- | 
+| width | Sets the width of the element | 
+| height | Sets the height of the element | 
+| border | Sets the border of the element | 
+| borderRadius | Sets the border radius of the element | 
+| background | Sets all background style properties at once, such as color, image, origin and size, or repeat method. [Reference link](https://developer.mozilla.org/en-US/docs/Web/CSS/background) | 
+| titleFont | Sets all the different properties of font for the title text. [Reference link](https://developer.mozilla.org/en-US/docs/Web/CSS/font) | 
+| titleColor | Sets the foreground color of the title text. | 
+| subtitleFont | Sets all the different properties of font for the subtitle text. [Reference link](https://developer.mozilla.org/en-US/docs/Web/CSS/font) | 
+| subtitleColor | Sets the foreground color of the title text. | 
+| iconTint | Sets the tint or color applied to the download icon | 
+
+
+## Usage
+
+<Tabs>
+<TabItem value="HTML" label="HTML">
+
+```HTML
+<!--use the element-->
+<cometchat-file-bubble
+[fileURL]="url"
+></cometchat-file-bubble>
+```
+
+</TabItem>
+<TabItem value="js" label="Javascript">
+
+```javascript
+import '@cometchat/uikit-elements';//import the web elements package.
+
+const url = "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf";
+```
+
+</TabItem>
+</Tabs>

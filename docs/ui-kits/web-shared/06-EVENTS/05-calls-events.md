@@ -1,0 +1,16 @@
+---
+sidebar_position: 5
+title: Calls Events
+slug: /calls-events
+---
+
+`CometChatCallEvents` emits events when the logged-in user executes some action on a call object.
+
+It consists of the following events:
+
+| Name | Description | 
+| ---- | ---- | 
+| ccOutgoingCall | This event is triggered when the user initiates a voice/video call. | 
+| ccCallAccepted | This event is triggered when the initiated call is accepted by the receiver. | 
+| ccCallRejected | This event is triggered when the initiated call is rejected by the receiver. | 
+| ccCallEnded | This event is triggered when the initiated call successfully ends. | 

@@ -1,0 +1,14 @@
+---
+sidebar_position: 13
+title: LabelAlignment
+slug: /labelalignment
+---
+
+LabelAlignment is used to align the label for web elements.
+
+| Name | Description | 
+| ---- | ---- | 
+| top | Aligns the label at the top. | 
+| bottom | Aligns the label at the bottom. | 
+| left | Aligns the label to the left. | 
+| right | Aligns the label to the right. | 

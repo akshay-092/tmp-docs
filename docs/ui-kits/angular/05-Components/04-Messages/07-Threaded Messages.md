@@ -1,0 +1,1261 @@
+---
+sidebar_position: 7
+title: Threaded Messages
+slug: /threaded-messages
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+## Overview
+
+ThreadedMessages is a [Composite Component](/ui-kit/angular/components-overview#composite-components) that displays all replies made to a particular message in a conversation. By default, the parent message will be displayed at the top, the message composer will be at the bottom and between them a message list will contain all replies.
+
+![](../../assets/threaded_messages_overview_web_screens.png)
+
+ThreadedMessages is composed of the following components:
+
+| Component                             | Description                                                                                                        |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| [MessageList](./message-list)         | CometChatMessageList is a component that displays a list of Messages                                               |
+| [MessageComposer](./message-composer) | CometChatMessageComposer is a component that helps in writing and editing of messages and also sending attachments |
+
+## Usage
+
+### Integration
+
+The following code snippet illustrates how you can directly incorporate the ThreadedMessages component into your Application.
+
+<Tabs>
+<TabItem value="js" label="app.module.ts">
+
+```javascript
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from "@angular/core";
+import { BrowserModule } from "@angular/platform-browser";
+import { CometChatThreadedMessages } from "@cometchat/chat-uikit-angular";
+import { AppComponent } from "./app.component";
+
+@NgModule({
+  imports: [BrowserModule, CometChatThreadedMessages],
+  declarations: [AppComponent],
+  providers: [],
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
+})
+export class AppModule {}
+```
+
+</TabItem>
+<TabItem value="app.component.ts" label="app.component.ts">
+
+```javascript
+import { CometChat } from '@cometchat/chat-sdk-javascript';
+import { Component, OnInit } from '@angular/core';
+import {  CometChatThemeService, CometChatUIKit, ListItemStyle } from '@cometchat/chat-uikit-angular';
+import "@cometchat/uikit-elements";
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent implements OnInit{
+  ngOnInit(): void {
+    CometChat.getMessageDetails(parentMessageId).then((message) => {
+      if (message instanceof CometChat.TextMessage) {
+        this.messageObject = message;
+        this.textMessageContent = this.messageObject.getText();
+      }
+    }).catch((error) => {
+      console.error('Error fetching message details:', error);
+      this.textMessageContent = '';
+    });
+  }
+
+  public messageObject!: CometChat.TextMessage;
+  public textMessageContent: string | undefined;
+
+  constructor(private themeService:CometChatThemeService) {
+    themeService.theme.palette.setMode("light")
+    themeService.theme.palette.setPrimary({ light: "#6851D6", dark: "#6851D6" })
+  }
+  listItemStyle: ListItemStyle = new ListItemStyle({
+    background: "transparent",
+    padding:"5px",
+    border:"1px solid #e9b8f5",
+    titleColor:"#8830f2",
+    borderRadius:"20px",
+    width:"100% !important"
+  });
+
+  onLogin(UID?: any) {
+    CometChatUIKit.login({ uid: UID }).then(
+      (user) => {
+        setTimeout(() => {
+          window.location.reload();
+        }, 1000);
+      },
+      (error) => {
+        console.log("Login failed with exception:", { error });
+      }
+    );
+  }
+}
+```
+
+</TabItem>
+<TabItem value="ts" label="app.component.html">
+
+```html
+<cometchat-threaded-messages
+*ngIf="messageObject"
+[parentMessage]="messageObject"
+[bubbleView]="bubbleViewTemplate"
+></cometchat-threaded-messages>
+</div>
+
+<ng-template #bubbleViewTemplate>
+  <div>
+    <cometchat-list-item
+    [title]="textMessageContent"
+    [listItemStyle]="listItemStyle"
+    ></cometchat-list-item>
+    </div>
+</ng-template>
+```
+
+</TabItem>
+</Tabs>
+
+---
+
+### Actions
+
+[Actions](/ui-kit/angular/components-overview#actions) dictate how a component functions. They are divided into two types: Predefined and User-defined. You can override either type, allowing you to tailor the behavior of the component to fit your specific needs.
+
+**Example**
+
+In this example, we are overriding the `onClose` of the ThreadedMessage Component.
+
+<Tabs>
+<TabItem value="app.component.ts" label="app.component.ts">
+
+```javascript
+import { CometChat } from '@cometchat/chat-sdk-javascript';
+import { Component, OnInit } from '@angular/core';
+import {  CometChatThemeService, CometChatUIKit, ListItemStyle } from '@cometchat/chat-uikit-angular';
+import "@cometchat/uikit-elements";
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent implements OnInit{
+  ngOnInit(): void {
+    CometChat.getMessageDetails(parentMessageId).then((message) => {
+      if (message instanceof CometChat.TextMessage) {
+        this.messageObject = message;
+        this.textMessageContent = this.messageObject.getText();
+      }
+    }).catch((error) => {
+      console.error('Error fetching message details:', error);
+      this.textMessageContent = '';
+    });
+  }
+
+  public messageObject!: CometChat.TextMessage;
+  public textMessageContent: string | undefined;
+  public handleOnClose = () => {
+    console.log("Your custom on close actions");
+  }
+  constructor(private themeService:CometChatThemeService) {
+    themeService.theme.palette.setMode("light")
+    themeService.theme.palette.setPrimary({ light: "#6851D6", dark: "#6851D6" })
+  }
+  listItemStyle: ListItemStyle = new ListItemStyle({
+    background: "transparent",
+    padding:"5px",
+    border:"1px solid #e9b8f5",
+    titleColor:"#8830f2",
+    borderRadius:"20px",
+    width:"100% !important"
+  });
+
+  onLogin(UID?: any) {
+    CometChatUIKit.login({ uid: UID }).then(
+      (user) => {
+        setTimeout(() => {
+          window.location.reload();
+        }, 1000);
+      },
+      (error) => {
+        console.log("Login failed with exception:", { error });
+      }
+    );
+  }
+}
+```
+
+</TabItem>
+<TabItem value="ts" label="app.component.html">
+
+```html
+<cometchat-threaded-messages
+*ngIf="messageObject"
+[parentMessage]="messageObject"
+[bubbleView]="bubbleViewTemplate"
+[onClose]="handleOnClose"
+></cometchat-threaded-messages>
+</div>
+
+<ng-template #bubbleViewTemplate>
+  <div>
+    <cometchat-list-item
+    [title]="textMessageContent"
+    [listItemStyle]="listItemStyle"
+    ></cometchat-list-item>
+    </div>
+</ng-template>
+```
+
+</TabItem>
+</Tabs>
+
+---
+
+### Filters
+
+**Filters** allow you to customize the data displayed in a list within a Component. You can filter the list based on your specific criteria, allowing for a more customized. Filters can be applied using RequestBuilders of Chat SDK.
+
+ThreadedMessages does not have its own Filters. However, you can filter the messages list in ThreadedMessages Component using [MessageListConfiguration](#messagelist).
+
+**Example**
+
+In this example, we are filtering messages based on the ParentMessageID and searching for messages that contain the keyword "hi".
+
+<Tabs>
+<TabItem value="app.component.ts" label="app.component.ts">
+
+```javascript
+import { CometChat } from '@cometchat/chat-sdk-javascript';
+import { Component, OnInit } from '@angular/core';
+import {  CometChatThemeService, CometChatUIKit, ListItemStyle } from '@cometchat/chat-uikit-angular';
+import { MessageListConfiguration }  from '@cometchat/uikit-shared';
+import "@cometchat/uikit-elements";
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent implements OnInit{
+  ngOnInit(): void {
+    CometChat.getMessageDetails(parentMessageId).then((message) => {
+      if (message instanceof CometChat.TextMessage) {
+        this.messageObject = message;
+        this.textMessageContent = this.messageObject.getText();
+      }
+    }).catch((error) => {
+      console.error('Error fetching message details:', error);
+      this.textMessageContent = '';
+    });
+  }
+
+  public messageObject!: CometChat.TextMessage;
+  public textMessageContent: string | undefined;
+  public messageListConfiguration = new MessageListConfiguration({
+    messagesRequestBuilder: new CometChat.MessagesRequestBuilder().setParentMessageId(id).setSearchKeyword("hi").setLimit(1),
+  });
+  constructor(private themeService:CometChatThemeService) {
+    themeService.theme.palette.setMode("light")
+    themeService.theme.palette.setPrimary({ light: "#6851D6", dark: "#6851D6" })
+  }
+  listItemStyle: ListItemStyle = new ListItemStyle({
+    background: "transparent",
+    padding:"5px",
+    border:"1px solid #e9b8f5",
+    titleColor:"#8830f2",
+    borderRadius:"20px",
+    width:"100% !important"
+  });
+
+  onLogin(UID?: any) {
+    CometChatUIKit.login({ uid: UID }).then(
+      (user) => {
+        setTimeout(() => {
+          window.location.reload();
+        }, 1000);
+      },
+      (error) => {
+        console.log("Login failed with exception:", { error });
+      }
+    );
+  }
+}
+```
+
+</TabItem>
+<TabItem value="ts" label="app.component.html">
+
+```html
+<cometchat-threaded-messages
+*ngIf="messageObject"
+[parentMessage]="messageObject"
+[bubbleView]="bubbleViewTemplate"
+[messageListConfiguration]="messageListConfiguration"
+></cometchat-threaded-messages>
+</div>
+
+<ng-template #bubbleViewTemplate>
+  <div>
+    <cometchat-list-item
+    [title]="textMessageContent"
+    [listItemStyle]="listItemStyle"
+    ></cometchat-list-item>
+    </div>
+</ng-template>
+```
+
+</TabItem>
+</Tabs>
+
+---
+
+### Events
+
+[Events](/ui-kit/angular/components-overview#events) are emitted by a `Component`. By using event you can extend existing functionality. Being global events, they can be applied in Multiple Locations and are capable of being Added or Removed.
+
+The ThreadedMessages Component does not emit any events of its own.
+
+---
+
+## Customization
+
+To fit your app's design requirements, you can customize the appearance of the conversation component. We provide exposed methods that allow you to modify the experience and behavior according to your specific needs.
+
+---
+
+### Style
+
+Using Style you can customize the look and feel of the component in your app, These parameters typically control elements such as the color, size, shape, and fonts used within the component.
+
+##### 1. threadedMessagesStyle
+
+To modify the styling, you can apply the ThreadedMessageStyle to the ThreadedMessage Component using the `threadedMessagesStyle` property.
+
+<Tabs>
+<TabItem value="app.component.ts" label="app.component.ts">
+
+```javascript
+import { CometChat } from '@cometchat/chat-sdk-javascript';
+import { Component, OnInit } from '@angular/core';
+import {  CometChatThemeService, CometChatUIKit, ListItemStyle } from '@cometchat/chat-uikit-angular';
+import { ThreadedMessagesStyle }  from '@cometchat/uikit-shared';
+import "@cometchat/uikit-elements";
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent implements OnInit{
+  ngOnInit(): void {
+    CometChat.getMessageDetails(parentMessageId).then((message) => {
+      if (message instanceof CometChat.TextMessage) {
+        this.messageObject = message;
+        this.textMessageContent = this.messageObject.getText();
+      }
+    }).catch((error) => {
+      console.error('Error fetching message details:', error);
+      this.textMessageContent = '';
+    });
+  }
+
+  public messageObject!: CometChat.TextMessage;
+  public textMessageContent: string | undefined;
+  constructor(private themeService:CometChatThemeService) {
+    themeService.theme.palette.setMode("light")
+    themeService.theme.palette.setPrimary({ light: "#6851D6", dark: "#6851D6" })
+  }
+  listItemStyle: ListItemStyle = new ListItemStyle({
+    background: "transparent",
+    padding:"5px",
+    border:"1px solid #e9b8f5",
+    titleColor:"#8830f2",
+    borderRadius:"20px",
+    width:"100% !important"
+  });
+  threadedMessagesStyle = new ThreadedMessagesStyle({
+    background: "#ebdeff",
+    width: "100%",
+    height: "600px",
+    border: "2px solid #9e19e0"
+  });
+
+  onLogin(UID?: any) {
+    CometChatUIKit.login({ uid: UID }).then(
+      (user) => {
+        setTimeout(() => {
+          window.location.reload();
+        }, 1000);
+      },
+      (error) => {
+        console.log("Login failed with exception:", { error });
+      }
+    );
+  }
+}
+```
+
+</TabItem>
+<TabItem value="ts" label="app.component.html">
+
+```html
+<cometchat-threaded-messages
+*ngIf="messageObject"
+[parentMessage]="messageObject"
+[bubbleView]="bubbleViewTemplate"
+[threadedMessagesStyle]="threadedMessagesStyle"
+></cometchat-threaded-messages>
+</div>
+
+<ng-template #bubbleViewTemplate>
+  <div>
+    <cometchat-list-item
+    [title]="textMessageContent"
+    [listItemStyle]="listItemStyle"
+    ></cometchat-list-item>
+    </div>
+</ng-template>
+```
+
+</TabItem>
+</Tabs>
+
+The following properties are exposed by `ThreadedMessagesStyle`:
+
+| Methods           | Description                                             | Type                      |
+| ----------------- | ------------------------------------------------------- | ------------------------- |
+| **border**        | Used to set border                                      | `border?: string,`        |
+| **borderRadius**  | Used to set border radius                               | `borderRadius?: string;`  |
+| **background**    | Used to set background colour                           | `background?: string;`    |
+| **height**        | Used to set height                                      | `height?: string;`        |
+| **width**         | Used to set width                                       | `width?: string;`         |
+| **titleFont**     | used to customise the font of the title in the app bar  | `titleFont?: string; `    |
+| **titleColor**    | used to customise the color of the title in the app bar | `titleColor?: string;`    |
+| **closeIconTint** | used to set the color of the close icon in the app bar  | `closeIconTint?: string;` |
+
+---
+
+### Functionality
+
+These are a set of small functional customizations that allow you to fine-tune the overall experience of the component. With these, you can change text, set custom icons, and toggle the visibility of UI elements.
+
+<Tabs>
+<TabItem value="app.component.ts" label="app.component.ts">
+
+```javascript
+import { CometChat } from '@cometchat/chat-sdk-javascript';
+import { Component, OnInit } from '@angular/core';
+import {  CometChatThemeService, CometChatUIKit, ListItemStyle } from '@cometchat/chat-uikit-angular';
+import "@cometchat/uikit-elements";
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent implements OnInit{
+  ngOnInit(): void {
+    CometChat.getMessageDetails(parentMessageId).then((message) => {
+      if (message instanceof CometChat.TextMessage) {
+        this.messageObject = message;
+        this.textMessageContent = this.messageObject.getText();
+      }
+    }).catch((error) => {
+      console.error('Error fetching message details:', error);
+      this.textMessageContent = '';
+    });
+  }
+
+  public messageObject!: CometChat.TextMessage;
+  public textMessageContent: string | undefined;
+  constructor(private themeService:CometChatThemeService) {
+    themeService.theme.palette.setMode("light")
+    themeService.theme.palette.setPrimary({ light: "#6851D6", dark: "#6851D6" })
+  }
+  listItemStyle: ListItemStyle = new ListItemStyle({
+    background: "transparent",
+    padding:"5px",
+    border:"1px solid #e9b8f5",
+    titleColor:"#8830f2",
+    borderRadius:"20px",
+    width:"100% !important"
+  });
+  title = 'Your Custom Title';
+  public myCustomIcon = 'your custom icon';
+
+  onLogin(UID?: any) {
+    CometChatUIKit.login({ uid: UID }).then(
+      (user) => {
+        setTimeout(() => {
+          window.location.reload();
+        }, 1000);
+      },
+      (error) => {
+        console.log("Login failed with exception:", { error });
+      }
+    );
+  }
+}
+```
+
+</TabItem>
+<TabItem value="ts" label="app.component.html">
+
+```html
+<cometchat-threaded-messages
+*ngIf="messageObject"
+[parentMessage]="messageObject"
+[bubbleView]="bubbleViewTemplate"
+[title]="title"
+[closeIconURL]="myCustomIcon"
+></cometchat-threaded-messages>
+</div>
+
+<ng-template #bubbleViewTemplate>
+  <div>
+    <cometchat-list-item
+    [title]="textMessageContent"
+    [listItemStyle]="listItemStyle"
+    ></cometchat-list-item>
+    </div>
+</ng-template>
+```
+
+</TabItem>
+</Tabs>
+
+Below is a list of customizations along with corresponding code snippets
+
+| Property                                                                                                         | Description                                                           | Code                                        |
+| ---------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------- |
+| **parentMessage** <a data-tooltip-id="my-tooltip-html-prop"> <span class="material-icons red">report</span> </a> | Used to to set the message for which the replies need to be fetched   | `[parentMessage]="messageObject"`           |
+| **Hide MessageComposer**                                                                                         | Used to toggle visibility for CometChatMessageComposer, default false | `[hideMessageComposer]="true"`              |
+| **title**                                                                                                        | Used to set title in the app bar                                      | `[title]="title"`                           |
+| **closeIconURL**                                                                                                 | Used to set the icon to exit the widget                               | `closeIconURL="your custom close icon url"` |
+
+---
+
+### Advanced
+
+For advanced-level customization, you can set custom views to the component. This lets you tailor each aspect of the component to fit your exact needs and application aesthetics. You can create and define your views, layouts, and UI elements and then incorporate those into the component.
+
+#### BubbleView
+
+By using `bubbleView`, You can set parent message bubble view inside ThreadedMessage Component.
+
+**Example**
+
+**Default**
+
+![](../../assets/threaded_messages_bubbleview_default_web_screens.png)
+
+**Custom**
+
+![](../../assets/threaded_messages_bubbleview_custom_web_screens.png)
+
+In this example, we will set parent message bubble view using `bubbleView` and apply custom styles on it.
+
+<Tabs>
+<TabItem value="app.component.ts" label="app.component.ts">
+
+```javascript
+import { CometChat } from '@cometchat/chat-sdk-javascript';
+import { Component, OnInit } from '@angular/core';
+import {  CometChatThemeService, CometChatUIKit, ListItemStyle } from '@cometchat/chat-uikit-angular';
+import "@cometchat/uikit-elements";
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent implements OnInit{
+  ngOnInit(): void {
+    CometChat.getMessageDetails(parentMessageId).then((message) => {
+      if (message instanceof CometChat.TextMessage) {
+        this.messageObject = message;
+        this.textMessageContent = this.messageObject.getText();
+      }
+    }).catch((error) => {
+      console.error('Error fetching message details:', error);
+      this.textMessageContent = '';
+    });
+  }
+
+  public messageObject!: CometChat.TextMessage;
+  public textMessageContent: string | undefined;
+  constructor(private themeService:CometChatThemeService) {
+    themeService.theme.palette.setMode("light")
+    themeService.theme.palette.setPrimary({ light: "#6851D6", dark: "#6851D6" })
+  }
+  listItemStyle: ListItemStyle = new ListItemStyle({
+    background: "transparent",
+    padding:"5px",
+    border:"1px solid #e9b8f5",
+    titleColor:"#8830f2",
+    borderRadius:"20px",
+    width:"100% !important"
+  });
+
+  onLogin(UID?: any) {
+    CometChatUIKit.login({ uid: UID }).then(
+      (user) => {
+        setTimeout(() => {
+          window.location.reload();
+        }, 1000);
+      },
+      (error) => {
+        console.log("Login failed with exception:", { error });
+      }
+    );
+  }
+}
+```
+
+</TabItem>
+<TabItem value="ts" label="app.component.html">
+
+```html
+<cometchat-threaded-messages
+*ngIf="messageObject"
+[parentMessage]="messageObject"
+[bubbleView]="bubbleViewTemplate"
+></cometchat-threaded-messages>
+</div>
+
+<ng-template #bubbleViewTemplate>
+  <div>
+    <cometchat-list-item
+    [title]="textMessageContent"
+    [listItemStyle]="listItemStyle"
+    ></cometchat-list-item>
+    </div>
+</ng-template>
+```
+
+</TabItem>
+</Tabs>
+
+#### MessageActionView
+
+By utilizing the `messageActionView` method, you can assign custom actions to the parent message bubble view inside the ThreadedMessage Component.
+
+**Example**
+![](../../assets/threaded_messages_actionview_web_screens.png)
+In this example, we are setting mock Chat Bot button as message action view in ThreadedMessages Component.
+
+<Tabs>
+<TabItem value="app.component.ts" label="app.component.ts">
+
+```javascript
+import { CometChat } from '@cometchat/chat-sdk-javascript';
+import { Component, OnInit } from '@angular/core';
+import {  CometChatThemeService, CometChatUIKit, ListItemStyle } from '@cometchat/chat-uikit-angular';
+import "@cometchat/uikit-elements";
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent implements OnInit{
+  ngOnInit(): void {
+    CometChat.getMessageDetails(parentMessageId).then((message) => {
+      if (message instanceof CometChat.TextMessage) {
+        this.messageObject = message;
+        this.textMessageContent = this.messageObject.getText();
+      }
+    }).catch((error) => {
+      console.error('Error fetching message details:', error);
+      this.textMessageContent = '';
+    });
+  }
+
+  public messageObject!: CometChat.TextMessage;
+  public textMessageContent: string | undefined;
+  constructor(private themeService:CometChatThemeService) {
+    themeService.theme.palette.setMode("light")
+    themeService.theme.palette.setPrimary({ light: "#6851D6", dark: "#6851D6" })
+  }
+  listItemStyle: ListItemStyle = new ListItemStyle({
+    background: "transparent",
+    padding:"5px",
+    border:"1px solid #e9b8f5",
+    titleColor:"#8830f2",
+    borderRadius:"20px",
+    width:"100% !important"
+  });
+  public myCustomIcon="your custom icon";
+
+  onLogin(UID?: any) {
+    CometChatUIKit.login({ uid: UID }).then(
+      (user) => {
+        setTimeout(() => {
+          window.location.reload();
+        }, 1000);
+      },
+      (error) => {
+        console.log("Login failed with exception:", { error });
+      }
+    );
+  }
+}
+```
+
+</TabItem>
+<TabItem value="ts" label="app.component.html">
+
+```html
+<cometchat-threaded-messages
+*ngIf="messageObject"
+[parentMessage]="messageObject"
+[bubbleView]="bubbleViewTemplate"
+[messageActionView]="messageActionViewTemplate"
+></cometchat-threaded-messages>
+</div>
+
+<ng-template #bubbleViewTemplate>
+  <div>
+    <cometchat-list-item
+    [title]="textMessageContent"
+    [listItemStyle]="listItemStyle"
+    ></cometchat-list-item>
+    </div>
+</ng-template>
+
+<ng-template #messageActionViewTemplate>
+  <div
+    [ngStyle]="{ height: '40px', width: '100px', background: '#a46efa', borderRadius: '20px', display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '10px' }">
+    <button
+      [ngStyle]="{ height: '40px', width: '40px', background: '#a46efa', border: 'none', display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'pointer' }">
+      <img [src]="myCustomIcon"
+        [ngStyle]="{ height: 'auto', width: '100%', maxWidth: '100%', maxHeight: '100%', borderRadius: '50%' }"
+        alt="bot" />
+      <span>Chat Bot</span>
+    </button>
+  </div>
+</ng-template>
+```
+
+</TabItem>
+</Tabs>
+
+---
+
+#### MessageListView
+
+You can set your custom message list view using the `messageListView` property. But keep in mind, by using this you will override the default message ListView functionality.
+
+**Example**
+
+**Default**
+
+![](../../assets/message_list_view_default_web_screens.png)
+
+**Custom**
+
+![](../../assets/message_list_view_custom_web_screens.png)
+
+<Tabs>
+<TabItem value="app.component.ts" label="app.component.ts">
+
+```javascript
+import { CometChat } from '@cometchat/chat-sdk-javascript';
+import { Component, OnInit } from '@angular/core';
+import {  CometChatThemeService, CometChatUIKit, ListItemStyle } from '@cometchat/chat-uikit-angular';
+import { MessageListStyle } from '@cometchat/uikit-shared';
+import { MessageListAlignment } from '@cometchat/uikit-resources';
+import "@cometchat/uikit-elements";
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent implements OnInit{
+  ngOnInit(): void {
+
+    CometChat.getUser("uid").then((user: CometChat.User) => {
+      this.userObject = user;
+    });
+
+    CometChat.getMessageDetails(parentMessageId).then((message) => {
+      if (message instanceof CometChat.TextMessage) {
+        this.messageObject = message;
+        this.textMessageContent = this.messageObject.getText();
+      }
+    }).catch((error) => {
+      console.error('Error fetching message details:', error);
+      this.textMessageContent = '';
+    });
+  }
+
+  public messageObject!: CometChat.TextMessage;
+  public textMessageContent: string | undefined;
+  public userObject!: CometChat.User;
+  constructor(private themeService:CometChatThemeService) {
+    themeService.theme.palette.setMode("light")
+    themeService.theme.palette.setPrimary({ light: "#6851D6", dark: "#6851D6" })
+  }
+  listItemStyle: ListItemStyle = new ListItemStyle({
+    background: "transparent",
+    padding:"5px",
+    border:"1px solid #e9b8f5",
+    titleColor:"#8830f2",
+    borderRadius:"20px",
+    width:"100% !important"
+  });
+  messageListStyle = new MessageListStyle({
+    background: "#fdf2ff",
+    border: "1px solid #d608ff",
+    borderRadius: "20px",
+    loadingIconTint: "red",
+    nameTextColor: "pink",
+    threadReplyTextColor: "green"
+  });
+  alignment = MessageListAlignment.left;
+
+  onLogin(UID?: any) {
+    CometChatUIKit.login({ uid: UID }).then(
+      (user) => {
+        setTimeout(() => {
+          window.location.reload();
+        }, 1000);
+      },
+      (error) => {
+        console.log("Login failed with exception:", { error });
+      }
+    );
+  }
+}
+```
+
+</TabItem>
+<TabItem value="ts" label="app.component.html">
+
+```html
+<cometchat-threaded-messages
+*ngIf="messageObject"
+[parentMessage]="messageObject"
+[bubbleView]="bubbleViewTemplate"
+[messageListView]="messageListViewTemplate"
+></cometchat-threaded-messages>
+</div>
+
+<ng-template #bubbleViewTemplate>
+  <div>
+    <cometchat-list-item
+    [title]="textMessageContent"
+    [listItemStyle]="listItemStyle"
+    ></cometchat-list-item>
+    </div>
+</ng-template>
+
+<ng-template #messageListViewTemplate>
+  <div>
+    <cometchat-message-list [user]="userObject" [messageListStyle]="messageListStyle"
+      [alignment]="alignment"></cometchat-message-list>
+  </div>
+</ng-template>
+```
+
+</TabItem>
+</Tabs>
+
+---
+
+#### MessageComposerView
+
+You can set your custom Message Composer view using the `messageComposerView` property. But keep in mind, by using this you will override the default message composer functionality.
+
+**Example**
+
+**Default**
+
+![](../../assets/composer_view_default_web_screens.png)
+
+**Custom**
+
+![](../../assets/composer_view_custom_web_screens.png)
+
+<Tabs>
+<TabItem value="app.component.ts" label="app.component.ts">
+
+```javascript
+import { CometChat } from '@cometchat/chat-sdk-javascript';
+import { Component, OnInit } from '@angular/core';
+import {  CometChatThemeService, CometChatUIKit, ListItemStyle } from '@cometchat/chat-uikit-angular';
+import { MessageComposerStyle } from '@cometchat/uikit-shared';
+import { AuxiliaryButtonAlignment } from '@cometchat/uikit-resources';
+import "@cometchat/uikit-elements";
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent implements OnInit{
+  ngOnInit(): void {
+
+    CometChat.getUser("uid").then((user: CometChat.User) => {
+      this.userObject = user;
+    });
+
+    CometChat.getMessageDetails(parentMessageId).then((message) => {
+      if (message instanceof CometChat.TextMessage) {
+        this.messageObject = message;
+        this.textMessageContent = this.messageObject.getText();
+      }
+    }).catch((error) => {
+      console.error('Error fetching message details:', error);
+      this.textMessageContent = '';
+    });
+  }
+
+  public messageObject!: CometChat.TextMessage;
+  public textMessageContent: string | undefined;
+  public userObject!: CometChat.User;
+  constructor(private themeService:CometChatThemeService) {
+    themeService.theme.palette.setMode("light")
+    themeService.theme.palette.setPrimary({ light: "#6851D6", dark: "#6851D6" })
+  }
+  listItemStyle: ListItemStyle = new ListItemStyle({
+    background: "transparent",
+    padding:"5px",
+    border:"1px solid #e9b8f5",
+    titleColor:"#8830f2",
+    borderRadius:"20px",
+    width:"100% !important"
+  });
+  messageComposerStyle = new MessageComposerStyle({
+    AIIconTint:"#ec03fc",
+    attachIcontint:"#ec03fc",
+    background:"#fffcff",
+    border:"2px solid #b30fff",
+    borderRadius:"20px",
+    inputBackground:"#e2d5e8",
+    textColor:"#ff299b",
+    sendIconTint:"#ff0088",
+  });
+  auxiliaryButtonAlignment = AuxiliaryButtonAlignment.left;
+
+  onLogin(UID?: any) {
+    CometChatUIKit.login({ uid: UID }).then(
+      (user) => {
+        setTimeout(() => {
+          window.location.reload();
+        }, 1000);
+      },
+      (error) => {
+        console.log("Login failed with exception:", { error });
+      }
+    );
+  }
+}
+```
+
+</TabItem>
+<TabItem value="ts" label="app.component.html">
+
+```html
+<cometchat-threaded-messages
+*ngIf="messageObject"
+[parentMessage]="messageObject"
+[bubbleView]="bubbleViewTemplate"
+[messageComposerView]="messageComposerViewTemplate"
+></cometchat-threaded-messages>
+</div>
+
+<ng-template #bubbleViewTemplate>
+  <div>
+    <cometchat-list-item
+    [title]="textMessageContent"
+    [listItemStyle]="listItemStyle"
+    ></cometchat-list-item>
+    </div>
+</ng-template>
+
+<ng-template #messageComposerViewTemplate>
+  <div>
+    <cometchat-message-composer [user]="userObject" [messageComposerStyle]="messageComposerStyle"
+      [auxiliaryButtonAlignment]="auxiliaryButtonAlignment"></cometchat-message-composer>
+  </div>
+</ng-template>
+```
+
+</TabItem>
+</Tabs>
+
+---
+
+## Configuration
+
+Configurations offer the ability to customize the properties of each individual component within a Composite Component.
+
+The ThreadedMessages is a Composite Component, and it has a distinct set of configurations for each of its components as follows.
+
+### MessageList
+
+If you want to customize the properties of the [MessageList](./message-list) Component inside ThreadedMessages Component, you need use the `MessageListConfiguration` object.
+
+The `MessageListConfiguration` provides access to all the [Action](/ui-kit/angular/message-list#actions), [Filters](/ui-kit/angular/message-list#filters), [Styles](/ui-kit/angular/message-list#style), [Functionality](/ui-kit/angular/message-list#functionality), and [Advanced](/ui-kit/angular/message-list#advance) properties of the [MessageList](/ui-kit/angular/message-list) component.
+
+> Please note that the properties marked with the <a><span class="material-icons red">report</span></a> symbol are not accessible within the Configuration Object.
+
+**Example**
+![](../../assets/threaded_messages_message_list_web_screens.png)
+
+In this example, we will be changing the list alignment and modifying the message list styles in the [MessageList](/ui-kit/angular/message-list) component using `MessageListConfiguration`.
+
+<Tabs>
+<TabItem value="app.component.ts" label="app.component.ts">
+
+```javascript
+import { CometChat } from '@cometchat/chat-sdk-javascript';
+import { Component, OnInit } from '@angular/core';
+import {  CometChatThemeService, CometChatUIKit, ListItemStyle } from '@cometchat/chat-uikit-angular';
+import { MessageListConfiguration, MessageListStyle } from '@cometchat/uikit-shared';
+import { MessageListAlignment } from '@cometchat/uikit-resources';
+import "@cometchat/uikit-elements";
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent implements OnInit{
+  ngOnInit(): void {
+
+    CometChat.getUser("uid").then((user: CometChat.User) => {
+      this.userObject = user;
+    });
+
+    CometChat.getMessageDetails(parentMessageId).then((message) => {
+      if (message instanceof CometChat.TextMessage) {
+        this.messageObject = message;
+        this.textMessageContent = this.messageObject.getText();
+      }
+    }).catch((error) => {
+      console.error('Error fetching message details:', error);
+      this.textMessageContent = '';
+    });
+  }
+
+  public messageObject!: CometChat.TextMessage;
+  public textMessageContent: string | undefined;
+  public userObject!: CometChat.User;
+  constructor(private themeService:CometChatThemeService) {
+    themeService.theme.palette.setMode("light")
+    themeService.theme.palette.setPrimary({ light: "#6851D6", dark: "#6851D6" })
+  }
+  listItemStyle: ListItemStyle = new ListItemStyle({
+    background: "transparent",
+    padding:"5px",
+    border:"1px solid #e9b8f5",
+    titleColor:"#8830f2",
+    borderRadius:"20px",
+    width:"100% !important"
+  });
+ public messageListConfiguration = new MessageListConfiguration({
+    messageListStyle: new MessageListStyle({
+      background:"#d8cae6",
+        border:"2px solid #6107ba",
+        borderRadius:"20px",
+        loadingIconTint:"red",
+        nameTextColor:"pink",
+        threadReplyTextColor:"green"
+    }),
+    alignment: MessageListAlignment.left,
+  });
+
+  onLogin(UID?: any) {
+    CometChatUIKit.login({ uid: UID }).then(
+      (user) => {
+        setTimeout(() => {
+          window.location.reload();
+        }, 1000);
+      },
+      (error) => {
+        console.log("Login failed with exception:", { error });
+      }
+    );
+  }
+}
+```
+
+</TabItem>
+<TabItem value="ts" label="app.component.html">
+
+```html
+<cometchat-threaded-messages
+*ngIf="messageObject"
+[parentMessage]="messageObject"
+[bubbleView]="bubbleViewTemplate"
+[messageListConfiguration]="messageListConfiguration"
+></cometchat-threaded-messages>
+</div>
+
+<ng-template #bubbleViewTemplate>
+  <div>
+    <cometchat-list-item
+    [title]="textMessageContent"
+    [listItemStyle]="listItemStyle"
+    ></cometchat-list-item>
+    </div>
+</ng-template>
+
+```
+
+</TabItem>
+</Tabs>
+
+---
+
+### MessageComposer
+
+If you want to customize the properties of the [MessageComposer](/ui-kit/angular/message-composer) Component inside ThreadedMessages Component, you need use the `MessageComposerConfiguration` object.
+
+The `MessageComposerConfiguration` provides access to all the [Action](/ui-kit/angular/message-composer#actions), [Filters](/ui-kit/angular/message-composer#filters), [Styles](/ui-kit/angular/message-composer#style), [Functionality](/ui-kit/angular/message-composer#functionality), and [Advanced](/ui-kit/angular/message-composer#advanced) properties of the [MessageComposer](/ui-kit/angular/message-composer) component.
+
+> Please note that the properties marked with the <a><span class="material-icons red">report</span></a> symbol are not accessible within the Configuration Object.
+
+**Example**
+![](../../assets/threaded_messages_message_composer_web_screens.png)
+In this example, we'll be adding a custom header view and customizing some properties of the [MessageComposer](/ui-kit/angular/message-composer) component using `MessageComposerConfiguration`.
+
+<Tabs>
+<TabItem value="app.component.ts" label="app.component.ts">
+
+```javascript
+import { CometChat } from '@cometchat/chat-sdk-javascript';
+import { Component, OnInit } from '@angular/core';
+import {  CometChatThemeService, CometChatUIKit, ListItemStyle } from '@cometchat/chat-uikit-angular';
+import { MessageComposerConfiguration, MessageComposerStyle } from '@cometchat/uikit-shared';
+import "@cometchat/uikit-elements";
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent implements OnInit{
+  ngOnInit(): void {
+
+    CometChat.getUser("uid").then((user: CometChat.User) => {
+      this.userObject = user;
+    });
+
+    CometChat.getMessageDetails(parentMessageId).then((message) => {
+      if (message instanceof CometChat.TextMessage) {
+        this.messageObject = message;
+        this.textMessageContent = this.messageObject.getText();
+      }
+    }).catch((error) => {
+      console.error('Error fetching message details:', error);
+      this.textMessageContent = '';
+    });
+    this.messageComposerConfiguration =  new MessageComposerConfiguration({
+      // property of message composer configuration
+      headerView:this.headerView,
+      messageComposerStyle: new MessageComposerStyle({
+        AIIconTint: "#ec03fc",
+        attachIcontint: "#ec03fc",
+        background: "#fffcff",
+        border: "2px solid #b30fff",
+        borderRadius: "20px",
+        inputBackground: "#e2d5e8",
+        textColor: "#ff299b",
+        sendIconTint: "#ff0088",
+      })
+    });
+  }
+
+  public messageObject!: CometChat.TextMessage;
+  public textMessageContent: string | undefined;
+  public userObject!: CometChat.User;
+  constructor(private themeService:CometChatThemeService) {
+    themeService.theme.palette.setMode("light")
+    themeService.theme.palette.setPrimary({ light: "#6851D6", dark: "#6851D6" })
+  }
+  listItemStyle: ListItemStyle = new ListItemStyle({
+    background: "transparent",
+    padding:"5px",
+    border:"1px solid #e9b8f5",
+    titleColor:"#8830f2",
+    borderRadius:"20px",
+    width:"100% !important"
+  });
+  public messageComposerConfiguration !: MessageComposerConfiguration;
+
+  onLogin(UID?: any) {
+    CometChatUIKit.login({ uid: UID }).then(
+      (user) => {
+        setTimeout(() => {
+          window.location.reload();
+        }, 1000);
+      },
+      (error) => {
+        console.log("Login failed with exception:", { error });
+      }
+    );
+  }
+}
+```
+
+</TabItem>
+<TabItem value="ts" label="app.component.html">
+
+```html
+<cometchat-threaded-messages
+*ngIf="messageObject"
+[parentMessage]="messageObject"
+[bubbleView]="bubbleViewTemplate"
+[messageComposerConfiguration]="messageComposerConfiguration"
+></cometchat-threaded-messages>
+</div>
+
+<ng-template #bubbleViewTemplate>
+  <div>
+    <cometchat-list-item
+    [title]="textMessageContent"
+    [listItemStyle]="listItemStyle"
+    ></cometchat-list-item>
+    </div>
+</ng-template>
+<ng-template #headerView>
+  <div
+    [ngStyle]="{ height: '40px', width: '100px', background: '#a46efa', borderRadius: '20px', display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '10px' }">
+    <button
+      [ngStyle]="{ height: '40px', width: '40px', background: '#a46efa', border: 'none', display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'pointer' }">
+      <img [src]="myCustomIcon"
+        [ngStyle]="{ height: 'auto', width: '100%', maxWidth: '100%', maxHeight: '100%', borderRadius: '50%' }"
+        alt="bot" />
+      <span>Chat Bot</span>
+    </button>
+  </div>
+</ng-template>
+```
+
+</TabItem>
+</Tabs>
+
+import { Tooltip } from 'react-tooltip'
+import 'react-tooltip/dist/react-tooltip.css'
+
+<Tooltip
+  id="my-tooltip-html-prop"
+  html="Not available in ThreadedMessagesConfiguration"
+/>

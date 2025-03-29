@@ -1,0 +1,49 @@
+---
+sidebar_position: 22
+title: Loader
+slug: /loader
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+## Overview
+
+This element helps to notify users that loading is underway. They are used while retrieving data or performing slow computations.
+
+## Properties
+
+| Name | Type | Description | 
+| ---- | ---- | ---- | 
+| name | string | Text to appear on the icon | 
+| iconURL | string | Asset URL for the icon | 
+| loaderStyle | [LoaderStyle](./loader#loaderstyle) | Styling properties and values of the element | 
+
+
+## LoaderStyle
+
+Styling properties and values of the element
+
+| Name | Description | 
+| ---- | ---- | 
+| width | Sets the width of the element | 
+| height | Sets the height of the element | 
+| border | Sets the border of the element | 
+| borderRadius | Sets the border radius of the element | 
+| background | Sets all background style properties at once, such as color, image, origin and size, or repeat method of the element. [Reference link](https://developer.mozilla.org/en-US/docs/Web/CSS/background) | 
+| iconTint | Sets the tint or color applied to the icon | 
+
+
+## Usage
+
+<Tabs>
+<TabItem value="html" label="HTML">
+
+```HTML
+<cometchat-loader
+[URL]="myCustomIcon"
+></cometchat-loader>
+```
+
+</TabItem>
+</Tabs>

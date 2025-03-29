@@ -1,0 +1,13 @@
+---
+sidebar_position: 6
+title: UI Events
+slug: /ui-events
+---
+
+UI events, refer to actions or interactions performed by a user within the CometChat's UI Kit. These events are triggered when a user interacts with various UI elements, such as buttons, menus, checkboxes, input fields, or any other interactive components.
+
+It consists of the following events:
+
+| Name                | Description                                                                  |
+| ------------------- | ---------------------------------------------------------------------------- |
+| ccActiveChatChanged | This event is triggered when the user navigates to a particular chat window. |

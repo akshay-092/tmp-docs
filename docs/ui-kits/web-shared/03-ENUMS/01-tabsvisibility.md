@@ -1,0 +1,13 @@
+---
+sidebar_position: 1
+title: TabsVisibility
+slug: /tabsvisibility
+---
+
+`TabsVisibility` describes distinct state of tabs in order to change their visibility
+
+| Name | Description | 
+| ---- | ---- | 
+| usersAndGroups | Allows user to display both users and groups tab | 
+| users | Allows user to display only the users tab | 
+| groups | Allows user to display only the groups tab | 

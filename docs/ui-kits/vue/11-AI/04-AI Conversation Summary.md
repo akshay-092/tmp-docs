@@ -1,0 +1,45 @@
+---
+sidebar_position: 4
+title: AI Conversation Summary
+slug: /ai-conversation-summary
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+AI Conversation Summary is a class which generates a summary of a given conversation.
+
+### Integration
+
+```AI Conversation Summary``` will be enabled by default if it is enabled in the Dashboard. The UI & functionality of ```AI Conversation Summary``` can be customized via Configuration.
+
+<Tabs>
+<TabItem value="js" label="Javascript">
+
+```js
+const conversationSummaryConfiguration = new AIConversationSummaryConfiguration({});
+```
+
+</TabItem>
+</Tabs>
+
+
+This configuration needs to be passed to ```AI Smart Replies``` Class when it is passed to setAiFeatures() method of ```UIKitSettingsBuilder```.
+
+<Tabs>
+<TabItem value="js" label="Javascript">
+
+```js
+const aiFeatures = [new AIConversationSummaryExtension(conversationSummaryConfiguration)];
+
+// Pass this list of features to setAiFeatures method.
+new UIKitSettingsBuilder().setAiFeatures(aiFeatures);
+```
+
+</TabItem>
+</Tabs>
+
+
+| Properties                    | Type                                                           | Description                                                                                                                             |
+| ----------------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| configuration           | [AIConversationSummaryConfiguration](/web-shared/ai-conversation-summary-configuration)         | This is a configuration to customise behaviour & UI of ```AI Conversation Summary```.                                                  |

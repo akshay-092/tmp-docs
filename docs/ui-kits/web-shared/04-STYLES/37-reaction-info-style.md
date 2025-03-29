@@ -1,0 +1,19 @@
+---
+sidebar_position: 37
+title: ReactionInfoStyle
+slug: /reaction-info-style
+---
+
+Styling properties of `ReactionInfo` component.
+
+| Name              | Description                                         |
+| ----------------- | --------------------------------------------------- |
+| reactionFontSize  | Sets the font size of the reactions.                |
+| namesFont         | Sets the font properties of the names.              |
+| namesColor        | Sets the color of the names.                        |
+| loadingIconTint   | Sets the tint or color applied to the loading icon. |
+| errorIconTint     | Sets the tint or color applied to the error icon.   |
+| reactedTextFont   | Sets the font properties of the reacted text.       |
+| reactedTextColor  | Sets the color of the reacted text.                 |
+| width             | Sets the width of the component.                    |
+| height            | Sets the height of the component.                   |

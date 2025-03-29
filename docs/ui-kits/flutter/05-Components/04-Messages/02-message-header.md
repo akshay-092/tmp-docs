@@ -1,0 +1,629 @@
+---
+sidebar_position: 2
+title: Message Header
+slug: /message-header
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import { Tooltip } from 'react-tooltip'
+import 'react-tooltip/dist/react-tooltip.css'
+
+<Tooltip id="my-tooltip-html-prop" html="Not available in Group Members Configuration object"/>
+
+## Overview
+
+`CometChatMessageHeader` is a [Widget](/ui-kit/flutter/components-overview#components) that showcases the [User](/sdk/flutter/users-overview) or [Group](/sdk/flutter/groups-overview) details in the toolbar. Furthermore, it also presents a typing indicator and a back navigation button for ease of use.
+
+<Tabs>
+
+<TabItem value="Android" label="Android">
+
+![](../../assets/android/message_header_overview_cometchat_screens.png)
+
+</TabItem>
+
+<TabItem value="iOS" label="iOS">
+
+![](../../assets/ios/message_header_overview_cometchat_screens.png)
+
+</TabItem>
+
+</Tabs>
+
+The `CometChatMessageHeader` is comprised of the following components:
+
+| Components                     | Description                                                                                                                                      |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [ListItem Widget](./list-item) | This component’s widget consists of avatar, status indicator , title, and subtitle. The fields are then mapped with the SDK’s user, group class. |
+| Back Button                    | BackButton that allows users to navigate back from the current activity or screen to the previous one                                            |
+
+## Usage
+
+### Integration
+
+You can launch `CometChatMessageHeader` directly using `Navigator.push`, or you can define it as a widget within the `build` method of your `State` class.
+
+##### 1. Using Navigator to Launch `CometChatMessageHeader`
+
+<Tabs>
+
+<TabItem value="Dart" label="Dart">
+
+```dart
+Navigator.push(context, MaterialPageRoute(builder: (context) => CometChatMessageHeader())); // A user or group object is required to launch this widget.
+```
+
+</TabItem>
+
+</Tabs>
+
+##### 2. Embedding `CometChatMessageHeader` as a Widget in the build Method
+
+<Tabs>
+
+<TabItem value="Dart" label="Dart">
+
+```dart
+import 'package:cometchat_chat_uikit/cometchat_chat_uikit.dart';
+import 'package:flutter/material.dart';
+
+class MessageHeader extends StatefulWidget {
+  const MessageHeader({super.key});
+
+  @override
+  State<MessageHeader> createState() => _MessageHeaderState();
+}
+
+class _MessageHeaderState extends State<MessageHeader> {
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        body: SafeArea(
+            child: CometChatMessageHeader() // A user or group object is required to launch this widget.
+        )
+    );
+  }
+}
+```
+
+</TabItem>
+
+</Tabs>
+
+---
+
+### Actions
+
+[Actions](/ui-kit/flutter/components-overview#actions) dictate how a widget functions. They are divided into two types: Predefined and User-defined. You can override either type, allowing you to tailor the behavior of the widget to fit your specific needs.
+
+##### 1. onBack
+
+Enhance your application's functionality by leveraging the `onBack` feature. This capability allows you to customize the behavior associated with navigating back within your app. Utilize the provided code snippet to override default behaviors and tailor the user experience according to your specific requirements.
+
+<Tabs>
+
+<TabItem value="Dart" label="Dart">
+
+```dart
+CometChatMessageHeader(
+  user: user,
+  onBack: () {
+    // TODO("Not yet implemented")
+  },
+)
+```
+
+</TabItem>
+
+</Tabs>
+
+---
+
+### Filters
+
+**Filters** allow you to customize the data displayed in a list within a `Widget`. You can filter the list based on your specific criteria, allowing for a more customized. Filters can be applied using `RequestBuilders` of Chat SDK.
+
+The `CometChatMessageHeader` widget does not have any exposed filters.
+
+---
+
+## Customization
+
+To fit your app's design requirements, you can customize the appearance of the conversation widget. We provide exposed methods that allow you to modify the experience and behavior according to your specific needs.
+
+### Style
+
+Using Style you can customize the look and feel of the widget in your app, These parameters typically control elements such as the color, size, shape, and fonts used within the widget.
+
+##### 1. MessageHeader Style
+
+To customize the appearance, you can assign a `MessageHeaderStyle` object to the `CometChatMessageHeader` widget.
+
+<Tabs>
+
+<TabItem value="Dart" label="Dart">
+
+```dart
+CometChatMessageHeader(
+  user: user,
+  messageHeaderStyle: MessageHeaderStyle(
+    background: Color(0xFFE4EBF5),
+    border: Border.all(width: 3, color: Colors.red),
+    borderRadius: 10,
+    onlineStatusColor: Colors.red,
+  ),
+)
+```
+
+</TabItem>
+
+</Tabs>
+
+<Tabs>
+
+<TabItem value="Android" label="Android">
+
+![](../../assets/android/message_header_style_cometchat_screens.png)
+
+</TabItem>
+
+<TabItem value="iOS" label="iOS">
+
+![](../../assets/ios/message_header_style_cometchat_screens.png)
+
+</TabItem>
+
+</Tabs>
+
+List of properties exposed by `MessageHeaderStyle` are as follows:
+
+| **Property**                    | **Description**                              | **Code**                               |
+| ------------------------------- | -------------------------------------------- | -------------------------------------- |
+| **Back Button Icon Tint**       | Provides color to back button                | `backButtonIconTint: Color?`           |
+| **Background**                  | Background inherited from BaseStyles         | `background`                           |
+| **Border**                      | Border inherited from BaseStyles             | `border`                               |
+| **Border Radius**               | Border radius inherited from BaseStyles      | `borderRadius`                         |
+| **Gradient**                    | Gradient inherited from BaseStyles           | `gradient`                             |
+| **Height**                      | Height inherited from BaseStyles             | `height`                               |
+| **Online Status Color**         | Sets online status color                     | `onlineStatusColor: Color?`            |
+| **Subtitle Text Style**         | Text style for setting subtitle text         | `subtitleTextStyle: TextStyle?`        |
+| **Typing Indicator Text Style** | Text style for setting typing indicator text | `typingIndicatorTextStyle: TextStyle?` |
+| **Width**                       | Width inherited from BaseStyles              | `width`                                |
+
+---
+
+##### 2. Avatar Style
+
+If you want to apply customized styles to the `Avatar` widget within the `CometChatMessageHeader` Widget, you can use the following code snippet. For more information you can refer [Avatar Styles](/ui-kit/flutter/avatar#avatarstyle).
+
+<Tabs>
+
+<TabItem value="Dart" label="Dart">
+
+```dart
+CometChatMessageHeader(
+  user: user,
+  avatarStyle: AvatarStyle(
+      border: Border.all(width: 5),
+      borderRadius: 20,
+      background: Colors.red
+  ),
+)
+```
+
+</TabItem>
+
+</Tabs>
+
+---
+
+##### 3. ListItem Style
+
+If you want to apply customized styles to the `List Item` widget within the `CometChatMessageHeader` Widget, you can use the following code snippet. For more information, you can refer [ListItem Styles](/ui-kit/flutter/list-item#listitemstyle).
+
+<Tabs>
+
+<TabItem value="Dart" label="Dart">
+
+```dart
+CometChatMessageHeader(
+  user: user,
+  listItemStyle: ListItemStyle(
+      background: Color(0xFFE4EBF5),
+      borderRadius: 20,
+      border: Border.all(width: 2),
+      margin: EdgeInsets.only(top: 10),
+      padding: EdgeInsets.only(left: 10)
+  ),
+)
+```
+
+</TabItem>
+
+</Tabs>
+
+---
+
+##### 4. StatusIndicator Style
+
+If you want to apply customized styles to the `Status Indicator` widget within the `CometChatMessageHeader` Widget, you can use the following code snippet. For more information you can refer [StatusIndicator Styles](/ui-kit/flutter/status-indicator#statusindicatorstyle).
+
+<Tabs>
+
+<TabItem value="Dart" label="Dart">
+
+```dart
+CometChatMessageHeader(
+  user: user,
+  statusIndicatorStyle: StatusIndicatorStyle(
+      borderRadius: 10,
+      gradient: LinearGradient(colors: [Colors.red, Colors.orange], begin: Alignment.topLeft, end: Alignment.bottomRight)
+  ),
+)
+```
+
+</TabItem>
+
+</Tabs>
+
+---
+
+### Functionality
+
+These are a set of small functional customizations that allow you to fine-tune the overall experience of the widget. With these, you can change text, set custom icons, and toggle the visibility of UI elements.
+
+Here is a code snippet demonstrating how you can customize the functionality of the Message Header widget.
+
+<Tabs>
+
+<TabItem value="Dart" label="Dart">
+
+```dart
+CometChatMessageHeader(
+  user: user,
+  hideBackButton: true,
+  disableUserPresence: true,
+)
+```
+
+</TabItem>
+
+</Tabs>
+
+<Tabs>
+
+<TabItem value="Android" label="Android">
+
+![](../../assets/android/message_header_functionality_cometchat_screens.png)
+
+</TabItem>
+
+<TabItem value="iOS" label="iOS">
+
+![](../../assets/ios/message_header_functionality_cometchat_screens.png)
+
+</TabItem>
+
+</Tabs>
+
+Following is a list of customizations along with their corresponding code snippets:
+
+| **Property**              | **Description**                      | **Code**              |
+| ------------------------- | ------------------------------------ | --------------------- |
+| **Back Button**           | Widget for the back button           | `backButton`          |
+| **Disable Typing**        | Whether typing indicator is disabled | `disableTyping: bool` |
+| **Disable User Presence** | Whether user presence is disabled    | `disableUserPresence` |
+| **Group**                 | Group object to be displayed         | `group`               |
+| **Hide Back Button**      | Whether to hide the back button      | `hideBackButton`      |
+| **Private Group Icon**    | Icon for private groups              | `privateGroupIcon`    |
+| **Protected Group Icon**  | Icon for protected groups            | `protectedGroupIcon`  |
+| **Theme**                 | Theme to be applied                  | `theme`               |
+| **User**                  | User object to be displayed          | `user`                |
+
+---
+
+### Advanced
+
+For advanced-level customization, you can set custom views to the widget. This lets you tailor each aspect of the widget to fit your exact needs and application aesthetics. You can create and define your own widget and then incorporate those into the widget.
+
+#### ListItemView
+
+The `CometChatMessageHeader` widget consists of a `ListItemView`. You can customize the ListItem according to your requirements by using the `.setListItemView` method.
+
+<Tabs>
+
+<TabItem value="Dart" label="Dart">
+
+```dart
+CometChatMessageHeader(
+  user: user,
+  listItemView: (Group? group, User? user, context) {
+    return Placeholder(); // Replace this placeholder with your custom widget.
+  },
+)
+```
+
+</TabItem>
+
+</Tabs>
+
+**Example**
+
+Here is the complete example for reference:
+
+<Tabs>
+
+<TabItem value="Dart" label="Dart">
+
+```dart title="custom_list_item.dart"
+import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
+import '../helper/utils/custom_colors.dart';
+
+class CustomListItems extends StatelessWidget {
+  final String name;
+  final DateTime? lastMessageTime;
+  final String? avatarUrl;
+
+  const CustomListItems({
+    super.key,
+    required this.name,
+    this.lastMessageTime,
+    this.avatarUrl,
+  });
+
+  String formatDateTime(DateTime dateTime) {
+    final now = DateTime.now();
+    final difference = now.difference(dateTime);
+
+    if (difference.inDays == 0) {
+      return DateFormat('HH:mm').format(dateTime);
+    } else if (difference.inDays == 1) {
+      return 'Yesterday';
+    } else {
+      return DateFormat('yyyy-MM-dd').format(dateTime);
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      margin: const EdgeInsets.only(top: 5, bottom: 5),
+      padding: const EdgeInsets.all(8.0),
+      decoration: BoxDecoration(
+        border: Border.all(color: Color(0xFF6851D6), width: 1), // Example border color
+        borderRadius: BorderRadius.circular(8.0),
+        color: Color(0xFFEEEEEE)
+      ),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  name,
+                  style: const TextStyle(
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                lastMessageTime == null ? Container() : Text(formatDateTime(lastMessageTime!)),
+              ],
+            ),
+          ),
+          const SizedBox(width: 8.0),
+          if (avatarUrl != null)
+            ClipOval(
+              child: Image.network(
+                avatarUrl!,
+                width: 40.0,
+                height: 40.0,
+                fit: BoxFit.cover,
+                errorBuilder: (context, error, stackTrace) {
+                  return const Icon(
+                    Icons.person,
+                    size: 40.0,
+                  );
+                },
+              ),
+            )
+          else
+            const Icon(
+              Icons.person,
+              size: 40.0,
+            ),
+        ],
+      ),
+    );
+  }
+}
+```
+
+</TabItem>
+
+</Tabs>
+
+<Tabs>
+
+<TabItem value="Dart" label="Dart">
+
+```dart title="main.dart"
+CometChatMessageHeader(
+  user: user,
+  listItemView: (Group? group, User? user, context) {
+    return Container(
+      margin: const EdgeInsets.all(10),
+      decoration: BoxDecoration(
+        color: Color(0xFFE4EBF5),
+        borderRadius: BorderRadius.circular(10),
+        border: Border.all(width: 5, color: Color(0xFF6851D6)),
+      ),
+      child: Center(
+        child: CometChatMessageList(user: user),
+      ),
+    );
+  },
+) // Replaced the placeholder with a custom widget.
+```
+
+</TabItem>
+
+</Tabs>
+
+<Tabs>
+
+<TabItem value="Android" label="Android">
+
+![](../../assets/android/message_header_set_list_item_cometchat_screens.png)
+
+</TabItem>
+
+<TabItem value="iOS" label="iOS">
+
+![](../../assets/ios/message_header_set_list_item_cometchat_screens.png)
+
+</TabItem>
+
+</Tabs>
+
+---
+
+#### SubtitleView
+
+You can customize the subtitle widget for each item to meet your specific preferences and needs.
+
+<Tabs>
+
+<TabItem value="Dart" label="Dart">
+
+```dart
+CometChatMessageHeader(
+  user: user,
+  subtitleView: (Group? group, User? user, BuildContext context) {
+    return const Row(
+      children: [
+        Icon(Icons.call, color: Color(0xFF6851D6), size: 25,),
+        SizedBox(width: 10),
+        Icon(Icons.video_call, color: Color(0xFF6851D6), size: 25,),
+      ],
+    );
+  },
+)
+```
+
+</TabItem>
+
+</Tabs>
+
+<Tabs>
+
+<TabItem value="Android" label="Android">
+
+![](../../assets/android/message_header_set_subtitle_view_cometchat_screens.png)
+
+</TabItem>
+
+<TabItem value="iOS" label="iOS">
+
+![](../../assets/ios/message_header_set_subtitle_view_cometchat_screens.png)
+
+</TabItem>
+
+</Tabs>
+
+---
+
+#### AppBarOptions
+
+You can set the Custom `appBarOptions` to the `CometChatMessageHeader` widget.
+
+<Tabs>
+
+<TabItem value="Dart" label="Dart">
+
+```dart
+CometChatMessageHeader(
+  user: user,
+  appBarOptions: (User? user, Group? group, BuildContext context) {
+    return [
+      InkWell(
+        onTap: () {
+          // TODO("Not yet implemented")
+        },
+        child: const Icon(Icons.login, color: Color(0xFF6851D6)),
+      ),
+      const SizedBox(width: 10)
+    ];
+  },
+)
+```
+
+</TabItem>
+
+</Tabs>
+
+<Tabs>
+
+<TabItem value="Android" label="Android">
+
+![](../../assets/android/message_header_set_menu_cometchat_screens.png)
+
+</TabItem>
+
+<TabItem value="iOS" label="iOS">
+
+![](../../assets/ios/message_header_set_menu_cometchat_screens.png)
+
+</TabItem>
+
+</Tabs>
+
+---
+
+#### BackIcon
+
+You can customize the Back Icon according to your specific requirements by using the `.backButton` method.
+
+<Tabs>
+
+<TabItem value="Dart" label="Dart">
+
+```dart
+CometChatMessageHeader(
+  user: user,
+  backButton: (context) {
+    return IconButton(
+      icon: Icon(Icons.add_alert_outlined, color: Color(0xFF6851D6)),
+      onPressed: () {
+        // Navigator.pop(context);
+      },
+    );
+  },
+)
+```
+
+</TabItem>
+
+</Tabs>
+
+<Tabs>
+
+<TabItem value="Android" label="Android">
+
+![](../../assets/android/message_header_set_back_button_cometchat_screens.png)
+
+</TabItem>
+
+<TabItem value="iOS" label="iOS">
+
+![](../../assets/ios/message_header_set_back_button_cometchat_screens.png)
+
+</TabItem>
+
+</Tabs>
+
+---

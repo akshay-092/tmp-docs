@@ -1,0 +1,12 @@
+---
+sidebar_position: 11
+title: DocumentIconAlignment
+slug: /documenticonalignment
+---
+
+DocumentIconAlignment describes the positioning of icon within the [CometChatDocumentBubble](/web-elements/document-bubble) component.
+
+| Name | Description | 
+| ---- | ---- | 
+| left | Aligns the icon towards the left of the text | 
+| right | Aligns the icon towards the right of the text | 

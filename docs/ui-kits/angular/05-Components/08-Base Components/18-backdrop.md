@@ -1,0 +1,71 @@
+---
+sidebar_position: 17
+title: Backdrop
+slug: /backdrop
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+
+
+This element represents the background against which other elements are presented.
+
+## Properties
+
+| Name | Type | Description | 
+| ---- | ---- | ---- | 
+| isOpen | Boolean | When set to true, makes the element visible | 
+| backdropStyle | [BackdropStyle](./backdrop#backdropstyle) | Styling properties and values of the element | 
+
+
+## Events
+
+Events dispatched from the element
+
+| Name | Description | 
+| ---- | ---- | 
+| cc-backdrop-clicked | Event triggered when user clicks on the element | 
+
+
+## BackdropStyle
+
+Styling properties and values of the element
+
+| Name | Description | 
+| ---- | ---- | 
+| width | Sets the width of the element | 
+| height | Sets the height of the element | 
+| border | Sets the border of the element | 
+| borderRadius | Sets the border radius of the element | 
+| background | Sets all background style properties at once, such as color, image, origin and size, or repeat method. [Reference link](https://developer.mozilla.org/en-US/docs/Web/CSS/background) | 
+
+
+## Usage
+
+<Tabs>
+<TabItem value="html" label="HTML">
+
+```HTML
+<cometchat-backdrop
+[backdropStyle]="backdropStyle"
+></cometchat-backdrop>
+```
+
+</TabItem>
+<TabItem value="js" label="Javascript">
+
+```javascript
+import "@cometchat/uikit-elements"; //import the web elements package.
+import { backdropStyle } from "@cometchat/uikit-elements"; //import the BaseStyle class.
+
+
+backdropStyle: BackdropStyle = new BackdropStyle({
+  background: '#cba3ff',
+  border: '1px solid #6f00ff',
+  borderRadius: '12px',
+});
+```
+
+</TabItem>
+</Tabs>

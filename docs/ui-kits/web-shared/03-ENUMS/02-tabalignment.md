@@ -1,0 +1,14 @@
+---
+sidebar_position: 2
+title: TabAlignment
+slug: /tabalignment
+---
+
+`TabAlignment` describes alignment or positioning of tabs in a tabbed interface
+
+| Name | Description | 
+| ---- | ---- | 
+| left | Horizontally aligns the tabs from left to right | 
+| right | Horizontally aligns the tabs from right to left | 
+| top | Vertically aligns the tabs from top to bottom | 
+| bottom | Vertically aligns the tabs from bottom to top | 

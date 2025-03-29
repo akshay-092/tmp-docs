@@ -1,0 +1,532 @@
+---
+sidebar_position: 1
+title: Retrieve Users
+slug: /retrieve-users
+---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+## Retrieve Logged In User Details
+
+You can get the details of the logged-in user using the `getLoggedInUser()` method. This method can also be used to check if the user is logged in or not. If the method returns `null`, it indicates that the user is not logged in and you need to log the user into CometChat.
+
+<Tabs>
+<TabItem value="Java" label="Java">
+
+  ```java
+User user = CometChat.getLoggedInUser();
+  ```
+</TabItem>
+<TabItem value="Kotlin" label="Kotlin">
+
+  ```kotlin
+val user = CometChat.getLoggedInUser()   
+  ```
+</TabItem>
+</Tabs>
+
+
+
+This method will return a `User` object containing all the information related to the logged-in user.
+
+## Retrieve List of Users
+
+In order to fetch the list of users, you can use the `UsersRequest` class. To use this class i.e to create an object of the UsersRequest class, you need to use the `UsersRequestBuilder` class. The `UsersRequestBuilder` class allows you to set the parameters based on which the users are to be fetched.
+
+The `UsersRequestBuilder` class allows you to set the below parameters:
+
+### Set Limit
+
+This method sets the limit i.e. the number of users that should be fetched in a single iteration.
+
+<Tabs>
+<TabItem value="Java" label="Java">
+
+  ```java
+UsersRequest usersRequest = new UsersRequest.UsersRequestBuilder()
+  .setLimit(30)
+  .build();
+  ```
+</TabItem>
+<TabItem value="Kotlin" label="Kotlin">
+
+  ```kotlin
+val usersRequest = UsersRequestBuilder()
+  .setLimit(30)
+  .build()
+  ```
+</TabItem>
+</Tabs>
+
+
+
+
+### Set Search Keyword
+
+This method allows you to set the search string based on which the users are to be fetched.
+
+<Tabs>
+<TabItem value="Java" label="Java">
+
+  ```java
+UsersRequest usersRequest = new UsersRequest.UsersRequestBuilder()
+.setLimit(limit)
+.setSearchKeyword("abc")
+.build();
+  ```
+</TabItem>
+<TabItem value="Kotlin" label="Kotlin">
+
+  ```kotlin
+val usersRequest = UsersRequestBuilder()
+  .setLimit(limit)
+  .setSearchKeyword("abc")
+  .build()
+  ```
+</TabItem>
+</Tabs>
+
+
+### Search In
+
+This method allows you to define in which user property should the searchKeyword be searched. This method only works in combination with `setSearchKeyword()`. By default the keyword is searched in both UID & Name.
+
+<Tabs>
+<TabItem value="Java" label="Java">
+
+  ```java
+List<String> searchInList = new ArrayList<>();
+searchInList.add("uid");
+
+UsersRequest usersRequest = new UsersRequest.UsersRequestBuilder()
+  .setLimit(20)
+  .setSearchKeyword("super")
+  .searchIn(searchInList)
+  .build();
+  ```
+</TabItem>
+<TabItem value="Kotlin" label="Kotlin">
+
+  ```kotlin
+val searchInList: MutableList<String> = ArrayList()
+searchInList.add("uid")
+
+val usersRequest = UsersRequestBuilder()
+  .setLimit(20)
+  .setSearchKeyword("super")
+  .searchIn(searchInList)
+  .build()
+  ```
+</TabItem>
+</Tabs>
+
+
+### Set Status
+
+The status based on which the users are to be fetched. The status parameter can contain one of the below two values:
+
+- CometChat.USER_STATUS.ONLINE - will return the list of only online users.
+- CometChat.USER_STATUS.OFFLINE - will return the list of only offline users.
+
+If this parameter is not set, will return all the available users.
+
+
+<Tabs>
+<TabItem value="Java" label="Java">
+
+  ```java
+UsersRequest usersRequest = new UsersRequest.UsersRequestBuilder()
+  .setLimit(limit)
+  .setUserStatus(UsersRequest.USER_STATUS_ONLINE)
+  .build();  
+  ```
+</TabItem>
+<TabItem value="Kotlin" label="Kotlin">
+
+  ```kotlin
+val usersRequest = UsersRequestBuilder()
+  .setLimit(limit)
+  .setUserStatus(UsersRequest.USER_STATUS_ONLINE)
+  .build() 
+  ```
+</TabItem>
+</Tabs>
+
+
+
+If this parameter is not set, will return all users.
+
+### Hide Blocked Users
+
+This method is used to determine if the blocked users should be returned as a part of the user list. If set to `true`, the user list will not contain the users blocked by the logged-in user.
+
+
+<Tabs>
+<TabItem value="Java" label="Java">
+
+  ```java
+UsersRequest usersRequest = new UsersRequest.UsersRequestBuilder()
+  .setLimit(limit)
+  .hideBlockedUsers(true)
+  .build();   
+  ```
+</TabItem>
+<TabItem value="Kotlin" label="Kotlin">
+
+  ```kotlin
+val usersRequest = UsersRequestBuilder()
+  .setLimit(limit)
+  .hideBlockedUsers(true)
+  .build()
+  ```
+</TabItem>
+</Tabs>
+
+
+
+### Set Roles
+
+This method allows you to fetch the users based on multiple roles.
+
+
+<Tabs>
+<TabItem value="Java" label="Java">
+
+  ```java
+List<String> roles = new ArrayList<>();
+roles.add("role1");
+roles.add("role2");
+UsersRequest usersRequest = new UsersRequest.UsersRequestBuilder()
+  .setLimit(limit)
+  .setRoles(roles)
+  .build();
+  ```
+</TabItem>
+<TabItem value="Kotlin" label="Kotlin">
+
+  ```kotlin
+val roles: MutableList<String> = ArrayList()
+roles.add("role1")
+roles.add("role2")
+val usersRequest = UsersRequestBuilder()
+  .setLimit(limit)
+  .setRoles(roles)
+  .build()
+  ```
+</TabItem>
+</Tabs>
+
+
+
+### Friends Only
+
+This property when set to true will return only the friends of the logged-in user.
+
+<Tabs>
+<TabItem value="Java" label="Java">
+
+  ```java
+UsersRequest usersRequest = new UsersRequest.UsersRequestBuilder()
+  .setLimit(limit)
+  .friendsOnly(true)
+  .build();
+  ```
+</TabItem>
+<TabItem value="Kotlin" label="Kotlin">
+
+  ```kotlin
+val usersRequest = UsersRequestBuilder()
+  .setLimit(limit)
+  .friendsOnly(true)
+  .build()
+  ```
+</TabItem>
+</Tabs>
+
+
+
+### Set Tags
+
+This method accepts a list of tags based on which the list of users is to be fetched. The list fetched will only contain the users that have been tagged with the specified tags.
+
+
+<Tabs>
+<TabItem value="Java" label="Java">
+
+  ```java
+List<String> tags = new ArrayList<>();
+tags.add("tag1");
+tags.add("tag2");
+UsersRequest usersRequest = new UsersRequest.UsersRequestBuilder()
+  .setLimit(limit)
+  .setTags(tags)
+  .build();
+  ```
+</TabItem>
+<TabItem value="Kotlin" label="Kotlin">
+
+  ```kotlin
+val tags: MutableList<String> = ArrayList()
+tags.add("tag1")
+tags.add("tag2")
+val usersRequest = UsersRequestBuilder()
+  .setLimit(limit)
+  .setTags(tags)
+  .build()
+  ```
+</TabItem>
+</Tabs>
+
+
+
+
+### With Tags
+
+This property when set to true will fetch tags data along with the list of users.
+
+<Tabs>
+<TabItem value="Java" label="Java">
+
+  ```java
+UsersRequest usersRequest = new UsersRequest.UsersRequestBuilder()
+  .setLimit(limit)
+  .withTags(true)
+  .build();
+  ```
+</TabItem>
+<TabItem value="Kotlin" label="Kotlin">
+
+  ```kotlin
+val usersRequest = UsersRequestBuilder()
+  .setLimit(limit)
+  .withTags(true)
+  .build() 
+  ```
+</TabItem>
+</Tabs>
+
+
+
+
+### Set UIDs
+
+This method accepts a list of UIDs based on which the list of users is fetched. A maximum of 25 users can be fetched.
+
+<Tabs>
+<TabItem value="Java" label="Java">
+
+  ```java
+List<String> uids = new ArrayList<>();
+uids.add("cometchat-uid-1");
+uids.add("cometchat-uid-2");
+UsersRequest usersRequest = new UsersRequest.UsersRequestBuilder()
+  .setLimit(limit)
+  .setUIDs(uids)
+  .build();
+  ```
+</TabItem>
+<TabItem value="Kotlin" label="Kotlin">
+
+  ```kotlin
+val uids: MutableList<String> = ArrayList()
+uids.add("cometchat-uid-1")
+uids.add("cometchat-uid-2")
+val usersRequest = UsersRequestBuilder()
+  .setLimit(limit)
+  .setUIDs(uids)
+  .build()
+  ```
+</TabItem>
+</Tabs>
+
+
+### Sort By
+
+This method allows you to sort the User List by a specific property of User. By default the User List is sorted by `status => name => UID` . If `name` is pass to the `sortBy()` method the user list will be sorted by `name => UID`.
+
+<Tabs>
+<TabItem value="Java" label="Java">
+
+  ```java
+UsersRequest usersRequest = new UsersRequest.UsersRequestBuilder()
+  .setLimit(20)
+  .sortBy(CometChatConstants.SORT_BY_NAME)
+  .build();
+  ```
+</TabItem>
+<TabItem value="Kotlin" label="Kotlin">
+
+  ```kotlin
+val usersRequest = UsersRequestBuilder()
+  .setLimit(20)
+  .sortBy(CometChatConstants.SORT_BY_NAME)
+  .build() 
+  ```
+</TabItem>
+</Tabs>
+
+
+### Sort By Order
+
+This method allows you to sort the User List in a specific order. By default the user list is sorted in ascending order.
+
+<Tabs>
+<TabItem value="Java" label="Java">
+
+  ```java
+UsersRequest usersRequest = new UsersRequest.UsersRequestBuilder()
+  .setLimit(20)
+  .sortByOrder(CometChatConstants.SORT_ORDER_DESCENDING)
+  .build();
+  ```
+</TabItem>
+<TabItem value="Kotlin" label="Kotlin">
+
+  ```kotlin
+val usersRequest = UsersRequestBuilder()
+  .setLimit(20)
+  .sortByOrder(CometChatConstants.SORT_ORDER_DESCENDING)
+  .build()
+  ```
+</TabItem>
+</Tabs>
+
+
+
+
+Finally, once all the parameters are set to the builder class, you need to call the `build()` method to get the object of the `UsersRequest` class.
+
+Once you have the object of the `UsersRequest` class, you need to call the `fetchNext()` method. Calling this method will return a list of `User` objects containing X number of users depending on the limit set.
+
+<Tabs>
+<TabItem value="Java" label="Java">
+
+  ```java
+private UsersRequest usersRequest = null;
+private int limit = 30;
+
+usersRequest = new UsersRequest.UsersRequestBuilder().setLimit(limit).build();
+
+usersRequest.fetchNext(new CometChat.CallbackListener<List<User>>() {
+  @Override
+  public void onSuccess(List <User> list) {
+    Log.d(TAG, "User list received: " + list.size());
+  }
+  @Override
+  public void onError(CometChatException e) {
+    Log.d(TAG, "User list fetching failed with exception: " + e.getMessage());
+  }
+});
+  ```
+</TabItem>
+<TabItem value="Kotlin" label="Kotlin">
+
+  ```kotlin
+var usersRequest: UsersRequest? = null
+val limit = 30
+
+usersRequest = UsersRequestBuilder().setLimit(limit).build()
+
+usersRequest.fetchNext(object : CallbackListener<List<User?>>() {
+  override fun onSuccess(list: List<User?>) {
+    Log.d(TAG, "User list received: " + list.size)
+  }
+
+  override fun onError(e: CometChatException) {
+    Log.d(TAG, "User list fetching failed with exception: " + e.message)
+  }
+})
+  ```
+</TabItem>
+</Tabs>
+
+
+
+## Retrieve Particular User Details
+
+To get the information of a user, you can use the `getUser()` method.
+
+<Tabs>
+<TabItem value="Java" label="Java">
+
+  ```java
+private String UID = "UID";
+
+CometChat.getUser(UID, new CometChat.CallbackListener<User>() {
+  @Override
+  public void onSuccess(User user) {
+    Log.d(TAG, "User details fetched for user: " + user.toString());
+  }
+  @Override
+  public void onError(CometChatException e) {
+    Log.d(TAG, "User details fetching failed with exception: " + e.getMessage());
+  }
+});
+  ```
+</TabItem>
+<TabItem value="Kotlin" label="Kotlin">
+
+  ```kotlin
+val UID:String="UID"
+
+CometChat.getUser(UID,object :CometChat.CallbackListener<User>(){
+  override fun onSuccess(p0: User?) {
+    Log.d(TAG, "User details fetched for user: " + p0?.toString())
+  }
+
+  override fun onError(p0: CometChatException?) {
+    Log.d(TAG, "User details fetching failed with exception: " + p0?.message)
+  }
+})
+  ```
+</TabItem>
+</Tabs>
+
+
+
+The `getUser()` method takes the following parameters:
+
+| Parameter | Description | 
+| ---- | ---- | 
+| `UID` | The UID of the user for whom the details are to be fetched | 
+
+
+On success, the `User` object containing the details of the user is returned.
+
+## Get online user count
+
+To get the total count of online users for your app, you can use the `getOnlineUserCount()` method.
+
+<Tabs>
+<TabItem value="Java" label="Java">
+
+  ```java
+CometChat.getOnlineUserCount(new CometChat.CallbackListener<Integer>() {
+  @Override
+  public void onSuccess(Integer count) {
+    Log.d(TAG, "Online users : " + count);
+  }
+
+  @Override
+  public void onError(CometChatException e) {
+    Log.d(TAG, "Error : " + e.getMessage());
+  }
+});
+  ```
+</TabItem>
+<TabItem value="Kotlin" label="Kotlin">
+
+  ```kotlin
+CometChat.getOnlineUserCount(object : CallbackListener<Int>() {
+  override fun onSuccess(count: Int) {
+    Log.d(TAG, "Online users : $count")
+  }
+
+  override fun onError(e: CometChatException) {
+    Log.d(TAG, "Error : " + e.message)
+  }
+})
+  ```
+</TabItem>
+</Tabs>
+

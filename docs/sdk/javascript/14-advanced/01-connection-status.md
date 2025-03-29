@@ -1,0 +1,95 @@
+---
+sidebar_position: 1
+title: Connection Status
+slug: /connection-status
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+CometChat SDK provides you with a mechanism to get real-time status of the connection to CometChat web-socket servers.
+
+Connection Status provides you with the below 3 methods to get the status of the connection to CometChat web-socket servers:
+
+| Delegate Method | Information                                                                                                                                      |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| connecting      | This method is triggered when CometChat SDK is trying to establish a connection to the web-socket server.                                        |
+| connected       | This method is called when CometChat SDK has successfully established a connection and now is connected.                                         |
+| disconnected    | This method is called when the CometChat SDK gets disconnected due to any issue while maintaining the connection like network fluctuations, etc. |
+
+Once the connection is broken, the disconnected callback is triggered, the SDK automatically tries to establish the connection again, thus going into the connecting state and triggering the `connecting` method. Once the attempt to connect is successful, the `connected` method is triggered thus letting the developer know that the connection is established and is active.
+
+To receive real-time connection status, you need to register `ConnectionListener` wherever you wish to receive the real-time status. You can use the `addConnectionListener()` method to do so.
+
+<Tabs>
+<TabItem value="Connection Listener" label="Connection Listener">
+
+```javascript
+let listenerID = "UNIQUE_LISTENER_ID";
+CometChat.addConnectionListener(
+  listenerID,
+  new CometChat.ConnectionListener({
+    onConnected: () => {
+      console.log("ConnectionListener => On Connected");
+    },
+    inConnecting: () => {
+      console.log("ConnectionListener => In connecting");
+    },
+    onDisconnected: () => {
+      console.log("ConnectionListener => On Disconnected");
+    },
+  })
+);
+```
+
+</TabItem>
+<TabItem value="ts" label="Typescript">
+
+```typescript
+let listenerID: string = "UNIQUE_LISTENER_ID";
+CometChat.addConnectionListener(
+  listenerID,
+  new CometChat.ConnectionListener({
+    onConnected: () => {
+      console.log("ConnectionListener => On Connected");
+    },
+    inConnecting: () => {
+      console.log("ConnectionListener => In connecting");
+    },
+    onDisconnected: () => {
+      console.log("ConnectionListener => On Disconnected");
+    },
+  })
+);
+```
+
+</TabItem>
+</Tabs>
+
+:::info
+We recommend you to add the Connection Listener in your method on app startup, preferably in the index.js file. Once you have successfully initialized CometChat.
+:::
+You can also get the current connection status by using `getConnectionStatus` property provided by CometChat SDK
+
+<Tabs>
+<TabItem value="Get Connection Status" label="Get Connection Status">
+
+```javascript
+var connectionStatus = CometChat.getConnectionStatus();
+```
+
+</TabItem>
+<TabItem value="ts" label="Typescript">
+
+```typescript
+var connectionStatus: string = CometChat.getConnectionStatus();
+```
+
+</TabItem>
+</Tabs>
+
+The `CometChat.getConnectionStatus` method will return either of the below 3 values:
+
+1. connecting
+2. connected
+3. disconnected

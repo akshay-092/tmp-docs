@@ -1,0 +1,58 @@
+---
+sidebar_position: 1
+title: Reactions
+slug: /reactions
+---
+
+The `CometChatReactions` component is used to display a list of reactions to a specific message. Users can see who has reacted to the message and with what emoji.
+
+![Alt text](../assets/reactions-web.png)
+
+## Properties
+
+| Properties | Type | Description |
+| ---- | ---- | ---- |
+| `messageObject` | CometChat.BaseMessage | The message to display reactions for. |
+| `reactionsStyle` | ReactionsStyle | The style for the reactions component. |
+| `alignment` | MessageBubbleAlignment | The alignment of the reactions component. |
+| `reactionListConfiguration` | ReactionListConfiguration | The configuration for the reaction list. |
+| `reactionInfoConfiguration` | ReactionInfoConfiguration | The configuration for the reaction information. |
+| `hoverDebounceTime` | number | The delay before the hover effect is applied. |
+| `reactionClick` | Function | The function to call when a reaction is clicked. |
+
+## Usage
+
+```javascript
+<cometchat-reactions
+  messageObject={messageObject}
+  reactionsStyle={reactionsStyle}
+  alignment={alignment}
+  reactionListConfiguration={reactionListConfiguration}
+  reactionInfoConfiguration={reactionInfoConfiguration}
+  hoverDebounceTime={hoverDebounceTime}
+  reactionClick={reactionClick}
+/>
+```
+
+## ReactionsStyle
+
+`ReactionsStyle` is a class containing attributes to customize the appearance of the `CometChatReactions` component.
+
+| Attributes | Type | Description |
+| ---- | ---- | ---- |
+| `height` | string | The height of the reactions component. |
+| `width` | string | The width of the reactions component. |
+| `borderRadius` | string | The border radius of the reactions component. |
+| `border` | string | The border of the reactions component. |
+| `background` | string | The background color of the reactions component. |
+| `reactionBoxShadow` | string | The box shadow of the reaction. |
+| `barPadding` | string | The padding of the reaction bar. |
+| `reactionBorderRadius` | string | The border radius of the reaction. |
+| `reactionBackground` | string | The background color of the reaction. |
+| `activeReactionBorder` | string | The border of the active reaction. |
+| `activeReactionBackground` | string | The background color of the active reaction. |
+| `reactionEmojiFont` | string | The font of the reaction emoji. |
+| `reactionEmojiFontColor` | string | The font color of the reaction emoji. |
+| `reactionCountTextFont` | string | The font of the reaction count text. |
+| `reactionCountTextColor` | string | The color of the reaction count text. |
+| `baseReactionBackground` | string | The base background color of the reaction. |

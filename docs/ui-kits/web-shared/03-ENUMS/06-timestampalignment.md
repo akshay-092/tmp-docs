@@ -1,0 +1,12 @@
+---
+sidebar_position: 6
+title: TimestampAlignment
+slug: /timestampalignment
+---
+
+`TimestampAlignment` described the positioning or arrangement of timestamp for each message bubble in the component
+
+| Name | Description | 
+| ---- | ---- | 
+| top | The timestamp will be aligned to the top of the message bubble. | 
+| bottom | The timestamp will be aligned to the bottom of the message bubble. | 
