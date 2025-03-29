@@ -145,6 +145,10 @@ const plugins = [
 const config = {
   ...metadata,
   plugins,
+  url: 'https://comet-chat.github.io',
+  baseUrl: '/cometchat-docs/',
+  organizationName: 'cometchat', 
+  projectName: 'cometchat-docs', 
 
   trailingSlash: false,
   themes: ["@docusaurus/theme-live-codeblock"],
