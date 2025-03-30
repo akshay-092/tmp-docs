@@ -88,80 +88,66 @@ const IntegrationDropdownMenu: React.FC = () => {
   ];
 
   return (
-    <div className="dropdown-content">
-      <div className="main-menu-container">
-        <div className="menu-col-1">
-          <span className="menu-heading">Ui Kits</span>
-          {uiKitsList.map((item, index) => (
-            <div className="item-container" key={index}>
-              <img
-                src={item.icon}
-                style={{ marginRight: "10px" }}
-                height={"20px"}
-                width={"20px"}
-                alt={item.name}
-              />
-              <span className="text-[#333] " style={{fontWeight:'700'}}>{item.name}</span>
-            </div>
-          ))}
-        </div>
-        <div className="vertical-line"></div>
-        <div className="menu-col-1">
-          <span className="menu-heading" style={{fontWeight:'bold'}}>SDKs</span>
-          {sdks.map((item, index) => (
-            <div className="item-container" key={index}>
-              <img
-                src={item.icon}
-                style={{ marginRight: "10px" }}
-                height={"20px"}
-                width={"20px"}
-                alt={item.name}
-              />
-              <span>{item.name}</span>
-            </div>
-          ))}
-        </div>
-        <div className="vertical-line"></div>
-        <div className="menu-col-1">
-          <div>
-            <span className="menu-heading">Widgets</span>
-            {widgets.map((item, index) => (
-              <div className="item-container" key={index}>
-                <img
-                  src={item.icon}
-                  style={{ marginRight: "10px" }}
-                  height={"20px"}
-                  width={"20px"}
-                  alt={item.name}
-                />
-                <span>{item.name}</span>
-              </div>
-            ))}
-            <div className="vertical-line"></div>
-            <div
-              className="horizontal-line"
-              style={{ marginTop: "10px", marginBottom: "10px" }}
-            ></div>
-            <span
-              className="menu-heading"
-              style={{ marginBottom: "20px!important" }}
-            >
-              APIs
-            </span>
-            {apis.map((item, index) => (
-              <div className="item-container" key={index}>
-                <item.icon  style={{ marginRight: "10px" }} color="#0408CD"/>
-                {/* <img
-                  src={item.icon}
-                  style={{ marginRight: "10px" }}
-                  height={"20px"}
-                  width={"20px"}
-                  alt={item.name}
-                /> */}
-                <span>{item.name}</span>
-              </div>
-            ))}
+    <div className="main-menu-container">
+      {/* --- Column 1: UI Kits --- */}
+      <div className="menu-col-1">
+        <span className="menu-heading">Ui Kits</span> {/* Removed inline style */}
+        {uiKitsList.map((item, index) => (
+          <div className="item-container" key={index}>
+            {/* Assuming item.icon is always a string URL for this list */}
+            <img
+              src={item.icon as string} // Type assertion if needed
+              className="item-icon-img" // Added class for potential styling
+              alt={item.name}
+            />
+            {/* Removed inline style and Tailwind class */}
+            <span className="item-name">{item.name}</span>
           </div>
+        ))}
+      </div>
+      <div className="vertical-line"></div>
+
+      {/* --- Column 2: SDKs --- */}
+      <div className="menu-col-1">
+        <span className="menu-heading">SDKs</span> {/* Removed inline style */}
+        {sdks.map((item, index) => (
+          <div className="item-container" key={index}>
+            <img
+              src={item.icon as string}
+              className="item-icon-img"
+              alt={item.name}
+            />
+            <span className="item-name">{item.name}</span>
+          </div>
+        ))}
+      </div>
+      <div className="vertical-line"></div>
+
+      {/* --- Column 3: Widgets & APIs --- */}
+      <div className="menu-col-1">
+        <div>
+          <span className="menu-heading">Widgets</span> {/* Removed inline style */}
+          {widgets.map((item, index) => (
+            <div className="item-container" key={index}>
+              <img
+                src={item.icon as string}
+                className="item-icon-img"
+                alt={item.name}
+              />
+              <span className="item-name">{item.name}</span>
+            </div>
+          ))}
+
+          <div className="horizontal-line"></div> {/* Removed inline style */}
+
+          <span className="menu-heading">APIs</span> {/* Removed inline style */}
+          {apis.map((item, index) => (
+            <div className="item-container" key={index}>
+              {/* Render React Icons as components, let CSS handle color */}
+              <item.icon className="item-icon-react" /> {/* Added class */}
+              <span className="item-name">{item.name}</span>
+            </div>
+          ))}
         </div>
       </div>
     </div>

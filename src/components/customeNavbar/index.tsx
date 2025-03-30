@@ -51,36 +51,37 @@ function Navbar(): React.ReactNode {
 
         {/* Navigation Links */}
         <nav className="navbar-links">
-          <div className="dropdown-container">
+        <div className="dropdown-container"> {/* Position relative */}
             <button
-              className={clsx("dropdown-button", {
-                active: activeDropdown === "integrate",
-              })}
+              className={clsx("dropdown-button", { active: activeDropdown === "integrate" })}
               onClick={() => handleDropdownToggle("integrate")}
+              // ... aria attributes ...
             >
               Integrate
               <span className="dropdown-arrow">▼</span>
             </button>
+            {/* The Dropdown Content itself */}
             {activeDropdown === "integrate" && (
-              <IntegrationDropdownMenu/>
+              <div className="dropdown-content"> {/* Position absolute */}
+                <IntegrationDropdownMenu /> {/* The visual menu */}
+              </div>
             )}
           </div>
 
-          <div className="dropdown-container">
+          <div className="dropdown-container"> {/* Position relative */}
             <button
-              className={clsx("dropdown-button", {
-                active: activeDropdown === "platform",
-              })}
+              className={clsx("dropdown-button", { active: activeDropdown === "platform" })}
               onClick={() => handleDropdownToggle("platform")}
-            >
+               // ... aria attributes ...
+           >
               Platform
               <span className="dropdown-arrow">▼</span>
             </button>
+             {/* The Dropdown Content itself */}
             {activeDropdown === "platform" && (
-              <PlatformDropdownMenu />
-              // <div className="dropdown-content">
-              //   {/* Platform dropdown content would go here */}
-              // </div>
+              <div className="dropdown-content"> {/* Position absolute */}
+                <PlatformDropdownMenu /> {/* The visual menu */}
+              </div>
             )}
           </div>
         </nav>
@@ -88,16 +89,7 @@ function Navbar(): React.ReactNode {
         {/* Search Box */}
         <div className="search-container">
         <SearchBar /> 
-          {/* <div className="search-box"> */}
-            {/* <input
-              type="text"
-              placeholder="Search docs..."
-              className="search-input"
-            />
-            <button className="search-button">
-              <span className="search-shortcut">⌘ K</span>
-            </button> */}
-          {/* </div> */}
+
         </div>
 
         {/* Action Buttons */}

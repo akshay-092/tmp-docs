@@ -93,68 +93,59 @@ const PlatformDropdownMenu: React.FC = () => {
   ];
 
   return (
-    <div className="dropdown-content">
-      <div className="main-menu-container">
-        <div className="menu-col-1">
-          <span className="menu-heading">Chats & Calling</span>
-          {chatsAndCalling.map((item, index) => (
-            <div className="item-container-platform">
-              <div className="item-container-platform-sub" key={index}>
-              <item.icon  style={{ marginRight: "10px" }} color="#0408CD"/>
-                {/* <img
-                  src={item.icon}
-                  style={{ marginRight: "10px",}}
-                  height={"20px"}
-                  width={"20px"}
-                  alt={item.name}
-                /> */}
-                <span>{item.name}</span>
-              </div>
-              <div className="item-container-desc" key={index}>
-                <span>{item.description}</span>
-              </div>
+    <div className="main-menu-container">
+      {/* --- Column 1: Chats & Calling --- */}
+      <div className="menu-col-1">
+        <span className="menu-heading">Chats & Calling</span> {/* Removed inline style */}
+        {chatsAndCalling.map((item, index) => (
+          <div className="item-container-platform" key={item.name}> {/* Use unique key */}
+            <div className="item-container-platform-sub">
+              {/* Render React Icons, let CSS handle color */}
+              <item.icon className="item-icon-react" /> {/* Added class */}
+              <span className="item-name">{item.name}</span>
             </div>
-          ))}
-        </div>
-        <div className="vertical-line"></div>
-        <div className="menu-col-1">
-          <span className="menu-heading">Extend</span>
-          {extendData.map((item, index) => (
-            <div className="item-container-platform">
-              <div className="item-container-platform-sub" key={index}>
-              <item.icon  style={{ marginRight: "10px" }} color="#0408CD"/>
-                {/* <img
-                  src={item.icon}
-                  style={{ marginRight: "10px", color:'#6A12E0!important' }}
-                  height={"20px"}
-                  width={"20px"}
-                  alt={item.name}
-                /> */}
-                <span>{item.name}</span>
-              </div>
-              <div className="item-container-desc" key={index}>
-                <span>{item.description}</span>
-              </div>
+            <div className="item-container-desc">
+              <span className="item-description">{item.description}</span> {/* Added class */}
             </div>
-          ))}
-        </div>
-        <div className="vertical-line"></div>
-        <div className="menu-col-1">
-          <span className="menu-heading">SDKs</span>
-          {sampleApps.map((item, index) => (
-            <div className="item-container" key={index}>
-              <img
-                src={item.icon}
-                style={{ marginRight: "10px" }}
-                height={"20px"}
-                width={"20px"}
-                alt={item.name}
-              />
-              <span>{item.name}</span>
+          </div>
+        ))}
+      </div>
+      <div className="vertical-line"></div>
+
+      {/* --- Column 2: Extend --- */}
+      <div className="menu-col-1">
+        <span className="menu-heading">Extend</span> {/* Removed inline style */}
+        {extendData.map((item, index) => (
+          <div className="item-container-platform" key={item.name}>
+            <div className="item-container-platform-sub">
+              <item.icon className="item-icon-react" /> {/* Added class */}
+              <span className="item-name">{item.name}</span>
             </div>
-          ))}
-        <p style={{marginLeft:'10px', marginTop:'10px',color:'#0408CD', cursor:'pointer'}}>See All Apps</p>
-        </div>
+            <div className="item-container-desc">
+              <span className="item-description">{item.description}</span> {/* Added class */}
+            </div>
+          </div>
+        ))}
+      </div>
+      <div className="vertical-line"></div>
+
+      {/* --- Column 3: Sample Apps (SDKs) --- */}
+      <div className="menu-col-1">
+        <span className="menu-heading">Sample Apps</span> {/* Renamed for clarity? Removed inline style */}
+        {sampleApps.map((item, index) => (
+          <div className="item-container" key={index}>
+             {/* Assuming item.icon is always a string URL for this list */}
+            <img
+              src={item.icon as string}
+              className="item-icon-img" // Added class
+              alt={item.name}
+            />
+            <span className="item-name">{item.name}</span>
+          </div>
+        ))}
+        <p className="see-all-apps-link"> {/* Added class */}
+          See All Apps
+        </p>
       </div>
     </div>
   );
