@@ -251,6 +251,8 @@ html[data-theme='dark'] .logo-dark {
   color: var(--ifm-link-hover-color);
 }
 
+
+
       
 /* ======================================== */
 /* Algolia DocSearch Styling              */
@@ -534,7 +536,7 @@ main[class^='docMainContainer'] {
 }
 
 /* Responsive: Hide dropdown dividers on small screens */
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
   .main-menu-container {
     flex-direction: column;
     gap: 10px;
@@ -561,4 +563,23 @@ main[class^='docMainContainer'] {
   .search-container {
     padding: 0 10px; /* Reduce padding */
   }
+
+  /* .theme-toggle {
+    width: 60px;
+    height: 30px;
+  } */
+
+  
+.dashboard-button {
+  padding: 0 10px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+
+.contact-button {
+  padding: 0 10px;
+  font-size: 12px;
+  font-weight: 500;
+}
 }

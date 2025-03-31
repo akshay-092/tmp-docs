@@ -127,65 +127,73 @@ export default function Homepage() {
 
   return (
     <Layout
-    // title={`${siteConfig.title}`}
-    // description={siteConfig.tagline}
-    >
-      <main className={styles.main}>
-        <div className={styles.container}>
-          <div className={styles.breadcrumbs}>
-            <Link to="/">Home</Link> <span>
-              <MdOutlineKeyboardArrowRight style={{ marginLeft: '8px', verticalAlign: 'middle' }} />
-            </span> <span>Docs</span>
-          </div>
-          <div className={styles.hero}>
-            <h1 className={styles.heroTitle}>Get Started</h1>
-            <p className={styles.heroDescription}>
-              Seamlessly integrate real-time chat, voice, and video functionalities. Build your chat app by picking the
-              implementation method that aligns best with your goals.
-            </p>
-          </div>
-          <FrameworkGrid
-            title="UI Kits"
-            description="Quickly implement chat functionality with UI Kits that include built-in business logic and a customizable user interface."
-            frameworks={uiKits}
-          />
-          <FrameworkGrid
-            title="SDKs"
-            description="Use Our SDKs to tap into the full potential while building your own user interface."
-            frameworks={sdks}
-          />
-          <WidgetsGrid
-            title="Widgets"
-            description="Integrate chat into any simple HTML, Bootstrap, or jQuery site effortlessly with our copy-and-paste code."
-            widgets={widgets}
-          />
-          <ApiCardsRow className="container" />
+    // title={`Get Started`} // Set page title
+    // description="Seamlessly integrate real-time chat, voice, and video functionalities. Build your chat app with CometChat by picking the implementation method that aligns best with your goals." // Set page description
+  >
+    {/* Main content area with responsive padding */}
+    <main className="container mx-auto w-full px-4 py-8 md:px-6 md:py-12 lg:px-8">
+      {/*
+        - container: Centers content with max-width (defined by Docusaurus/Tailwind theme).
+        - mx-auto: Centers the container.
+        - w-full: Ensures it takes full width up to the max-width.
+        - px-*: Horizontal padding, responsive.
+        - py-*: Vertical padding, responsive.
+      */}
 
-          {/* Sample Apps Section */}
+      {/* Breadcrumbs */}
+      <div className="mb-6 flex items-center text-sm text-[--ifm-color-emphasis-600] md:mb-8">
+        <Link to="/" className="text-[--ifm-color-primary] no-underline hover:underline">Home</Link>
+        {/* Icon with margin */}
+        <MdOutlineKeyboardArrowRight className="mx-1 h-4 w-4 shrink-0" aria-hidden="true" />
+        {/* Current page */}
+        <span className="font-medium text-[--ifm-font-color-secondary]">Docs</span> {/* Use secondary color */}
+      </div>
+
+      {/* Hero Section */}
+      <div className="mb-12 md:mb-16"> {/* Increased bottom margin */}
+        {/* Responsive Title */}
+             
+<h1 className="font-sans mb-4 text-3xl !font-bold !text-[--ifm-heading-color] md:text-4xl lg:text-5xl"> {/* Added ! before font-bold */}
+   Get Started
+ </h1>
+
+    
+        {/* Responsive Description */}
+        <p className="max-w-3xl text-base leading-relaxed !text-[--ifm-color-emphasis-700] md:text-lg dark:!text-[--ifm-color-emphasis-600]"> {/* Use emphasis color, responsive size */}
+          Seamlessly integrate real-time chat, voice, and video functionalities. Build your chat app by picking the
+          implementation method that aligns best with your goals.
+        </p>
+      </div>
+
+      {/* Render Child Components */}
+      {/* These components now manage their own internal styling and responsiveness */}
+      <FrameworkGrid
+        title="UI Kits"
+        description="Quickly implement chat functionality with UI Kits that include built-in business logic and a customizable user interface."
+        frameworks={uiKits}
+      />
+      <FrameworkGrid
+        title="SDKs"
+        description="Use Our SDKs to tap into the full potential while building your own user interface."
+        frameworks={sdks}
+      />
+      <WidgetsGrid
+        title="Widgets"
+        description="Integrate chat into any simple HTML, Bootstrap, or jQuery site effortlessly with our copy-and-paste code."
+        widgets={widgets}
+      />
+      {/* Add vertical margin to separate these sections */}
+      <div className="my-12 md:my-16">
+           <ApiCardsRow />
+      </div>
+      <div className="my-12 md:my-16">
           <SampleAppsSection />
+      </div>
+      <div className="my-12 md:my-16">
+           <AdditionalResources />
+      </div>
 
-          {/* Additional Resources Section */}
-          <AdditionalResources />
-
-        </div>
-      </main>
-    </Layout>
-
-
-    // <Layout
-    //   description={metadata.description}
-    //   wrapperClassName="homepage flex flex-col"
-    //   noFooter>
-    //   <Head>
-    //     <link rel="prefetch" href="/css/elements.min.css" />
-    //   </Head>
-    //   <Hero data={data} />
-    //   <Integration />
-    //   <APIMigration />
-    //   <SampleApps />
-    //   {/* <ImplementationGuides /> */}
-    //   <Help />
-    //   <Footer />
-    // </Layout>
+    </main>
+  </Layout>
   );
 }

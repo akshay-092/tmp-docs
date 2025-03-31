@@ -71,7 +71,7 @@
 }
 
 .breadcrumbs a {
-  color: var(--ifm-color-emphasis-600);
+  color: var(--ifm-color-primary);
   text-decoration: none;
 }
 
@@ -85,8 +85,9 @@
 }
 
 .heroTitle {
-  font-size: 2.1rem;
-  font-weight: 700;
+  font-family: sans-serif;
+  font-size: 2.3rem;
+  font-weight: bold;
   margin-bottom: 1rem;
 }
 
